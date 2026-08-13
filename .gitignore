@@ -2,4 +2,6 @@
 .env
 *.log
 error_log.log
+error_l
 facturaSantoDomingo.sql
+.htaccess
