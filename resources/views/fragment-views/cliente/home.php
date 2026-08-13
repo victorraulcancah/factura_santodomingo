@@ -104,7 +104,11 @@
     } else {
         // Admin: cotizaciones de TODOS los vendedores
         $sqlCli = "SELECT cl.datos as nombre, cl.documento, c.fecha as ultima_fecha, c.total,
-                u.nombres_apellidos as vendedor,
+                COALESCE(
+                    NULLIF(TRIM(CONCAT(COALESCE(u.nombres,''),' ',COALESCE(u.apellidos,''))),''),
+                    NULLIF(TRIM(u.nombres_apellidos),''),
+                    u.usuario
+                ) as vendedor,
                 (SELECT COALESCE(SUM(pc.cantidad), 0) FROM productos_cotis pc WHERE pc.id_coti = c.cotizacion_id) as cajas
             FROM cotizaciones c
             LEFT JOIN clientes cl ON c.id_cliente = cl.id_cliente

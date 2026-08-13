@@ -4,6 +4,7 @@ class Cliente
 {
     private $id_cliente;
     private $documento;
+    private $tipo_documento = '1'; // 1=DNI, 6=RUC, 4=Carnet de extranjeria
     private $datos;
     private $direccion;
     private $direccion2;
@@ -104,6 +105,15 @@ class Cliente
     /**
      * @param mixed $datos
      */
+    public function setTipoDocumento($tipo_documento)
+    {
+        $tipo_documento = trim($tipo_documento ?? '');
+        $this->tipo_documento = in_array($tipo_documento, ['1', '4', '6', '7'], true) ? $tipo_documento : '1';
+    }
+    public function getTipoDocumento()
+    {
+        return $this->tipo_documento;
+    }
     public function setTelefono($telefono)
     {
         $this->telefono = strtoupper($telefono);
@@ -209,8 +219,8 @@ class Cliente
     public function insertar()
     {
         $idUsuario = (int) ($_SESSION['usuario_fac'] ?? 0);
-        $sql = "insert into clientes (documento, datos, direccion, direccion2, telefono, telefono2, email, id_empresa, id_usuario, ultima_venta, total_venta, departamento, provincia, distrito, fecha_nacimiento)
-                values ('$this->documento', '$this->datos', '$this->direccion','$this->direccion2','$this->telefono','$this->telefono2','$this->email', {$_SESSION['id_empresa']}, '$idUsuario', '1000-01-01', '0', '$this->departamento', '$this->provincia', '$this->distrito', ".($this->fecha_nacimiento ? "'$this->fecha_nacimiento'" : "NULL").")";
+        $sql = "insert into clientes (documento, tipo_documento, datos, direccion, direccion2, telefono, telefono2, email, id_empresa, id_usuario, ultima_venta, total_venta, departamento, provincia, distrito, fecha_nacimiento)
+                values ('$this->documento', '$this->tipo_documento', '$this->datos','$this->direccion','$this->direccion2','$this->telefono','$this->telefono2','$this->email', {$_SESSION['id_empresa']}, '$idUsuario', '1000-01-01', '0', '$this->departamento', '$this->provincia', '$this->distrito', ".($this->fecha_nacimiento ? "'$this->fecha_nacimiento'" : "NULL").")";
         $result =  $this->conectar->query($sql);
 
         if ($result) {
@@ -313,7 +323,11 @@ class Cliente
                     c.datos,c.direccion,c.direccion2,c.telefono,c.telefono2,c.email,
                     c.ultima_venta,c.total_venta,c.departamento,c.provincia,c.distrito,c.fecha_nacimiento,
                     c.id_usuario,
-                    NULLIF(TRIM(COALESCE(NULLIF(TRIM(u.nombres_apellidos),''), u.usuario)),'') as vendedor
+                    COALESCE(
+                        NULLIF(TRIM(CONCAT(COALESCE(u.nombres,''),' ',COALESCE(u.apellidos,''))),''),
+                        NULLIF(TRIM(u.nombres_apellidos),''),
+                        u.usuario
+                    ) as vendedor
                     FROM clientes c
                     LEFT JOIN usuarios u ON u.usuario_id = c.id_usuario
                     where c.id_empresa='{$_SESSION['id_empresa']}'$filtroUsuario";

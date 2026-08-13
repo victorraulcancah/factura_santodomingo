@@ -179,9 +179,18 @@
 
                                 <div class="form-group mb-3">
                                     <div class="col-lg-12">
+                                        <select v-model="venta.tipo_doc_cli" class="form-control">
+                                            <option value="1">DNI</option>
+                                            <option value="6">RUC</option>
+                                            <option value="4">CARNET DE EXTRANJERIA</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <div class="col-lg-12">
                                         <div class="input-group">
 
-                                            <input id="input_datos_cliente" v-model="venta.num_doc" type="text" placeholder="Ingrese Documento" class="form-control"  maxlength="11"  >
+                                            <input id="input_datos_cliente" v-model="venta.num_doc" type="text" placeholder="Ingrese Documento (opcional)" class="form-control" :maxlength="venta.tipo_doc_cli == '6' ? 11 : (venta.tipo_doc_cli == '1' ? 8 : 20)">
                                             <div class="input-group-prepend">
                                                 <button @click="buscarDocumentSS" class="btn btn-primary" type="button"><i class="fa fa-search"></i></button>
                                             </div>
@@ -190,7 +199,12 @@
                                 </div>
                                 <div class="form-group  mb-3">
                                     <div class="col-lg-12">
-                                        <input v-model="venta.nom_cli" type="text" placeholder="Nombre del cliente" class="form-control ui-autocomplete-input" autocomplete="off">
+                                        <input v-model="venta.nom_cli" type="text" placeholder="Nombre del cliente (*)" class="form-control ui-autocomplete-input" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="form-group  mb-3">
+                                    <div class="col-lg-12">
+                                        <input v-model="venta.tel_cli" type="text" placeholder="Telefono (opcional)" class="form-control" autocomplete="off">
                                     </div>
                                 </div>
                                 <div class="form-group  mb-3">
@@ -343,7 +357,9 @@
                     sendwp:false,
                     numwp:"",
                     num_doc:"",
+                    tipo_doc_cli:'1',
                     nom_cli:"",
+                    tel_cli:"",
                     dir_cli:"",
                     dir2_cli:"",
                     tipoventa:2,
@@ -427,6 +443,10 @@
                     this.productos.splice(index,1)
                 },
                 buscarDocumentSS(){
+                    if(this.venta.tipo_doc_cli=='4'){
+                        alertAdvertencia("La consulta en linea solo aplica para DNI o RUC")
+                        return;
+                    }
                     if(this.venta.num_doc.length==8||this.venta.num_doc.length==11){
                         $("#loader-menor").show()
                         _ajax("/ajs/consulta/doc/cliente","POST",
@@ -451,6 +471,11 @@
 
                         var continuar=true;
                         var mensaje='';
+
+                        if(!(this.venta.nom_cli||'').trim()){
+                            alertAdvertencia("El nombre del cliente es obligatorio")
+                            return;
+                        }
 
                         if (this.venta.tipo_doc=='1'){
                             if(this.venta.num_doc.length==11){

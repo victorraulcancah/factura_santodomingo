@@ -983,7 +983,14 @@
             $c_cliente->setDatos(filter_input(INPUT_POST, 'nom_cli'));
             $c_cliente->setDireccion(filter_input(INPUT_POST, 'dir_cli'));
             $c_cliente->setDireccion2(filter_input(INPUT_POST, 'dir2_cli'));
+            $c_cliente->setTipoDocumento(filter_input(INPUT_POST, 'tipo_doc_cli'));
+            $c_cliente->setTelefono(filter_input(INPUT_POST, 'tel_cli'));
 
+            // Solo el nombre del cliente es obligatorio, el resto es opcional
+            if (trim((string) $c_cliente->getDatos()) === "") {
+                $resultado["msg"] = "El nombre del cliente es obligatorio";
+                return json_encode($resultado);
+            }
 
             if ($c_cliente->getDocumento() == "") {
                 $c_cliente->setDocumento("SD" . $c_varios->generarCodigo(5));
