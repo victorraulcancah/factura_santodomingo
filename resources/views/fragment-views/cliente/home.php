@@ -488,6 +488,28 @@
                     <?php endif; ?>
                 </div>
                 <?php endforeach; ?>
+
+                <div class="row align-items-center mt-3" id="paginador-recientes">
+                    <div class="col-md-6 d-flex align-items-center gap-2">
+                        <label class="form-label mb-0">Ver</label>
+                        <select id="paginas-tamano" class="form-control form-select" style="max-width: 90px;">
+                            <option value="10">10</option>
+                            <option value="25" selected>25</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                            <option value="0">Todos</option>
+                        </select>
+                        <span class="text-muted" id="paginas-info"></span>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary" id="pagina-primera">&laquo;</button>
+                            <button type="button" class="btn btn-secondary" id="pagina-anterior">Anterior</button>
+                            <button type="button" class="btn btn-secondary" id="pagina-siguiente">Siguiente</button>
+                            <button type="button" class="btn btn-secondary" id="pagina-ultima">&raquo;</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -502,29 +524,55 @@
         var limpiar = document.getElementById("filtro-limpiar");
         var tablas = document.querySelectorAll(".tabla-recientes");
 
-        // Filtra por rango de fechas, renumera y recalcula los totales del pie
+        var tamano = document.getElementById("paginas-tamano");
+        var info = document.getElementById("paginas-info");
+        var btnPrimera = document.getElementById("pagina-primera");
+        var btnAnterior = document.getElementById("pagina-anterior");
+        var btnSiguiente = document.getElementById("pagina-siguiente");
+        var btnUltima = document.getElementById("pagina-ultima");
+        var pagina = 1;
+
+        // Filtra por rango de fechas, pagina el resultado y recalcula el pie.
+        // Los totales son de TODO lo filtrado, no solo de la pagina visible.
         function aplicarFiltro(tabla) {
             var min = desde.value;
             var max = hasta.value;
             var sumCajas = 0;
             var sumTotal = 0;
-            var visibles = 0;
+            var filtradas = [];
 
             tabla.querySelectorAll(".fila-reciente").forEach(function(fila) {
                 var fecha = fila.getAttribute("data-fecha") || "";
                 var dentro = (!min || fecha >= min) && (!max || fecha <= max);
-                fila.style.display = dentro ? "" : "none";
                 if (dentro) {
-                    visibles++;
-                    fila.querySelector(".col-item").textContent = visibles;
+                    filtradas.push(fila);
                     sumCajas += parseFloat(fila.getAttribute("data-cajas")) || 0;
                     sumTotal += parseFloat(fila.getAttribute("data-total")) || 0;
+                } else {
+                    fila.style.display = "none";
+                }
+            });
+
+            var porPagina = parseInt(tamano.value, 10) || 0;
+            var paginas = porPagina > 0 ? Math.max(1, Math.ceil(filtradas.length / porPagina)) : 1;
+            if (pagina > paginas) {
+                pagina = paginas;
+            }
+            var inicio = porPagina > 0 ? (pagina - 1) * porPagina : 0;
+            var fin = porPagina > 0 ? inicio + porPagina : filtradas.length;
+
+            filtradas.forEach(function(fila, i) {
+                var enPagina = i >= inicio && i < fin;
+                fila.style.display = enPagina ? "" : "none";
+                if (enPagina) {
+                    // Numeracion corrida entre paginas
+                    fila.querySelector(".col-item").textContent = i + 1;
                 }
             });
 
             var vacio = tabla.querySelector(".sin-resultados");
             if (vacio) {
-                vacio.style.display = visibles === 0 ? "" : "none";
+                vacio.style.display = filtradas.length === 0 ? "" : "none";
             }
 
             var celdaCajas = tabla.querySelector(".total-cajas");
@@ -538,6 +586,29 @@
                     maximumFractionDigits: 2
                 });
             }
+
+            pintarPaginador(filtradas.length, inicio, Math.min(fin, filtradas.length), paginas);
+        }
+
+        function pintarPaginador(total, inicio, fin, paginas) {
+            if (total === 0) {
+                info.textContent = "Sin registros";
+            } else {
+                info.textContent = (inicio + 1) + "-" + fin + " de " + total +
+                    (paginas > 1 ? "  (pagina " + pagina + " de " + paginas + ")" : "");
+            }
+            btnPrimera.disabled = btnAnterior.disabled = (pagina <= 1);
+            btnSiguiente.disabled = btnUltima.disabled = (pagina >= paginas);
+            btnUltima.setAttribute("data-ultima", paginas);
+        }
+
+        function irA(destino) {
+            pagina = destino;
+            tablas.forEach(function(tabla) {
+                if (tabla.getAttribute("data-tabla") === selector.value) {
+                    aplicarFiltro(tabla);
+                }
+            });
         }
 
         function money(valor) {
@@ -580,6 +651,7 @@
         }
 
         function refrescar() {
+            pagina = 1;
             var clave = selector.value;
             tablas.forEach(function(tabla) {
                 var activa = tabla.getAttribute("data-tabla") === clave;
@@ -602,6 +674,14 @@
             refrescar();
             actualizarTarjetas();
         }
+
+        tamano.addEventListener("change", refrescar);
+        btnPrimera.addEventListener("click", function() { irA(1); });
+        btnAnterior.addEventListener("click", function() { irA(Math.max(1, pagina - 1)); });
+        btnSiguiente.addEventListener("click", function() { irA(pagina + 1); });
+        btnUltima.addEventListener("click", function() {
+            irA(parseInt(btnUltima.getAttribute("data-ultima"), 10) || 1);
+        });
 
         selector.addEventListener("change", refrescar);
         desde.addEventListener("change", cambioFecha);
