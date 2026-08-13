@@ -29,6 +29,7 @@ $ORDEN = [
     'migracion_unidades_caja.sql',       // 2 cols a productos (cajas)
     'migracion_unidades_derivadas.sql',  // tabla unidades_derivadas + 1 col a productos
     'migracion_planilla_pagos.sql',      // tabla planilla_pagos
+    'migracion_clientes_tipo_doc_usuario.sql', // tipo_documento + id_usuario en clientes
 ];
 
 // Errores que significan "ya aplicado" (no son fallas reales)

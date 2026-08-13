@@ -150,16 +150,43 @@ class CotizacionesController extends Controller
 
         $respuesta = ["res" => false];
 
-        $sql = "SELECT * from  clientes where documento ='{$_POST['num_doc']}'";
+        $esc = function ($valor) {
+            return $this->conexion->real_escape_string(trim($valor ?? ''));
+        };
+
+        // Solo el nombre es obligatorio, el resto de datos del cliente es opcional
+        $numDoc     = $esc($_POST['num_doc'] ?? '');
+        $tipoDocCli = $esc($_POST['tipo_doc_cli'] ?? '1');
+        $nomCli     = $esc($_POST['nom_cli'] ?? '');
+        $dirCli     = $esc($_POST['dir_cli'] ?? '');
+        $dir2Cli    = $esc($_POST['dir2_cli'] ?? '');
+        $telCli     = $esc($_POST['tel_cli'] ?? '');
+        $idUsuario  = (int) ($_SESSION['usuario_fac'] ?? 0);
+
+        if ($nomCli === '') {
+            $respuesta['msg'] = 'El nombre del cliente es obligatorio';
+            return json_encode($respuesta);
+        }
+
         $idCli = '';
 
-        if ($rowCl = $this->conexion->query($sql)->fetch_assoc()) {
-            $idCli = $rowCl['id_cliente'];
-        } else {
-            $sql = "insert into clientes set documento='{$_POST['num_doc']}',
-            datos='{$_POST['nom_cli']}',
-            direccion='{$_POST['dir_cli']}',
-            direccion2='{$_POST['dir2_cli']}',
+        // Sin documento no se puede reutilizar un cliente existente: siempre se crea uno nuevo
+        if ($numDoc !== '') {
+            $sql = "SELECT id_cliente from clientes
+                    where documento ='$numDoc' and id_empresa='{$_SESSION['id_empresa']}'";
+            if ($rowCl = $this->conexion->query($sql)->fetch_assoc()) {
+                $idCli = $rowCl['id_cliente'];
+            }
+        }
+
+        if ($idCli === '') {
+            $sql = "insert into clientes set documento='$numDoc',
+            tipo_documento='$tipoDocCli',
+            datos='$nomCli',
+            direccion='$dirCli',
+            direccion2='$dir2Cli',
+            telefono='$telCli',
+            id_usuario='$idUsuario',
             id_empresa='{$_SESSION['id_empresa']}'";
             $this->conexion->query($sql);
             $idCli = $this->conexion->insert_id;

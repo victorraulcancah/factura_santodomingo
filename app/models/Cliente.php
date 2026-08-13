@@ -208,8 +208,9 @@ class Cliente
 
     public function insertar()
     {
-        $sql = "insert into clientes (documento, datos, direccion, direccion2, telefono, telefono2, email, id_empresa, ultima_venta, total_venta, departamento, provincia, distrito, fecha_nacimiento) 
-                values ('$this->documento', '$this->datos', '$this->direccion','$this->direccion2','$this->telefono','$this->telefono2','$this->email', {$_SESSION['id_empresa']}, '1000-01-01', '0', '$this->departamento', '$this->provincia', '$this->distrito', ".($this->fecha_nacimiento ? "'$this->fecha_nacimiento'" : "NULL").")";
+        $idUsuario = (int) ($_SESSION['usuario_fac'] ?? 0);
+        $sql = "insert into clientes (documento, datos, direccion, direccion2, telefono, telefono2, email, id_empresa, id_usuario, ultima_venta, total_venta, departamento, provincia, distrito, fecha_nacimiento)
+                values ('$this->documento', '$this->datos', '$this->direccion','$this->direccion2','$this->telefono','$this->telefono2','$this->email', {$_SESSION['id_empresa']}, '$idUsuario', '1000-01-01', '0', '$this->departamento', '$this->provincia', '$this->distrito', ".($this->fecha_nacimiento ? "'$this->fecha_nacimiento'" : "NULL").")";
         $result =  $this->conectar->query($sql);
 
         if ($result) {
@@ -295,7 +296,14 @@ class Cliente
     public function getAllData()
     {
         try {
-            $sql = "SELECT id_cliente,documento,datos,direccion,direccion2,telefono,telefono2,email,ultima_venta,total_venta,departamento,provincia,distrito,fecha_nacimiento FROM clientes where id_empresa='{$_SESSION['id_empresa']}'";
+            // Solo el ADMIN (rol 1) ve todos los clientes de la empresa,
+            // los demas usuarios solo ven los que ellos registraron.
+            $filtroUsuario = "";
+            if ((int) ($_SESSION['rol'] ?? 0) !== 1) {
+                $idUsuario = (int) ($_SESSION['usuario_fac'] ?? 0);
+                $filtroUsuario = " and id_usuario = '$idUsuario'";
+            }
+            $sql = "SELECT id_cliente,documento,tipo_documento,datos,direccion,direccion2,telefono,telefono2,email,ultima_venta,total_venta,departamento,provincia,distrito,fecha_nacimiento FROM clientes where id_empresa='{$_SESSION['id_empresa']}'$filtroUsuario";
             $fila = mysqli_query($this->conectar, $sql);
             return mysqli_fetch_all($fila, MYSQLI_ASSOC);
         } catch (Exception $e) {
@@ -305,7 +313,12 @@ class Cliente
     public function getOne($id)
     {
         try {
-            $sql = "SELECT * FROM clientes WHERE id_cliente = '$id' ";
+            $filtroUsuario = "";
+            if ((int) ($_SESSION['rol'] ?? 0) !== 1) {
+                $idUsuario = (int) ($_SESSION['usuario_fac'] ?? 0);
+                $filtroUsuario = " and id_usuario = '$idUsuario'";
+            }
+            $sql = "SELECT * FROM clientes WHERE id_cliente = '$id'$filtroUsuario";
             $fila = mysqli_query($this->conectar, $sql);
             return mysqli_fetch_all($fila, MYSQLI_ASSOC);
         } catch (Exception $e) {
@@ -345,7 +358,12 @@ class Cliente
     public function delete($id)
     {
         try {
-            $sql = "DELETE FROM clientes WHERE  id_cliente = '$id' ";
+            $filtroUsuario = "";
+            if ((int) ($_SESSION['rol'] ?? 0) !== 1) {
+                $idUsuario = (int) ($_SESSION['usuario_fac'] ?? 0);
+                $filtroUsuario = " and id_usuario = '$idUsuario'";
+            }
+            $sql = "DELETE FROM clientes WHERE  id_cliente = '$id'$filtroUsuario";
             $fila = mysqli_query($this->conectar, $sql);
             return $fila;
         } catch (Exception $e) {

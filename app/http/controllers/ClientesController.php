@@ -44,6 +44,7 @@ class ClientesController extends Controller
   direccion2=?,
   email='{$item['email']}',
   id_empresa='{$_SESSION['id_empresa']}',
+  id_usuario='" . (int) ($_SESSION['usuario_fac'] ?? 0) . "',
   telefono='{$item['telefono']}',
   telefono2='{$item['telefono2']}',
   departamento=?,
