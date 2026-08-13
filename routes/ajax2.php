@@ -108,3 +108,5 @@ Route::post("/ajas/ventas/porempresa/regenxml", "VentasController@regenerarXML")
 Route::post("/ajas/ventas/porempresa/sendsunat", "VentasController@enviarDocumentoSunatPorEmpresa");
 Route::post("/ajas/ventas/porempresa/sendsunatresumen", "VentasController@envioResumenDiarioPorEmpresa");
 Route::post("/ajas/ventas/porempresa/sendsunatcomubaja", "VentasController@envioComunicacionBajaPorEmpresa");
+
+Route::post("/ajs/dashboard/totales", "DashboardController@totales");

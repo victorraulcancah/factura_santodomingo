@@ -345,7 +345,8 @@ class Venta
         fecha_vencimiento='$this->fechaVenc',dias_pagos='$this->dias_pagos',direccion='$this->direccion',
         serie='$this->serie',numero='$this->numero',id_cliente='$this->id_cliente',total='$this->total', estado='1',
                        
-        enviado_sunat='0',igv='$this->igv',id_empresa='$this->id_empresa',sucursal='{$_SESSION['sucursal']}', observacion='$this->observa',medoto_pago_id='$this->metodo' ".$sqlData;
+        enviado_sunat='0',igv='$this->igv',id_empresa='$this->id_empresa',sucursal='{$_SESSION['sucursal']}', observacion='$this->observa',medoto_pago_id='$this->metodo',
+        id_usuario='" . (int) ($_SESSION['usuario_fac'] ?? 0) . "' " . $sqlData;
 
         $result = $this->conectar->query($sql);
         if ($result) {

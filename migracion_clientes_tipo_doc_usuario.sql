@@ -9,3 +9,8 @@ ALTER TABLE `clientes` ADD INDEX `idx_clientes_id_usuario` (`id_usuario`);
 
 -- El documento pasa a ser opcional (solo el nombre es obligatorio)
 ALTER TABLE `clientes` MODIFY `documento` VARCHAR(20) COLLATE utf8_spanish_ci DEFAULT NULL;
+
+-- Vendedor que registro la venta (cotizaciones ya tenia id_usuario)
+ALTER TABLE `ventas` ADD COLUMN `id_usuario` INT(11) DEFAULT NULL;
+
+ALTER TABLE `ventas` ADD INDEX `idx_ventas_id_usuario` (`id_usuario`);

@@ -1,4 +1,6 @@
 <?php
+    require_once PATH_APP . "clases/DashboardTotales.php";
+
     $empresa = $_SESSION['id_empresa'];
     $rol = $_SESSION['rol'];
     $usuario_id = $_SESSION['usuario_fac'];
@@ -19,6 +21,10 @@
 
     $conexion = (new Conexion())->getConexion();
 
+    // Rango inicial de la tabla y de las tarjetas: el mes en curso
+    $rangoDesde = date('Y-m-01');
+    $rangoHasta = date('Y-m-d');
+
     // Leer config FRESCA de la BD (no de la sesion cacheada al login)
     $_cfgRow = $conexion->query("SELECT tipo_sueldo, monto_sueldo_fijo, porcentaje_sueldo_comision,
                                         meta_ventas, porcentaje_comision_meta
@@ -28,25 +34,19 @@
     $pct_sueldo_comision = ((float)($_cfgRow['porcentaje_sueldo_comision'] ?? 0)) / 100;
     $meta_ventas = (float)($_cfgRow['meta_ventas'] ?? 0);
     $pct_comision_meta = ((float)($_cfgRow['porcentaje_comision_meta'] ?? 0)) / 100;
-    if ($esVendedor) {
-        // Vendedor: datos basados en cotizaciones (tiene id_usuario)
-        $sql = "SELECT
-            (SELECT COUNT(DISTINCT id_cliente) FROM cotizaciones WHERE id_empresa='$empresa' AND estado <> '2' AND sucursal='$sucursal' AND id_usuario='$usuario_id') cnt_cli,
-            (SELECT SUM(total) FROM cotizaciones WHERE id_empresa='$empresa' AND estado <> '2' AND sucursal='$sucursal' AND id_usuario='$usuario_id' AND YEAR(fecha)='$anio1' AND MONTH(fecha)='$mes1') ventaTotal,
-            (SELECT COALESCE(SUM(pc.cantidad), 0) FROM productos_cotis pc INNER JOIN cotizaciones c ON pc.id_coti = c.cotizacion_id WHERE c.id_empresa='$empresa' AND c.estado <> '2' AND c.sucursal='$sucursal' AND c.id_usuario='$usuario_id' AND YEAR(c.fecha)='$anio1' AND MONTH(c.fecha)='$mes1') totalCajas
-        ";
-    } else {
-        // Admin: datos globales de ventas
-        $sql = "SELECT (SELECT SUM(total) FROM ventas WHERE id_empresa='$empresa' AND estado = '1' and sucursal='$sucursal' AND YEAR(fecha_emision)='$anio1' AND MONTH(fecha_emision)='$mes1') totalv ,
-(SELECT COUNT(*)  FROM  clientes WHERE id_empresa = '$empresa') cnt_cli,
-(SELECT SUM(total) FROM ventas WHERE id_empresa='$empresa'  and sucursal='$sucursal' and id_tido =2 AND estado = '1' AND YEAR(fecha_emision)='$anio1' AND MONTH(fecha_emision)='$mes1') totalvF ,
-(SELECT SUM(total) FROM ventas WHERE id_empresa='$empresa' and sucursal='$sucursal' and id_tido =1 AND estado = '1' AND YEAR(fecha_emision)='$anio1' AND MONTH(fecha_emision)='$mes1') totalvB,
- (SELECT SUM(total) FROM ventas WHERE id_empresa='$empresa' and sucursal='$sucursal' AND estado = '1' AND YEAR(fecha_emision)='$anio2' AND MONTH(fecha_emision)='$mes2') totalvMA,
- (SELECT COALESCE(SUM(pc.cantidad), 0) FROM productos_cotis pc INNER JOIN cotizaciones c ON pc.id_coti = c.cotizacion_id WHERE c.id_empresa='$empresa' AND c.estado <> '2' AND c.sucursal='$sucursal' AND YEAR(c.fecha)='$anio1' AND MONTH(c.fecha)='$mes1') totalCajas
-       ";
+    // Totales de las tarjetas. Se calculan para el mismo rango que la tabla,
+    // y el filtro Desde/Hasta los recalcula via /ajs/dashboard/totales.
+    $data = DashboardTotales::obtener($conexion, $empresa, $sucursal, $usuario_id, $esVendedor, $rangoDesde, $rangoHasta);
+
+    // El comparativo con el mes anterior no depende del filtro
+    $data["totalvMA"] = 0;
+    if (!$esVendedor) {
+        $_rowMA = $conexion->query("SELECT SUM(total) t FROM ventas
+            WHERE id_empresa='$empresa' AND sucursal='$sucursal' AND estado = '1'
+              AND YEAR(fecha_emision)='$anio2' AND MONTH(fecha_emision)='$mes2'")->fetch_assoc();
+        $data["totalvMA"] = floatval($_rowMA["t"] ?? 0);
     }
 
-    $data = $conexion->query($sql)->fetch_assoc();
 
     $ventaTotal = floatval($data["ventaTotal"] ?? 0);
     $sueldo_base = 0;
@@ -92,7 +92,14 @@
         $dataListVen[intval($dtTemp['mes'])] = $tempValue;
     }
 
-    // Obtener lista de cotizaciones recientes
+    // Formatea cantidades que pueden tener decimales (media caja = 0.5)
+    function formatCajas($valor) {
+        $valor = floatval($valor);
+        return rtrim(rtrim(number_format($valor, 2, '.', ','), '0'), '.');
+    }
+
+    // Obtener lista de cotizaciones. Se traen todas y el filtro Desde/Hasta de la
+    // tabla actua en el navegador, sin recargar.
     $clientesRecientes = [];
     if ($esVendedor) {
         $sqlCli = "SELECT cl.datos as nombre, cl.documento, c.fecha as ultima_fecha, c.total,
@@ -100,7 +107,7 @@
             FROM cotizaciones c
             LEFT JOIN clientes cl ON c.id_cliente = cl.id_cliente
             WHERE c.id_empresa='$empresa' AND c.sucursal='$sucursal' AND c.id_usuario='$usuario_id' AND c.estado <> '2'
-            ORDER BY c.fecha DESC LIMIT 10";
+            ORDER BY c.fecha DESC";
     } else {
         // Admin: cotizaciones de TODOS los vendedores
         $sqlCli = "SELECT cl.datos as nombre, cl.documento, c.fecha as ultima_fecha, c.total,
@@ -114,11 +121,34 @@
             LEFT JOIN clientes cl ON c.id_cliente = cl.id_cliente
             LEFT JOIN usuarios u ON c.id_usuario = u.usuario_id
             WHERE c.id_empresa='$empresa' AND c.sucursal='$sucursal' AND c.estado <> '2'
-            ORDER BY c.fecha DESC LIMIT 20";
+            ORDER BY c.fecha DESC";
     }
     $resCli = $conexion->query($sqlCli);
     while ($row = $resCli->fetch_assoc()) {
         $clientesRecientes[] = $row;
+    }
+
+    // Obtener lista de ventas recientes (misma tabla, se alterna con el select)
+    $ventasRecientes = [];
+    $_expVendedor = "COALESCE(
+                    NULLIF(TRIM(CONCAT(COALESCE(u.nombres,''),' ',COALESCE(u.apellidos,''))),''),
+                    NULLIF(TRIM(u.nombres_apellidos),''),
+                    u.usuario
+                )";
+    $_filtroVen = $esVendedor ? " AND v.id_usuario='$usuario_id'" : "";
+    $sqlVen = "SELECT cl.datos as nombre, cl.documento, v.fecha_emision as ultima_fecha, v.total,
+                CONCAT(COALESCE(v.serie,''),'-',COALESCE(v.numero,'')) as comprobante,
+                $_expVendedor as vendedor,
+                (SELECT COALESCE(SUM(pv.cantidad), 0) FROM productos_ventas pv WHERE pv.id_venta = v.id_venta) as cajas
+            FROM ventas v
+            LEFT JOIN clientes cl ON v.id_cliente = cl.id_cliente
+            LEFT JOIN usuarios u ON v.id_usuario = u.usuario_id
+            WHERE v.id_empresa='$empresa' AND v.sucursal='$sucursal' AND v.estado = '1'$_filtroVen
+            ORDER BY v.fecha_emision DESC, v.id_venta DESC";
+    if ($resVen = $conexion->query($sqlVen)) {
+        while ($row = $resVen->fetch_assoc()) {
+            $ventasRecientes[] = $row;
+        }
     }
 ?>
 <!-- start page title -->
@@ -148,7 +178,7 @@
                         <img src="<?=URL::to('public/assets/images/services-icon/01.png')?>" alt="">
                     </div>
                     <h5 class="font-size-16 text-uppercase text-white-50">Sueldo Base</h5>
-                    <h4 class="fw-medium font-size-24">S/ <?=number_format($sueldo_base, 2, ".", ",")?></h4>
+                    <h4 class="fw-medium font-size-24">S/ <span id="card-sueldo-base"><?=number_format($sueldo_base, 2, ".", ",")?></span></h4>
                     <div class="mini-stat-label bg-success">
                         <p class="mb-0">Mes</p>
                     </div>
@@ -167,7 +197,7 @@
                         <img src="<?=URL::to('public/assets/images/services-icon/02.png')?>" alt="">
                     </div>
                     <h5 class="font-size-16 text-uppercase text-white-50">Bono por Meta</h5>
-                    <h4 class="fw-medium font-size-24">S/ <?=number_format($bono_meta, 2, ".", ",")?></h4>
+                    <h4 class="fw-medium font-size-24">S/ <span id="card-bono-meta"><?=number_format($bono_meta, 2, ".", ",")?></span></h4>
                     <div class="mini-stat-label bg-info">
                         <p class="mb-0"><?= ($meta_ventas>0 && $ventaTotal >= $meta_ventas)?'Logrado':'Pendiente' ?></p>
                     </div>
@@ -186,7 +216,7 @@
                         <img src="<?=URL::to('public/assets/images/services-icon/03.png')?>" alt="">
                     </div>
                     <h5 class="font-size-16 text-uppercase text-white-50">Total a Ganar</h5>
-                    <h4 class="fw-medium font-size-24">S/ <?=number_format($total_ganancias, 2, ".", ",")?></h4>
+                    <h4 class="fw-medium font-size-24">S/ <span id="card-total-ganancias"><?=number_format($total_ganancias, 2, ".", ",")?></span></h4>
                     <div class="mini-stat-label bg-danger">
                         <p class="mb-0">Mes</p>
                     </div>
@@ -205,7 +235,7 @@
                         <img src="<?=URL::to('public/assets/images/services-icon/04.png')?>" alt="">
                     </div>
                     <h5 class="font-size-16 text-uppercase text-white-50">Venta Total</h5>
-                    <h4 class="fw-medium font-size-24">S/ <?=number_format($ventaTotal, 2, ".", ",")?></h4>
+                    <h4 class="fw-medium font-size-24">S/ <span id="card-venta-total"><?=number_format($ventaTotal, 2, ".", ",")?></span></h4>
                     <div class="mini-stat-label bg-warning">
                         <p class="mb-0">Mes</p>
                     </div>
@@ -228,7 +258,7 @@
                         <img src="<?=URL::to('public/assets/images/services-icon/01.png')?>" alt="">
                     </div>
                     <h5 class="font-size-16 text-uppercase text-white-50">Balance</h5>
-                    <h4 class="fw-medium font-size-24">S/ <?=number_format($data["totalv"], 2, ".", ",")?>  </h4>
+                    <h4 class="fw-medium font-size-24">S/ <span class="card-total-vendido"><?=number_format(floatval($data["totalv"]), 2, ".", ",")?></span>  </h4>
                     <div class="mini-stat-label bg-success">
                         <p class="mb-0">Reporte</p>
                     </div>
@@ -251,7 +281,7 @@
                         <img src="<?=URL::to('public/assets/images/services-icon/01.png')?>" alt="">
                     </div>
                     <h5 class="font-size-16 text-uppercase text-white-50">Monto Vendido</h5>
-                    <h4 class="fw-medium font-size-24">S/ <?=number_format($data["totalv"], 2, ".", ",")?>  </h4>
+                    <h4 class="fw-medium font-size-24">S/ <span class="card-total-vendido"><?=number_format(floatval($data["totalv"]), 2, ".", ",")?></span>  </h4>
                     <div class="mini-stat-label bg-success">
                         <p class="mb-0">Mes</p>
                     </div>
@@ -297,7 +327,7 @@
                         <img src="<?=URL::to('public/assets/images/services-icon/03.png')?>" alt="">
                     </div>
                     <h5 class="font-size-16 text-uppercase text-white-50">Total en Facturas</h5>
-                    <h4 class="fw-medium font-size-24">S/ <?=number_format($data["totalvF"], 2, ".", ",")?>  </h4>
+                    <h4 class="fw-medium font-size-24">S/ <span id="card-total-facturas"><?=number_format(floatval($data["totalvF"]), 2, ".", ",")?></span>  </h4>
                     <div class="mini-stat-label bg-info">
                         <p class="mb-0"> Mes</p>
                     </div>
@@ -320,7 +350,7 @@
                         <img src="<?=URL::to('public/assets/images/services-icon/04.png')?>" alt="">
                     </div>
                     <h5 class="font-size-16 text-uppercase text-white-50">Total en Boletas</h5>
-                    <h4 class="fw-medium font-size-24">S/ <?=number_format($data["totalvB"], 2, ".", ",")?>  </h4>
+                    <h4 class="fw-medium font-size-24">S/ <span id="card-total-boletas"><?=number_format(floatval($data["totalvB"]), 2, ".", ",")?></span>  </h4>
                     <div class="mini-stat-label bg-warning">
                         <p class="mb-0">Mes</p>
                     </div>
@@ -343,7 +373,7 @@
                         <img src="<?=URL::to('public/assets/images/services-icon/04.png')?>" alt="">
                     </div>
                     <h5 class="font-size-16 text-uppercase text-white-50">Cajas Vendidas</h5>
-                    <h4 class="fw-medium font-size-24"><?=intval($data["totalCajas"])?></h4>
+                    <h4 class="fw-medium font-size-24"><span id="card-total-cajas"><?=formatCajas($data["totalCajas"])?></span></h4>
                     <div class="mini-stat-label bg-danger">
                         <p class="mb-0">Mes</p>
                     </div>
@@ -358,58 +388,234 @@
 <?php endif; ?>
 <!-- end row -->
 
-<?php if (!empty($clientesRecientes)): ?>
-<!-- TABLA COTIZACIONES RECIENTES -->
+<?php if (!empty($clientesRecientes) || !empty($ventasRecientes)): ?>
+<!-- TABLA COTIZACIONES / VENTAS RECIENTES -->
 <div class="row">
     <div class="col-xl-12">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title mb-4"><?= $esVendedor ? 'Mis Clientes Recientes' : 'Cotizaciones Recientes - Todos los Vendedores' ?></h4>
-                <div class="table-responsive">
-                    <table class="table table-sm table-bordered table-hover text-center">
-                        <thead class="table-light">
-                            <tr>
-                                <th>#</th>
-                                <?php if (!$esVendedor): ?><th>Vendedor</th><?php endif; ?>
-                                <th>Cliente</th>
-                                <th>Documento</th>
-                                <th>Fecha</th>
-                                <th>Cajas</th>
-                                <th>Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php
-                                $sumTotal = 0;
-                                $sumCajas = 0;
-                                foreach ($clientesRecientes as $i => $cli):
-                                    $sumTotal += floatval($cli['total']);
-                                    $sumCajas += intval($cli['cajas']);
-                            ?>
-                            <tr>
-                                <td><?=$i + 1?></td>
-                                <?php if (!$esVendedor): ?><td><?=$cli['vendedor'] ?? '-'?></td><?php endif; ?>
-                                <td><?=$cli['nombre']?></td>
-                                <td><?=$cli['documento']?></td>
-                                <td><?=$cli['ultima_fecha']?></td>
-                                <td><?=intval($cli['cajas'])?></td>
-                                <td>S/ <?=number_format($cli['total'], 2, '.', ',')?></td>
-                            </tr>
-                            <?php endforeach; ?>
-                        </tbody>
-                        <tfoot>
-                            <tr class="table-dark fw-bold">
-                                <td colspan="<?= $esVendedor ? 4 : 5 ?>" class="text-end">TOTAL</td>
-                                <td><?=$sumCajas?></td>
-                                <td>S/ <?=number_format($sumTotal, 2, '.', ',')?></td>
-                            </tr>
-                        </tfoot>
-                    </table>
+                <div class="row align-items-end mb-4">
+                    <div class="col-md-4">
+                        <h4 class="card-title mb-0" id="titulo-tabla-recientes"></h4>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row justify-content-end g-2">
+                            <div class="col-auto">
+                                <label class="form-label mb-1">Mostrar</label>
+                                <select id="select-tabla-recientes" class="form-control form-select">
+                                    <option value="cotizaciones">Cotizaciones</option>
+                                    <option value="ventas">Ventas</option>
+                                </select>
+                            </div>
+                            <div class="col-auto">
+                                <label class="form-label mb-1">Desde</label>
+                                <input type="date" id="filtro-desde" class="form-control" value="<?=date('Y-m-01')?>">
+                            </div>
+                            <div class="col-auto">
+                                <label class="form-label mb-1">Hasta</label>
+                                <input type="date" id="filtro-hasta" class="form-control" value="<?=date('Y-m-d')?>">
+                            </div>
+                            <div class="col-auto d-flex align-items-end">
+                                <button type="button" id="filtro-limpiar" class="btn btn-secondary">Ver todo</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                <?php
+                    // Las dos tablas se renderizan y el select alterna cual se muestra
+                    $_tablasRecientes = [
+                        'cotizaciones' => [
+                            'titulo' => $esVendedor ? 'Mis Cotizaciones' : 'Cotizaciones - Todos los Vendedores',
+                            'filas'  => $clientesRecientes,
+                            'vacio'  => 'No hay cotizaciones registradas.',
+                        ],
+                        'ventas' => [
+                            'titulo' => $esVendedor ? 'Mis Ventas' : 'Ventas - Todos los Vendedores',
+                            'filas'  => $ventasRecientes,
+                            'vacio'  => 'No hay ventas registradas.',
+                        ],
+                    ];
+                ?>
+
+                <?php foreach ($_tablasRecientes as $_clave => $_tabla): ?>
+                <div class="tabla-recientes" data-tabla="<?=$_clave?>" data-titulo="<?=htmlspecialchars($_tabla['titulo'], ENT_QUOTES)?>" style="display: none;">
+                    <?php if (empty($_tabla['filas'])): ?>
+                        <p class="text-muted text-center mb-0"><?=$_tabla['vacio']?></p>
+                    <?php else: ?>
+                    <div class="table-responsive">
+                        <table class="table table-sm table-bordered table-hover text-center">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>#</th>
+                                    <?php if (!$esVendedor): ?><th>Vendedor</th><?php endif; ?>
+                                    <th>Cliente</th>
+                                    <th>Documento</th>
+                                    <?php if ($_clave == 'ventas'): ?><th>Comprobante</th><?php endif; ?>
+                                    <th>Fecha</th>
+                                    <th>Cajas</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($_tabla['filas'] as $cli): ?>
+                                <tr class="fila-reciente" data-fecha="<?=$cli['ultima_fecha']?>" data-cajas="<?=floatval($cli['cajas'])?>" data-total="<?=floatval($cli['total'])?>">
+                                    <td class="col-item"></td>
+                                    <?php if (!$esVendedor): ?><td><?=$cli['vendedor'] ?: '-'?></td><?php endif; ?>
+                                    <td><?=$cli['nombre']?></td>
+                                    <td><?=$cli['documento']?></td>
+                                    <?php if ($_clave == 'ventas'): ?><td><?=$cli['comprobante']?></td><?php endif; ?>
+                                    <td><?=$cli['ultima_fecha']?></td>
+                                    <td><?=formatCajas($cli['cajas'])?></td>
+                                    <td>S/ <?=number_format($cli['total'], 2, '.', ',')?></td>
+                                </tr>
+                                <?php endforeach; ?>
+                                <tr class="sin-resultados" style="display: none;">
+                                    <td colspan="<?= 6 + (!$esVendedor ? 1 : 0) + ($_clave == 'ventas' ? 1 : 0) ?>" class="text-muted">
+                                        No hay registros en el rango de fechas seleccionado.
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr class="table-dark fw-bold">
+                                    <td colspan="<?= 4 + (!$esVendedor ? 1 : 0) + ($_clave == 'ventas' ? 1 : 0) ?>" class="text-end">TOTAL</td>
+                                    <td class="total-cajas">0</td>
+                                    <td class="total-monto">S/ 0.00</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <?php endif; ?>
+                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    (function() {
+        var selector = document.getElementById("select-tabla-recientes");
+        var titulo = document.getElementById("titulo-tabla-recientes");
+        var desde = document.getElementById("filtro-desde");
+        var hasta = document.getElementById("filtro-hasta");
+        var limpiar = document.getElementById("filtro-limpiar");
+        var tablas = document.querySelectorAll(".tabla-recientes");
+
+        // Filtra por rango de fechas, renumera y recalcula los totales del pie
+        function aplicarFiltro(tabla) {
+            var min = desde.value;
+            var max = hasta.value;
+            var sumCajas = 0;
+            var sumTotal = 0;
+            var visibles = 0;
+
+            tabla.querySelectorAll(".fila-reciente").forEach(function(fila) {
+                var fecha = fila.getAttribute("data-fecha") || "";
+                var dentro = (!min || fecha >= min) && (!max || fecha <= max);
+                fila.style.display = dentro ? "" : "none";
+                if (dentro) {
+                    visibles++;
+                    fila.querySelector(".col-item").textContent = visibles;
+                    sumCajas += parseFloat(fila.getAttribute("data-cajas")) || 0;
+                    sumTotal += parseFloat(fila.getAttribute("data-total")) || 0;
+                }
+            });
+
+            var vacio = tabla.querySelector(".sin-resultados");
+            if (vacio) {
+                vacio.style.display = visibles === 0 ? "" : "none";
+            }
+
+            var celdaCajas = tabla.querySelector(".total-cajas");
+            var celdaMonto = tabla.querySelector(".total-monto");
+            if (celdaCajas) {
+                celdaCajas.textContent = parseFloat(sumCajas.toFixed(2)).toString();
+            }
+            if (celdaMonto) {
+                celdaMonto.textContent = "S/ " + sumTotal.toLocaleString("es-PE", {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                });
+            }
+        }
+
+        function money(valor) {
+            return (parseFloat(valor) || 0).toLocaleString("es-PE", {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+            });
+        }
+
+        function pintar(sel, texto) {
+            document.querySelectorAll(sel).forEach(function(el) {
+                el.textContent = texto;
+            });
+        }
+
+        // Recalcula las tarjetas para el mismo rango que la tabla
+        var pedido = 0;
+        function actualizarTarjetas() {
+            var propio = ++pedido;
+            _ajax("/ajs/dashboard/totales", "POST", {
+                desde: desde.value,
+                hasta: hasta.value
+            }, function(resp) {
+                // Ignorar respuestas de filtros ya superados
+                if (propio !== pedido || !resp || !resp.res) {
+                    return;
+                }
+                pintar("#card-total-cajas", parseFloat((parseFloat(resp.totalCajas) || 0).toFixed(2)).toString());
+                if (resp.esVendedor) {
+                    pintar("#card-sueldo-base", money(resp.sueldo_base));
+                    pintar("#card-bono-meta", money(resp.bono_meta));
+                    pintar("#card-total-ganancias", money(resp.total_ganancias));
+                    pintar("#card-venta-total", money(resp.ventaTotal));
+                } else {
+                    pintar(".card-total-vendido", money(resp.totalv));
+                    pintar("#card-total-facturas", money(resp.totalvF));
+                    pintar("#card-total-boletas", money(resp.totalvB));
+                }
+            });
+        }
+
+        function refrescar() {
+            var clave = selector.value;
+            tablas.forEach(function(tabla) {
+                var activa = tabla.getAttribute("data-tabla") === clave;
+                tabla.style.display = activa ? "" : "none";
+                if (activa) {
+                    titulo.textContent = tabla.getAttribute("data-titulo");
+                    aplicarFiltro(tabla);
+                }
+            });
+            try {
+                localStorage.setItem("tablaRecientesDashboard", clave);
+            } catch (e) {}
+        }
+
+        try {
+            selector.value = localStorage.getItem("tablaRecientesDashboard") || "cotizaciones";
+        } catch (e) {}
+
+        function cambioFecha() {
+            refrescar();
+            actualizarTarjetas();
+        }
+
+        selector.addEventListener("change", refrescar);
+        desde.addEventListener("change", cambioFecha);
+        hasta.addEventListener("change", cambioFecha);
+        limpiar.addEventListener("click", function() {
+            desde.value = "";
+            hasta.value = "";
+            cambioFecha();
+        });
+
+        // Al cargar, las tarjetas ya vienen calculadas con el mismo rango desde PHP
+        refrescar();
+    })();
+</script>
 <?php endif; ?>
 
 <div class="row">
@@ -429,7 +635,7 @@
                             <div class="col-md-6">
                                 <div class="text-center">
                                     <p class="text-muted mb-4">Este Mes</p>
-                                    <h3>S/ <?= $esVendedor ? number_format($total_ganancias, 2, ".", ",") : number_format($data["totalv"], 2, ".", ",")?></h3>
+                                    <h3>S/ <?= $esVendedor ? number_format($total_ganancias, 2, ".", ",") : number_format(floatval($data["totalv"]), 2, ".", ",")?></h3>
                                     <p class="text-muted mb-5"><?= $esVendedor ? 'Mi Ingreso Total (Sueldo + Bono).' : 'Ganancias Totales.' ?></p>
                                     <span class="peity-donut"
                                           data-peity='{ "fill": ["#02a499", "#f2f2f2"], "innerRadius": 28, "radius": 32 }'
@@ -439,7 +645,7 @@
                             <div class="col-md-6">
                                 <div class="text-center">
                                     <p class="text-muted mb-4"><?= $esVendedor ? 'Venta Total Mes' : 'Mes Anterior' ?></p>
-                                    <h3>S/ <?= $esVendedor ? number_format($data["ventaTotal"], 2, ".", ",") : number_format($data["totalvMA"], 2, ".", ",") ?></h3>
+                                    <h3>S/ <?= $esVendedor ? number_format(floatval($data["ventaTotal"]), 2, ".", ",") : number_format(floatval($data["totalvMA"]), 2, ".", ",") ?></h3>
                                     <p class="text-muted mb-5"><?= $esVendedor ? 'Total sin comision.' : 'Comparativa Ganancias Totales.' ?></p>
                                     <span class="peity-donut"
                                           data-peity='{ "fill": ["#02a499", "#f2f2f2"], "innerRadius": 28, "radius": 32 }'
