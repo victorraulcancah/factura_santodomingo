@@ -82,6 +82,12 @@ $c_producto->setIdEmpresa($_SESSION['id_empresa']);
 							<button onclick="descarFunccc()" class="btn btn-success"><i class="fa fa-file-excel"></i>
 								Descargar Exel por busqueda
 							</button>
+							<button onclick="descargarExcelProductos()" class="btn btn-success" title="Todos los productos con stock, costos y precios"><i class="fa fa-file-excel"></i>
+								Reporte Productos
+							</button>
+							<button onclick="descargarExcelRegalos()" class="btn btn-outline-success" title="Productos entregados como obsequio"><i class="fa fa-gift"></i>
+								Reporte Regalos
+							</button>
 							<button data-bs-toggle="modal" data-bs-target="#importarModal" class="btn btn-success"><i
 									class="fa fa-file-excel"></i> Importar
 							</button>
@@ -611,6 +617,43 @@ foreach ($a_productos as $fila) {
 		</div>
 	</div>
 
+	<!-- MODAL REPORTE DE REGALOS -->
+	<div class="modal fade" id="modalReporteRegalos" tabindex="-1" aria-labelledby="tituloReporteRegalos" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="tituloReporteRegalos"><i class="fa fa-gift"></i> Reporte de Regalos</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+				</div>
+				<div class="modal-body">
+					<p class="text-muted">Elige el rango de fechas. Si lo dejas vacio se descarga todo el historial.</p>
+					<div class="row">
+						<div class="col-md-6 mb-3">
+							<label class="form-label" for="regalos-desde">Desde</label>
+							<input type="date" id="regalos-desde" class="form-control">
+						</div>
+						<div class="col-md-6 mb-3">
+							<label class="form-label" for="regalos-hasta">Hasta</label>
+							<input type="date" id="regalos-hasta" class="form-control">
+						</div>
+					</div>
+					<div class="d-flex gap-2">
+						<button type="button" class="btn btn-sm btn-outline-secondary" onclick="rangoRegalos('mes')">Este mes</button>
+						<button type="button" class="btn btn-sm btn-outline-secondary" onclick="rangoRegalos('anio')">Este anio</button>
+						<button type="button" class="btn btn-sm btn-outline-secondary" onclick="rangoRegalos('todo')">Todo</button>
+					</div>
+					<div id="regalos-error" class="text-danger mt-3" style="display:none;"></div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+					<button type="button" class="btn btn-success" onclick="confirmarReporteRegalos()">
+						<i class="fa fa-file-excel"></i> Descargar
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="modal fade" id="importarModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -893,6 +936,46 @@ https://cdn.jsdelivr.net/npm/@pokusew/escpos@3.0.8/dist/index.min.js
 	function descarFunccc() {
 		window.open(_URL +
 			`/reporte/producto/excel?texto=${$("#datatable_filter input").val()}`)
+	}
+
+	// Reporte completo de productos, respetando el texto buscado en la tabla
+	function descargarExcelProductos() {
+		const texto = encodeURIComponent($("#datatable_filter input").val() || "")
+		window.open(_URL + `/reporte/productos/excel?texto=${texto}`)
+	}
+
+	// Abre el modal para elegir el rango del reporte de regalos
+	function descargarExcelRegalos() {
+		$("#regalos-error").hide().text("")
+		new bootstrap.Modal(document.getElementById("modalReporteRegalos")).show()
+	}
+
+	// Atajos de rango dentro del modal
+	function rangoRegalos(tipo) {
+		const hoy = new Date()
+		const iso = (d) => d.toISOString().slice(0, 10)
+		if (tipo === "todo") {
+			$("#regalos-desde").val("")
+			$("#regalos-hasta").val("")
+			return
+		}
+		const inicio = tipo === "mes" ?
+			new Date(hoy.getFullYear(), hoy.getMonth(), 1) :
+			new Date(hoy.getFullYear(), 0, 1)
+		$("#regalos-desde").val(iso(inicio))
+		$("#regalos-hasta").val(iso(hoy))
+	}
+
+	function confirmarReporteRegalos() {
+		const desde = $("#regalos-desde").val() || ""
+		const hasta = $("#regalos-hasta").val() || ""
+		if (desde && hasta && desde > hasta) {
+			$("#regalos-error").text("La fecha Desde no puede ser mayor que Hasta.").show()
+			return
+		}
+		$("#regalos-error").hide()
+		window.open(_URL + `/reporte/regalos/excel?desde=${desde}&hasta=${hasta}`)
+		bootstrap.Modal.getInstance(document.getElementById("modalReporteRegalos")).hide()
 	}
 
 	var codProdT = ''

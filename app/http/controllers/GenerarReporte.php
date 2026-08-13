@@ -1073,6 +1073,165 @@
             $mpdf->Output();
         }
 
+        /**
+         * Reporte Excel de productos: stock, costo y precios por almacen.
+         * Acepta ?texto= para respetar la busqueda de la pantalla.
+         */
+        public function generarExcelProductos() {
+            $empresa = (int) ($_SESSION['id_empresa'] ?? 0);
+            $texto = trim($_GET['texto'] ?? '');
+            $filtro = '';
+            if ($texto !== '') {
+                $t = $this->conexion->real_escape_string($texto);
+                $filtro = " AND (p.descripcion LIKE '%$t%' OR p.codigo LIKE '%$t%' OR p.cod_barra LIKE '%$t%')";
+            }
+
+            $sql = "SELECT p.codigo, p.cod_barra, p.descripcion, p.marca, p.almacen,
+                           p.cantidad, p.costo, p.precio, p.precio2, p.precio3, p.precio4,
+                           p.precio_unidad, p.unidades_por_caja,
+                           (p.cantidad * p.costo) AS valorizado
+                    FROM productos p
+                    WHERE p.id_empresa = '$empresa'$filtro
+                    ORDER BY p.almacen, p.descripcion";
+            $filas = $this->conexion->query($sql);
+
+            $cabeceras = ['Codigo', 'Cod. Barra', 'Descripcion', 'Marca', 'Almacen', 'Stock',
+                          'Costo', 'Valorizado', 'Precio 1', 'Precio 2', 'Precio 3', 'Precio 4',
+                          'P. Unidad', 'Und x Caja'];
+            $datos = [];
+            $totalStock = 0;
+            $totalValorizado = 0;
+            foreach ($filas as $f) {
+                $totalStock += floatval($f['cantidad']);
+                $totalValorizado += floatval($f['valorizado']);
+                $datos[] = [
+                    $f['codigo'], $f['cod_barra'], $f['descripcion'], $f['marca'],
+                    'Almacen ' . $f['almacen'], floatval($f['cantidad']),
+                    floatval($f['costo']), round(floatval($f['valorizado']), 2),
+                    floatval($f['precio']), floatval($f['precio2']),
+                    floatval($f['precio3']), floatval($f['precio4']),
+                    floatval($f['precio_unidad']), intval($f['unidades_por_caja']),
+                ];
+            }
+            $datos[] = ['', '', 'TOTAL', '', '', $totalStock, '', round($totalValorizado, 2)];
+
+            $this->descargarExcel('Productos', $cabeceras, $datos, 'reporte_productos.xlsx');
+        }
+
+        /**
+         * Reporte Excel de productos entregados como regalo, en ventas y cotizaciones.
+         * Acepta ?desde= y ?hasta= (YYYY-MM-DD).
+         */
+        public function generarExcelRegalos() {
+            $empresa = (int) ($_SESSION['id_empresa'] ?? 0);
+            $sucursal = (int) ($_SESSION['sucursal'] ?? 0);
+            $esVendedor = (($_SESSION['rol'] ?? 0) == 2);
+            $usuario = (int) ($_SESSION['usuario_fac'] ?? 0);
+
+            $valida = function ($f) {
+                return preg_match('/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/', $f ?? '') ? $f : '';
+            };
+            $desde = $valida($_GET['desde'] ?? '');
+            $hasta = $valida($_GET['hasta'] ?? '');
+
+            $rango = function ($columna) use ($desde, $hasta) {
+                $sql = '';
+                if ($desde !== '') { $sql .= " AND $columna >= '$desde'"; }
+                if ($hasta !== '') { $sql .= " AND $columna <= '$hasta'"; }
+                return $sql;
+            };
+
+            $vendedor = "COALESCE(
+                NULLIF(TRIM(CONCAT(COALESCE(u.nombres,''),' ',COALESCE(u.apellidos,''))),''),
+                NULLIF(TRIM(u.nombres_apellidos),''),
+                u.usuario, '-')";
+
+            // Un vendedor solo ve lo suyo
+            $filtroVenUsr = $esVendedor ? " AND v.id_usuario = '$usuario'" : '';
+            $filtroCotUsr = $esVendedor ? " AND c.id_usuario = '$usuario'" : '';
+
+            $sql = "SELECT 'VENTA' AS origen, v.fecha_emision AS fecha,
+                           CONCAT(COALESCE(v.serie,''),'-',COALESCE(v.numero,'')) AS documento,
+                           cl.datos AS cliente, cl.documento AS doc_cliente,
+                           $vendedor AS vendedor,
+                           p.codigo, p.descripcion, pv.cantidad, pv.costo,
+                           (pv.cantidad * pv.costo) AS costo_total
+                    FROM productos_ventas pv
+                    INNER JOIN ventas v ON v.id_venta = pv.id_venta
+                    LEFT JOIN productos p ON p.id_producto = pv.id_producto
+                    LEFT JOIN clientes cl ON cl.id_cliente = v.id_cliente
+                    LEFT JOIN usuarios u ON u.usuario_id = v.id_usuario
+                    WHERE pv.es_regalo = 1 AND v.estado = '1'
+                      AND v.id_empresa = '$empresa' AND v.sucursal = '$sucursal'$filtroVenUsr" . $rango('v.fecha_emision') . "
+                    UNION ALL
+                    SELECT 'COTIZACION' AS origen, c.fecha AS fecha,
+                           CONCAT('COT-', c.numero) AS documento,
+                           cl.datos AS cliente, cl.documento AS doc_cliente,
+                           $vendedor AS vendedor,
+                           p.codigo, p.descripcion, pc.cantidad, pc.costo,
+                           (pc.cantidad * pc.costo) AS costo_total
+                    FROM productos_cotis pc
+                    INNER JOIN cotizaciones c ON c.cotizacion_id = pc.id_coti
+                    LEFT JOIN productos p ON p.id_producto = pc.id_producto
+                    LEFT JOIN clientes cl ON cl.id_cliente = c.id_cliente
+                    LEFT JOIN usuarios u ON u.usuario_id = c.id_usuario
+                    WHERE pc.es_regalo = 1 AND c.estado <> '2'
+                      AND c.id_empresa = '$empresa' AND c.sucursal = '$sucursal'$filtroCotUsr" . $rango('c.fecha') . "
+                    ORDER BY fecha DESC";
+            $filas = $this->conexion->query($sql);
+
+            $cabeceras = ['Origen', 'Fecha', 'Documento', 'Cliente', 'Doc. Cliente', 'Vendedor',
+                          'Codigo', 'Producto', 'Cantidad', 'Costo Unit.', 'Costo Total'];
+            $datos = [];
+            $totalCant = 0;
+            $totalCosto = 0;
+            foreach ($filas as $f) {
+                $totalCant += floatval($f['cantidad']);
+                $totalCosto += floatval($f['costo_total']);
+                $datos[] = [
+                    $f['origen'], $f['fecha'], $f['documento'], $f['cliente'], $f['doc_cliente'],
+                    $f['vendedor'], $f['codigo'], $f['descripcion'],
+                    floatval($f['cantidad']), floatval($f['costo']),
+                    round(floatval($f['costo_total']), 2),
+                ];
+            }
+            $datos[] = ['', '', '', '', '', '', '', 'TOTAL', $totalCant, '', round($totalCosto, 2)];
+
+            $this->descargarExcel('Regalos', $cabeceras, $datos, 'reporte_regalos.xlsx');
+        }
+
+        /**
+         * Vuelca cabeceras + filas a un xlsx y lo envia al navegador.
+         */
+        private function descargarExcel($titulo, array $cabeceras, array $datos, $nombreArchivo) {
+            $spreadsheet = new Spreadsheet();
+            $hoja = $spreadsheet->getActiveSheet();
+            $hoja->setTitle($titulo);
+
+            $hoja->fromArray($cabeceras, null, 'A1');
+            $ultimaCol = \PhpOffice\PhpSpreadsheet\Cell\Coordinate::stringFromColumnIndex(count($cabeceras));
+            $hoja->getStyle('A1:' . $ultimaCol . '1')->getFont()->setBold(true);
+            $hoja->getStyle('A1:' . $ultimaCol . '1')->getFill()
+                 ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)
+                 ->getStartColor()->setRGB('90BFEB');
+
+            if (!empty($datos)) {
+                $hoja->fromArray($datos, null, 'A2');
+            }
+            foreach (range(1, count($cabeceras)) as $i) {
+                $hoja->getColumnDimensionByColumn($i)->setAutoSize(true);
+            }
+            $hoja->freezePane('A2');
+
+            // Limpiar cualquier salida previa para no corromper el archivo
+            while (ob_get_level() > 0) { ob_end_clean(); }
+            header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+            header('Content-Disposition: attachment; filename="' . $nombreArchivo . '"');
+            header('Cache-Control: max-age=0');
+            (new Xlsx($spreadsheet))->save('php://output');
+            exit;
+        }
+
         public function generarExcelProducto() {
 
             $texto = $_GET['texto'];

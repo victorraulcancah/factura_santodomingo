@@ -100,6 +100,8 @@
 
     Route::get("/reporte/excel/:fecha", "GenerarReporte@generarExcel");
     Route::get("/reporte/producto/excel", "GenerarReporte@generarExcelProducto");
+    Route::get("/reporte/productos/excel", "GenerarReporte@generarExcelProductos");
+    Route::get("/reporte/regalos/excel", "GenerarReporte@generarExcelRegalos");
 
     Route::get("/reporte/rvta/excel/:fecha", "GenerarReporte@generarExcelRVTA");
 

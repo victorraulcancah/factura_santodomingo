@@ -21,16 +21,48 @@ class CotizacionesController extends Controller
         $respuesta = ["res" => false];
         /*  return json_encode($_POST);
         return; */
-        $sql = "SELECT * from  clientes where documento ='{$_POST['num_doc']}'";
-        $idCli = '';
+        $esc = function ($valor) {
+            return $this->conexion->real_escape_string(trim($valor ?? ''));
+        };
 
-        if ($rowCl = $this->conexion->query($sql)->fetch_assoc()) {
+        $numDoc     = $esc($_POST['num_doc'] ?? '');
+        $tipoDocCli = $esc($_POST['tipo_doc_cli'] ?? '1');
+        $nomCli     = $esc($_POST['nom_cli'] ?? '');
+        $dirCli     = $esc($_POST['dir_cli'] ?? '');
+        $dir2Cli    = $esc($_POST['dir2_cli'] ?? '');
+        $telCli     = $esc($_POST['tel_cli'] ?? '');
+
+        if ($nomCli === '') {
+            $respuesta['msg'] = 'El nombre del cliente es obligatorio';
+            return json_encode($respuesta);
+        }
+
+        $idCli = '';
+        $rowCl = null;
+        if ($numDoc !== '') {
+            $sql = "SELECT id_cliente from clientes
+                    where documento ='$numDoc' and id_empresa='{$_SESSION['id_empresa']}'";
+            $rowCl = $this->conexion->query($sql)->fetch_assoc();
+        }
+
+        if ($rowCl) {
             $idCli = $rowCl['id_cliente'];
+
+            // Cliente existente: guardar lo que se haya escrito ahora.
+            // Lo que se deje en blanco no pisa lo que ya estaba guardado.
+            $sets = ["datos='$nomCli'", "tipo_documento='$tipoDocCli'"];
+            if ($dirCli !== '')  { $sets[] = "direccion='$dirCli'"; }
+            if ($dir2Cli !== '') { $sets[] = "direccion2='$dir2Cli'"; }
+            if ($telCli !== '')  { $sets[] = "telefono='$telCli'"; }
+            $this->conexion->query("update clientes set " . implode(', ', $sets) . " where id_cliente='$idCli'");
         } else {
-            $sql = "insert into clientes set documento='{$_POST['num_doc']}',
-            datos='{$_POST['nom_cli']}',
-            direccion='{$_POST['dir_cli']}',
-            direccion2='{$_POST['dir2_cli']}',
+            $sql = "insert into clientes set documento='$numDoc',
+            tipo_documento='$tipoDocCli',
+            datos='$nomCli',
+            direccion='$dirCli',
+            direccion2='$dir2Cli',
+            telefono='$telCli',
+            id_usuario='" . (int) ($_SESSION['usuario_fac'] ?? 0) . "',
             id_empresa='{$_SESSION['id_empresa']}'";
             $this->conexion->query($sql);
             $idCli = $this->conexion->insert_id;
@@ -62,10 +94,15 @@ class CotizacionesController extends Controller
                 $this->conexion->query($sql);
             }
             foreach ($productos as $prod) {
+                // Se conserva la marca de obsequio al reescribir el detalle
+                $esRegalo = !empty($prod['regalo']) ? 1 : 0;
+                $precioProd = $esRegalo ? 0 : $prod['precioVenta'];
+
                 $sql = "insert into productos_cotis set id_coti='{$_POST['cotiId']}',
               id_producto='{$prod['productoid']}',
               cantidad='{$prod['cantidad']}',
-              precio='{$prod['precioVenta']}',
+              precio='$precioProd',
+              es_regalo='$esRegalo',
               costo='{$prod['costo']}',serie='{$prod['serie']}'";
                 $this->conexion->query($sql);
             }
@@ -101,9 +138,11 @@ class CotizacionesController extends Controller
         $data["cliente_nom"] = $clienteR['datos'];
         $data["cliente_dir1"] = $clienteR['direccion'];
         $data["cliente_dir2"] = $clienteR['direccion2'] ? $clienteR['direccion2'] : '';
+        $data["cliente_tel"] = $clienteR['telefono'] ? $clienteR['telefono'] : '';
+        $data["cliente_tipo_doc"] = $clienteR['tipo_documento'] ? $clienteR['tipo_documento'] : '1';
 
         $data["productos"] = [];
-        $sql = "SELECT p.codigo,pc.id_producto,pc.cantidad,p.descripcion,p.codsunat,p.precio,p.precio2,p.precio3,p.costo,pc.precio AS precioVenta,p.precio4,p.precio_unidad,pc.serie,
+        $sql = "SELECT p.codigo,pc.id_producto,pc.cantidad,p.descripcion,p.codsunat,p.precio,p.precio2,p.precio3,p.costo,pc.precio AS precioVenta,p.precio4,p.precio_unidad,pc.serie,pc.es_regalo,
                 p.unidades_por_caja, p.volumen_unidad, p.id_unidad_derivada,
                 ud.nombre AS unidad_derivada_nombre
         FROM productos_cotis pc
@@ -138,6 +177,8 @@ class CotizacionesController extends Controller
                 "id_unidad_derivada" => $pro['id_unidad_derivada'] ?? null,
                 "unidad_derivada_nombre" => $pro['unidad_derivada_nombre'] ?? '',
                 "presentacion" => 'unidad',
+                // Se conserva la marca de obsequio al pasar la cotizacion a venta
+                "regalo" => !empty($pro['es_regalo']),
 
             ];
         }

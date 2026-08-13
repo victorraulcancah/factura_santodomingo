@@ -1322,6 +1322,8 @@ if (isset($_GET["coti"])) {
 							vue.venta.nom_cli = resp.cliente_nom
 							vue.venta.dir_cli = resp.cliente_dir1
 							vue.venta.dir2_cli = resp.cliente_dir2
+							vue.venta.tel_cli = resp.cliente_tel || ''
+							vue.venta.tipo_doc_cli = resp.cliente_tipo_doc || '1'
 							/*   vue.venta.cotizacion = $('#cotizacion').val() */
 							vue.usar_precio = resp.usar_precio
 							setTimeout(function() {

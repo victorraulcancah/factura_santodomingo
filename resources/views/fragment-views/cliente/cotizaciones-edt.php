@@ -278,8 +278,18 @@
 
                                                     <div class="form-group mb-3">
                                                         <div class="col-lg-12">
+                                                            <select v-model="venta.tipo_doc_cli" class="form-control">
+                                                                <option value="1">DNI</option>
+                                                                <option value="6">RUC</option>
+                                                                <option value="4">CARNET DE EXTRANJERIA</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group mb-3">
+                                                        <div class="col-lg-12">
                                                             <div class="input-group">
-                                                                <input id="input_datos_cliente" v-model="venta.num_doc" type="text" placeholder="Ingrese Documento" class="form-control" maxlength="11">
+                                                                <input id="input_datos_cliente" v-model="venta.num_doc" type="text" placeholder="Ingrese Documento (opcional)" class="form-control" :maxlength="venta.tipo_doc_cli == '6' ? 11 : (venta.tipo_doc_cli == '1' ? 8 : 20)">
                                                                 <div class="input-group-addon btn btn-primary" @click="buscarDocumentSS" style="    color: #fff;
     background-color: #337ab7;
     border-color: #2e6da4;">
@@ -291,7 +301,12 @@
                                                     </div>
                                                     <div class="form-group  mb-3">
                                                         <div class="col-lg-12">
-                                                            <input v-model="venta.nom_cli" type="text" placeholder="Nombre del cliente" class="form-control ui-autocomplete-input" autocomplete="off">
+                                                            <input v-model="venta.nom_cli" type="text" placeholder="Nombre del cliente (*)" class="form-control ui-autocomplete-input" autocomplete="off">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  mb-3">
+                                                        <div class="col-lg-12">
+                                                            <input v-model="venta.tel_cli" type="text" placeholder="Telefono (opcional)" class="form-control" autocomplete="off">
                                                         </div>
                                                     </div>
                                                     <div class="form-group  mb-3">
@@ -456,7 +471,9 @@
                     sendwp: false,
                     numwp: "",
                     num_doc: "",
+                    tipo_doc_cli: '1',
                     nom_cli: "",
+                    tel_cli: "",
                     dir_cli: "",
                     dir2_cli: "",
                     tipoventa: 1,
@@ -549,6 +566,8 @@
                             vue.venta.num_doc = resp.cliente_doc
                             vue.venta.nom_cli = resp.cliente_nom
                             vue.venta.dir_cli = resp.cliente_dir1
+                            vue.venta.tel_cli = resp.cliente_tel || ''
+                            vue.venta.tipo_doc_cli = resp.cliente_tipo_doc || '1'
                             vue.venta.dir2_cli = resp.cliente_dir2
 
                             setTimeout(function() {
@@ -644,6 +663,10 @@
                     )
                 },
                 buscarDocumentSS() {
+                    if (this.venta.tipo_doc_cli == '4') {
+                        alertAdvertencia("La consulta en linea solo aplica para DNI o RUC")
+                        return;
+                    }
                     if (this.venta.num_doc.length == 8 || this.venta.num_doc.length == 11) {
                         $("#loader-menor").show()
                         this.venta.dir_pos = 1
