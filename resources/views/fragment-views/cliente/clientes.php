@@ -127,8 +127,16 @@ $c_cliente->setIdEmpresa($_SESSION['id_empresa']);
                                 <div class="modal-body">
                                     <form id="frmClientesAgregar">
                                         <div class="row">
+                                            <div class="col-md-3 form-group">
+                                                <label for="tipoDocumentoAgregar">Tipo Documento</label>
+                                                <select class="form-control" id="tipoDocumentoAgregar" name="tipoDocumentoAgregar">
+                                                    <option value="1">DNI</option>
+                                                    <option value="6">RUC</option>
+                                                    <option value="4">CARNET DE EXTRANJERIA</option>
+                                                </select>
+                                            </div>
                                             <div class="col-md-4 form-group">
-                                                <label>DNI<span style="color: red;"> (*)</span> </label>
+                                                <label>Documento<span style="color: red;"> (*)</span> </label>
                                                 <div class="input-group">
                                                     <input type="text" class="form-control" required id="documentoAgregar" name="documentoAgregar">
                                                     <div class="input-group-prepend">
@@ -210,8 +218,16 @@ $c_cliente->setIdEmpresa($_SESSION['id_empresa']);
                                 <div class="modal-body">
                                     <form id="clientesEditar">
                                         <div class="row">
+                                            <div class="col-md-3 form-group">
+                                                <label for="tipoDocumentoEditar">Tipo Documento</label>
+                                                <select class="form-control" id="tipoDocumentoEditar" name="tipoDocumentoEditar">
+                                                    <option value="1">DNI</option>
+                                                    <option value="6">RUC</option>
+                                                    <option value="4">CARNET DE EXTRANJERIA</option>
+                                                </select>
+                                            </div>
                                             <div class="col-md-4 form-group">
-                                                <label>DNI<span style="color: red;"> (*)</span> </label>
+                                                <label>Documento<span style="color: red;"> (*)</span> </label>
                                                 <div class="input-group">
                                                     <input type="hidden" name="idCliente" id="idCliente" value="">
                                                     <input type="hidden" name="trid" id="trid" value="">
@@ -539,6 +555,7 @@ $c_cliente->setIdEmpresa($_SESSION['id_empresa']);
                     let datos = json[0];
                     console.log(datos);
                     $("#documentoEditar").val(datos.documento);
+                    $("#tipoDocumentoEditar").val(datos.tipo_documento || "1");
                     $("#datosEditar").val(datos.datos);
                     $("#direccionEditar").val(datos.direccion);
                     $("#direccionEditar2").val(datos.direccion2);

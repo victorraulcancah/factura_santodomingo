@@ -140,6 +140,12 @@ echo "ERROR";
                             <span>COTIZACIONES</span>
                         </a>
                     </li>
+                    <li>
+                        <a href="/clientes" class=" waves-effect menu-link">
+                            <i class="ti-calendar"></i>
+                            <span>CLIENTES</span>
+                        </a>
+                    </li>
                 <?php endif; ?>
 		 <?php if ($id_role == 3) : ?>
 		   

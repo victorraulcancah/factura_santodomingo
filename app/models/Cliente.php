@@ -410,7 +410,13 @@ class Cliente
     }
     public function editar($id)
     {
-        $sql = "UPDATE clientes SET datos ='$this->datos',documento ='$this->documento',direccion ='$this->direccion',direccion2 ='$this->direccion2',telefono ='$this->telefono',telefono2 ='$this->telefono2',email='$this->email', departamento='$this->departamento', provincia='$this->provincia', distrito='$this->distrito', fecha_nacimiento=".($this->fecha_nacimiento ? "'$this->fecha_nacimiento'" : "NULL")." WHERE id_cliente = $id";
+        $sql = "UPDATE clientes SET datos ='$this->datos',documento ='$this->documento',tipo_documento ='$this->tipo_documento',direccion ='$this->direccion',direccion2 ='$this->direccion2',telefono ='$this->telefono',telefono2 ='$this->telefono2',email='$this->email', departamento='$this->departamento', provincia='$this->provincia', distrito='$this->distrito', fecha_nacimiento=".($this->fecha_nacimiento ? "'$this->fecha_nacimiento'" : "NULL")." WHERE id_cliente = $id";
+
+        // Un usuario que no es ADMIN solo puede editar los clientes que el registro
+        if ((int) ($_SESSION['rol'] ?? 0) !== 1) {
+            $sql .= " AND id_usuario = '" . (int) ($_SESSION['usuario_fac'] ?? 0) . "'";
+        }
+
         $result =  $this->conectar->query($sql);
         return $result;
     }

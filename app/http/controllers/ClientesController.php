@@ -63,7 +63,10 @@ class ClientesController extends Controller
     public function insertar()
     {
         if (!empty($_POST)) {
-            $doc = trim(filter_var($_POST['documentoAgregar'], FILTER_SANITIZE_NUMBER_INT));
+            $doc = trim($_POST['documentoAgregar'] ?? '');
+            if (($_POST['tipoDocumentoAgregar'] ?? '1') !== '4') {
+                $doc = trim(filter_var($doc, FILTER_SANITIZE_NUMBER_INT));
+            }
             $datosAgregar = trim(filter_var($_POST['datosAgregar'], FILTER_SANITIZE_STRING));
             $direccionAgregar = trim(filter_var($_POST['direccionAgregar'], FILTER_SANITIZE_STRING));
             $direccionAgregar2 = trim(filter_var($_POST['direccionAgregar2'], FILTER_SANITIZE_STRING));
@@ -71,6 +74,7 @@ class ClientesController extends Controller
             $provinciaAgregar = isset($_POST['provinciaAgregar']) ? trim(filter_var($_POST['provinciaAgregar'], FILTER_SANITIZE_STRING)) : null;
             $distritoAgregar = isset($_POST['distritoAgregar']) ? trim(filter_var($_POST['distritoAgregar'], FILTER_SANITIZE_STRING)) : null;
             $fecha_nacimientoAgregar = isset($_POST['fecha_nacimientoAgregar']) && !empty($_POST['fecha_nacimientoAgregar']) ? trim(filter_var($_POST['fecha_nacimientoAgregar'], FILTER_SANITIZE_STRING)) : null;
+            $tipoDocumentoAgregar = isset($_POST['tipoDocumentoAgregar']) ? trim($_POST['tipoDocumentoAgregar']) : '1';
             $telefonoAgregar = trim(filter_var($_POST['telefonoAgregar'], FILTER_SANITIZE_NUMBER_INT));
             $telefonoAgregar2 = trim(filter_var($_POST['telefonoAgregar2'], FILTER_SANITIZE_NUMBER_INT));
             $direccion = trim(filter_var($_POST['direccion'], FILTER_VALIDATE_EMAIL, FILTER_SANITIZE_EMAIL));
@@ -79,8 +83,10 @@ class ClientesController extends Controller
             if ($doc !== "" && $datosAgregar !== "") {
                 $telefonoTrueInt = filter_var($telefonoIntVal, FILTER_VALIDATE_INT);
                 $doctTrueInt = filter_var($docIntVal, FILTER_VALIDATE_INT);
-                if ($doctTrueInt == true) {
+                // El carnet de extranjeria puede ser alfanumerico, no se exige que sea numerico
+                if ($doctTrueInt == true || $tipoDocumentoAgregar === '4') {
                     $this->cliente->setDocumento($doc);
+                    $this->cliente->setTipoDocumento($tipoDocumentoAgregar);
                     $this->cliente->setDatos($datosAgregar);
                     $this->cliente->setDireccion($direccionAgregar);
                     $this->cliente->setDireccion2($direccionAgregar2);
@@ -143,6 +149,7 @@ class ClientesController extends Controller
             $provinciaEditar = isset($_POST['provinciaEditar']) ? trim(filter_var($_POST['provinciaEditar'], FILTER_SANITIZE_STRING)) : null;
             $distritoEditar = isset($_POST['distritoEditar']) ? trim(filter_var($_POST['distritoEditar'], FILTER_SANITIZE_STRING)) : null;
             $fecha_nacimientoEditar = isset($_POST['fecha_nacimientoEditar']) && !empty($_POST['fecha_nacimientoEditar']) ? trim(filter_var($_POST['fecha_nacimientoEditar'], FILTER_SANITIZE_STRING)) : null;
+            $tipoDocumentoEditar = isset($_POST['tipoDocumentoEditar']) ? trim($_POST['tipoDocumentoEditar']) : '1';
             $telefonoEditar = trim(filter_var($_POST['telefonoEditar'], FILTER_SANITIZE_STRING));
             $telefonoEditar2 = trim(filter_var($_POST['telefonoEditar2'], FILTER_SANITIZE_STRING));
             $emailEditar = trim(filter_var($_POST['emailEditar'], FILTER_SANITIZE_EMAIL));
@@ -154,8 +161,10 @@ class ClientesController extends Controller
                 $telefonoTrueInt = filter_var($telefonoIntVal, FILTER_VALIDATE_INT);
                 $doctTrueInt = filter_var($docIntVal, FILTER_VALIDATE_INT);
 
-                if ($doctTrueInt == true && strlen($docIntVal) == 8 || strlen($docIntVal) == 11) {
+                // El carnet de extranjeria puede ser alfanumerico y de otra longitud
+                if ($tipoDocumentoEditar === '4' || ($doctTrueInt == true && strlen($docIntVal) == 8) || strlen($docIntVal) == 11) {
                     $this->cliente->setDocumento($doc);
+                    $this->cliente->setTipoDocumento($tipoDocumentoEditar);
                     $this->cliente->setDatos($datosEditar);
                     $this->cliente->setDireccion($direccionEditar);
                     $this->cliente->setDireccion2($direccionEditar2);
