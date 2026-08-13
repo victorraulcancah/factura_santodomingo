@@ -28,7 +28,7 @@ $c_cliente->setIdEmpresa($_SESSION['id_empresa']);
 
                     <div class="col-md-6 text-end">
                         <button type="button" data-bs-toggle="modal" data-bs-target="#importarModal" class="btn btn-success"><i class="fa fa-file-excel"></i> Importar</button>
-                        <a href="<?= _URL ?>/ajs/clientes/exportar" target="_blank" class="btn btn-success"><i class="fa fa-file-excel"></i> Exportar</a>
+                        <a href="<?= URL::base() ?>/ajs/clientes/exportar" target="_blank" class="btn btn-success"><i class="fa fa-file-excel"></i> Exportar</a>
                         <!-- <button class="btn btn-success"><i class="fa fa-file-excel"></i> Importar</button> -->
                     </div>
                 </div>
@@ -294,8 +294,10 @@ $c_cliente->setIdEmpresa($_SESSION['id_empresa']);
                                 <thead>
                                     <tr>
                                         <th>Item</th>
+                                        <th>Tipo Doc.</th>
                                         <th>Documento</th>
                                         <th>Nombre/Razon Social</th>
+                                        <th>Vendedor</th>
                                         <th>Direccion</th>
                                         <th>Telefono</th>
                                         <th>Email</th>
@@ -376,12 +378,25 @@ $c_cliente->setIdEmpresa($_SESSION['id_empresa']);
                     class: "text-center",
                 },
                 {
+                    data: "tipo_documento_desc",
+                    class: "text-center",
+                    defaultContent: "",
+                },
+                {
                     data: "documento",
                     class: "text-center",
                 },
                 {
                     data: "datos",
                     class: "text-center",
+                },
+                {
+                    data: "vendedor",
+                    class: "text-center",
+                    defaultContent: "",
+                    render: function(data) {
+                        return data ? data : "-";
+                    },
                 },
                 {
                     data: "direccion",
@@ -511,7 +526,7 @@ $c_cliente->setIdEmpresa($_SESSION['id_empresa']);
             $("#editarModal").modal("show");
             $("#editarModal")
                 .find(".modal-title")
-                .text("Editar cliente N°" + id);
+                .text("Editar cliente Nï¿½" + id);
             $.ajax({
                 url: _URL + "/ajs/clientes/getOne",
                 data: {

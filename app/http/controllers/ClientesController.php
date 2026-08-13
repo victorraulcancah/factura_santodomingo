@@ -266,6 +266,8 @@ class ClientesController extends Controller
         $sheet->setCellValue('I1', 'Provincia');
         $sheet->setCellValue('J1', 'Distrito');
         $sheet->setCellValue('K1', 'Fecha Nacimiento');
+        $sheet->setCellValue('L1', 'Tipo Documento');
+        $sheet->setCellValue('M1', 'Vendedor');
 
         // Datos
         $fila = 2;
@@ -284,6 +286,8 @@ class ClientesController extends Controller
             $sheet->setCellValue('I' . $fila, $cFull['provincia'] ?? '');
             $sheet->setCellValue('J' . $fila, $cFull['distrito'] ?? '');
             $sheet->setCellValue('K' . $fila, $cFull['fecha_nacimiento'] ?? '');
+            $sheet->setCellValue('L' . $fila, $c['tipo_documento_desc'] ?? '');
+            $sheet->setCellValue('M' . $fila, $c['vendedor'] ?? '');
             $fila++;
         }
 

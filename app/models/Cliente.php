@@ -301,9 +301,22 @@ class Cliente
             $filtroUsuario = "";
             if ((int) ($_SESSION['rol'] ?? 0) !== 1) {
                 $idUsuario = (int) ($_SESSION['usuario_fac'] ?? 0);
-                $filtroUsuario = " and id_usuario = '$idUsuario'";
+                $filtroUsuario = " and c.id_usuario = '$idUsuario'";
             }
-            $sql = "SELECT id_cliente,documento,tipo_documento,datos,direccion,direccion2,telefono,telefono2,email,ultima_venta,total_venta,departamento,provincia,distrito,fecha_nacimiento FROM clientes where id_empresa='{$_SESSION['id_empresa']}'$filtroUsuario";
+            $sql = "SELECT c.id_cliente,c.documento,c.tipo_documento,
+                    CASE c.tipo_documento
+                        WHEN '6' THEN 'RUC'
+                        WHEN '4' THEN 'C. EXTRANJERIA'
+                        WHEN '7' THEN 'PASAPORTE'
+                        ELSE 'DNI'
+                    END as tipo_documento_desc,
+                    c.datos,c.direccion,c.direccion2,c.telefono,c.telefono2,c.email,
+                    c.ultima_venta,c.total_venta,c.departamento,c.provincia,c.distrito,c.fecha_nacimiento,
+                    c.id_usuario,
+                    NULLIF(TRIM(COALESCE(NULLIF(TRIM(u.nombres_apellidos),''), u.usuario)),'') as vendedor
+                    FROM clientes c
+                    LEFT JOIN usuarios u ON u.usuario_id = c.id_usuario
+                    where c.id_empresa='{$_SESSION['id_empresa']}'$filtroUsuario";
             $fila = mysqli_query($this->conectar, $sql);
             return mysqli_fetch_all($fila, MYSQLI_ASSOC);
         } catch (Exception $e) {
