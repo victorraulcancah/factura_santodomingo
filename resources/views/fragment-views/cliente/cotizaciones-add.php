@@ -109,11 +109,17 @@
                                                                     <input v-model="producto.serie" class="form-control text-center" type="text" placeholder="0">
                                                                 </div>
                                                             </div>
-                                                            <div class="col-lg-2">
-                                                                <button id="submit-a-product" type="submit" class="btn btn-success"
-                                                                    :disabled="puedeAgregarCoti === false"
-                                                                    :title="puedeAgregarCoti === false ? 'Elige presentacion primero' : ''"><i class="fa fa-check"></i> Agregar
-                                                                </button>
+                                                            <div class="col-lg-3">
+                                                                <div class="btn-group">
+                                                                    <button id="submit-a-product" type="submit" class="btn btn-success"
+                                                                        :disabled="puedeAgregarCoti === false"
+                                                                        :title="puedeAgregarCoti === false ? 'Elige presentacion primero' : ''"><i class="fa fa-check"></i> Agregar
+                                                                    </button>
+                                                                    <button type="button" @click="agregarComoRegalo" class="btn btn-outline-success"
+                                                                        :disabled="puedeAgregarCoti === false"
+                                                                        title="Agregar este producto como obsequio (precio 0)"><i class="fa fa-gift"></i> Regalo
+                                                                    </button>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div class="row" v-if="producto.id_unidad_derivada && !producto.presentacion">
@@ -181,11 +187,12 @@
                                                     </tr>
                                                 </thead>
                                                 <tbody>
-                                                    <tr v-for="(item,index) in productos">
+                                                    <tr v-for="(item,index) in productos" :class="{'table-success': item.regalo}">
                                                         <td>{{index+1}}</td>
                                                         <td>{{item.codigo_prod}}</td>
                                                         <td>
                                                             {{item.descripcion}}
+                                                            <span v-if="item.regalo" class="badge bg-success">REGALO</span>
                                                         </td>
                                                         <td>
                                                             <span v-if="item.cajas_vendidas" class="badge bg-info">
@@ -197,7 +204,7 @@
                                                         <td><input v-if="item.editable" v-model="item.cantidad">
                                                             <span v-if="!item.editable">{{item.cantidad}}</span>
                                                         </td>
-                                                        <td><input v-if="item.editable" v-model="item.precioVenta">
+                                                        <td><input v-if="item.editable" :disabled="item.regalo" v-model="item.precioVenta">
                                                             <span v-if="!item.editable">{{item.precioVenta}}</span>
                                                         </td>
                                                         <td>{{item.precioVenta*item.cantidad}}</td>
@@ -208,6 +215,9 @@
                                                         <td><button @click="eliminarItemPro(index)" type="button" class="btn btn-danger btn-sm">
                                                                 <i class="fa fa-times"></i>
                                                             </button>
+                                                            <button @click="toggleRegalo(index)" type="button"
+                                                                :class="item.regalo ? 'btn btn-success btn-sm' : 'btn btn-outline-success btn-sm'"
+                                                                :title="item.regalo ? 'Quitar regalo' : 'Marcar como regalo'"><i class="fa fa-gift"></i></button>
 
                                                             <button v-if="!item.editable" @click="item.editable=true" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></button>
                                                             <button v-if="item.editable" @click="item.editable=false" class="btn btn-warning btn-sm"><i class="fa fa-save"></i></button>
@@ -560,6 +570,7 @@
                 productos: [],
                 precioProductos: [],
                 usar_precio: '5',
+                marcarRegalo: false,
                 venta: {
                     dir_pos: 1,
                     tipo_doc: '1',
@@ -763,6 +774,25 @@
                 eliminarItemPro(index) {
                     this.productos.splice(index, 1)
                 },
+                // Marca/desmarca el producto como obsequio: precio 0, guardando el
+                // precio original para poder restaurarlo
+                toggleRegalo(index) {
+                    const item = this.productos[index]
+                    if (item.regalo) {
+                        this.$set(item, 'precioVenta', item.precioAntesRegalo !== undefined ? item.precioAntesRegalo : item.precioVenta)
+                        this.$set(item, 'regalo', false)
+                    } else {
+                        this.$set(item, 'precioAntesRegalo', item.precioVenta)
+                        this.$set(item, 'precioVenta', 0)
+                        this.$set(item, 'regalo', true)
+                    }
+                },
+                // Dispara el mismo flujo de "Agregar", pero marcando el item como regalo
+                agregarComoRegalo() {
+                    this.marcarRegalo = true
+                    this.addProduct()
+                    this.marcarRegalo = false
+                },
                 buscarDocumentSS() {
                     if (this.venta.tipo_doc_cli == '4') {
                         alertAdvertencia("La consulta en linea solo aplica para DNI o RUC")
@@ -923,6 +953,14 @@
                                 prod.cantidad = cajas * upc;  // stock en unidades base
                             }
                             // En modo 'unidad': cantidad queda como esta, precioVenta ya est� dividido
+                        }
+
+                        // Si se agrego con el boton Regalo, entra con precio 0
+                        if (this.marcarRegalo) {
+                            prod.precioAntesRegalo = prod.precioVenta
+                            prod.precioVenta = 0
+                            prod.regalo = true
+                            this.marcarRegalo = false
                         }
 
                         this.productos.push(prod)

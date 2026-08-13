@@ -14,3 +14,8 @@ ALTER TABLE `clientes` MODIFY `documento` VARCHAR(20) COLLATE utf8_spanish_ci DE
 ALTER TABLE `ventas` ADD COLUMN `id_usuario` INT(11) DEFAULT NULL;
 
 ALTER TABLE `ventas` ADD INDEX `idx_ventas_id_usuario` (`id_usuario`);
+
+-- Productos entregados como obsequio (precio 0 pero con costo)
+ALTER TABLE `productos_ventas` ADD COLUMN `es_regalo` TINYINT(1) NOT NULL DEFAULT 0;
+
+ALTER TABLE `productos_cotis` ADD COLUMN `es_regalo` TINYINT(1) NOT NULL DEFAULT 0;

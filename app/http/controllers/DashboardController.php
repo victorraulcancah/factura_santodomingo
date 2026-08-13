@@ -42,8 +42,10 @@ class DashboardController extends Controller
         $respuesta = [
             'res'        => true,
             'esVendedor' => $esVendedor,
-            'cnt_cli'    => $data['cnt_cli'],
-            'totalCajas' => $data['totalCajas'],
+            'cnt_cli'      => $data['cnt_cli'],
+            'totalCajas'   => $data['totalCajas'],
+            'totalRegalos' => $data['totalRegalos'],
+            'costoRegalos' => $data['costoRegalos'],
         ];
 
         if ($esVendedor) {

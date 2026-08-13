@@ -992,11 +992,25 @@
                 return json_encode($resultado);
             }
 
+            // Lo escrito en el formulario, para no perderlo si el cliente ya existe
+            // (verificarDocumento sobrescribe el objeto con lo que hay en la BD)
+            $datosEscritos = [
+                'datos'          => filter_input(INPUT_POST, 'nom_cli'),
+                'tipo_documento' => $c_cliente->getTipoDocumento(),
+                'direccion'      => filter_input(INPUT_POST, 'dir_cli'),
+                'direccion2'     => filter_input(INPUT_POST, 'dir2_cli'),
+                'telefono'       => filter_input(INPUT_POST, 'tel_cli'),
+            ];
+
             if ($c_cliente->getDocumento() == "") {
                 $c_cliente->setDocumento("SD" . $c_varios->generarCodigo(5));
                 $c_cliente->insertar();
             } else {
-                if (!$c_cliente->verificarDocumento()) {
+                if ($c_cliente->verificarDocumento()) {
+                    // Cliente existente: guardar lo que se haya escrito ahora
+                    $c_cliente->completarDatos($datosEscritos);
+                    $c_cliente->verificarDocumento();
+                } else {
                     $c_cliente->insertar();
                 }
             }
@@ -1105,10 +1119,15 @@
                 if ($tipoventa == 1) {
                     $c_detalle->setIdVenta($c_venta->getIdVenta());
                     foreach ($array_detalle as $fila) {
+                        // Un regalo va siempre a precio 0, pero conserva su costo
+                        $esRegalo = !empty($fila['regalo']);
+                        $precioFila = $esRegalo ? 0 : $fila['precioVenta'];
+
                         $c_detalle->setIdProducto($fila['productoid']);
                         $c_detalle->setCantidad($fila['cantidad']);
                         $c_detalle->setCosto($fila['costo']);
-                        $c_detalle->setPrecio($_POST['moneda'] == 1 ? $fila['precioVenta'] : $fila['precioVenta'] / $_POST['tc']);
+                        $c_detalle->setEsRegalo($esRegalo);
+                        $c_detalle->setPrecio($_POST['moneda'] == 1 ? $precioFila : $precioFila / $_POST['tc']);
                         $c_detalle->setPrecioUsado($_POST['moneda'] == 1 ? $fila['precio_usado'] : $fila['precio_usado'] / $_POST['tc']);
 				if ($fila['serie']=='') {
 				   $newSerie = $fila['serie_producto'];

@@ -42,7 +42,13 @@ class DashboardTotales
                     WHERE id_empresa='$empresa' AND estado <> '2' AND sucursal='$sucursal' AND id_usuario='$usuario_id'$rangoCoti) ventaTotal,
                 (SELECT COALESCE(SUM(pc.cantidad), 0) FROM productos_cotis pc
                     INNER JOIN cotizaciones c ON pc.id_coti = c.cotizacion_id
-                    WHERE c.id_empresa='$empresa' AND c.estado <> '2' AND c.sucursal='$sucursal' AND c.id_usuario='$usuario_id'$rangoCotiC) totalCajas";
+                    WHERE c.id_empresa='$empresa' AND c.estado <> '2' AND c.sucursal='$sucursal' AND c.id_usuario='$usuario_id'$rangoCotiC) totalCajas,
+                (SELECT COALESCE(SUM(pc.cantidad), 0) FROM productos_cotis pc
+                    INNER JOIN cotizaciones c ON pc.id_coti = c.cotizacion_id
+                    WHERE c.id_empresa='$empresa' AND c.estado <> '2' AND c.sucursal='$sucursal' AND c.id_usuario='$usuario_id' AND pc.es_regalo = 1$rangoCotiC) totalRegalos,
+                (SELECT COALESCE(SUM(pc.cantidad * pc.costo), 0) FROM productos_cotis pc
+                    INNER JOIN cotizaciones c ON pc.id_coti = c.cotizacion_id
+                    WHERE c.id_empresa='$empresa' AND c.estado <> '2' AND c.sucursal='$sucursal' AND c.id_usuario='$usuario_id' AND pc.es_regalo = 1$rangoCotiC) costoRegalos";
         } else {
             // Admin: ventas confirmadas de la sucursal
             $rangoVen = $rango('fecha_emision');
@@ -57,13 +63,19 @@ class DashboardTotales
                     WHERE id_empresa='$empresa' AND sucursal='$sucursal' AND id_tido = 1 AND estado = '1'$rangoVen) totalvB,
                 (SELECT COALESCE(SUM(pv.cantidad), 0) FROM productos_ventas pv
                     INNER JOIN ventas v ON pv.id_venta = v.id_venta
-                    WHERE v.id_empresa='$empresa' AND v.estado = '1' AND v.sucursal='$sucursal'$rangoVenV) totalCajas";
+                    WHERE v.id_empresa='$empresa' AND v.estado = '1' AND v.sucursal='$sucursal'$rangoVenV) totalCajas,
+                (SELECT COALESCE(SUM(pv.cantidad), 0) FROM productos_ventas pv
+                    INNER JOIN ventas v ON pv.id_venta = v.id_venta
+                    WHERE v.id_empresa='$empresa' AND v.estado = '1' AND v.sucursal='$sucursal' AND pv.es_regalo = 1$rangoVenV) totalRegalos,
+                (SELECT COALESCE(SUM(pv.cantidad * pv.costo), 0) FROM productos_ventas pv
+                    INNER JOIN ventas v ON pv.id_venta = v.id_venta
+                    WHERE v.id_empresa='$empresa' AND v.estado = '1' AND v.sucursal='$sucursal' AND pv.es_regalo = 1$rangoVenV) costoRegalos";
         }
 
         $data = $conexion->query($sql)->fetch_assoc() ?: [];
 
         // Normalizar: las sumas devuelven NULL cuando no hay filas en el rango
-        foreach (['totalv', 'totalvF', 'totalvB', 'ventaTotal', 'totalCajas'] as $campo) {
+        foreach (['totalv', 'totalvF', 'totalvB', 'ventaTotal', 'totalCajas', 'totalRegalos', 'costoRegalos'] as $campo) {
             $data[$campo] = floatval($data[$campo] ?? 0);
         }
         $data['cnt_cli'] = intval($data['cnt_cli'] ?? 0);

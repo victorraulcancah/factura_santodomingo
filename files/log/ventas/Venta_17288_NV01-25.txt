@@ -1,0 +1,7 @@
+Venta: 17288, fecha: 2026-08-13
+
+Prod: insert into productos_ventas
+        (id_producto, id_venta, cantidad, precio, costo, precio_usado, serie, es_regalo)
+        values ('41374', '17288', '5', '150.0000', '110.0000', '1', '01CVDS', '0') - trueProd: insert into productos_ventas
+        (id_producto, id_venta, cantidad, precio, costo, precio_usado, serie, es_regalo)
+        values ('41374', '17288', '1', '0', '110.0000', '1', '', '1') - true

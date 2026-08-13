@@ -151,12 +151,20 @@ if (isset($_GET["coti"])) {
 											<label for="example-text-input" style="visibility: hidden"
 												class="col-sm-4 col-form-label">Serie</label>
 											<div class="col-sm-12" style="text-align: right;">
-												<button style="width: 100%" id="submit-a-product" type="submit"
-													class="btn btn-success"
-													:disabled="puedeAgregarVenta === false"
-													:title="puedeAgregarVenta === false ? 'Elige presentacion primero' : ''"><i
-														class="fa fa-check"></i> Agregar
-												</button>
+												<div class="btn-group" style="width: 100%">
+													<button id="submit-a-product" type="submit"
+														class="btn btn-success"
+														:disabled="puedeAgregarVenta === false"
+														:title="puedeAgregarVenta === false ? 'Elige presentacion primero' : ''"><i
+															class="fa fa-check"></i> Agregar
+													</button>
+													<button type="button" @click="agregarComoRegalo"
+														class="btn btn-outline-success"
+														:disabled="puedeAgregarVenta === false"
+														title="Agregar este producto como obsequio (precio 0)"><i
+															class="fa fa-gift"></i> Regalo
+													</button>
+												</div>
 											</div>
 										</div>
 										<div class="col-lg-12" v-if="producto.id_unidad_derivada && !producto.presentacion">
@@ -219,9 +227,12 @@ if (isset($_GET["coti"])) {
 									</tr>
 								</thead>
 								<tbody>
-									<tr v-for="(item,index) in productos">
+									<tr v-for="(item,index) in productos" :class="{'table-success': item.regalo}">
 										<td>{{index+1}}</td>
-										<td>{{item.descripcion}}</td>
+										<td>
+											{{item.descripcion}}
+											<span v-if="item.regalo" class="badge bg-success">REGALO</span>
+										</td>
 										<td>
 											<span v-if="item.cajas_vendidas" class="badge bg-info">
 												{{item.unidad_derivada_nombre || 'Caja'}} x {{item.unidades_por_caja}}
@@ -233,7 +244,7 @@ if (isset($_GET["coti"])) {
 												v-model="item.cantidad">
 										</td>
 										<td><span v-if="!item.edicion">{{item.precioVenta}}</span><input v-if="item.edicion"
-												v-model="item.precioVenta">
+												:disabled="item.regalo" v-model="item.precioVenta">
 										</td>
 										<td>{{item.precioVenta*item.cantidad}}</td>
 										<td><span v-if="!item.edicion">{{item.serie_producto}}</span><input
@@ -244,6 +255,11 @@ if (isset($_GET["coti"])) {
 											<button @click="eliminarItemPro(index)" type="button"
 												class="btn btn-danger btn-sm">
 												<i class="fa fa-times"></i>
+											</button>
+											<button @click="toggleRegalo(index)" type="button"
+												:class="item.regalo ? 'btn btn-success btn-sm' : 'btn btn-outline-success btn-sm'"
+												:title="item.regalo ? 'Quitar regalo' : 'Marcar como regalo'">
+												<i class="fa fa-gift"></i>
 											</button>
 											<button v-if="!item.edicion" @click="item.edicion=true"
 												class="btn btn-info btn-sm"><i class="fa fa-edit"></i></button>
@@ -878,6 +894,7 @@ if (isset($_GET["coti"])) {
 					presentacion: ''
 				},
 				usar_precio: '5',
+				marcarRegalo: false,
 				productos: [],
 				metodosPago: [],
 				precioProductos: [],
@@ -1366,6 +1383,19 @@ if (isset($_GET["coti"])) {
 					this.productos.splice(index, 1)
 					/*  this.producto.almacen = 1 */
 				},
+				// Marca/desmarca el producto como obsequio: precio 0, guardando el
+				// precio original para poder restaurarlo
+				toggleRegalo(index) {
+					const item = this.productos[index]
+					if (item.regalo) {
+						this.$set(item, 'precioVenta', item.precioAntesRegalo !== undefined ? item.precioAntesRegalo : item.precioVenta)
+						this.$set(item, 'regalo', false)
+					} else {
+						this.$set(item, 'precioAntesRegalo', item.precioVenta)
+						this.$set(item, 'precioVenta', 0)
+						this.$set(item, 'regalo', true)
+					}
+				},
 				buscarDocumentSS() {
 					if (this.venta.tipo_doc_cli == '4') {
 						alertAdvertencia("La consulta en linea solo aplica para DNI o RUC")
@@ -1582,6 +1612,13 @@ if (isset($_GET["coti"])) {
 
 
 				},
+				// Dispara el mismo flujo de "Agregar", pero marcando el item como regalo
+				agregarComoRegalo() {
+					this.marcarRegalo = true
+					this.addProduct()
+					// Si addProduct no llego a agregar (validacion), no dejar la marca puesta
+					this.marcarRegalo = false
+				},
 				addProduct() {
 					// Validacion: si el producto tiene unidad derivada, exigir presentacion
 					if (this.producto.id_unidad_derivada && !this.producto.presentacion) {
@@ -1606,6 +1643,14 @@ if (isset($_GET["coti"])) {
 								prod.cajas_vendidas = cajas;
 								prod.cantidad = cajas * upc;
 							}
+						}
+
+						// Si se agrego con el boton Regalo, entra con precio 0
+						if (this.marcarRegalo) {
+							prod.precioAntesRegalo = prod.precioVenta
+							prod.precioVenta = 0
+							prod.regalo = true
+							this.marcarRegalo = false
 						}
 
 						//console.log(this.producto)

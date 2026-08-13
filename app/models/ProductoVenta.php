@@ -10,6 +10,7 @@ class ProductoVenta
     private $conectar;
     private $precio_usado;
     private $serie;
+    private $es_regalo = 0;
 
     private $sql;
     private $sql_error;
@@ -161,11 +162,22 @@ class ProductoVenta
         $this->serie = $serie;
     }
 
+    public function setEsRegalo($es_regalo)
+    {
+        $this->es_regalo = $es_regalo ? 1 : 0;
+    }
+
+    public function getEsRegalo()
+    {
+        return $this->es_regalo;
+    }
+
     public function insertar()
     {
 
-	$sql = "insert into productos_ventas 
-        values ('$this->id_producto', '$this->id_venta', '$this->cantidad', '$this->precio', '$this->costo', '$this->precio_usado', '$this->serie')";
+	$sql = "insert into productos_ventas
+        (id_producto, id_venta, cantidad, precio, costo, precio_usado, serie, es_regalo)
+        values ('$this->id_producto', '$this->id_venta', '$this->cantidad', '$this->precio', '$this->costo', '$this->precio_usado', '$this->serie', '$this->es_regalo')";
         //echo $sql;
         $this->sql=$sql;
         $result = $this->conectar->query($sql);

@@ -279,6 +279,38 @@ class Cliente
         return false;
     }
 
+    /**
+     * Completa/actualiza los datos de un cliente que ya existe con lo que el
+     * usuario haya escrito. Solo toca los campos que vengan con contenido:
+     * lo que se deje en blanco no borra lo que ya estaba guardado.
+     */
+    public function completarDatos(array $valores)
+    {
+        if (!$this->id_cliente) {
+            return false;
+        }
+
+        $permitidos = ['datos', 'tipo_documento', 'direccion', 'direccion2', 'telefono', 'telefono2', 'email'];
+        $sets = [];
+        foreach ($permitidos as $campo) {
+            if (!isset($valores[$campo])) {
+                continue;
+            }
+            $valor = trim((string) $valores[$campo]);
+            if ($valor === '') {
+                continue;
+            }
+            $sets[] = "$campo = '" . $this->conectar->real_escape_string($valor) . "'";
+        }
+
+        if (empty($sets)) {
+            return false;
+        }
+
+        $sql = "update clientes set " . implode(', ', $sets) . " where id_cliente = '" . (int) $this->id_cliente . "'";
+        return $this->conectar->query($sql);
+    }
+
     public function verFilas()
     {
         $sql = "select * from clientes where id_empresa = '$this->id_empresa'";

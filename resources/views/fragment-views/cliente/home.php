@@ -103,7 +103,8 @@
     $clientesRecientes = [];
     if ($esVendedor) {
         $sqlCli = "SELECT cl.datos as nombre, cl.documento, c.fecha as ultima_fecha, c.total,
-                (SELECT COALESCE(SUM(pc.cantidad), 0) FROM productos_cotis pc WHERE pc.id_coti = c.cotizacion_id) as cajas
+                (SELECT COALESCE(SUM(pc.cantidad), 0) FROM productos_cotis pc WHERE pc.id_coti = c.cotizacion_id) as cajas,
+                (SELECT COALESCE(SUM(pc.cantidad), 0) FROM productos_cotis pc WHERE pc.id_coti = c.cotizacion_id AND pc.es_regalo = 1) as regalos
             FROM cotizaciones c
             LEFT JOIN clientes cl ON c.id_cliente = cl.id_cliente
             WHERE c.id_empresa='$empresa' AND c.sucursal='$sucursal' AND c.id_usuario='$usuario_id' AND c.estado <> '2'
@@ -116,7 +117,8 @@
                     NULLIF(TRIM(u.nombres_apellidos),''),
                     u.usuario
                 ) as vendedor,
-                (SELECT COALESCE(SUM(pc.cantidad), 0) FROM productos_cotis pc WHERE pc.id_coti = c.cotizacion_id) as cajas
+                (SELECT COALESCE(SUM(pc.cantidad), 0) FROM productos_cotis pc WHERE pc.id_coti = c.cotizacion_id) as cajas,
+                (SELECT COALESCE(SUM(pc.cantidad), 0) FROM productos_cotis pc WHERE pc.id_coti = c.cotizacion_id AND pc.es_regalo = 1) as regalos
             FROM cotizaciones c
             LEFT JOIN clientes cl ON c.id_cliente = cl.id_cliente
             LEFT JOIN usuarios u ON c.id_usuario = u.usuario_id
@@ -139,7 +141,8 @@
     $sqlVen = "SELECT cl.datos as nombre, cl.documento, v.fecha_emision as ultima_fecha, v.total,
                 CONCAT(COALESCE(v.serie,''),'-',COALESCE(v.numero,'')) as comprobante,
                 $_expVendedor as vendedor,
-                (SELECT COALESCE(SUM(pv.cantidad), 0) FROM productos_ventas pv WHERE pv.id_venta = v.id_venta) as cajas
+                (SELECT COALESCE(SUM(pv.cantidad), 0) FROM productos_ventas pv WHERE pv.id_venta = v.id_venta) as cajas,
+                (SELECT COALESCE(SUM(pv.cantidad), 0) FROM productos_ventas pv WHERE pv.id_venta = v.id_venta AND pv.es_regalo = 1) as regalos
             FROM ventas v
             LEFT JOIN clientes cl ON v.id_cliente = cl.id_cliente
             LEFT JOIN usuarios u ON v.id_usuario = u.usuario_id
@@ -384,6 +387,25 @@
             </div>
         </div>
     </div>
+    <div class="col-xl-3 col-md-6">
+        <div class="card mini-stat bg-primary text-white">
+            <div class="card-body">
+                <div class="mb-4">
+                    <div class="float-start mini-stat-img me-4">
+                        <img src="<?=URL::to('public/assets/images/services-icon/01.png')?>" alt="">
+                    </div>
+                    <h5 class="font-size-16 text-uppercase text-white-50">Regalos</h5>
+                    <h4 class="fw-medium font-size-24"><span id="card-total-regalos"><?=formatCajas($data["totalRegalos"])?></span></h4>
+                    <div class="mini-stat-label bg-danger">
+                        <p class="mb-0">Periodo</p>
+                    </div>
+                </div>
+                <div class="pt-2">
+                    <p class="text-white-50 mb-0 mt-1">Costo: S/ <span id="card-costo-regalos"><?=number_format(floatval($data["costoRegalos"]), 2, ".", ",")?></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <?php endif; ?>
 <!-- end row -->
@@ -454,12 +476,13 @@
                                     <?php if ($_clave == 'ventas'): ?><th>Comprobante</th><?php endif; ?>
                                     <th>Fecha</th>
                                     <th>Cajas</th>
+                                    <th>Regalos</th>
                                     <th>Total</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <?php foreach ($_tabla['filas'] as $cli): ?>
-                                <tr class="fila-reciente" data-fecha="<?=$cli['ultima_fecha']?>" data-cajas="<?=floatval($cli['cajas'])?>" data-total="<?=floatval($cli['total'])?>">
+                                <tr class="fila-reciente" data-fecha="<?=$cli['ultima_fecha']?>" data-cajas="<?=floatval($cli['cajas'])?>" data-regalos="<?=floatval($cli['regalos'])?>" data-total="<?=floatval($cli['total'])?>">
                                     <td class="col-item"></td>
                                     <?php if (!$esVendedor): ?><td><?=$cli['vendedor'] ?: '-'?></td><?php endif; ?>
                                     <td><?=$cli['nombre']?></td>
@@ -467,11 +490,14 @@
                                     <?php if ($_clave == 'ventas'): ?><td><?=$cli['comprobante']?></td><?php endif; ?>
                                     <td><?=$cli['ultima_fecha']?></td>
                                     <td><?=formatCajas($cli['cajas'])?></td>
+                                    <td><?= floatval($cli['regalos']) > 0
+                                            ? '<span class="badge bg-success">' . formatCajas($cli['regalos']) . '</span>'
+                                            : '-' ?></td>
                                     <td>S/ <?=number_format($cli['total'], 2, '.', ',')?></td>
                                 </tr>
                                 <?php endforeach; ?>
                                 <tr class="sin-resultados" style="display: none;">
-                                    <td colspan="<?= 6 + (!$esVendedor ? 1 : 0) + ($_clave == 'ventas' ? 1 : 0) ?>" class="text-muted">
+                                    <td colspan="<?= 7 + (!$esVendedor ? 1 : 0) + ($_clave == 'ventas' ? 1 : 0) ?>" class="text-muted">
                                         No hay registros en el rango de fechas seleccionado.
                                     </td>
                                 </tr>
@@ -480,6 +506,7 @@
                                 <tr class="table-dark fw-bold">
                                     <td colspan="<?= 4 + (!$esVendedor ? 1 : 0) + ($_clave == 'ventas' ? 1 : 0) ?>" class="text-end">TOTAL</td>
                                     <td class="total-cajas">0</td>
+                                    <td class="total-regalos">0</td>
                                     <td class="total-monto">S/ 0.00</td>
                                 </tr>
                             </tfoot>
@@ -538,6 +565,7 @@
             var min = desde.value;
             var max = hasta.value;
             var sumCajas = 0;
+            var sumRegalos = 0;
             var sumTotal = 0;
             var filtradas = [];
 
@@ -547,6 +575,7 @@
                 if (dentro) {
                     filtradas.push(fila);
                     sumCajas += parseFloat(fila.getAttribute("data-cajas")) || 0;
+                    sumRegalos += parseFloat(fila.getAttribute("data-regalos")) || 0;
                     sumTotal += parseFloat(fila.getAttribute("data-total")) || 0;
                 } else {
                     fila.style.display = "none";
@@ -576,9 +605,13 @@
             }
 
             var celdaCajas = tabla.querySelector(".total-cajas");
+            var celdaRegalos = tabla.querySelector(".total-regalos");
             var celdaMonto = tabla.querySelector(".total-monto");
             if (celdaCajas) {
                 celdaCajas.textContent = parseFloat(sumCajas.toFixed(2)).toString();
+            }
+            if (celdaRegalos) {
+                celdaRegalos.textContent = parseFloat(sumRegalos.toFixed(2)).toString();
             }
             if (celdaMonto) {
                 celdaMonto.textContent = "S/ " + sumTotal.toLocaleString("es-PE", {
@@ -637,6 +670,8 @@
                     return;
                 }
                 pintar("#card-total-cajas", parseFloat((parseFloat(resp.totalCajas) || 0).toFixed(2)).toString());
+                pintar("#card-total-regalos", parseFloat((parseFloat(resp.totalRegalos) || 0).toFixed(2)).toString());
+                pintar("#card-costo-regalos", money(resp.costoRegalos));
                 if (resp.esVendedor) {
                     pintar("#card-sueldo-base", money(resp.sueldo_base));
                     pintar("#card-bono-meta", money(resp.bono_meta));

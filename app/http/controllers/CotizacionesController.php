@@ -176,6 +176,17 @@ class CotizacionesController extends Controller
                     where documento ='$numDoc' and id_empresa='{$_SESSION['id_empresa']}'";
             if ($rowCl = $this->conexion->query($sql)->fetch_assoc()) {
                 $idCli = $rowCl['id_cliente'];
+
+                // Cliente existente: guardar los datos que se hayan escrito ahora.
+                // Lo que se deje en blanco no pisa lo que ya estaba guardado.
+                $sets = [
+                    "datos='$nomCli'",
+                    "tipo_documento='$tipoDocCli'",
+                ];
+                if ($dirCli !== '')  { $sets[] = "direccion='$dirCli'"; }
+                if ($dir2Cli !== '') { $sets[] = "direccion2='$dir2Cli'"; }
+                if ($telCli !== '')  { $sets[] = "telefono='$telCli'"; }
+                $this->conexion->query("update clientes set " . implode(', ', $sets) . " where id_cliente='$idCli'");
             }
         }
 
@@ -227,10 +238,15 @@ class CotizacionesController extends Controller
                 $this->conexion->query($sql);
             }
             foreach ($listaProd as $prod) {
+                // Un regalo va siempre a precio 0, pero conserva su costo
+                $esRegalo = !empty($prod['regalo']) ? 1 : 0;
+                $precioProd = $esRegalo ? 0 : $prod['precioVenta'];
+
                 $sql = "insert into productos_cotis set id_coti='$idCoti',
               id_producto='{$prod['productoid']}',
               cantidad='{$prod['cantidad']}',
-              precio='{$prod['precioVenta']}',
+              precio='$precioProd',
+              es_regalo='$esRegalo',
               costo='{$prod['costo']}',serie='{$prod['serie']}'";
                 $this->conexion->query($sql);
             }
