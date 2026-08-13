@@ -1,0 +1,11 @@
+Venta: 16700, fecha: 2025-12-13
+
+Prod: insert into productos_ventas 
+        values ('40552', '16700', '1', '690', '652.0000', '1', 'CDK 9AMW222S50236') - trueProd: insert into productos_ventas 
+        values ('41008', '16700', '1', '369', '286.0000', '1', 'CDK 601-7E76-020B2505007914') - trueProd: insert into productos_ventas 
+        values ('41145', '16700', '1', '649', '329.8700', '1', 'IMPCT 1P3601295126') - trueProd: insert into productos_ventas 
+        values ('40565', '16700', '1', '350', '250.0000', '1', 'CDCO 251719801130') - trueProd: insert into productos_ventas 
+        values ('40882', '16700', '1', '149', '97.0000', '1', 'CALE 4666MICP600-80+2255') - trueProd: insert into productos_ventas 
+        values ('41190', '16700', '1', '149.0000', '115.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40521', '16700', '1', '229', '209.4000', '1', 'DEL TE2415S129625082321') - trueProd: insert into productos_ventas 
+        values ('41031', '16700', '1', '35', '25.0000', '1', 'ROG') - true

@@ -1,0 +1,9 @@
+Venta: 14515, fecha: 2025-05-01
+
+Prod: insert into productos_ventas 
+        values ('40577', '14515', '2', '96', '91.0000', '1', 'ca1227-1217') - trueProd: insert into productos_ventas 
+        values ('40656', '14515', '1', '439', '415.0000', '1', 'seda3680') - trueProd: insert into productos_ventas 
+        values ('40632', '14515', '2', '180', '160.0000', '1', 'smsheb43-ee2a') - trueProd: insert into productos_ventas 
+        values ('40483', '14515', '2', '115', '101.0000', '1', 'halion') - trueProd: insert into productos_ventas 
+        values ('40576', '14515', '1', '94', '66.0000', '1', 'impulso') - trueProd: insert into productos_ventas 
+        values ('40569', '14515', '1', '15', '7.6000', '1', 'impulso') - true

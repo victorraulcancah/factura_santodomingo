@@ -1,0 +1,5 @@
+Venta: 16515, fecha: 2025-11-29
+
+Prod: insert into productos_ventas 
+        values ('40564', '16515', '2', '160', '139.0000', '1', 'LP ASAD35330300534 | ASAD35330300531') - trueProd: insert into productos_ventas 
+        values ('41093', '16515', '1', '129', '105.0000', '1', 'CALE') - true

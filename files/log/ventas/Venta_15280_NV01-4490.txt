@@ -1,0 +1,8 @@
+Venta: 15280, fecha: 2025-07-18
+
+Prod: insert into productos_ventas 
+        values ('40535', '15280', '1', '599', '540.3300', '1', 'del  40120') - trueProd: insert into productos_ventas 
+        values ('40491', '15280', '1', '299.0000', '283.5000', '1', 'cms  3008942') - trueProd: insert into productos_ventas 
+        values ('40597', '15280', '1', '163', '150.0000', '1', 'ca 9430') - trueProd: insert into productos_ventas 
+        values ('40488', '15280', '1', '89', '72.0000', '1', 'ca  roog 60059') - trueProd: insert into productos_ventas 
+        values ('40616', '15280', '1', '79.0000', '56.6900', '1', 'impu') - true

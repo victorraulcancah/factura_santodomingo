@@ -1,0 +1,6 @@
+Venta: 15368, fecha: 2025-07-25
+
+Prod: insert into productos_ventas 
+        values ('40549', '15368', '1', '299', '239.9000', '1', 'AMA - W    50362') - trueProd: insert into productos_ventas 
+        values ('40558', '15368', '1', '361', '342.0000', '1', 'roy   4001501') - trueProd: insert into productos_ventas 
+        values ('40538', '15368', '1', '20.0000', '0.0000', '1', 'f') - true

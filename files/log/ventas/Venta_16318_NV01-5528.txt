@@ -1,0 +1,7 @@
+Venta: 16318, fecha: 2025-11-09
+
+Prod: insert into productos_ventas 
+        values ('40552', '16318', '1', '720', '650.1000', '1', 'DELT-S50153') - trueProd: insert into productos_ventas 
+        values ('41008', '16318', '1', '345.0000', '306.0000', '1', 'ROY-5004428') - trueProd: insert into productos_ventas 
+        values ('41041', '16318', '1', '170.0000', '147.0000', '1', 'ROG-200234') - trueProd: insert into productos_ventas 
+        values ('40521', '16318', '1', '229.0000', '221.8700', '1', 'DELT') - true

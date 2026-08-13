@@ -1,0 +1,11 @@
+Venta: 16535, fecha: 2025-11-29
+
+Prod: insert into productos_ventas 
+        values ('40708', '16535', '1', '529', '520.0000', '1', 'DEL U5WS087402261') - trueProd: insert into productos_ventas 
+        values ('41122', '16535', '1', '519', '430.0000', '1', 'LAB SN251260093099') - trueProd: insert into productos_ventas 
+        values ('41108', '16535', '1', '300', '150.0000', '1', 'ROD 12392') - trueProd: insert into productos_ventas 
+        values ('40599', '16535', '1', '999', '889.0000', '1', 'CMS Z2V021979') - trueProd: insert into productos_ventas 
+        values ('40941', '16535', '1', '199', '170.0000', '1', 'ROY 02959') - trueProd: insert into productos_ventas 
+        values ('40540', '16535', '1', '129', '97.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40862', '16535', '1', '345', '328.0000', '1', 'EDU 71544') - trueProd: insert into productos_ventas 
+        values ('40565', '16535', '1', '280', '247.0000', '1', 'LP 25197E800880') - true

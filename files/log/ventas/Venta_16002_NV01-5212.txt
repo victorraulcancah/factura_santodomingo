@@ -1,0 +1,16 @@
+Venta: 16002, fecha: 2025-09-29
+
+Prod: insert into productos_ventas 
+        values ('40659', '16002', '1', '640', '600.0000', '1', 'LABS   X441K999') - trueProd: insert into productos_ventas 
+        values ('40708', '16002', '1', '550', '536.4200', '1', 'CMS  702431') - trueProd: insert into productos_ventas 
+        values ('40702', '16002', '2', '289', '279.0000', '1', 'ROY  5605     5603') - trueProd: insert into productos_ventas 
+        values ('40587', '16002', '2', '170', '153.0000', '1', 'SMT   360139     60396') - trueProd: insert into productos_ventas 
+        values ('40915', '16002', '2', '125', '106.8900', '1', 'MAX  2465   2466') - trueProd: insert into productos_ventas 
+        values ('40629', '16002', '1', '60', '33.0000', '1', 'impu') - trueProd: insert into productos_ventas 
+        values ('41016', '16002', '1', '125', '95.0000', '1', 'rog 10099') - trueProd: insert into productos_ventas 
+        values ('40913', '16002', '1', '89', '75.0000', '1', 'LEVITROM') - trueProd: insert into productos_ventas 
+        values ('40540', '16002', '1', '130', '103.7200', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('41023', '16002', '1', '1181.93', '1151.5000', '1', 'IMPAC 23Z5') - trueProd: insert into productos_ventas 
+        values ('40698', '16002', '2', '47', '42.0000', '1', 'F') - trueProd: insert into productos_ventas 
+        values ('40521', '16002', '2', '249', '240.0000', '1', 'HU') - trueProd: insert into productos_ventas 
+        values ('40543', '16002', '2', '45', '36.9420', '1', 'F') - true

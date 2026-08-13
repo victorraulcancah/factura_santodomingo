@@ -1,0 +1,11 @@
+Venta: 16533, fecha: 2025-11-29
+
+Prod: insert into productos_ventas 
+        values ('40975', '16533', '1', '1199', '1208.5700', '1', 'SERC U58G7A3203521') - trueProd: insert into productos_ventas 
+        values ('40577', '16533', '1', '85', '70.5000', '1', 'GG 10000131880AJ252100562') - trueProd: insert into productos_ventas 
+        values ('41015', '16533', '1', '600', '430.0000', '1', 'SMT SN252000019665') - trueProd: insert into productos_ventas 
+        values ('40813', '16533', '1', '799', '348.6750', '1', 'SMT EF2409240110667 | EF2409240110668') - trueProd: insert into productos_ventas 
+        values ('41144', '16533', '1', '550', '441.4700', '1', 'IMPCT 022412120800161') - trueProd: insert into productos_ventas 
+        values ('40959', '16533', '1', '2499', '2409.3400', '1', 'CDK SN252241067587') - trueProd: insert into productos_ventas 
+        values ('40919', '16533', '1', '219', '202.9900', '1', 'CDK G750SASN252700622') - trueProd: insert into productos_ventas 
+        values ('40645', '16533', '1', '199.0000', '162.0000', '1', 'CALE') - true

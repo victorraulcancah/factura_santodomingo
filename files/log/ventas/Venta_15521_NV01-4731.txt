@@ -1,0 +1,11 @@
+Venta: 15521, fecha: 2025-08-08
+
+Prod: insert into productos_ventas 
+        values ('40583', '15521', '1', '1099.0000', '1007.1500', '1', 'del  9MQ1947R50159') - trueProd: insert into productos_ventas 
+        values ('40651', '15521', '1', '289.0000', '269.0000', '1', 'pega 601-7E28-010B2412003816') - trueProd: insert into productos_ventas 
+        values ('40770', '15521', '1', '160.0000', '145.0000', '1', 'roy 30170219717') - trueProd: insert into productos_ventas 
+        values ('40918', '15521', '1', '127', '108.6900', '1', 'max 68761') - trueProd: insert into productos_ventas 
+        values ('40882', '15521', '1', '125', '100.0000', '1', 'ca  4594P80B-600W1782') - trueProd: insert into productos_ventas 
+        values ('40913', '15521', '1', '99.0000', '79.0000', '1', 'roy') - trueProd: insert into productos_ventas 
+        values ('40521', '15521', '1', '250', '240.0000', '1', 'hu  SNCTM2504160384') - trueProd: insert into productos_ventas 
+        values ('40570', '15521', '1', '40', '25.5000', '1', 'impu') - true

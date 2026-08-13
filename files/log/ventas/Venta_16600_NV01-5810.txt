@@ -1,0 +1,11 @@
+Venta: 16600, fecha: 2025-12-04
+
+Prod: insert into productos_ventas 
+        values ('40708', '16600', '1', '539.0000', '554.4800', '1', 'LP U5GV232803031') - trueProd: insert into productos_ventas 
+        values ('41012', '16600', '1', '423', '362.0000', '1', 'ROY 601-7E02-070B2504013290') - trueProd: insert into productos_ventas 
+        values ('41145', '16600', '1', '399', '329.8700', '1', 'IMPCT 1P3601293388') - trueProd: insert into productos_ventas 
+        values ('41105', '16600', '1', '130', '95.0000', '1', 'HUM BTKA213609UY512A') - trueProd: insert into productos_ventas 
+        values ('40988', '16600', '1', '1299.0000', '1209.0000', '1', 'ROY 602-V537-109ST2509009399') - trueProd: insert into productos_ventas 
+        values ('41016', '16600', '1', '110', '95.0000', '1', 'ROG600B2503310019') - trueProd: insert into productos_ventas 
+        values ('40913', '16600', '1', '99', '70.7700', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40521', '16600', '1', '230', '209.4000', '1', 'DEL TE2415S129625081200') - true

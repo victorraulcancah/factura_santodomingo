@@ -1,0 +1,10 @@
+Venta: 15734, fecha: 2025-08-29
+
+Prod: insert into productos_ventas 
+        values ('40602', '15734', '1', '589.0000', '569.5000', '1', 'DEL 9MM2672O50007') - trueProd: insert into productos_ventas 
+        values ('40723', '15734', '1', '70.0000', '52.5000', '1', 'ROY 30171311426') - trueProd: insert into productos_ventas 
+        values ('40734', '15734', '1', '89.0000', '77.0000', '1', 'TACT 25027733') - trueProd: insert into productos_ventas 
+        values ('40557', '15734', '1', '222.0000', '184.5000', '1', 'ROY 601-7C96-120B2504061794') - trueProd: insert into productos_ventas 
+        values ('40494', '15734', '1', '89.0000', '58.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40563', '15734', '1', '65.0000', '54.0000', '1', 'HUM KCJT2504040449') - trueProd: insert into productos_ventas 
+        values ('40977', '15734', '1', '250.0000', '218.0000', '1', 'ROY 9176') - true

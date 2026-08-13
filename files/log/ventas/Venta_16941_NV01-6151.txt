@@ -1,0 +1,11 @@
+Venta: 16941, fecha: 2026-01-10
+
+Prod: insert into productos_ventas 
+        values ('40852', '16941', '1', '572', '532.0000', '1', 'TACT104827') - trueProd: insert into productos_ventas 
+        values ('40934', '16941', '1', '299', '243.0000', '1', 'CORP42376') - trueProd: insert into productos_ventas 
+        values ('40489', '16941', '1', '360', '305.0000', '1', 'MICRO277789') - trueProd: insert into productos_ventas 
+        values ('40564', '16941', '1', '220', '142.5000', '1', 'LP300643') - trueProd: insert into productos_ventas 
+        values ('40882', '16941', '1', '160', '92.0000', '1', 'CA1412') - trueProd: insert into productos_ventas 
+        values ('41207', '16941', '1', '129', '68.3400', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40988', '16941', '1', '1320', '1290.0000', '1', 'BANA1003270') - trueProd: insert into productos_ventas 
+        values ('41043', '16941', '1', '270', '175.7000', '1', 'MAXI4007') - true

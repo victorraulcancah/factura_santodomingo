@@ -1,0 +1,4 @@
+Venta: 15987, fecha: 2025-09-27
+
+Prod: insert into productos_ventas 
+        values ('40984', '15987', '1', '200', '180.0000', '1', 'tac  RDK551RGB-124122503362') - true

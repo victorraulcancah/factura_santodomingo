@@ -1,0 +1,12 @@
+Venta: 17102, fecha: 2026-01-31
+
+Prod: insert into productos_ventas 
+        values ('40804', '17102', '1', '560', '547.3000', '1', 'DEL U5DK477600544') - trueProd: insert into productos_ventas 
+        values ('41174', '17102', '1', '249', '200.0000', '1', 'REMA IH61EMDS-02_61002B24800651') - trueProd: insert into productos_ventas 
+        values ('40489', '17102', '1', '380', '305.0000', '1', 'MICROB S006467') - trueProd: insert into productos_ventas 
+        values ('40918', '17102', '1', '240', '148.9800', '1', 'GYG 30176977661') - trueProd: insert into productos_ventas 
+        values ('41265', '17102', '1', '750', '700.0000', '1', 'TAC B254700008436') - trueProd: insert into productos_ventas 
+        values ('41243', '17102', '1', '120.0000', '99.0000', '1', 'CALE TSMJC2507090845') - trueProd: insert into productos_ventas 
+        values ('41207', '17102', '1', '100', '68.3400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40521', '17102', '1', '229', '195.3200', '1', 'COMPUV TE2415S179525100150') - trueProd: insert into productos_ventas 
+        values ('40805', '17102', '1', '0', '6.8500', '1', 'FREEEEEEEE') - true

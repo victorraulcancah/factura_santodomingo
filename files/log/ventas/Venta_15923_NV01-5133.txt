@@ -1,0 +1,4 @@
+Venta: 15923, fecha: 2025-09-17
+
+Prod: insert into productos_ventas 
+        values ('40786', '15923', '1', '230.0000', '200.2900', '1', 'IMPA J2M0XB058975') - true

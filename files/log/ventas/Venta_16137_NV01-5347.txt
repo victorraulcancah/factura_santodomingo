@@ -1,0 +1,9 @@
+Venta: 16137, fecha: 2025-10-18
+
+Prod: insert into productos_ventas 
+        values ('40647', '16137', '1', '386', '296.7000', '1', 'MAR  9AMJ005Q50162_100-000000927') - trueProd: insert into productos_ventas 
+        values ('40557', '16137', '1', '199', '180.0000', '1', 'ROY  601-7C96-120B2503086276') - trueProd: insert into productos_ventas 
+        values ('40547', '16137', '2', '69', '54.7100', '1', 'MAX 30174011755 30174011739') - trueProd: insert into productos_ventas 
+        values ('40918', '16137', '1', '119', '108.3100', '1', 'MAX 76704') - trueProd: insert into productos_ventas 
+        values ('40991', '16137', '1', '199.0000', '160.0000', '1', 'RG') - trueProd: insert into productos_ventas 
+        values ('41016', '16137', '1', '119', '95.0000', '1', ' ROG600B2503310262') - true

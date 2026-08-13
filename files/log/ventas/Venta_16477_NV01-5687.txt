@@ -1,0 +1,11 @@
+Venta: 16477, fecha: 2025-11-25
+
+Prod: insert into productos_ventas 
+        values ('40708', '16477', '1', '555.0000', '506.5200', '1', 'DELT-U5TW818800168') - trueProd: insert into productos_ventas 
+        values ('41136', '16477', '1', '280.0000', '269.1660', '1', 'PLUS-20228628') - trueProd: insert into productos_ventas 
+        values ('41051', '16477', '1', '1870.0000', '1763.7000', '1', 'PEG-SN253641075278') - trueProd: insert into productos_ventas 
+        values ('41012', '16477', '1', '399.0000', '366.9840', '1', 'CMS-601-7E02-070B2502003212') - trueProd: insert into productos_ventas 
+        values ('40976', '16477', '1', '170.0000', '142.0000', '1', 'IMPUL-MIC 4622P80BA750W0426') - trueProd: insert into productos_ventas 
+        values ('41105', '16477', '1', '130.0000', '95.0000', '1', 'HUMB-531YS512A') - trueProd: insert into productos_ventas 
+        values ('41095', '16477', '1', '125.0000', '91.2200', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40521', '16477', '1', '230.0000', '216.7200', '1', 'DELT-TE2415S1158B25070904') - true

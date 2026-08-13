@@ -1,0 +1,10 @@
+Venta: 15991, fecha: 2025-09-27
+
+Prod: insert into productos_ventas 
+        values ('40549', '15991', '1', '320.0000', '289.7000', '1', 'DEL 9MP6835Q50641') - trueProd: insert into productos_ventas 
+        values ('40915', '15991', '1', '135.0000', '106.8900', '1', 'MAX 30174792440') - trueProd: insert into productos_ventas 
+        values ('40547', '15991', '2', '65.0000', '54.7100', '1', 'MAX 30174011765 | 30174011764') - trueProd: insert into productos_ventas 
+        values ('40557', '15991', '1', '209.0000', '183.0000', '1', 'ROY 601-7C96-120B2503086628') - trueProd: insert into productos_ventas 
+        values ('40985', '15991', '1', '745.0000', '695.0000', '1', 'SMT 602-V812-129ST2506003358') - trueProd: insert into productos_ventas 
+        values ('40629', '15991', '1', '65.0000', '33.0000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40978', '15991', '1', '95.0000', '66.0000', '1', 'CALE') - true

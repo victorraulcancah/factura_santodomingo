@@ -1,0 +1,14 @@
+Venta: 15441, fecha: 2025-08-01
+
+Prod: insert into productos_ventas 
+        values ('40852', '15441', '1', '460.0000', '430.0000', '1', 'STH-U4CE273102346') - trueProd: insert into productos_ventas 
+        values ('40532', '15441', '1', '739.0000', '685.0000', '1', 'STH-T2504006375') - trueProd: insert into productos_ventas 
+        values ('40918', '15441', '1', '135.0000', '108.6900', '1', 'MAXIM-8864') - trueProd: insert into productos_ventas 
+        values ('40546', '15441', '1', '110.0000', '94.4620', '1', 'SPT-30171592101') - trueProd: insert into productos_ventas 
+        values ('40913', '15441', '1', '100.0000', '79.0000', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40882', '15441', '1', '137.0000', '101.7500', '1', 'CAL-4594P80B'600W1284') - false 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '600W1284')' at line 2
+
+
+Prod: insert into productos_ventas 
+        values ('40856', '15441', '1', '259.0000', '229.0000', '1', 'CAL-B30901722') - true

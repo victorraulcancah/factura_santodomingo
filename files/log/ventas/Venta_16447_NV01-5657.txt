@@ -1,0 +1,9 @@
+Venta: 16447, fecha: 2025-11-22
+
+Prod: insert into productos_ventas 
+        values ('40583', '16447', '1', '951', '951.8600', '1', 'DEL 9MQ5796R50051') - trueProd: insert into productos_ventas 
+        values ('41128', '16447', '2', '120', '80.0000', '1', 'CGS 8GBPC524H0048 | 8GBPC524H0058') - trueProd: insert into productos_ventas 
+        values ('40651', '16447', '1', '260', '260.0000', '1', 'SEDA 601-7E28-010B2503007129') - trueProd: insert into productos_ventas 
+        values ('41105', '16447', '1', '129', '95.0000', '1', 'HUM BTKA21360BFQ512A') - trueProd: insert into productos_ventas 
+        values ('41016', '16447', '1', '110', '95.0000', '1', 'ROG600W2503310053') - trueProd: insert into productos_ventas 
+        values ('41095', '16447', '1', '109', '91.2200', '1', 'CALE') - true

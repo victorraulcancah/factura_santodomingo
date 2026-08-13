@@ -1,0 +1,13 @@
+Venta: 16756, fecha: 2025-12-19
+
+Prod: insert into productos_ventas 
+        values ('40551', '16756', '1', '480.0000', '380.0000', '1', 'ROG-X237F975') - trueProd: insert into productos_ventas 
+        values ('41174', '16756', '1', '240.0000', '200.0000', '1', 'REMA- IH61EMDS-02_61002B24800721') - trueProd: insert into productos_ventas 
+        values ('41184', '16756', '1', '360.0000', '250.0000', '1', 'ROG-RGX16D4109') - trueProd: insert into productos_ventas 
+        values ('40565', '16756', '1', '385.0000', '250.0000', '1', 'CDM-25197E801352') - trueProd: insert into productos_ventas 
+        values ('40988', '16756', '1', '1299.0000', '1195.0000', '1', 'ROY-602-V537-38ST2510008628') - trueProd: insert into productos_ventas 
+        values ('40882', '16756', '1', '135.0000', '97.0000', '1', 'CAL-4666MICP600-80+2132') - trueProd: insert into productos_ventas 
+        values ('40536', '16756', '1', '80.0000', '66.0000', '1', 'PEG-2511-20782635') - trueProd: insert into productos_ventas 
+        values ('41131', '16756', '1', '300.0000', '277.9500', '1', 'CDK-PE1H055700284') - trueProd: insert into productos_ventas 
+        values ('40539', '16756', '1', '20.0000', '10.8330', '1', 'FD') - trueProd: insert into productos_ventas 
+        values ('40933', '16756', '1', '200.0000', '165.0000', '1', 'CAL') - true

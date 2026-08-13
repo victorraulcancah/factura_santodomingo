@@ -1,0 +1,11 @@
+Venta: 15308, fecha: 2025-07-20
+
+Prod: insert into productos_ventas 
+        values ('40549', '15308', '2', '339', '239.9000', '1', 'DEL27Q60271-Q50272') - trueProd: insert into productos_ventas 
+        values ('40526', '15308', '2', '640', '585.1700', '1', 'CORP7096-7099') - trueProd: insert into productos_ventas 
+        values ('40557', '15308', '2', '210', '189.5000', '1', 'DEL16622-16632') - trueProd: insert into productos_ventas 
+        values ('40527', '15308', '2', '95', '70.0000', '1', 'HALION') - trueProd: insert into productos_ventas 
+        values ('40546', '15308', '2', '115', '94.9540', '1', 'ROY5067-5047') - trueProd: insert into productos_ventas 
+        values ('40877', '15308', '2', '120', '77.0300', '1', 'HALION') - trueProd: insert into productos_ventas 
+        values ('40596', '15308', '2', '150', '122.2500', '1', 'ROY1718P1128-101719') - trueProd: insert into productos_ventas 
+        values ('40862', '15308', '1', '329', '311.9200', '1', 'DEL0982') - true

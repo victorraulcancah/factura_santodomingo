@@ -1,0 +1,13 @@
+Venta: 16703, fecha: 2025-12-13
+
+Prod: insert into productos_ventas 
+        values ('40550', '16703', '1', '650.0000', '500.0000', '1', 'DANT-U50312') - trueProd: insert into productos_ventas 
+        values ('40558', '16703', '1', '350.0000', '316.0900', '1', 'MAXIM-008979') - trueProd: insert into productos_ventas 
+        values ('40577', '16703', '1', '85.0000', '70.0000', '1', 'GG-00618') - trueProd: insert into productos_ventas 
+        values ('41184', '16703', '1', '350.0000', '250.0000', '1', 'ROG-RGX16D4008') - trueProd: insert into productos_ventas 
+        values ('41105', '16703', '1', '175.0000', '95.0000', '1', 'HUMB-10107H26') - trueProd: insert into productos_ventas 
+        values ('40885', '16703', '1', '200.0000', '178.0000', '1', 'PEG') - trueProd: insert into productos_ventas 
+        values ('41084', '16703', '1', '1350.0000', '1262.0000', '1', 'CDK-1008643') - trueProd: insert into productos_ventas 
+        values ('40828', '16703', '1', '145.0000', '101.5000', '1', 'CAL-80+0210') - trueProd: insert into productos_ventas 
+        values ('40944', '16703', '1', '465.0000', '420.0000', '1', 'CMS-120807') - trueProd: insert into productos_ventas 
+        values ('41176', '16703', '1', '120.0000', '80.0000', '1', 'FBZ-SG600') - true

@@ -1,0 +1,12 @@
+Venta: 16417, fecha: 2025-11-19
+
+Prod: insert into productos_ventas 
+        values ('40592', '16417', '4', '735', '679.2100', '1', 'SMT 703817 3692  5759      DATA401001') - trueProd: insert into productos_ventas 
+        values ('40934', '16417', '4', '277', '239.0000', '1', 'CA 8377 8380  8378  8379') - trueProd: insert into productos_ventas 
+        values ('41105', '16417', '3', '125', '95.0000', '1', 'HU HK512A    Z6512A   5AN512A    ') - trueProd: insert into productos_ventas 
+        values ('41111', '16417', '1', '125', '94.0000', '1', 'HU 2207H4R') - trueProd: insert into productos_ventas 
+        values ('41120', '16417', '4', '95', '55.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40527', '16417', '4', '88', '73.0000', '1', 'RG') - trueProd: insert into productos_ventas 
+        values ('40913', '16417', '4', '89', '72.5000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('41121', '16417', '4', '171', '145.3400', '1', 'ADNY 150136   150126  150134  150132 ') - trueProd: insert into productos_ventas 
+        values ('40577', '16417', '4', '95', '70.5000', '1', 'G') - true

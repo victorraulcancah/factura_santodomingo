@@ -1,0 +1,5 @@
+Venta: 16141, fecha: 2025-10-18
+
+Prod: insert into productos_ventas 
+        values ('40699', '16141', '1', '240', '197.2200', '1', 'SPT 30171981077') - trueProd: insert into productos_ventas 
+        values ('40538', '16141', '1', '10', '0.0000', '1', 'INSTALACION SSD M2') - true

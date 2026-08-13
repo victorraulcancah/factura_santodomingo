@@ -1,0 +1,11 @@
+Venta: 16440, fecha: 2025-11-21
+
+Prod: insert into productos_ventas 
+        values ('40708', '16440', '1', '529.0000', '506.5200', '1', 'DEL U5272GW204266') - trueProd: insert into productos_ventas 
+        values ('41012', '16440', '1', '409.0000', '369.5100', '1', 'CMS 601-7E02-070B2502003211') - trueProd: insert into productos_ventas 
+        values ('40577', '16440', '1', '90', '70.5000', '1', 'GG 10000131880AJ252100559') - trueProd: insert into productos_ventas 
+        values ('41104', '16440', '1', '200', '188.8800', '1', 'DEL TE165625090656') - trueProd: insert into productos_ventas 
+        values ('41111', '16440', '1', '129.0000', '94.0000', '1', 'HUM BCFYB7N024013507H03') - trueProd: insert into productos_ventas 
+        values ('41042', '16440', '1', '1895', '1836.6500', '1', 'CMS 602-V535-61SB2506004623') - trueProd: insert into productos_ventas 
+        values ('41034', '16440', '1', '199.0000', '160.0000', '1', 'ROG850B2506200040') - trueProd: insert into productos_ventas 
+        values ('40913', '16440', '1', '99.0000', '72.5000', '1', 'CALE') - true

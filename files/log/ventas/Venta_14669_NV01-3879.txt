@@ -1,0 +1,7 @@
+Venta: 14669, fecha: 2025-05-16
+
+Prod: insert into productos_ventas 
+        values ('40592', '14669', '1', '789', '725.0000', '1', 'smth7504375') - trueProd: insert into productos_ventas 
+        values ('40632', '14669', '2', '185', '160.0000', '1', 'smthEA1B0363-EA1B017A') - trueProd: insert into productos_ventas 
+        values ('40711', '14669', '1', '570', '490.0000', '1', 'SMTH181394') - trueProd: insert into productos_ventas 
+        values ('40598', '14669', '1', '420', '290.0000', '1', 'EDUWC3K20170WUM') - true

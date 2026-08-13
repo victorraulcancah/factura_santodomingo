@@ -1,0 +1,9 @@
+Venta: 14387, fecha: 2025-04-17
+
+Prod: insert into productos_ventas 
+        values ('40659', '14387', '1', '780', '721.1500', '1', 'cms203928') - trueProd: insert into productos_ventas 
+        values ('40656', '14387', '1', '445', '420.0000', '1', 'seda094018') - trueProd: insert into productos_ventas 
+        values ('40587', '14387', '1', '175', '145.6000', '1', 'smth700413') - trueProd: insert into productos_ventas 
+        values ('40584', '14387', '1', '210', '180.0000', '1', 'PEGA50100175') - trueProd: insert into productos_ventas 
+        values ('40540', '14387', '1', '130', '107.7000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40556', '14387', '1', '149', '111.0500', '1', 'HALIONA00845') - true

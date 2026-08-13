@@ -1,0 +1,11 @@
+Venta: 16521, fecha: 2025-11-29
+
+Prod: insert into productos_ventas 
+        values ('40592', '16521', '1', '799', '679.2100', '1', 'SMT U50W2D7100327') - trueProd: insert into productos_ventas 
+        values ('40640', '16521', '1', '460', '438.0000', '1', 'ROY J5M0XB176652') - trueProd: insert into productos_ventas 
+        values ('40770', '16521', '2', '300', '249.0000', '1', 'MARL 30171312723   30170219931 ') - trueProd: insert into productos_ventas 
+        values ('41144', '16521', '1', '580', '441.4700', '1', 'IMP  022412120800181') - trueProd: insert into productos_ventas 
+        values ('41016', '16521', '1', '120.0000', '95.0000', '1', 'ROG600W2503310143') - trueProd: insert into productos_ventas 
+        values ('40577', '16521', '1', '82', '70.5000', '1', 'G') - trueProd: insert into productos_ventas 
+        values ('40531', '16521', '1', '759', '696.4500', '1', 'DT SN252501021083') - trueProd: insert into productos_ventas 
+        values ('40913', '16521', '1', '90', '72.5000', '1', 'CA') - true

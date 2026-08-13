@@ -1,0 +1,10 @@
+Venta: 16381, fecha: 2025-11-16
+
+Prod: insert into productos_ventas 
+        values ('40603', '16381', '1', '499.0000', '455.0000', '1', 'ro 9MR1580T50426_100-000001591') - trueProd: insert into productos_ventas 
+        values ('41113', '16381', '1', '289', '260.0000', '1', 'seda T4M0KK06P877XUM') - trueProd: insert into productos_ventas 
+        values ('41104', '16381', '1', '189', '188.8800', '1', 'del 0782752509382') - trueProd: insert into productos_ventas 
+        values ('41058', '16381', '1', '234', '192.5000', '1', ' spt 81228') - trueProd: insert into productos_ventas 
+        values ('40936', '16381', '1', '1269', '1205.3300', '1', 'dvdpg SN253601033176') - trueProd: insert into productos_ventas 
+        values ('40991', '16381', '1', '199.0000', '160.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('41016', '16381', '1', '120.0000', '95.0000', '1', ' ROG600W2503310030') - true

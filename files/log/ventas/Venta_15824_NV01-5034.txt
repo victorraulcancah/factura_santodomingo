@@ -1,0 +1,8 @@
+Venta: 15824, fecha: 2025-09-06
+
+Prod: insert into productos_ventas 
+        values ('40558', '15824', '1', '390.0000', '337.1100', '1', 'DEL 7448') - trueProd: insert into productos_ventas 
+        values ('40882', '15824', '1', '140.0000', '102.0000', '1', 'CALE 0697') - trueProd: insert into productos_ventas 
+        values ('40536', '15824', '1', '85.0000', '66.0000', '1', 'CALE 6172') - trueProd: insert into productos_ventas 
+        values ('40985', '15824', '1', '750.0000', '695.0000', '1', 'SMT 3008') - trueProd: insert into productos_ventas 
+        values ('40991', '15824', '1', '199.0000', '160.0000', '1', 'ROG') - true

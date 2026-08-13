@@ -1,0 +1,6 @@
+Venta: 17111, fecha: 2026-01-31
+
+Prod: insert into productos_ventas 
+        values ('41265', '17111', '1', '800', '700.0000', '1', 'TAC  B254700008434') - trueProd: insert into productos_ventas 
+        values ('41230', '17111', '1', '230', '165.0000', '1', ' micr  0000009277789-S004140') - trueProd: insert into productos_ventas 
+        values ('40521', '17111', '1', '250', '195.3200', '1', 'cv  TE2415S173825101949') - true

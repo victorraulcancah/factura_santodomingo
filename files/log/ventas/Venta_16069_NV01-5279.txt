@@ -1,0 +1,5 @@
+Venta: 16069, fecha: 2025-10-09
+
+Prod: insert into productos_ventas 
+        values ('40621', '16069', '1', '199.0000', '175.0000', '1', 'SMT A4ZDB5090035DA') - trueProd: insert into productos_ventas 
+        values ('41031', '16069', '1', '35', '25.0000', '1', 'ROG') - true

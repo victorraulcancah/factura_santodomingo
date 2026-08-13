@@ -1,0 +1,12 @@
+Venta: 17179, fecha: 2026-02-07
+
+Prod: insert into productos_ventas 
+        values ('40603', '17179', '1', '539', '465.0000', '1', 'rg 9ANR006U50127_100-000001591') - trueProd: insert into productos_ventas 
+        values ('41008', '17179', '1', '339', '305.0000', '1', 'ca  601-7E76-020B2505007748') - trueProd: insert into productos_ventas 
+        values ('41108', '17179', '1', '599', '502.0000', '1', 'rg 0000009277789-S006235') - trueProd: insert into productos_ventas 
+        values ('40918', '17179', '1', '225', '148.9800', '1', 'g y g 7747') - trueProd: insert into productos_ventas 
+        values ('41188', '17179', '1', '199', '170.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('40976', '17179', '1', '159', '125.9300', '1', 'imp 4622P80BPW750W0440') - trueProd: insert into productos_ventas 
+        values ('41281', '17179', '1', '1139', '1066.4100', '1', 'plus T7YVYZ058931YG8') - trueProd: insert into productos_ventas 
+        values ('40521', '17179', '1', '229', '218.8300', '1', 'hu TE2415S179525101508') - trueProd: insert into productos_ventas 
+        values ('40563', '17179', '1', '70', '49.8500', '1', 'del ') - true

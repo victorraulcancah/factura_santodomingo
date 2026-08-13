@@ -1,0 +1,11 @@
+Venta: 14599, fecha: 2025-05-06
+
+Prod: insert into productos_ventas 
+        values ('40602', '14599', '1', '629.0000', '577.2890', '1', '') - trueProd: insert into productos_ventas 
+        values ('40558', '14599', '1', '389.0000', '369.0000', '1', 'pega 4981') - trueProd: insert into productos_ventas 
+        values ('40723', '14599', '2', '79', '51.5600', '1', 'max 7948 7847') - trueProd: insert into productos_ventas 
+        values ('40596', '14599', '1', '135.0000', '114.5700', '1', 'rooy 105744') - trueProd: insert into productos_ventas 
+        values ('40541', '14599', '1', '99', '87.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40629', '14599', '1', '69.0000', '36.0000', '1', 'impu') - trueProd: insert into productos_ventas 
+        values ('40521', '14599', '1', '251', '243.8400', '1', 'del 0432') - trueProd: insert into productos_ventas 
+        values ('40655', '14599', '1', '49.0000', '32.2000', '1', 'impu') - true

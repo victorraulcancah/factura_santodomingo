@@ -1,0 +1,11 @@
+Venta: 15611, fecha: 2025-08-16
+
+Prod: insert into productos_ventas 
+        values ('40589', '15611', '1', '895.0000', '764.3000', '1', 'STH-EDU-5602600') - trueProd: insert into productos_ventas 
+        values ('40892', '15611', '1', '330.0000', '286.1100', '1', 'AMAJ-WCB0112') - trueProd: insert into productos_ventas 
+        values ('40813', '15611', '1', '370.0000', '340.0000', '1', 'STH-20431-20432') - trueProd: insert into productos_ventas 
+        values ('40951', '15611', '1', '620.0000', '579.1390', '1', 'IMPAC-17665') - trueProd: insert into productos_ventas 
+        values ('40925', '15611', '1', '245.0000', '218.0000', '1', 'ROY-25503') - trueProd: insert into productos_ventas 
+        values ('40889', '15611', '1', '2790.0000', '2677.1500', '1', 'CDK-1050989') - trueProd: insert into productos_ventas 
+        values ('40919', '15611', '1', '250.0000', '199.0000', '1', 'ROY-300389') - trueProd: insert into productos_ventas 
+        values ('40952', '15611', '1', '330.0000', '284.9500', '1', 'PLUS') - true

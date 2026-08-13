@@ -1,0 +1,7 @@
+Venta: 15771, fecha: 2025-09-01
+
+Prod: insert into productos_ventas 
+        values ('40529', '15771', '1', '290', '229.2600', '1', 'del  9MA8498N40401') - trueProd: insert into productos_ventas 
+        values ('40723', '15771', '1', '60', '52.5000', '1', 'max  30171311423') - trueProd: insert into productos_ventas 
+        values ('40532', '15771', '1', '741', '690.0000', '1', 'ca  602-V812-131SD2506000153') - trueProd: insert into productos_ventas 
+        values ('40540', '15771', '1', '139', '103.7200', '1', 'impul') - true

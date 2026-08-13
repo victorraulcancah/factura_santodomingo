@@ -1,0 +1,11 @@
+Venta: 17132, fecha: 2026-02-02
+
+Prod: insert into productos_ventas 
+        values ('40586', '17132', '1', '899.0000', '759.3700', '1', 'DATA-100 -000001590 EJ 2532SSY 9ANE777T50146') - trueProd: insert into productos_ventas 
+        values ('41028', '17132', '1', '499.0000', '464.9200', '1', 'CMS-SN250950012089') - trueProd: insert into productos_ventas 
+        values ('41108', '17132', '2', '595.0000', '502.0000', '1', 'ROG 0000009277789-S006199 0000009277789-S007331') - trueProd: insert into productos_ventas 
+        values ('40699', '17132', '1', '429.0000', '359.0000', '1', 'CAL-QDM423W101913P113A') - trueProd: insert into productos_ventas 
+        values ('40540', '17132', '1', '129.0000', '90.9560', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40976', '17132', '1', '169.0000', '125.9300', '1', 'IMPU-4622P80BPW750W0435') - trueProd: insert into productos_ventas 
+        values ('40980', '17132', '1', '1765.0000', '1676.0000', '1', 'CAL-A9V111675') - trueProd: insert into productos_ventas 
+        values ('40906', '17132', '1', '269.0000', '247.0000', '1', 'CMS-TE2417S178025091071') - true

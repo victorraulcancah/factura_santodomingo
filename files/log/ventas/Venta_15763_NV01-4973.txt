@@ -1,0 +1,4 @@
+Venta: 15763, fecha: 2025-08-31
+
+Prod: insert into productos_ventas 
+        values ('40977', '15763', '1', '245', '215.0000', '1', 'roy-halion') - true

@@ -1,0 +1,10 @@
+Venta: 16456, fecha: 2025-11-22
+
+Prod: insert into productos_ventas 
+        values ('40708', '16456', '1', '535.0000', '506.5200', '1', 'DELT-U46M5E7202952') - trueProd: insert into productos_ventas 
+        values ('40702', '16456', '1', '310.0000', '241.2600', '1', 'CMS-CMSSN251250103414') - trueProd: insert into productos_ventas 
+        values ('41104', '16456', '1', '230.0000', '188.8800', '1', 'DELT-TE165625090649') - trueProd: insert into productos_ventas 
+        values ('41111', '16456', '1', '145.0000', '94.0000', '1', 'HUMB-14107H0V') - trueProd: insert into productos_ventas 
+        values ('41016', '16456', '1', '120.0000', '95.0000', '1', 'ROG-2503310206') - trueProd: insert into productos_ventas 
+        values ('40985', '16456', '1', '740.0000', '695.0000', '1', 'STH-602-V812-129ST2506003385') - trueProd: insert into productos_ventas 
+        values ('40913', '16456', '1', '99.0000', '72.5000', '1', 'CAL') - true

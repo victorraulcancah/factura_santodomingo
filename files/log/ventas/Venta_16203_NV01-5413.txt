@@ -1,0 +1,13 @@
+Venta: 16203, fecha: 2025-10-25
+
+Prod: insert into productos_ventas 
+        values ('40603', '16203', '1', '489.0000', '445.8400', '1', 'LABS 0442') - trueProd: insert into productos_ventas 
+        values ('40651', '16203', '1', '283.0000', '248.0000', '1', 'CALE 601-7E28-010B2503006732') - trueProd: insert into productos_ventas 
+        values ('41041', '16203', '1', '170.0000', '147.0000', '1', 'ROG N2384312503001229') - trueProd: insert into productos_ventas 
+        values ('40918', '16203', '1', '120.0000', '108.3100', '1', 'MAX 30176976741') - trueProd: insert into productos_ventas 
+        values ('41019', '16203', '1', '90', '65.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40646', '16203', '1', '1099.0000', '1037.6600', '1', 'CMS N251300043495') - trueProd: insert into productos_ventas 
+        values ('41016', '16203', '1', '140', '100.0000', '1', 'ROG600B2503310003') - trueProd: insert into productos_ventas 
+        values ('40862', '16203', '1', '350', '315.8300', '1', 'CMS TE2714S115925072132') - trueProd: insert into productos_ventas 
+        values ('41054', '16203', '1', '100', '82.0000', '1', 'ROY') - trueProd: insert into productos_ventas 
+        values ('41066', '16203', '1', '129', '109.0000', '1', 'CALE') - true

@@ -1,0 +1,11 @@
+Venta: 15937, fecha: 2025-09-18
+
+Prod: insert into productos_ventas 
+        values ('40762', '15937', '3', '600', '568.6200', '1', 'lp  U54M969701277  U54M969701121  U5H07P5702868') - trueProd: insert into productos_ventas 
+        values ('40982', '15937', '3', '269', '200.0000', '1', 'fbr  889523035498 SN251760042477 SN251760042479 ') - trueProd: insert into productos_ventas 
+        values ('40547', '15937', '3', '69', '54.7100', '1', 'max  30174011778 30174011775 30174011781') - trueProd: insert into productos_ventas 
+        values ('40915', '15937', '3', '124', '106.8900', '1', 'max  2555  2554 2553') - trueProd: insert into productos_ventas 
+        values ('40494', '15937', '3', '89', '61.5000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40698', '15937', '3', '49.0000', '43.0000', '1', 'tac') - trueProd: insert into productos_ventas 
+        values ('40521', '15937', '3', '250', '235.1000', '1', 'hu  SNCTM2506021755  SNCTM2506022301   SNCTM2506021333 ') - trueProd: insert into productos_ventas 
+        values ('40543', '15937', '3', '50', '37.0000', '1', 'ca') - true

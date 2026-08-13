@@ -1,0 +1,11 @@
+Venta: 17189, fecha: 2026-02-08
+
+Prod: insert into productos_ventas 
+        values ('40603', '17189', '1', '539', '465.0000', '1', 'rg 9ANS114U50211_100-000001591') - trueProd: insert into productos_ventas 
+        values ('41008', '17189', '1', '329', '305.0000', '1', 'ca  601-7E76-020B2505007746') - trueProd: insert into productos_ventas 
+        values ('41108', '17189', '2', '620', '502.0000', '1', 'rg 0000009277789-S007293 0000009277789-S006269') - trueProd: insert into productos_ventas 
+        values ('40699', '17189', '1', '445', '359.0000', '1', 'ca 6PTOXESZ11V5BY ') - trueProd: insert into productos_ventas 
+        values ('40976', '17189', '1', '179.0000', '125.9300', '1', 'impu 4666MICP600-80+0185') - trueProd: insert into productos_ventas 
+        values ('40988', '17189', '1', '1399', '1299.0000', '1', 'roy 602-V537-60ST2512013579') - trueProd: insert into productos_ventas 
+        values ('41188', '17189', '1', '199', '170.0000', '1', 'rg ') - trueProd: insert into productos_ventas 
+        values ('40536', '17189', '1', '70', '61.0000', '1', 'peega ') - true

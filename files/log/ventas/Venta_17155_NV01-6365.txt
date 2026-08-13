@@ -1,0 +1,7 @@
+Venta: 17155, fecha: 2026-02-05
+
+Prod: insert into productos_ventas 
+        values ('40533', '17155', '1', '280', '227.0000', '1', 'SEDA 9AHE977R50646') - trueProd: insert into productos_ventas 
+        values ('41080', '17155', '1', '209', '185.0000', '1', 'ROY T8M0CS07P083G4A') - trueProd: insert into productos_ventas 
+        values ('40723', '17155', '1', '210', '190.0000', '1', 'LP 30172422985') - trueProd: insert into productos_ventas 
+        values ('40494', '17155', '1', '100', '50.3000', '1', 'IMPUL') - true

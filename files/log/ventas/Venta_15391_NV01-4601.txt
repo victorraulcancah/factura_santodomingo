@@ -1,0 +1,9 @@
+Venta: 15391, fecha: 2025-07-27
+
+Prod: insert into productos_ventas 
+        values ('40552', '15391', '1', '714.0000', '684.8000', '1', 'DELT-40508') - trueProd: insert into productos_ventas 
+        values ('40699', '15391', '1', '229.0000', '205.0000', '1', 'ROY-102777') - trueProd: insert into productos_ventas 
+        values ('40597', '15391', '1', '159.0000', '143.0000', '1', 'ROY-374387') - trueProd: insert into productos_ventas 
+        values ('40491', '15391', '1', '299.0000', '287.8510', '1', 'MARLEM-1372') - trueProd: insert into productos_ventas 
+        values ('40882', '15391', '1', '115.0000', '100.0000', '1', 'CA-W1154') - trueProd: insert into productos_ventas 
+        values ('40913', '15391', '1', '95.0000', '82.0000', '1', 'ROY') - true

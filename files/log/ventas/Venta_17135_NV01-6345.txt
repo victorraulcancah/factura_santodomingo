@@ -1,0 +1,11 @@
+Venta: 17135, fecha: 2026-02-02
+
+Prod: insert into productos_ventas 
+        values ('40549', '17135', '1', '385.0000', '359.0000', '1', 'CAL-9MV2264X50565') - trueProd: insert into productos_ventas 
+        values ('41272', '17135', '1', '205.0000', '188.7800', '1', 'IMPA-J5M0XB253725') - trueProd: insert into productos_ventas 
+        values ('40918', '17135', '1', '220.0000', '148.9800', '1', 'GYG-30176976868') - trueProd: insert into productos_ventas 
+        values ('40489', '17135', '1', '410.0000', '320.0000', '1', 'ROY-0000009277789-S006259') - trueProd: insert into productos_ventas 
+        values ('41265', '17135', '1', '750.0000', '700.0000', '1', 'TACT-3050-B254700008444') - trueProd: insert into productos_ventas 
+        values ('41243', '17135', '1', '115.0000', '99.0000', '1', 'CAL-TSMJC2507090841') - trueProd: insert into productos_ventas 
+        values ('40521', '17135', '1', '225.0000', '195.3200', '1', 'CV-TE2415S173825100249') - trueProd: insert into productos_ventas 
+        values ('41244', '17135', '1', '105.0000', '80.0000', '1', 'CAL') - true

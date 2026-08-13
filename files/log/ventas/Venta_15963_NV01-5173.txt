@@ -1,0 +1,4 @@
+Venta: 15963, fecha: 2025-09-22
+
+Prod: insert into productos_ventas 
+        values ('40538', '15963', '1', '60', '0.0000', '1', 'edu shalom y  armado clienta') - true

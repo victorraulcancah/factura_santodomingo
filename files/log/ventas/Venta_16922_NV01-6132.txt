@@ -1,0 +1,14 @@
+Venta: 16922, fecha: 2026-01-06
+
+Prod: insert into productos_ventas 
+        values ('40493', '16922', '3', '560', '534.0000', '1', 'lp   MQ1881R50492 9MP7109R50328 9MQ3769R50481') - trueProd: insert into productos_ventas 
+        values ('40630', '16922', '3', '199', '175.2000', '1', 'seda  SN251750056244 SN251750056248 SN251750056247') - trueProd: insert into productos_ventas 
+        values ('40489', '16922', '3', '370', '305.0000', '1', 'micro  6469  6471 6477') - trueProd: insert into productos_ventas 
+        values ('41115', '16922', '3', '111', '70.0000', '1', 'diose  S35ENA0J982748 S35ENA0J977775  S35ENA0J859044') - trueProd: insert into productos_ventas 
+        values ('40660', '16922', '3', '135', '50.0000', '1', 'micr') - trueProd: insert into productos_ventas 
+        values ('41234', '16922', '3', '60.0000', '50.7000', '1', 'spt ') - trueProd: insert into productos_ventas 
+        values ('40829', '16922', '3', '50.0000', '41.5000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40521', '16922', '3', '229', '225.0000', '1', 'sn  2255049006043 2257305003238 0152502521') - trueProd: insert into productos_ventas 
+        values ('40572', '16922', '3', '29', '16.0000', '1', 'im ') - trueProd: insert into productos_ventas 
+        values ('40543', '16922', '3', '45', '36.0000', '1', 'ca ') - trueProd: insert into productos_ventas 
+        values ('41157', '16922', '3', '79', '49.0400', '1', 'im ') - true

@@ -1,0 +1,9 @@
+Venta: 15840, fecha: 2025-09-08
+
+Prod: insert into productos_ventas 
+        values ('40552', '15840', '1', '701', '681.2700', '1', 'DEL60134') - trueProd: insert into productos_ventas 
+        values ('40918', '15840', '1', '120.0000', '111.0000', '1', 'ROY0343') - trueProd: insert into productos_ventas 
+        values ('40651', '15840', '1', '279', '248.0000', '1', 'CA7639') - trueProd: insert into productos_ventas 
+        values ('40882', '15840', '1', '130', '102.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40597', '15840', '1', '170', '161.2500', '1', 'MARLEN') - trueProd: insert into productos_ventas 
+        values ('40978', '15840', '1', '99', '66.0000', '1', 'CA') - true

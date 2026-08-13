@@ -1,0 +1,12 @@
+Venta: 16943, fecha: 2026-01-10
+
+Prod: insert into productos_ventas 
+        values ('40586', '16943', '1', '850', '760.6300', '1', 'dante50257') - trueProd: insert into productos_ventas 
+        values ('40577', '16943', '1', '85', '81.0240', '1', 'gg00626') - trueProd: insert into productos_ventas 
+        values ('40942', '16943', '1', '540', '481.7700', '1', 'corp8771') - trueProd: insert into productos_ventas 
+        values ('41108', '16943', '1', '699', '435.0000', '1', 'ROG7328') - trueProd: insert into productos_ventas 
+        values ('40565', '16943', '1', '450', '250.0000', '1', 'CDM800551') - trueProd: insert into productos_ventas 
+        values ('40988', '16943', '1', '1347', '1290.0000', '1', 'BANA1003265') - trueProd: insert into productos_ventas 
+        values ('40521', '16943', '1', '229', '225.0000', '1', 'LP1181') - trueProd: insert into productos_ventas 
+        values ('41207', '16943', '1', '99.0000', '68.3400', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40828', '16943', '1', '159', '100.0000', '1', 'IMPU0529') - true

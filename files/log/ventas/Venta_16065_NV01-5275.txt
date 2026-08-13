@@ -1,0 +1,8 @@
+Venta: 16065, fecha: 2025-10-08
+
+Prod: insert into productos_ventas 
+        values ('40648', '16065', '1', '450', '420.0000', '1', 'ROD 0146') - trueProd: insert into productos_ventas 
+        values ('40547', '16065', '2', '60', '54.7100', '1', 'MAX 30174011694 | 30174011695') - trueProd: insert into productos_ventas 
+        values ('40915', '16065', '1', '116', '106.8900', '1', 'MAX 30174792442') - trueProd: insert into productos_ventas 
+        values ('40557', '16065', '1', '199', '183.0000', '1', 'ROY 601-7C96-120B2503086205') - trueProd: insert into productos_ventas 
+        values ('40516', '16065', '1', '100', '85.0000', '1', 'CALE') - true

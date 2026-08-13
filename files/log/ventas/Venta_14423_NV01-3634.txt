@@ -1,0 +1,7 @@
+Venta: 14423, fecha: 2025-04-22
+
+Prod: insert into productos_ventas 
+        values ('40565', '14423', '5', '182', '170.0000', '1', 'TACT803735-3174-1788-3869-2559') - trueProd: insert into productos_ventas 
+        values ('40597', '14423', '4', '148', '142.9000', '1', 'ROY5537-5532-5549-5538') - trueProd: insert into productos_ventas 
+        values ('40613', '14423', '1', '185', '169.0000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40543', '14423', '6', '41', '37.4300', '1', 'IMPAC84061-4068-4064-4067-4065-3550') - true

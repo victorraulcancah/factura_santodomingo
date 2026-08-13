@@ -1,0 +1,10 @@
+Venta: 15506, fecha: 2025-08-06
+
+Prod: insert into productos_ventas 
+        values ('40535', '15506', '1', '595.0000', '540.8000', '1', 'DELT-9AMT299R50273') - trueProd: insert into productos_ventas 
+        values ('40918', '15506', '1', '140.0000', '108.6900', '1', 'MAXIM-68764') - trueProd: insert into productos_ventas 
+        values ('40491', '15506', '1', '315.0000', '300.0000', '1', 'MARLEN-601-7E28-070B2502001376') - trueProd: insert into productos_ventas 
+        values ('40597', '15506', '1', '169.0000', '143.0000', '1', 'ROY-30173374469') - trueProd: insert into productos_ventas 
+        values ('40860', '15506', '1', '60.0000', '45.5000', '1', 'IMP-4596P200W00610') - trueProd: insert into productos_ventas 
+        values ('40521', '15506', '1', '250.0000', '240.0000', '1', 'HUMB-SNCTM2504160701') - trueProd: insert into productos_ventas 
+        values ('40913', '15506', '1', '100.0000', '79.0000', '1', 'ROY-') - true

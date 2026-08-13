@@ -1,0 +1,4 @@
+Venta: 15803, fecha: 2025-09-04
+
+Prod: insert into productos_ventas 
+        values ('40882', '15803', '1', '100', '101.7500', '1', 'ca  chica rx 580 8gb') - true

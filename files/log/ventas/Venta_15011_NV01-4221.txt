@@ -1,0 +1,10 @@
+Venta: 15011, fecha: 2025-06-25
+
+Prod: insert into productos_ventas 
+        values ('40592', '15011', '3', '797', '690.0000', '1', 'SMTH36300548-1904504-103749') - trueProd: insert into productos_ventas 
+        values ('40833', '15011', '3', '65', '58.7200', '1', 'PLUS') - trueProd: insert into productos_ventas 
+        values ('40831', '15011', '3', '385', '372.0000', '1', 'ROY1508-1507-1506') - trueProd: insert into productos_ventas 
+        values ('40587', '15011', '3', '165', '150.0000', '1', 'SMTH362148-61867-61868') - trueProd: insert into productos_ventas 
+        values ('40828', '15011', '3', '139', '106.8000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40540', '15011', '3', '129', '105.6300', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40499', '15011', '3', '1140', '1100.0000', '1', 'CV3505-3503-3504') - true

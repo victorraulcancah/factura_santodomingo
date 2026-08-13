@@ -1,0 +1,13 @@
+Venta: 16156, fecha: 2025-10-19
+
+Prod: insert into productos_ventas 
+        values ('40549', '16156', '1', '330.0000', '285.9400', '1', 'DEL 9MR2224S50002') - trueProd: insert into productos_ventas 
+        values ('40557', '16156', '1', '230', '180.0000', '1', 'ROY 601-7C96-120B2503086270') - trueProd: insert into productos_ventas 
+        values ('40546', '16156', '2', '120', '115.0000', '1', 'TAC 30170727301 | 30170727299') - trueProd: insert into productos_ventas 
+        values ('40918', '16156', '1', '135', '108.3100', '1', 'MAX 30176976707') - trueProd: insert into productos_ventas 
+        values ('40646', '16156', '1', '1149', '1045.3400', '1', 'CMS P288-7N630-201Z8') - trueProd: insert into productos_ventas 
+        values ('41016', '16156', '1', '150', '95.0000', '1', 'ROG600W2503310091') - trueProd: insert into productos_ventas 
+        values ('40913', '16156', '1', '119', '75.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40563', '16156', '1', '69', '54.0000', '1', 'HUM') - trueProd: insert into productos_ventas 
+        values ('40944', '16156', '1', '499', '462.0000', '1', 'VISION TE2769G24M120805') - trueProd: insert into productos_ventas 
+        values ('40536', '16156', '1', '79', '67.0000', '1', 'ROY') - true

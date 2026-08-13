@@ -1,0 +1,9 @@
+Venta: 16036, fecha: 2025-10-04
+
+Prod: insert into productos_ventas 
+        values ('40552', '16036', '1', '699', '670.4000', '1', 'del  9MQ4649S50063') - trueProd: insert into productos_ventas 
+        values ('40651', '16036', '1', '279', '248.0000', '1', 'ca 3007631') - trueProd: insert into productos_ventas 
+        values ('41024', '16036', '1', '170', '136.5000', '1', 'ama   42388212512020426') - trueProd: insert into productos_ventas 
+        values ('40915', '16036', '1', '125', '106.8900', '1', 'max 2475') - trueProd: insert into productos_ventas 
+        values ('41016', '16036', '1', '128', '95.0000', '1', 'ROG600W2503310281') - trueProd: insert into productos_ventas 
+        values ('40913', '16036', '1', '99.0000', '75.0000', '1', 'ca') - true

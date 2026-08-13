@@ -1,0 +1,8 @@
+Venta: 16072, fecha: 2025-10-09
+
+Prod: insert into productos_ventas 
+        values ('40535', '16072', '1', '585', '530.0000', '1', 'DEL 9AHB692M50243') - trueProd: insert into productos_ventas 
+        values ('40651', '16072', '1', '280', '255.8500', '1', 'CMS 601-7E28-010B2501004831') - trueProd: insert into productos_ventas 
+        values ('41024', '16072', '1', '165', '136.5000', '1', 'AMA 42388212512020409') - trueProd: insert into productos_ventas 
+        values ('40509', '16072', '1', '230', '212.4100', '1', 'DEL 50026B728392EAB7') - trueProd: insert into productos_ventas 
+        values ('40494', '16072', '1', '80', '51.0000', '1', 'CALE') - true

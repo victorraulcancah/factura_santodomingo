@@ -1,0 +1,11 @@
+Venta: 16451, fecha: 2025-11-22
+
+Prod: insert into productos_ventas 
+        values ('40535', '16451', '1', '535.0000', '500.9400', '1', 'DEL Y984639S50320') - trueProd: insert into productos_ventas 
+        values ('41113', '16451', '1', '300.0000', '269.1000', '1', 'SEDA T4M0KK06P863YLW') - trueProd: insert into productos_ventas 
+        values ('41128', '16451', '2', '160', '80.0000', '1', 'CGS 8GBPC524H0036 | 8GBPC524H0040') - trueProd: insert into productos_ventas 
+        values ('41105', '16451', '1', '136', '95.0000', '1', 'HUM BTKA21610US4512A') - trueProd: insert into productos_ventas 
+        values ('41084', '16451', '1', '1390.0000', '1262.0000', '1', 'CDK SN253441008642') - trueProd: insert into productos_ventas 
+        values ('41016', '16451', '1', '129', '95.0000', '1', 'ROG600W2503310207') - trueProd: insert into productos_ventas 
+        values ('41095', '16451', '1', '120.0000', '91.2200', '1', 'CALE ') - trueProd: insert into productos_ventas 
+        values ('41031', '16451', '1', '40', '25.0000', '1', 'ROG') - true

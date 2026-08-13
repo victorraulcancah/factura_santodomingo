@@ -1,0 +1,7 @@
+Venta: 16570, fecha: 2025-12-02
+
+Prod: insert into productos_ventas 
+        values ('40886', '16570', '1', '270.0000', '228.3400', '1', 'MAXIM-AG650SASN243600224') - trueProd: insert into productos_ventas 
+        values ('40645', '16570', '1', '200.0000', '162.0000', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40847', '16570', '1', '210.0000', '175.0000', '1', 'TACT-3067ZWDA11L8010519000854') - trueProd: insert into productos_ventas 
+        values ('40538', '16570', '1', '50.0000', '0.0000', '1', 'POR ENSAMBLADO DE PC') - true

@@ -1,0 +1,12 @@
+Venta: 16641, fecha: 2025-12-08
+
+Prod: insert into productos_ventas 
+        values ('40592', '16641', '1', '799', '679.2100', '1', 'smt 3228') - trueProd: insert into productos_ventas 
+        values ('41012', '16641', '1', '389', '362.0000', '1', 'roy 13287') - trueProd: insert into productos_ventas 
+        values ('41145', '16641', '1', '499', '329.8700', '1', 'impac 312007') - trueProd: insert into productos_ventas 
+        values ('41111', '16641', '1', '160.0000', '94.0000', '1', 'hu 107h52') - trueProd: insert into productos_ventas 
+        values ('41016', '16641', '1', '120.0000', '95.0000', '1', 'rg 9396') - trueProd: insert into productos_ventas 
+        values ('40577', '16641', '1', '90', '70.0000', '1', 'gg') - trueProd: insert into productos_ventas 
+        values ('40988', '16641', '1', '1299.0000', '1209.0000', '1', 'roy 9396') - trueProd: insert into productos_ventas 
+        values ('40913', '16641', '1', '93', '70.7700', '1', 'impu ') - trueProd: insert into productos_ventas 
+        values ('40521', '16641', '1', '230', '209.4000', '1', 'del  TE2415S129625081185') - true

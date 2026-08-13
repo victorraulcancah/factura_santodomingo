@@ -1,0 +1,11 @@
+Venta: 16243, fecha: 2025-11-01
+
+Prod: insert into productos_ventas 
+        values ('40647', '16243', '1', '399', '296.7000', '1', 'marl   9KJ5978Q20464_100-000000927') - trueProd: insert into productos_ventas 
+        values ('40558', '16243', '1', '359', '325.0000', '1', 'roy  601-7C95-310B2505018046') - trueProd: insert into productos_ventas 
+        values ('40546', '16243', '1', '135.0000', '116.6000', '1', 'spt  30170727303') - trueProd: insert into productos_ventas 
+        values ('40918', '16243', '1', '119', '108.3100', '1', 'max  6714') - trueProd: insert into productos_ventas 
+        values ('41016', '16243', '1', '139', '100.0000', '1', 'ROG600W2503310268') - trueProd: insert into productos_ventas 
+        values ('40913', '16243', '1', '99.0000', '75.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40646', '16243', '1', '1119', '1064.4600', '1', 'cms  N251300045114') - trueProd: insert into productos_ventas 
+        values ('40660', '16243', '1', '100', '65.0000', '1', 'mb') - true

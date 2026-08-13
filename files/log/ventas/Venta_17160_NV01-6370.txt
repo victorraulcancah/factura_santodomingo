@@ -1,0 +1,12 @@
+Venta: 17160, fecha: 2026-02-05
+
+Prod: insert into productos_ventas 
+        values ('40603', '17160', '1', '535.0000', '465.0000', '1', 'ROG-9ANN654U50440') - trueProd: insert into productos_ventas 
+        values ('41008', '17160', '1', '345.0000', '300.0710', '1', 'CAL-601-7E76-020B2505007892') - trueProd: insert into productos_ventas 
+        values ('41108', '17160', '1', '595.0000', '502.0000', '1', 'ROG-0000009277789-S006623') - trueProd: insert into productos_ventas 
+        values ('40699', '17160', '1', '440.0000', '359.0000', '1', 'CAL-I28NPOPKVAVJ0E') - trueProd: insert into productos_ventas 
+        values ('40941', '17160', '1', '210.0000', '180.9000', '1', 'CMS-3067ZP2B12CE010438000574') - trueProd: insert into productos_ventas 
+        values ('40936', '17160', '1', '1440.0000', '1390.0000', '1', 'LP-SN253141009532') - trueProd: insert into productos_ventas 
+        values ('40906', '17160', '1', '270.0000', '246.0800', '1', 'CMS-TE2417S178025090505') - trueProd: insert into productos_ventas 
+        values ('41264', '17160', '1', '125.0000', '105.0000', '1', 'TACT') - trueProd: insert into productos_ventas 
+        values ('40805', '17160', '1', '0.0000', '6.8500', '1', 'IMPUL') - true

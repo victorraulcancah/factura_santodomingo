@@ -1,0 +1,8 @@
+Venta: 16411, fecha: 2025-11-18
+
+Prod: insert into productos_ventas 
+        values ('40535', '16411', '4', '539.0000', '511.0700', '1', 'DELT-R50018-DELT-R50093 CMS-R50186 CMS-R50026') - trueProd: insert into productos_ventas 
+        values ('41113', '16411', '4', '280.0000', '269.1000', '1', 'SEDA-867W33-868XPP-869DPK-870CU8') - trueProd: insert into productos_ventas 
+        values ('41105', '16411', '4', '125.0000', '95.0000', '1', 'HUMB-XQ512A-KK512A-GB512A-5G152A') - trueProd: insert into productos_ventas 
+        values ('41104', '16411', '4', '200.0000', '188.8800', '1', 'DELT-90707-90694-90710-90689') - trueProd: insert into productos_ventas 
+        values ('40494', '16411', '4', '75.0000', '51.0000', '1', 'IMPULSO') - true

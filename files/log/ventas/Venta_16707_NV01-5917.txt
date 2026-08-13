@@ -1,0 +1,12 @@
+Venta: 16707, fecha: 2025-12-14
+
+Prod: insert into productos_ventas 
+        values ('40551', '16707', '1', '465', '415.0000', '1', 'DT   X328M566') - trueProd: insert into productos_ventas 
+        values ('41174', '16707', '1', '225', '200.0000', '1', 'REMA IH61EMDS-02_61002B24800724') - trueProd: insert into productos_ventas 
+        values ('41184', '16707', '1', '370', '250.0000', '1', 'rog  RGX16D4276') - trueProd: insert into productos_ventas 
+        values ('41105', '16707', '1', '175', '95.0000', '1', 'hu  BTKA21541SDY512A') - trueProd: insert into productos_ventas 
+        values ('40540', '16707', '1', '125', '90.9560', '1', 'impu ') - trueProd: insert into productos_ventas 
+        values ('40532', '16707', '1', '790', '675.0000', '1', 'max 602-V812-131ST2509001459') - trueProd: insert into productos_ventas 
+        values ('40882', '16707', '1', '125', '97.0000', '1', 'CA  4666MICP600-80+2251') - trueProd: insert into productos_ventas 
+        values ('40571', '16707', '1', '45', '23.3500', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40521', '16707', '1', '230', '209.4000', '1', ' DEL  TE2415S129625080722') - true

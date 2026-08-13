@@ -1,0 +1,10 @@
+Venta: 17238, fecha: 2026-02-16
+
+Prod: insert into productos_ventas 
+        values ('41290', '17238', '1', '749.0000', '699.3500', '1', 'SERC U51G7Y6401729') - trueProd: insert into productos_ventas 
+        values ('41108', '17238', '1', '599', '514.0000', '1', 'ROG S007725') - trueProd: insert into productos_ventas 
+        values ('40918', '17238', '1', '235', '148.9800', '1', 'MAX 76852') - trueProd: insert into productos_ventas 
+        values ('40828', '17238', '1', '120', '100.0000', '1', 'IMPUL 4667MICP650-80+0216') - trueProd: insert into productos_ventas 
+        values ('40821', '17238', '1', '116', '72.0000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('41288', '17238', '1', '269', '259.0000', '1', 'CAL H8NL0A000742') - trueProd: insert into productos_ventas 
+        values ('41161', '17238', '1', '660', '611.0000', '1', 'SMT SN244850075892') - true

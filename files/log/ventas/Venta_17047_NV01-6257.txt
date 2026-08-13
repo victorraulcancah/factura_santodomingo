@@ -1,0 +1,5 @@
+Venta: 17047, fecha: 2026-01-24
+
+Prod: insert into productos_ventas 
+        values ('41043', '17047', '1', '310', '175.7000', '1', 'MAX S78440P130P8310510004002') - trueProd: insert into productos_ventas 
+        values ('41249', '17047', '1', '2600', '2499.0000', '1', 'CALE EO25018291') - true

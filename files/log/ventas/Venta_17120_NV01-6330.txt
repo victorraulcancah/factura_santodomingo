@@ -1,0 +1,11 @@
+Venta: 17120, fecha: 2026-01-31
+
+Prod: insert into productos_ventas 
+        values ('40549', '17120', '1', '389', '359.0000', '1', 'ca50188') - trueProd: insert into productos_ventas 
+        values ('40489', '17120', '1', '370', '305.0000', '1', 'ROY6227') - trueProd: insert into productos_ventas 
+        values ('40918', '17120', '1', '240', '148.9800', '1', 'g&g6860') - trueProd: insert into productos_ventas 
+        values ('40557', '17120', '1', '210', '189.0000', '1', 'corp22665') - trueProd: insert into productos_ventas 
+        values ('40882', '17120', '1', '130', '92.0000', '1', 'ca2280') - trueProd: insert into productos_ventas 
+        values ('41244', '17120', '1', '99', '80.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('41239', '17120', '1', '1161', '1139.0000', '1', 'corp3583') - trueProd: insert into productos_ventas 
+        values ('40536', '17120', '1', '85', '66.0000', '1', 'PEGA') - true

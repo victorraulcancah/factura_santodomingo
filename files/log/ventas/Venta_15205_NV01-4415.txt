@@ -1,0 +1,13 @@
+Venta: 15205, fecha: 2025-07-13
+
+Prod: insert into productos_ventas 
+        values ('40592', '15205', '2', '830', '700.0000', '1', 'smth800773-503224') - trueProd: insert into productos_ventas 
+        values ('40740', '15205', '2', '450', '405.0000', '1', '73830-79828') - trueProd: insert into productos_ventas 
+        values ('40577', '15205', '2', '100', '87.0000', '1', 'pega') - trueProd: insert into productos_ventas 
+        values ('40587', '15205', '2', '168', '150.0000', '1', 'smth60091-60092') - trueProd: insert into productos_ventas 
+        values ('40596', '15205', '2', '148', '122.2500', '1', 'ROY101722-1754P') - trueProd: insert into productos_ventas 
+        values ('40882', '15205', '2', '150', '103.5000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40877', '15205', '2', '110', '77.0300', '1', 'HALION') - trueProd: insert into productos_ventas 
+        values ('40532', '15205', '2', '750', '699.4300', '1', 'MAXI5005-5006') - trueProd: insert into productos_ventas 
+        values ('40698', '15205', '2', '55', '39.9330', '1', 'PEGA') - trueProd: insert into productos_ventas 
+        values ('40862', '15205', '2', '329', '318.0500', '1', 'del30090-30827') - true

@@ -1,0 +1,11 @@
+Venta: 16715, fecha: 2025-12-15
+
+Prod: insert into productos_ventas 
+        values ('40552', '16715', '1', '697', '652.0000', '1', 'CDK 9AMW222S50264') - trueProd: insert into productos_ventas 
+        values ('41113', '16715', '1', '299', '269.1000', '1', 'SEDA T4M0KK06P866Z38') - trueProd: insert into productos_ventas 
+        values ('41175', '16715', '1', '555', '340.0000', '1', 'REMA 30175456609') - trueProd: insert into productos_ventas 
+        values ('41111', '16715', '1', '199', '94.0000', '1', 'HUM BCFYB7N024012207H6G') - trueProd: insert into productos_ventas 
+        values ('40882', '16715', '1', '120', '97.0000', '1', 'CALE 4666MICP600-80+2130') - trueProd: insert into productos_ventas 
+        values ('41195', '16715', '1', '105', '83.0000', '1', 'CALE ') - trueProd: insert into productos_ventas 
+        values ('40521', '16715', '1', '230', '209.4000', '1', 'DEL TE2415S129625080744') - trueProd: insert into productos_ventas 
+        values ('40563', '16715', '1', '60', '49.8500', '1', 'DEL KCJT2506041444') - true

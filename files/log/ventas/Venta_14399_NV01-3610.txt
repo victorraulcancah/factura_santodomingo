@@ -1,0 +1,6 @@
+Venta: 14399, fecha: 2025-04-19
+
+Prod: insert into productos_ventas 
+        values ('40540', '14399', '10', '110', '107.7000', '1', 'ELEMENT') - trueProd: insert into productos_ventas 
+        values ('40521', '14399', '6', '255', '245.0000', '1', 'TACT30030-31809-31900-31324-1643-1653') - trueProd: insert into productos_ventas 
+        values ('40590', '14399', '4', '95', '90.0000', '1', 'SNMTHBB77A-BB774-AECB-BAE09') - true

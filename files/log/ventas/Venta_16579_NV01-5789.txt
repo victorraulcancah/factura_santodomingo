@@ -1,0 +1,5 @@
+Venta: 16579, fecha: 2025-12-03
+
+Prod: insert into productos_ventas 
+        values ('40918', '16579', '1', '170.0000', '108.3100', '1', 'MAXIM-76855') - trueProd: insert into productos_ventas 
+        values ('40538', '16579', '1', '10.0000', '0.0000', '1', 'POR INSTALACION DE SISTEMA OPERATIVO') - true

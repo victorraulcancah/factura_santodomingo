@@ -1,0 +1,8 @@
+Venta: 17253, fecha: 2026-02-18
+
+Prod: insert into productos_ventas 
+        values ('40552', '17253', '1', '689', '608.7700', '1', 'DEL50068') - trueProd: insert into productos_ventas 
+        values ('41287', '17253', '1', '309', '261.6100', '1', 'PLUS29313') - trueProd: insert into productos_ventas 
+        values ('41296', '17253', '1', '245', '195.0000', '1', 'HUMBERTHQHH5U') - trueProd: insert into productos_ventas 
+        values ('41108', '17253', '1', '647', '514.0000', '1', 'ROGS007287') - trueProd: insert into productos_ventas 
+        values ('40494', '17253', '1', '109', '50.3000', '1', 'CA') - true

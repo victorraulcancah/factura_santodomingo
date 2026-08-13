@@ -1,0 +1,13 @@
+Venta: 15577, fecha: 2025-08-13
+
+Prod: insert into productos_ventas 
+        values ('40592', '15577', '1', '844', '725.5000', '1', 'SMTH701806') - trueProd: insert into productos_ventas 
+        values ('40577', '15577', '1', '98', '83.5000', '1', 'GG700701') - trueProd: insert into productos_ventas 
+        values ('40949', '15577', '1', '525', '470.4500', '1', 'IMPACT51853') - trueProd: insert into productos_ventas 
+        values ('40597', '15577', '1', '155', '145.0000', '1', 'ROY75395') - trueProd: insert into productos_ventas 
+        values ('40943', '15577', '1', '250', '218.5000', '1', 'ROY2058P2237') - trueProd: insert into productos_ventas 
+        values ('40882', '15577', '1', '140', '100.0000', '1', 'CA600W0907') - trueProd: insert into productos_ventas 
+        values ('40540', '15577', '1', '129', '103.7200', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40729', '15577', '1', '909', '855.2649', '1', 'MAXI300778') - trueProd: insert into productos_ventas 
+        values ('40521', '15577', '1', '250', '240.0000', '1', 'HUMBERT161529') - trueProd: insert into productos_ventas 
+        values ('40572', '15577', '1', '25.0000', '15.0000', '1', 'IMPU') - true

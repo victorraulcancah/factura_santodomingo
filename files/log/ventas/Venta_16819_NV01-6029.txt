@@ -1,0 +1,11 @@
+Venta: 16819, fecha: 2025-12-24
+
+Prod: insert into productos_ventas 
+        values ('40804', '16819', '1', '469', '445.1000', '1', 'IMPCT U5UH994803563') - trueProd: insert into productos_ventas 
+        values ('41012', '16819', '1', '425.0000', '370.5780', '1', 'ROY 601-7E02-080B2507008341') - trueProd: insert into productos_ventas 
+        values ('41175', '16819', '1', '599', '340.0000', '1', 'REMA 30175454349') - trueProd: insert into productos_ventas 
+        values ('41106', '16819', '1', '129.0000', '102.0000', '1', 'HUM 22341W808966') - trueProd: insert into productos_ventas 
+        values ('41166', '16819', '1', '1700', '1568.6100', '1', 'CDK T8YVCM01D649WNZ') - trueProd: insert into productos_ventas 
+        values ('40976', '16819', '1', '179.0000', '125.9300', '1', 'IMPUL 4622P80BPW750W0648') - trueProd: insert into productos_ventas 
+        values ('41188', '16819', '1', '189', '170.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41072', '16819', '1', '210', '201.8700', '1', 'IMPUL 4664DG24FC-1000052') - true

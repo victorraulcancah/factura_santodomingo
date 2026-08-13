@@ -1,0 +1,15 @@
+Venta: 16449, fecha: 2025-11-22
+
+Prod: insert into productos_ventas 
+        values ('40592', '16449', '1', '749', '679.2100', '1', 'smt U5L61A5404753') - trueProd: insert into productos_ventas 
+        values ('41122', '16449', '1', '475', '420.0000', '1', 'labs SN251260093137') - trueProd: insert into productos_ventas 
+        values ('40587', '16449', '2', '195', '153.0000', '1', 'smt EF2505140220427 EF2505140220428') - trueProd: insert into productos_ventas 
+        values ('40509', '16449', '1', '249', '217.0000', '1', 'sed  50026B728399F305') - trueProd: insert into productos_ventas 
+        values ('41084', '16449', '1', '1329', '1262.0000', '1', 'cdk SN253441008645') - trueProd: insert into productos_ventas 
+        values ('40976', '16449', '1', '170', '140.0000', '1', 'tac 4622P80BA750W0421') - trueProd: insert into productos_ventas 
+        values ('40991', '16449', '1', '199.0000', '160.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('41131', '16449', '1', '289', '282.0000', '1', 'roy  824142396605') - trueProd: insert into productos_ventas 
+        values ('41109', '16449', '1', '140', '129.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40577', '16449', '1', '90', '70.5000', '1', 'g') - trueProd: insert into productos_ventas 
+        values ('41129', '16449', '1', '1999.0000', '1839.0000', '1', 'edu  T6NXCV09P392248') - trueProd: insert into productos_ventas 
+        values ('40822', '16449', '1', '0', '6.0000', '1', 'f') - true

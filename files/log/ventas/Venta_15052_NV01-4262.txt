@@ -1,0 +1,10 @@
+Venta: 15052, fecha: 2025-06-29
+
+Prod: insert into productos_ventas 
+        values ('40662', '15052', '1', '200.0000', '155.9610', '1', 'CMS-30093') - trueProd: insert into productos_ventas 
+        values ('40557', '15052', '1', '217.0000', '189.5000', '1', 'DELT-6761') - trueProd: insert into productos_ventas 
+        values ('40764', '15052', '1', '110.0000', '90.0000', '1', 'STH-64177') - trueProd: insert into productos_ventas 
+        values ('40488', '15052', '1', '92.0000', '70.0000', '1', 'CAL-0123') - trueProd: insert into productos_ventas 
+        values ('40616', '15052', '1', '90.0000', '56.6900', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40521', '15052', '1', '249.0000', '235.2800', '1', 'DELT-3586') - trueProd: insert into productos_ventas 
+        values ('40572', '15052', '1', '25.0000', '15.0000', '1', 'IMPULSO') - true

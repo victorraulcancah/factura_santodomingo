@@ -1,0 +1,8 @@
+Venta: 16471, fecha: 2025-11-24
+
+Prod: insert into productos_ventas 
+        values ('40533', '16471', '1', '259', '230.0000', '1', 'seda 0137') - trueProd: insert into productos_ventas 
+        values ('40557', '16471', '1', '209.0000', '178.0000', '1', 'seda 29809') - trueProd: insert into productos_ventas 
+        values ('40547', '16471', '1', '110', '110.0000', '1', 'lp 11159') - trueProd: insert into productos_ventas 
+        values ('41115', '16471', '1', '89.0000', '70.0000', '1', 'stck a0a77') - trueProd: insert into productos_ventas 
+        values ('40494', '16471', '1', '82', '51.0000', '1', 'imp') - true

@@ -1,0 +1,5 @@
+Venta: 16931, fecha: 2026-01-08
+
+Prod: insert into productos_ventas 
+        values ('41166', '16931', '1', '1700', '1568.6100', '1', 'CDK-D6548F2') - trueProd: insert into productos_ventas 
+        values ('40941', '16931', '1', '200', '182.0300', '1', 'CMS-824142258460') - true

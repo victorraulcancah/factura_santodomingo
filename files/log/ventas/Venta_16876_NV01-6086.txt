@@ -1,0 +1,5 @@
+Venta: 16876, fecha: 2026-01-02
+
+Prod: insert into productos_ventas 
+        values ('41131', '16876', '1', '300.0000', '277.9500', '1', 'MAXIM-PE1H055700867') - trueProd: insert into productos_ventas 
+        values ('40634', '16876', '1', '100.0000', '88.0000', '1', 'PEG') - true

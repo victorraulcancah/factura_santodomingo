@@ -1,0 +1,10 @@
+Venta: 16640, fecha: 2025-12-08
+
+Prod: insert into productos_ventas 
+        values ('40535', '16640', '1', '559', '500.0000', '1', 'cdk  YB03247M40171') - trueProd: insert into productos_ventas 
+        values ('41008', '16640', '1', '359', '286.0000', '1', 'cdk  601-7E76-020B2505007857') - trueProd: insert into productos_ventas 
+        values ('41145', '16640', '1', '589', '329.8700', '1', 'sn  impc  2P3200312780') - trueProd: insert into productos_ventas 
+        values ('41111', '16640', '1', '160.0000', '94.0000', '1', 'hu  BCFYB9N011912209K4H') - trueProd: insert into productos_ventas 
+        values ('41016', '16640', '1', '133', '95.0000', '1', 'ROG600B2503310013') - trueProd: insert into productos_ventas 
+        values ('40540', '16640', '1', '129', '90.9560', '1', 'impu') - trueProd: insert into productos_ventas 
+        values ('40636', '16640', '1', '50', '20.0000', '1', 'impu') - true

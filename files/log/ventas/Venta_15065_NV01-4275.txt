@@ -1,0 +1,8 @@
+Venta: 15065, fecha: 2025-06-30
+
+Prod: insert into productos_ventas 
+        values ('40589', '15065', '1', '830.0000', '764.3000', '1', 'STH - EDU 504615') - trueProd: insert into productos_ventas 
+        values ('40851', '15065', '1', '130.0000', '82.5000', '1', 'cabc-98mt') - trueProd: insert into productos_ventas 
+        values ('40500', '15065', '1', '480.0000', '420.0000', '1', 'EMSO-6847') - trueProd: insert into productos_ventas 
+        values ('40538', '15065', '1', '50.0000', '0.0000', '1', 'ace') - trueProd: insert into productos_ventas 
+        values ('40873', '15065', '1', '10.0000', '5.0000', '1', 'zomb') - true

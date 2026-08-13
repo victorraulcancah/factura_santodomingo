@@ -1,0 +1,8 @@
+Venta: 16008, fecha: 2025-09-30
+
+Prod: insert into productos_ventas 
+        values ('40991', '16008', '1', '200', '160.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41016', '16008', '1', '120', '95.0000', '1', 'ROG 0093') - trueProd: insert into productos_ventas 
+        values ('40547', '16008', '2', '65.0000', '54.7100', '1', 'MAX 1760 | 1759') - trueProd: insert into productos_ventas 
+        values ('40538', '16008', '1', '20.0000', '0.0000', '1', 'TRASLADO DE CASE') - trueProd: insert into productos_ventas 
+        values ('40660', '16008', '1', '110', '61.2500', '1', 'MICRO 7VX3') - true

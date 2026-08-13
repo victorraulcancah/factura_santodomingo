@@ -1,0 +1,10 @@
+Venta: 16463, fecha: 2025-11-24
+
+Prod: insert into productos_ventas 
+        values ('40708', '16463', '1', '539.0000', '506.5200', '1', 'DELT-U5HY416304367') - trueProd: insert into productos_ventas 
+        values ('40770', '16463', '1', '261.0000', '249.0000', '1', 'AYA-30170219935') - trueProd: insert into productos_ventas 
+        values ('41105', '16463', '1', '125.0000', '95.0000', '1', 'HUMB-097N512A') - trueProd: insert into productos_ventas 
+        values ('40702', '16463', '1', '299.0000', '241.2600', '1', 'CMS-SN251250103416') - trueProd: insert into productos_ventas 
+        values ('41016', '16463', '1', '120.0000', '95.0000', '1', ' ROG-600W2503310201') - trueProd: insert into productos_ventas 
+        values ('41095', '16463', '1', '120.0000', '91.2200', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40531', '16463', '1', '745.0000', '696.4500', '1', 'STH-8SN252301007266') - true

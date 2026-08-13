@@ -1,0 +1,12 @@
+Venta: 17114, fecha: 2026-01-31
+
+Prod: insert into productos_ventas 
+        values ('40586', '17114', '1', '899', '759.3700', '1', 'DATA 9ANE777T50115') - trueProd: insert into productos_ventas 
+        values ('41019', '17114', '1', '90', '50.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41008', '17114', '1', '325', '305.0000', '1', 'CALE 601-7E76-020B2505007844') - trueProd: insert into productos_ventas 
+        values ('41108', '17114', '1', '699', '502.0000', '1', 'ROG S006510') - trueProd: insert into productos_ventas 
+        values ('40509', '17114', '1', '480', '331.6600', '1', 'CALE 50026B728399F5C8') - trueProd: insert into productos_ventas 
+        values ('40980', '17114', '1', '1699', '1667.0000', '1', 'CALE A9V111671') - trueProd: insert into productos_ventas 
+        values ('40941', '17114', '1', '229', '180.9000', '1', 'CMS 3067ZP2B12CE010438001028') - trueProd: insert into productos_ventas 
+        values ('40540', '17114', '1', '129', '90.9560', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40805', '17114', '1', '0', '6.8500', '1', 'FREEEEEEEE') - true

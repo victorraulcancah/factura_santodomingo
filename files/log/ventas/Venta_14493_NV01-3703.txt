@@ -1,0 +1,8 @@
+Venta: 14493, fecha: 2025-04-29
+
+Prod: insert into productos_ventas 
+        values ('40592', '14493', '1', '799', '725.0000', '1', 'SMTH4404877') - trueProd: insert into productos_ventas 
+        values ('40534', '14493', '1', '395', '380.3800', '1', 'CMS5004964') - trueProd: insert into productos_ventas 
+        values ('40579', '14493', '2', '100', '95.0000', '1', 'SMTH90S9ZV / 90S9ZV') - trueProd: insert into productos_ventas 
+        values ('40695', '14493', '1', '1599.0000', '1480.0000', '1', 'RODR250201028') - trueProd: insert into productos_ventas 
+        values ('40513', '14493', '1', '145', '134.6000', '1', 'IMPULSO') - true

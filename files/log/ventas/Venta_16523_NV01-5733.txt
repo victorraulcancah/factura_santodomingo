@@ -1,0 +1,10 @@
+Venta: 16523, fecha: 2025-11-29
+
+Prod: insert into productos_ventas 
+        values ('40535', '16523', '1', '545.0000', '500.9400', '1', 'DELT-Y984639S50346') - trueProd: insert into productos_ventas 
+        values ('41105', '16523', '1', '140.0000', '95.0000', '1', 'HUMB-BTKA21610UK2512A') - trueProd: insert into productos_ventas 
+        values ('41128', '16523', '2', '150.0000', '80.0000', '1', 'CGS-8GBPC524H0060 8GBPC524H0059') - trueProd: insert into productos_ventas 
+        values ('41113', '16523', '1', '296.0000', '269.1000', '1', 'SEDA-T4M0KK06P8746JC') - trueProd: insert into productos_ventas 
+        values ('41016', '16523', '1', '120.0000', '95.0000', '1', 'ROG-2503310149') - trueProd: insert into productos_ventas 
+        values ('41147', '16523', '1', '1200.0000', '1103.3000', '1', 'IMPAC-IMPSN252641008053') - trueProd: insert into productos_ventas 
+        values ('40913', '16523', '1', '99.0000', '72.5000', '1', 'CAL') - true

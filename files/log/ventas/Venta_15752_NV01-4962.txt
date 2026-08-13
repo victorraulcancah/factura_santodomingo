@@ -1,0 +1,5 @@
+Venta: 15752, fecha: 2025-08-30
+
+Prod: insert into productos_ventas 
+        values ('40966', '15752', '1', '2720', '2499.0000', '1', 'CARXHDX') - trueProd: insert into productos_ventas 
+        values ('40908', '15752', '1', '150', '156.0000', '1', 'caD19816EA2513') - true

@@ -1,0 +1,4 @@
+Venta: 16598, fecha: 2025-12-04
+
+Prod: insert into productos_ventas 
+        values ('41163', '16598', '1', '340', '324.0000', '1', 'ca IPX2711GOL25070982') - true

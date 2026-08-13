@@ -1,0 +1,10 @@
+Venta: 16971, fecha: 2026-01-13
+
+Prod: insert into productos_ventas 
+        values ('41221', '16971', '1', '689', '632.0000', '1', 'PLUS U4GC204504796') - trueProd: insert into productos_ventas 
+        values ('41222', '16971', '1', '489.0000', '426.0000', '1', 'CA  SN250950010618') - trueProd: insert into productos_ventas 
+        values ('41231', '16971', '1', '699', '590.0000', '1', 'micro  s008133') - trueProd: insert into productos_ventas 
+        values ('40699', '16971', '1', '399', '359.0000', '1', 'ca UEOH6GFH8R0K1I') - trueProd: insert into productos_ventas 
+        values ('40936', '16971', '1', '1399', '1299.0000', '1', 'pega  SN252241013565') - trueProd: insert into productos_ventas 
+        values ('40882', '16971', '1', '129', '92.0000', '1', 'ca 4666MICP600-80+1533') - trueProd: insert into productos_ventas 
+        values ('41207', '16971', '1', '96', '68.3400', '1', 'impu') - true

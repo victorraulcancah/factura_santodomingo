@@ -1,0 +1,4 @@
+Venta: 15751, fecha: 2025-08-30
+
+Prod: insert into productos_ventas 
+        values ('40538', '15751', '1', '30.0000', '0.0000', '1', 'PROGRAMAS AUTODESK Y OFFICE') - true

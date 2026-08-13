@@ -1,0 +1,6 @@
+Venta: 16984, fecha: 2026-01-16
+
+Prod: insert into productos_ventas 
+        values ('40986', '16984', '1', '675.0000', '460.0000', '1', 'STH-U4ED705500554') - trueProd: insert into productos_ventas 
+        values ('40500', '16984', '1', '475.0000', '454.4100', '1', 'LP-SN254260061902') - trueProd: insert into productos_ventas 
+        values ('40741', '16984', '1', '25.0000', '20.0000', '1', 'FD-PAD') - true

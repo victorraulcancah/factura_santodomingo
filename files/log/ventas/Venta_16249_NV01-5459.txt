@@ -1,0 +1,5 @@
+Venta: 16249, fecha: 2025-11-01
+
+Prod: insert into productos_ventas 
+        values ('40892', '16249', '1', '379.0000', '299.6000', '1', 'AMA-B0269') - trueProd: insert into productos_ventas 
+        values ('40509', '16249', '1', '230.0000', '212.4100', '1', 'DELT-8F95') - true

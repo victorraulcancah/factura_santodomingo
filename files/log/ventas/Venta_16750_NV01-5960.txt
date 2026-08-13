@@ -1,0 +1,4 @@
+Venta: 16750, fecha: 2025-12-19
+
+Prod: insert into productos_ventas 
+        values ('41163', '16750', '1', '360.0000', '336.7300', '1', 'CS-GOL25070147') - true

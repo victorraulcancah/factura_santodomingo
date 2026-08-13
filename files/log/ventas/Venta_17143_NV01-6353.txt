@@ -1,0 +1,11 @@
+Venta: 17143, fecha: 2026-02-03
+
+Prod: insert into productos_ventas 
+        values ('40552', '17143', '1', '665.0000', '608.7700', '1', 'DELTRON-9AMW188S50173') - trueProd: insert into productos_ventas 
+        values ('41108', '17143', '1', '599.0000', '502.0000', '1', 'ROG-0000009277789-S006235') - trueProd: insert into productos_ventas 
+        values ('41008', '17143', '1', '345.0000', '305.0000', '1', 'CAL-601-7E76-020B2505007937') - trueProd: insert into productos_ventas 
+        values ('41200', '17143', '1', '220.0000', '188.0000', '1', 'LP-4P0921965747') - trueProd: insert into productos_ventas 
+        values ('40882', '17143', '1', '120.0000', '92.0000', '1', 'CAL-4666MICP600-80+1401') - trueProd: insert into productos_ventas 
+        values ('41244', '17143', '1', '100.0000', '80.0000', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('41019', '17143', '1', '70.0000', '50.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40521', '17143', '1', '229.0000', '195.3200', '1', 'CV-TE2415S179525101031') - true

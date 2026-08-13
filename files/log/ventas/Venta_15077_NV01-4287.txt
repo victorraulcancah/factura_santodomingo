@@ -1,0 +1,6 @@
+Venta: 15077, fecha: 2025-07-03
+
+Prod: insert into productos_ventas 
+        values ('40592', '15077', '1', '749', '694.1100', '1', 'smt  302967') - trueProd: insert into productos_ventas 
+        values ('40828', '15077', '1', '115', '106.8000', '1', 'impu  4594p80b-650w0952') - trueProd: insert into productos_ventas 
+        values ('40821', '15077', '1', '89', '78.7200', '1', 'im') - true

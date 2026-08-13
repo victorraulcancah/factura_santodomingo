@@ -1,0 +1,11 @@
+Venta: 15713, fecha: 2025-08-27
+
+Prod: insert into productos_ventas 
+        values ('40708', '15713', '1', '549.0000', '531.0000', '1', 'marle  U5JF243003873 ') - trueProd: insert into productos_ventas 
+        values ('40740', '15713', '1', '459', '405.0000', '1', 'roy H3M0XB073812') - trueProd: insert into productos_ventas 
+        values ('40597', '15713', '1', '160', '145.0000', '1', 'roy 30173375438') - trueProd: insert into productos_ventas 
+        values ('40915', '15713', '1', '133', '111.0000', '1', 'roy 89909') - trueProd: insert into productos_ventas 
+        values ('40882', '15713', '1', '150', '100.0000', '1', 'ca 4594P80B-600W1888') - trueProd: insert into productos_ventas 
+        values ('40499', '15713', '1', '1149.0000', '1085.0000', '1', 'max  602-V397-1139SB2505003697') - trueProd: insert into productos_ventas 
+        values ('40913', '15713', '1', '99.0000', '75.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40521', '15713', '1', '249', '240.0000', '1', 'hu  SNCTM2504160917') - true

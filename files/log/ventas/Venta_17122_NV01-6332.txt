@@ -1,0 +1,12 @@
+Venta: 17122, fecha: 2026-01-31
+
+Prod: insert into productos_ventas 
+        values ('41221', '17122', '1', '696.0000', '645.0000', '1', 'STH-U4864VG105235') - trueProd: insert into productos_ventas 
+        values ('41231', '17122', '1', '619.0000', '590.0000', '1', 'M-BYTE 0000009277789-S010560') - trueProd: insert into productos_ventas 
+        values ('41243', '17122', '1', '120.0000', '99.0000', '1', 'CAL-TSMJC2507090844') - trueProd: insert into productos_ventas 
+        values ('40729', '17122', '1', '915.0000', '721.3300', '1', 'STH-602-V809-2885ST2507002651') - trueProd: insert into productos_ventas 
+        values ('41222', '17122', '1', '489.0000', '426.0000', '1', 'CAL-SN250950010601') - trueProd: insert into productos_ventas 
+        values ('40918', '17122', '1', '240.0000', '148.9800', '1', 'GYG 30176975155') - trueProd: insert into productos_ventas 
+        values ('41244', '17122', '1', '120.0000', '80.0000', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40660', '17122', '1', '100.0000', '50.0000', '1', 'M-BYTE Z9AEVGJD') - trueProd: insert into productos_ventas 
+        values ('40521', '17122', '1', '229.0000', '195.3200', '1', 'CV- TE2415S173825100289') - true

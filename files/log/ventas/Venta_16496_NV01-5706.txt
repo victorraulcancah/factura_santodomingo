@@ -1,0 +1,11 @@
+Venta: 16496, fecha: 2025-11-27
+
+Prod: insert into productos_ventas 
+        values ('40708', '16496', '1', '540.0000', '518.0000', '1', 'ROY-U5WS087400778') - trueProd: insert into productos_ventas 
+        values ('40702', '16496', '1', '295.0000', '240.0000', '1', 'CMS-251250103195') - trueProd: insert into productos_ventas 
+        values ('41105', '16496', '1', '135.0000', '95.0000', '1', 'HUMB-541QPF512A') - trueProd: insert into productos_ventas 
+        values ('41128', '16496', '2', '130.0000', '80.0000', '1', 'CGS-8GBPC524H0066 8GBPC524H0064') - trueProd: insert into productos_ventas 
+        values ('41016', '16496', '1', '120.0000', '95.0000', '1', 'ROG 2503310141') - trueProd: insert into productos_ventas 
+        values ('40531', '16496', '1', '750.0000', '696.4500', '1', 'DATA-252201025032') - trueProd: insert into productos_ventas 
+        values ('40913', '16496', '1', '99.0000', '72.5000', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40521', '16496', '1', '230.0000', '216.7200', '1', 'DELT-TE2415S1158A25070901') - true

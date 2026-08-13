@@ -1,0 +1,11 @@
+Venta: 16390, fecha: 2025-11-17
+
+Prod: insert into productos_ventas 
+        values ('40535', '16390', '1', '520', '505.0000', '1', 'DEL Y984631R50021') - trueProd: insert into productos_ventas 
+        values ('41113', '16390', '1', '270', '260.0000', '1', 'SEDA T4M0KK06P878G8G') - trueProd: insert into productos_ventas 
+        values ('41104', '16390', '1', '200', '188.8800', '1', 'DEL TE165625090690') - trueProd: insert into productos_ventas 
+        values ('41105', '16390', '1', '130.0000', '95.0000', '1', 'HUM BTKA21440FMD512A') - trueProd: insert into productos_ventas 
+        values ('41016', '16390', '1', '120.0000', '95.0000', '1', 'ROG600W2503310029') - trueProd: insert into productos_ventas 
+        values ('41095', '16390', '1', '119', '91.2200', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40572', '16390', '1', '25.0000', '16.0000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40521', '16390', '1', '230', '216.7200', '1', 'DEL TE2415S1158B25070903') - true

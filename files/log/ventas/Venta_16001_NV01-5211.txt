@@ -1,0 +1,12 @@
+Venta: 16001, fecha: 2025-09-29
+
+Prod: insert into productos_ventas 
+        values ('40592', '16001', '1', '699', '623.2100', '1', 'SMT U5H07M5904358') - trueProd: insert into productos_ventas 
+        values ('40886', '16001', '1', '299', '250.2500', '1', 'MAX 3067ZWDA11L8010514002066') - trueProd: insert into productos_ventas 
+        values ('40813', '16001', '1', '400', '348.6750', '1', 'SMT EF2408220370379 | EF2408220370380') - trueProd: insert into productos_ventas 
+        values ('40585', '16001', '1', '235', '183.0000', '1', 'ROD 4P2120653425') - trueProd: insert into productos_ventas 
+        values ('40740', '16001', '1', '449.0000', '405.0000', '1', 'ROY H3M0XB073796') - trueProd: insert into productos_ventas 
+        values ('40988', '16001', '1', '1349.0000', '1270.0000', '1', 'ROY 602-V537-38ST2507020271') - trueProd: insert into productos_ventas 
+        values ('40555', '16001', '1', '219', '160.0000', '1', 'CALE 241225PSDK-G0349') - trueProd: insert into productos_ventas 
+        values ('40991', '16001', '1', '249', '160.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40539', '16001', '1', '0.00000001', '12.0000', '1', 'FREEEEEEE') - true

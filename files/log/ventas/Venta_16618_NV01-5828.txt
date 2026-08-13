@@ -1,0 +1,9 @@
+Venta: 16618, fecha: 2025-12-06
+
+Prod: insert into productos_ventas 
+        values ('40533', '16618', '1', '289', '225.0000', '1', 'ROY  9AHG548T50072') - trueProd: insert into productos_ventas 
+        values ('40557', '16618', '1', '199', '177.0000', '1', 'roy 601-7C96-120B2507013463') - trueProd: insert into productos_ventas 
+        values ('40547', '16618', '1', '169', '122.5000', '1', 'lp  30174011172') - trueProd: insert into productos_ventas 
+        values ('41115', '16618', '1', '99', '70.0000', '1', 'stock 234945806651') - trueProd: insert into productos_ventas 
+        values ('40913', '16618', '1', '99.0000', '70.7700', '1', 'imp') - trueProd: insert into productos_ventas 
+        values ('40629', '16618', '1', '65', '36.5000', '1', 'IMPU') - true

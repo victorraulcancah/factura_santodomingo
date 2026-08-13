@@ -1,0 +1,11 @@
+Venta: 16602, fecha: 2025-12-04
+
+Prod: insert into productos_ventas 
+        values ('40708', '16602', '2', '570', '554.4800', '1', 'plus  U5DY753105090  800303') - trueProd: insert into productos_ventas 
+        values ('41164', '16602', '2', '445', '415.0000', '1', 'roy  2102  2107') - trueProd: insert into productos_ventas 
+        values ('41145', '16602', '2', '400', '329.8700', '1', 'imp  3550   4366') - trueProd: insert into productos_ventas 
+        values ('40565', '16602', '2', '300', '247.0000', '1', 'cdm 800502 0973') - trueProd: insert into productos_ventas 
+        values ('41034', '16602', '2', '240', '160.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('41042', '16602', '2', '1950', '1.0000', '1', 'plus 5194   5192') - trueProd: insert into productos_ventas 
+        values ('40991', '16602', '2', '195', '160.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('40536', '16602', '1', '80', '66.0000', '1', 'pega  2511-20782637') - true

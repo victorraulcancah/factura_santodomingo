@@ -1,0 +1,9 @@
+Venta: 17222, fecha: 2026-02-14
+
+Prod: insert into productos_ventas 
+        values ('40583', '17222', '1', '899', '879.0000', '1', 'roy782r50019') - trueProd: insert into productos_ventas 
+        values ('41008', '17222', '1', '330', '305.0000', '1', 'ca5007961') - trueProd: insert into productos_ventas 
+        values ('41108', '17222', '1', '620', '514.0000', '1', 'rog7297') - trueProd: insert into productos_ventas 
+        values ('40918', '17222', '1', '230', '148.9800', '1', 'g&g75716') - trueProd: insert into productos_ventas 
+        values ('40882', '17222', '1', '110', '92.0000', '1', 'CA0184') - trueProd: insert into productos_ventas 
+        values ('40821', '17222', '1', '110', '72.0000', '1', 'CA') - true

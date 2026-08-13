@@ -1,0 +1,10 @@
+Venta: 17177, fecha: 2026-02-07
+
+Prod: insert into productos_ventas 
+        values ('40493', '17177', '1', '560', '539.0000', '1', 'REMAQ50199') - trueProd: insert into productos_ventas 
+        values ('41080', '17177', '1', '250', '185.0000', '1', 'ROY7P079FNH') - trueProd: insert into productos_ventas 
+        values ('41184', '17177', '1', '389', '300.0000', '1', 'humbertrx16d4397') - trueProd: insert into productos_ventas 
+        values ('41115', '17177', '1', '170', '70.0000', '1', 'st45351') - trueProd: insert into productos_ventas 
+        values ('40494', '17177', '1', '130', '50.3000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40521', '17177', '1', '229', '218.8300', '1', 'humbert100824') - trueProd: insert into productos_ventas 
+        values ('40805', '17177', '1', '0', '6.8500', '1', 'regalo') - true

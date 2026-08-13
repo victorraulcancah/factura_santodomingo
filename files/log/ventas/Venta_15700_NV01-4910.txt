@@ -1,0 +1,9 @@
+Venta: 15700, fecha: 2025-08-25
+
+Prod: insert into productos_ventas 
+        values ('40546', '15700', '2', '105', '93.6300', '1', 'spt  30171591785   30171591784') - trueProd: insert into productos_ventas 
+        values ('40509', '15700', '1', '235.0000', '213.8700', '1', 'del 50026B76871E1A96') - trueProd: insert into productos_ventas 
+        values ('40933', '15700', '1', '190', '172.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40941', '15700', '1', '190', '165.5500', '1', 'max  3067ZP2B12CE010516005713') - trueProd: insert into productos_ventas 
+        values ('40499', '15700', '1', '1139', '1100.0000', '1', 'max 602-V397-1139SB2505004144') - trueProd: insert into productos_ventas 
+        values ('40538', '15700', '1', '26', '0.0000', '1', 'ENSAMBLE COMPONENTES') - true

@@ -1,0 +1,7 @@
+Venta: 15133, fecha: 2025-07-06
+
+Prod: insert into productos_ventas 
+        values ('40533', '15133', '1', '245.0000', '229.0000', '1', 'CAL-40866') - trueProd: insert into productos_ventas 
+        values ('40630', '15133', '1', '215.0000', '195.0000', '1', 'CAL-3876') - trueProd: insert into productos_ventas 
+        values ('40540', '15133', '1', '119.0000', '103.7200', '1', 'IMPULS') - trueProd: insert into productos_ventas 
+        values ('40538', '15133', '1', '30.0000', '0.0000', '1', 'ACE') - true

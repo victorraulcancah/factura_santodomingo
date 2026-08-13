@@ -1,0 +1,5 @@
+Venta: 16387, fecha: 2025-11-17
+
+Prod: insert into productos_ventas 
+        values ('40521', '16387', '2', '230.0000', '216.7200', '1', 'DELT-70706-70932') - trueProd: insert into productos_ventas 
+        values ('40698', '16387', '2', '47.0000', '43.0000', '1', 'CMS-CAL') - true

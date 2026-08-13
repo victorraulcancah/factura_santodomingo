@@ -1,0 +1,9 @@
+Venta: 16563, fecha: 2025-12-01
+
+Prod: insert into productos_ventas 
+        values ('41019', '16563', '1', '89', '65.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41122', '16563', '1', '489', '430.0000', '1', 'LAB SN251260093094') - trueProd: insert into productos_ventas 
+        values ('41136', '16563', '2', '319.5', '278.3500', '1', 'SERC 20228647 | 20228614') - trueProd: insert into productos_ventas 
+        values ('40565', '16563', '1', '279', '247.0000', '1', 'LP 25197E801776') - trueProd: insert into productos_ventas 
+        values ('40919', '16563', '1', '229', '202.9900', '1', 'CDK G750SASN252700623') - trueProd: insert into productos_ventas 
+        values ('40991', '16563', '1', '190', '160.0000', '1', 'ROG') - true

@@ -1,0 +1,5 @@
+Venta: 17227, fecha: 2026-02-15
+
+Prod: insert into productos_ventas 
+        values ('41253', '17227', '1', '1050.0000', '920.0000', '1', 'dvd  A215200018063   S88-3E448-000SA') - trueProd: insert into productos_ventas 
+        values ('41043', '17227', '1', '350', '175.7000', '1', 'max  S78440P130P8310510004005') - true

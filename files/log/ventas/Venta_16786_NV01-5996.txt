@@ -1,0 +1,11 @@
+Venta: 16786, fecha: 2025-12-22
+
+Prod: insert into productos_ventas 
+        values ('40533', '16786', '1', '289', '225.0000', '1', 'seda 9AHE977R50678') - trueProd: insert into productos_ventas 
+        values ('40630', '16786', '1', '209', '179.0000', '1', 'ca  SN253850036623') - trueProd: insert into productos_ventas 
+        values ('40547', '16786', '1', '179', '150.0000', '1', ' LP 30174011167') - trueProd: insert into productos_ventas 
+        values ('41207', '16786', '1', '99', '68.3400', '1', 'im ') - trueProd: insert into productos_ventas 
+        values ('40629', '16786', '1', '55', '36.5000', '1', 'im ') - trueProd: insert into productos_ventas 
+        values ('40521', '16786', '1', '229', '209.4000', '1', 'del  TE2415S129625080737') - trueProd: insert into productos_ventas 
+        values ('41031', '16786', '1', '31', '25.0000', '1', ' 7752025050005') - trueProd: insert into productos_ventas 
+        values ('41115', '16786', '1', '129', '70.0000', '1', 'SN VZ070') - true

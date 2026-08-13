@@ -1,0 +1,5 @@
+Venta: 16597, fecha: 2025-12-04
+
+Prod: insert into productos_ventas 
+        values ('40489', '16597', '1', '340.0000', '290.0000', '1', 'LP-0000007136864-T000542') - trueProd: insert into productos_ventas 
+        values ('40874', '16597', '1', '1870.0000', '1780.3200', '1', 'MAXIM-T6YVYZ00N1468R8') - true

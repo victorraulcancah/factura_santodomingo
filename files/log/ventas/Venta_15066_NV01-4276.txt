@@ -1,0 +1,8 @@
+Venta: 15066, fecha: 2025-06-30
+
+Prod: insert into productos_ventas 
+        values ('40711', '15066', '1', '540', '490.0000', '1', 'smth035301') - trueProd: insert into productos_ventas 
+        values ('40602', '15066', '1', '570', '562.0600', '1', 'CORP50047') - trueProd: insert into productos_ventas 
+        values ('40596', '15066', '1', '125', '122.2500', '1', 'ROY101694') - trueProd: insert into productos_ventas 
+        values ('40830', '15066', '1', '365', '350.7400', '1', 'CORP251207') - trueProd: insert into productos_ventas 
+        values ('40531', '15066', '1', '717', '705.9000', '1', 'MAXI1094620') - true

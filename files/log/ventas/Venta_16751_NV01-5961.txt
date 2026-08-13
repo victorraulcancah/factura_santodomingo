@@ -1,0 +1,8 @@
+Venta: 16751, fecha: 2025-12-19
+
+Prod: insert into productos_ventas 
+        values ('40583', '16751', '1', '1053', '892.7200', '1', 'CORP50186') - trueProd: insert into productos_ventas 
+        values ('41175', '16751', '1', '599', '340.0000', '1', 'REMA6628') - trueProd: insert into productos_ventas 
+        values ('41008', '16751', '1', '369.0000', '297.0000', '1', 'ROY3353') - trueProd: insert into productos_ventas 
+        values ('41115', '16751', '1', '89.0000', '70.0000', '1', 'DIOSES') - trueProd: insert into productos_ventas 
+        values ('41157', '16751', '1', '89', '49.0400', '1', 'CASE') - true

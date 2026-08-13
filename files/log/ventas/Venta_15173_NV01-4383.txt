@@ -1,0 +1,9 @@
+Venta: 15173, fecha: 2025-07-11
+
+Prod: insert into productos_ventas 
+        values ('40549', '15173', '1', '295', '287.7500', '1', 'DEL27Q60288') - trueProd: insert into productos_ventas 
+        values ('40558', '15173', '1', '342', '342.0000', '1', 'MAXI4000875') - trueProd: insert into productos_ventas 
+        values ('40596', '15173', '1', '122', '122.2500', '1', 'ROY101652P1128') - trueProd: insert into productos_ventas 
+        values ('40579', '15173', '2', '105', '95.0000', '1', 'SMTHE33200C16 / E3200C16') - trueProd: insert into productos_ventas 
+        values ('40882', '15173', '1', '109', '103.5000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40821', '15173', '1', '81', '78.7200', '1', 'IMPULSO') - true

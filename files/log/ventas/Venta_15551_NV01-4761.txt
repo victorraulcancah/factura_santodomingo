@@ -1,0 +1,5 @@
+Venta: 15551, fecha: 2025-08-11
+
+Prod: insert into productos_ventas 
+        values ('40882', '15551', '1', '150.0000', '100.0000', '1', 'CALE 4594P80B-600W1790') - trueProd: insert into productos_ventas 
+        values ('40538', '15551', '1', '30.0000', '0.0000', '1', 'PA') - true

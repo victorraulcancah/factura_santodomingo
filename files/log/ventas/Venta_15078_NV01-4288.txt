@@ -1,0 +1,4 @@
+Venta: 15078, fecha: 2025-07-03
+
+Prod: insert into productos_ventas 
+        values ('40828', '15078', '1', '130', '106.8000', '1', 'sn / 4594p80b - 650w0956') - true

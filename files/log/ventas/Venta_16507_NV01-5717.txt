@@ -1,0 +1,8 @@
+Venta: 16507, fecha: 2025-11-28
+
+Prod: insert into productos_ventas 
+        values ('40991', '16507', '8', '170', '160.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('41048', '16507', '3', '40', '34.2700', '1', 'im ') - trueProd: insert into productos_ventas 
+        values ('40539', '16507', '2', '15', '9.5000', '1', 'f') - trueProd: insert into productos_ventas 
+        values ('40521', '16507', '1', '229', '216.7200', '1', 'del ') - trueProd: insert into productos_ventas 
+        values ('40521', '16507', '10', '219', '216.7200', '1', 'TE2415S1158A25070824 TE2415S1158B25071978 TE2415S1158A25070548 TE2415S1158A25070664 TE2415S1158B25070931 TE2415S1158A25070455 TE2415S1158B25070923 TE2415S1158A25070684 SNCTM2506012196 SNCTM2506021808') - true

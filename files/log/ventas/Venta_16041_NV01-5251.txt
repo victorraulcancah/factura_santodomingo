@@ -1,0 +1,8 @@
+Venta: 16041, fecha: 2025-10-05
+
+Prod: insert into productos_ventas 
+        values ('40592', '16041', '1', '749', '623.2100', '1', 'smt  U57G1R5202243') - trueProd: insert into productos_ventas 
+        values ('40999', '16041', '1', '749', '635.5500', '1', 'smt  SN244550079220') - trueProd: insert into productos_ventas 
+        values ('40813', '16041', '1', '410', '348.6750', '1', 'smt  EF2409240110675  EF2409240110676') - trueProd: insert into productos_ventas 
+        values ('40745', '16041', '1', '460', '445.0000', '1', 'lp  50026B768715BF9F') - trueProd: insert into productos_ventas 
+        values ('40883', '16041', '1', '382', '353.1500', '1', 'del  3067ZP8A12CE010528001658') - true

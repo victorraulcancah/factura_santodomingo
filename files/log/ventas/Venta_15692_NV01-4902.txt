@@ -1,0 +1,10 @@
+Venta: 15692, fecha: 2025-08-24
+
+Prod: insert into productos_ventas 
+        values ('40552', '15692', '1', '699', '687.8900', '1', 'del  9MQ5352S50089') - trueProd: insert into productos_ventas 
+        values ('40956', '15692', '1', '484', '432.3000', '1', 'cdk  SN251260105095 ') - trueProd: insert into productos_ventas 
+        values ('40813', '15692', '1', '380', '347.3500', '1', 'smt  EF2405300170449   EF2405300170450') - trueProd: insert into productos_ventas 
+        values ('40509', '15692', '1', '239', '213.8700', '1', 'del  50026B76871E1AD2') - trueProd: insert into productos_ventas 
+        values ('40882', '15692', '1', '129', '100.0000', '1', 'ca  4594P80B-600W1879') - trueProd: insert into productos_ventas 
+        values ('40540', '15692', '1', '119.0000', '103.7200', '1', 'impulso') - trueProd: insert into productos_ventas 
+        values ('40862', '15692', '1', '350', '338.0000', '1', 'cms  SNCTM2504031234') - true

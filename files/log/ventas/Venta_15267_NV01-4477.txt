@@ -1,0 +1,8 @@
+Venta: 15267, fecha: 2025-07-18
+
+Prod: insert into productos_ventas 
+        values ('40583', '15267', '1', '1040', '1006.1000', '1', 'DELR50397') - trueProd: insert into productos_ventas 
+        values ('40495', '15267', '1', '599', '530.0000', '1', 'SMTH15326LBX') - trueProd: insert into productos_ventas 
+        values ('40812', '15267', '1', '379', '350.0000', '1', 'SMTH80041-80042') - trueProd: insert into productos_ventas 
+        values ('40847', '15267', '1', '205', '175.0000', '1', 'TAC243100084') - trueProd: insert into productos_ventas 
+        values ('40645', '15267', '1', '197', '169.0000', '1', 'IMPULSO') - true

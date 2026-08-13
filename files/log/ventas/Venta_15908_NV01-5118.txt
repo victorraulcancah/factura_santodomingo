@@ -1,0 +1,15 @@
+Venta: 15908, fecha: 2025-09-16
+
+Prod: insert into productos_ventas 
+        values ('40529', '15908', '4', '260', '227.4500', '1', 'ROY  9MG9748T40171 DEL  9MG9748T40399 9MG9766T40156 9MG9766T40112') - trueProd: insert into productos_ventas 
+        values ('40557', '15908', '4', '199', '184.0000', '1', 'SEDA 601-7C96-120B2503058938 601-7C96-120B2505029995 601-7C96-120B2503058935 601-7C96-120B2503058931') - trueProd: insert into productos_ventas 
+        values ('40547', '15908', '8', '60', '54.7100', '1', 'MAX 30174011784 30174011783 30174011790 30174011789 30174011788 30174011787 30174011786 30174011785') - trueProd: insert into productos_ventas 
+        values ('40971', '15908', '4', '86', '70.0000', '1', 'ROY 900019  900018  900014  900017') - trueProd: insert into productos_ventas 
+        values ('40978', '15908', '2', '89.0000', '66.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40888', '15908', '1', '180', '163.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40933', '15908', '1', '180', '170.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('41005', '15908', '4', '69.0000', '57.0000', '1', 'CA 4593P35000106 4593P35000023 4593P35000024 4593P35000028') - trueProd: insert into productos_ventas 
+        values ('40985', '15908', '4', '729', '695.0000', '1', 'SMT   602-V812-129ST2506003389 602-V812-129ST2506003394 602-V812-129ST2506003381 602-V812-129ST2506002732') - trueProd: insert into productos_ventas 
+        values ('40862', '15908', '4', '335', '320.0000', '1', 'HU  SNCTM2506040734 SNCTM2506040866 SNCTM2506040370 SNCTM2506040178') - trueProd: insert into productos_ventas 
+        values ('41006', '15908', '4', '130', '102.0000', '1', 'CA ') - trueProd: insert into productos_ventas 
+        values ('40634', '15908', '2', '100', '87.0000', '1', 'ROY') - true

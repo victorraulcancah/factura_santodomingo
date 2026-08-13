@@ -1,0 +1,13 @@
+Venta: 15188, fecha: 2025-07-12
+
+Prod: insert into productos_ventas 
+        values ('40550', '15188', '1', '640.0000', '500.0000', '1', 'ROG-0147') - trueProd: insert into productos_ventas 
+        values ('40577', '15188', '1', '100.0000', '87.0000', '1', 'PEG-600784') - trueProd: insert into productos_ventas 
+        values ('40558', '15188', '1', '370.0000', '342.0000', '1', 'DELT-0879') - trueProd: insert into productos_ventas 
+        values ('40546', '15188', '1', '110.0000', '95.0000', '1', 'ROY-5078') - trueProd: insert into productos_ventas 
+        values ('40596', '15188', '1', '150.0000', '122.2500', '1', 'ROY1664') - trueProd: insert into productos_ventas 
+        values ('40882', '15188', '1', '150.0000', '103.5000', '1', 'CAL-1582') - trueProd: insert into productos_ventas 
+        values ('40877', '15188', '1', '120.0000', '77.0300', '1', 'HAL') - trueProd: insert into productos_ventas 
+        values ('40521', '15188', '1', '250.0000', '235.2800', '1', 'DELT13446') - trueProd: insert into productos_ventas 
+        values ('40526', '15188', '1', '640.0000', '583.8700', '1', 'CMS007098') - trueProd: insert into productos_ventas 
+        values ('40539', '15188', '1', '0.0000', '11.0000', '1', 'CBT') - true

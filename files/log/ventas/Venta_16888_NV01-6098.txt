@@ -1,0 +1,5 @@
+Venta: 16888, fecha: 2026-01-03
+
+Prod: insert into productos_ventas 
+        values ('40564', '16888', '1', '250', '142.5000', '1', 'lp   ASAD35330300452') - trueProd: insert into productos_ventas 
+        values ('40723', '16888', '1', '200', '180.0000', '1', 'lp 30170010650') - true

@@ -1,0 +1,14 @@
+Venta: 14959, fecha: 2025-06-20
+
+Prod: insert into productos_ventas 
+        values ('40549', '14959', '1', '330.0000', '286.6600', '1', 'STH-40013') - trueProd: insert into productos_ventas 
+        values ('40630', '14959', '1', '225.0000', '200.0000', '1', 'TACT-5670') - trueProd: insert into productos_ventas 
+        values ('40764', '14959', '2', '100.0000', '90.0000', '1', 'STH-4949-4950') - trueProd: insert into productos_ventas 
+        values ('40596', '14959', '1', '150.0000', '122.2500', '1', 'ROY-1741') - trueProd: insert into productos_ventas 
+        values ('40828', '14959', '1', '159.0000', '106.8000', '1', 'IMPULSO-0733') - trueProd: insert into productos_ventas 
+        values ('40729', '14959', '1', '975.0000', '903.0000', '1', 'LP-2871') - trueProd: insert into productos_ventas 
+        values ('40821', '14959', '1', '110.0000', '78.7200', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40521', '14959', '1', '249.0000', '235.2800', '1', 'DELT-13305') - trueProd: insert into productos_ventas 
+        values ('40576', '14959', '1', '80.0000', '65.4000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40600', '14959', '1', '45.0000', '33.0000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40608', '14959', '1', '45.0000', '33.7000', '1', 'IMPULSO') - true

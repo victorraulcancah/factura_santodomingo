@@ -1,0 +1,9 @@
+Venta: 14477, fecha: 2025-04-27
+
+Prod: insert into productos_ventas 
+        values ('40492', '14477', '1', '439.0000', '411.2000', '1', 'rodr40452') - trueProd: insert into productos_ventas 
+        values ('40630', '14477', '1', '219.0000', '201.9500', '1', 'seda5757') - trueProd: insert into productos_ventas 
+        values ('40547', '14477', '1', '65.0000', '57.0000', '1', 'seda5429') - trueProd: insert into productos_ventas 
+        values ('40653', '14477', '1', '87', '74.0000', '1', 'car003780') - trueProd: insert into productos_ventas 
+        values ('40616', '14477', '1', '89', '60.7500', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40655', '14477', '1', '49.0000', '32.2000', '1', 'impulso') - true

@@ -1,0 +1,12 @@
+Venta: 14810, fecha: 2025-05-31
+
+Prod: insert into productos_ventas 
+        values ('40551', '14810', '1', '469.0000', '420.0000', '1', 'EDU') - trueProd: insert into productos_ventas 
+        values ('40500', '14810', '1', '455.0000', '420.0000', '1', 'JACS-6842') - trueProd: insert into productos_ventas 
+        values ('40546', '14810', '1', '105.0000', '93.4000', '1', 'MAX-3095') - trueProd: insert into productos_ventas 
+        values ('40565', '14810', '1', '219.0000', '200.0000', '1', 'FBZ-800978') - trueProd: insert into productos_ventas 
+        values ('40499', '14810', '1', '1288.0000', '1250.0000', '1', '214-4451') - trueProd: insert into productos_ventas 
+        values ('40775', '14810', '1', '215.0000', '189.0000', '1', 'CAL-0124') - trueProd: insert into productos_ventas 
+        values ('40521', '14810', '1', '250.0000', '243.8400', '1', 'DELT-0102') - trueProd: insert into productos_ventas 
+        values ('40615', '14810', '1', '30.0000', '19.0000', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40619', '14810', '1', '249.0000', '185.0000', '1', 'ROG') - true

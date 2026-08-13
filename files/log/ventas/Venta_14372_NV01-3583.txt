@@ -1,0 +1,15 @@
+Venta: 14372, fecha: 2025-04-16
+
+Prod: insert into productos_ventas 
+        values ('40531', '14372', '1', '728.50000', '728.5000', '1', '') - trueProd: insert into productos_ventas 
+        values ('40558', '14372', '1', '352', '352.0000', '1', '3213') - trueProd: insert into productos_ventas 
+        values ('40579', '14372', '1', '95', '95.0000', '1', '42') - trueProd: insert into productos_ventas 
+        values ('40596', '14372', '1', '113.50', '113.5000', '1', '451561') - trueProd: insert into productos_ventas 
+        values ('40556', '14372', '1', '111.5', '111.0500', '1', '57') - trueProd: insert into productos_ventas 
+        values ('40541', '14372', '1', '82', '82.0000', '1', '987789') - trueProd: insert into productos_ventas 
+        values ('40576', '14372', '1', '66', '66.0000', '1', '755757') - trueProd: insert into productos_ventas 
+        values ('40595', '14372', '1', '242.85', '242.8500', '1', '321') - trueProd: insert into productos_ventas 
+        values ('40539', '14372', '3', '10.5', '10.5000', '1', '7') - trueProd: insert into productos_ventas 
+        values ('40607', '14372', '1', '25.6', '25.6000', '1', '321') - trueProd: insert into productos_ventas 
+        values ('40563', '14372', '1', '54', '54.0000', '1', '1') - trueProd: insert into productos_ventas 
+        values ('40521', '14372', '1', '245', '245.0000', '1', '7') - true

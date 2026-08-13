@@ -1,0 +1,4 @@
+Venta: 16814, fecha: 2025-12-24
+
+Prod: insert into productos_ventas 
+        values ('40904', '16814', '1', '370', '306.0500', '1', 'AMA SN25095A000640') - true

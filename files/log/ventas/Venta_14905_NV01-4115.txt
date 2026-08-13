@@ -1,0 +1,9 @@
+Venta: 14905, fecha: 2025-06-14
+
+Prod: insert into productos_ventas 
+        values ('40648', '14905', '1', '545', '465.0000', '1', 'ROG  N50365') - trueProd: insert into productos_ventas 
+        values ('40723', '14905', '1', '65.0000', '51.5600', '1', 'MAX  17926') - trueProd: insert into productos_ventas 
+        values ('40625', '14905', '1', '219', '177.5000', '1', 'ROG 500274') - trueProd: insert into productos_ventas 
+        values ('40488', '14905', '1', '85.0000', '65.0000', '1', 'ROG 25060180') - trueProd: insert into productos_ventas 
+        values ('40494', '14905', '1', '85', '65.0000', '1', 'HU') - trueProd: insert into productos_ventas 
+        values ('40818', '14905', '2', '25.0000', '16.0000', '1', 'CDM') - true

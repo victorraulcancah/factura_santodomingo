@@ -1,0 +1,11 @@
+Venta: 17221, fecha: 2026-02-14
+
+Prod: insert into productos_ventas 
+        values ('40583', '17221', '1.00', '899.00', '879.0000', '5', 'ROY 9MQ5782R50136') - trueProd: insert into productos_ventas 
+        values ('40862', '17221', '1.00', '350.00', '324.5000', '5', 'ca   TE2714S185425110888') - trueProd: insert into productos_ventas 
+        values ('40882', '17221', '1.00', '130.00', '92.0000', '5', 'ca 4666MICP600-80+0189') - trueProd: insert into productos_ventas 
+        values ('40918', '17221', '1.00', '250.00', '148.9800', '5', 'GYG 7515') - trueProd: insert into productos_ventas 
+        values ('41028', '17221', '1.00', '551.00', '463.1300', '5', 'CMS SN251150029650') - trueProd: insert into productos_ventas 
+        values ('41075', '17221', '1.00', '140.00', '85.0000', '5', 'tac') - trueProd: insert into productos_ventas 
+        values ('41108', '17221', '1.00', '599.00', '514.0000', '5', ' rg 0000009277789-S006612') - trueProd: insert into productos_ventas 
+        values ('41109', '17221', '1.00', '150.00', '129.0000', '5', 'ca') - true

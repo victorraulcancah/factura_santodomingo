@@ -1,0 +1,13 @@
+Venta: 15517, fecha: 2025-08-07
+
+Prod: insert into productos_ventas 
+        values ('40592', '15517', '1', '779.0000', '718.3300', '1', 'STH-U447A1Q803416') - trueProd: insert into productos_ventas 
+        values ('40813', '15517', '1', '380.0000', '340.0000', '1', 'STH-EF2409240110661-EF2409240110662') - trueProd: insert into productos_ventas 
+        values ('40699', '15517', '1', '228.0000', '210.0000', '1', 'TACT-QDM423W100871P113A') - trueProd: insert into productos_ventas 
+        values ('40577', '15517', '1', '97.0000', '84.5000', '1', 'ROY-10000131880AC251500984') - trueProd: insert into productos_ventas 
+        values ('40882', '15517', '1', '120.0000', '100.0000', '1', 'CAL-4594P80B-600W1783') - trueProd: insert into productos_ventas 
+        values ('40711', '15517', '1', '585.0000', '490.0000', '1', 'STH-H6M0XB181567') - trueProd: insert into productos_ventas 
+        values ('40854', '15517', '1', '1495.0000', '1402.6400', '1', 'LP-T5YVYZ01P827J6K') - trueProd: insert into productos_ventas 
+        values ('40536', '15517', '1', '85.0000', '68.0000', '1', 'PEG-2441-19938214') - trueProd: insert into productos_ventas 
+        values ('40521', '15517', '1', '250.0000', '240.0000', '1', 'HUMB-SNCTM2504161144') - trueProd: insert into productos_ventas 
+        values ('40540', '15517', '1', '115.0000', '103.7200', '1', 'IMPULSO') - true

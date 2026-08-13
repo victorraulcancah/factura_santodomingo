@@ -1,0 +1,10 @@
+Venta: 15998, fecha: 2025-09-28
+
+Prod: insert into productos_ventas 
+        values ('40533', '15998', '2', '289', '232.0100', '1', 'del  9ALX689P50182   9AHC907O50251') - trueProd: insert into productos_ventas 
+        values ('40557', '15998', '2', '209.0000', '183.0000', '1', 'roy 601-7C96-120B2503086629   601-7C96-120B2503086624') - trueProd: insert into productos_ventas 
+        values ('40547', '15998', '2', '65.0000', '54.7100', '1', ' max  30174011761  30174011762') - trueProd: insert into productos_ventas 
+        values ('40971', '15998', '2', '89', '70.0000', '1', 'max 0023  0021') - trueProd: insert into productos_ventas 
+        values ('40629', '15998', '2', '59.0000', '33.0000', '1', 'impu  4630SX2000 0200 4630SX2000 0198') - trueProd: insert into productos_ventas 
+        values ('40978', '15998', '2', '89.0000', '66.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40521', '15998', '1', '249', '240.0000', '1', 'hu   TE2415S1158A25071213') - true

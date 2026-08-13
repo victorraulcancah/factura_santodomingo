@@ -1,0 +1,11 @@
+Venta: 16037, fecha: 2025-10-04
+
+Prod: insert into productos_ventas 
+        values ('40592', '16037', '1', '685', '623.2100', '1', 'SMITHU59W8A3302927') - trueProd: insert into productos_ventas 
+        values ('40577', '16037', '1', '90', '80.2617', '1', 'GG6933412727767') - trueProd: insert into productos_ventas 
+        values ('40740', '16037', '1', '415', '405.0000', '1', 'ROYH3M0XB073800') - trueProd: insert into productos_ventas 
+        values ('41024', '16037', '2', '180', '136.5000', '1', 'TANZ') - trueProd: insert into productos_ventas 
+        values ('40915', '16037', '1', '117', '106.8900', '1', 'MAXI2479') - trueProd: insert into productos_ventas 
+        values ('40847', '16037', '1', '210', '175.0000', '1', 'TACTAG650SASN243600178') - trueProd: insert into productos_ventas 
+        values ('40913', '16037', '1', '105', '75.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40988', '16037', '1', '1285', '1270.0000', '1', 'ROY602-V537-38ST2507019895') - true

@@ -1,0 +1,10 @@
+Venta: 16452, fecha: 2025-11-22
+
+Prod: insert into productos_ventas 
+        values ('41119', '16452', '1', '540', '520.9290', '1', 'cdk  Y987878O40128') - trueProd: insert into productos_ventas 
+        values ('41113', '16452', '1', '282', '269.1000', '1', 'seda T4M0KK06P8626T3') - trueProd: insert into productos_ventas 
+        values ('41128', '16452', '2', '100', '80.0000', '1', 'cgs 8GBPC524H0044   8GBPC524H0039') - trueProd: insert into productos_ventas 
+        values ('41132', '16452', '1', '239', '200.0000', '1', 'mar AS0BN74361160BM4K') - trueProd: insert into productos_ventas 
+        values ('41016', '16452', '1', '120.0000', '95.0000', '1', 'ROG600W2503310210') - trueProd: insert into productos_ventas 
+        values ('41084', '16452', '1', '1339', '1262.0000', '1', 'CDK SN253441008646') - trueProd: insert into productos_ventas 
+        values ('41095', '16452', '1', '110', '91.2200', '1', 'IMP') - true

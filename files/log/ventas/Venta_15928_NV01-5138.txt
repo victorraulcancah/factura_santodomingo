@@ -1,0 +1,12 @@
+Venta: 15928, fecha: 2025-09-17
+
+Prod: insert into productos_ventas 
+        values ('40549', '15928', '2', '320.0000', '289.7000', '1', 'DEL 0639 | 0640') - trueProd: insert into productos_ventas 
+        values ('41010', '15928', '4', '120.0000', '108.9300', '1', 'CMS 0851 | 0871 | 0865 | 0862') - trueProd: insert into productos_ventas 
+        values ('40915', '15928', '2', '118.0000', '106.8900', '1', 'MAX 30174792548 | 30174792547') - trueProd: insert into productos_ventas 
+        values ('40557', '15928', '2', '209.0000', '186.0000', '1', 'SEDA 601-7C96-120B2504017372 | 601-7C96-120B2504017371') - trueProd: insert into productos_ventas 
+        values ('40985', '15928', '2', '745.0000', '695.0000', '1', 'SMT 602-V812-129ST2506003390 | 602-V812-129ST2506003392') - trueProd: insert into productos_ventas 
+        values ('40629', '15928', '2', '60.0000', '33.0000', '1', 'IMPUL 0881 | 0882') - trueProd: insert into productos_ventas 
+        values ('40978', '15928', '2', '99.0000', '66.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40521', '15928', '2', '249.0000', '236.0000', '1', 'HUM TE2415S1158A25071341 | TE2415S1158A25071207') - trueProd: insert into productos_ventas 
+        values ('40563', '15928', '2', '60.0000', '55.0000', '1', 'HUM') - true

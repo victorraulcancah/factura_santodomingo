@@ -1,0 +1,5 @@
+Venta: 14727, fecha: 2025-05-22
+
+Prod: insert into productos_ventas 
+        values ('40606', '14727', '1', '320', '302.9000', '1', 'impulso4577dg24fc750360') - trueProd: insert into productos_ventas 
+        values ('40538', '14727', '1', '10', '0.0000', '1', '1') - true

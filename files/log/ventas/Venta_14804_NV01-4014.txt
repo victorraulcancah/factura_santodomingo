@@ -1,0 +1,7 @@
+Venta: 14804, fecha: 2025-05-31
+
+Prod: insert into productos_ventas 
+        values ('40596', '14804', '1', '130', '122.2500', '1', 'roy104416p') - trueProd: insert into productos_ventas 
+        values ('40527', '14804', '1', '85.0000', '69.0000', '1', 'HALION') - trueProd: insert into productos_ventas 
+        values ('40558', '14804', '1', '370', '355.0000', '1', 'ROY12005283') - trueProd: insert into productos_ventas 
+        values ('40714', '14804', '2', '136', '125.0000', '1', 'CA250125PSDK-25PSDK') - true

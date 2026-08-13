@@ -1,0 +1,5 @@
+Venta: 14866, fecha: 2025-06-08
+
+Prod: insert into productos_ventas 
+        values ('40551', '14866', '3', '430', '420.0000', '1', 'EDU337Q239-8M636-G667') - trueProd: insert into productos_ventas 
+        values ('40531', '14866', '3', '730', '710.5700', '1', 'MAXI93753-1093754-93752-') - true

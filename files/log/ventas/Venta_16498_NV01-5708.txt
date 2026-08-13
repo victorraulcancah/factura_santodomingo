@@ -1,0 +1,10 @@
+Venta: 16498, fecha: 2025-11-28
+
+Prod: insert into productos_ventas 
+        values ('40708', '16498', '1', '539.0000', '488.6500', '1', 'mili  U5B06J6500501') - trueProd: insert into productos_ventas 
+        values ('41012', '16498', '1', '399', '363.9600', '1', 'CMS  601-7E02-070B2502003311') - trueProd: insert into productos_ventas 
+        values ('41136', '16498', '1', '369', '278.3500', '1', 'PLUS  20228602') - trueProd: insert into productos_ventas 
+        values ('41043', '16498', '1', '249.0000', '175.7000', '1', 'MAX S78440P130P8310510004033') - trueProd: insert into productos_ventas 
+        values ('41095', '16498', '1', '129', '91.2200', '1', 'im') - trueProd: insert into productos_ventas 
+        values ('40976', '16498', '1', '179', '142.0000', '1', 'rt 4622P80BA750W0559') - trueProd: insert into productos_ventas 
+        values ('41042', '16498', '1', '1935', '1836.6500', '1', 'roy 602-V535-61SB2506004631') - true

@@ -1,0 +1,5 @@
+Venta: 15186, fecha: 2025-07-12
+
+Prod: insert into productos_ventas 
+        values ('40509', '15186', '1', '245', '230.0000', '1', 'cdm42E00') - trueProd: insert into productos_ventas 
+        values ('40788', '15186', '2', '115', '95.0000', '1', 'ca981cd6') - true

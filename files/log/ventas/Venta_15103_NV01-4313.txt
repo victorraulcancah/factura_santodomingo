@@ -1,0 +1,12 @@
+Venta: 15103, fecha: 2025-07-05
+
+Prod: insert into productos_ventas 
+        values ('40602', '15103', '1', '596.0000', '560.6400', '1', 'CMS-50187') - trueProd: insert into productos_ventas 
+        values ('40547', '15103', '2', '62.0000', '52.5000', '1', 'ROY -2974-2965') - trueProd: insert into productos_ventas 
+        values ('40565', '15103', '1', '230.0000', '210.3000', '1', 'CAL-4754') - trueProd: insert into productos_ventas 
+        values ('40577', '15103', '1', '95.0000', '89.0000', '1', 'PEG-0338') - trueProd: insert into productos_ventas 
+        values ('40558', '15103', '1', '365.0000', '342.0000', '1', 'DELT-1503') - trueProd: insert into productos_ventas 
+        values ('40775', '15103', '1', '220.0000', '187.0000', '1', 'CMS-5984') - trueProd: insert into productos_ventas 
+        values ('40821', '15103', '1', '100.0000', '78.7200', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40521', '15103', '1', '250.0000', '235.2800', '1', 'DELT-3487') - trueProd: insert into productos_ventas 
+        values ('40543', '15103', '1', '55.0000', '38.0000', '1', 'CA-1370') - true

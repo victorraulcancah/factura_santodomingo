@@ -1,0 +1,9 @@
+Venta: 16034, fecha: 2025-10-04
+
+Prod: insert into productos_ventas 
+        values ('40583', '16034', '1', '1009', '984.0000', '1', 'DEL 9AMN024Q50263') - trueProd: insert into productos_ventas 
+        values ('40587', '16034', '2', '170', '153.0000', '1', 'SMT EF2503100060419 | EF2503100060420') - trueProd: insert into productos_ventas 
+        values ('40585', '16034', '1', '235', '183.0000', '1', 'ROD 4P2120635946') - trueProd: insert into productos_ventas 
+        values ('41028', '16034', '1', '519.0000', '474.6400', '1', 'CMS SN251150029657') - trueProd: insert into productos_ventas 
+        values ('40847', '16034', '1', '199.0000', '175.0000', '1', 'TAC AG650SASN243600009') - trueProd: insert into productos_ventas 
+        values ('40540', '16034', '1', '123', '103.7200', '1', 'IMPUL') - true

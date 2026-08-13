@@ -1,0 +1,11 @@
+Venta: 16877, fecha: 2026-01-02
+
+Prod: insert into productos_ventas 
+        values ('40586', '16877', '1', '899', '702.5000', '1', 'ROG 9ANJ976T50751') - trueProd: insert into productos_ventas 
+        values ('41008', '16877', '1', '369.0000', '298.3000', '1', 'IMPCT 601-7E76-020B2507003537') - trueProd: insert into productos_ventas 
+        values ('41108', '16877', '1', '599', '435.0000', '1', 'ROG 0000009277789-S007129') - trueProd: insert into productos_ventas 
+        values ('41106', '16877', '1', '185', '102.0000', '1', 'HUM 2238AF458404') - trueProd: insert into productos_ventas 
+        values ('41166', '16877', '1', '1750', '1568.6100', '1', 'CDK T8YVCM01D651Y8V') - trueProd: insert into productos_ventas 
+        values ('40882', '16877', '1', '140.0000', '92.0000', '1', 'IMPUL  4666MICP600-80+1542') - trueProd: insert into productos_ventas 
+        values ('41207', '16877', '1', '109', '68.3400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('41220', '16877', '1', '399', '399.0000', '1', 'KEA PE9M045700716') - true

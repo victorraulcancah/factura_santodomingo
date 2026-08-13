@@ -1,0 +1,5 @@
+Venta: 15717, fecha: 2025-08-27
+
+Prod: insert into productos_ventas 
+        values ('40862', '15717', '1', '356.0000', '338.0000', '1', 'CMS SNCTM2504030279') - trueProd: insert into productos_ventas 
+        values ('40723', '15717', '1', '54.0000', '52.5000', '1', 'ROY 30171311419') - true

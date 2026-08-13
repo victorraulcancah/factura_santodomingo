@@ -1,0 +1,10 @@
+Venta: 17159, fecha: 2026-02-05
+
+Prod: insert into productos_ventas 
+        values ('40586', '17159', '1', '839', '759.3700', '1', 'DANTE 9ANJ976T50761') - trueProd: insert into productos_ventas 
+        values ('40942', '17159', '1', '519', '482.0530', '1', 'CMS 601-7E77-010B2505008774') - trueProd: insert into productos_ventas 
+        values ('41108', '17159', '1', '599', '502.0000', '1', 'ROG S006567') - trueProd: insert into productos_ventas 
+        values ('40699', '17159', '1', '475', '359.0000', '1', 'CALE QDM423W101909P113A') - trueProd: insert into productos_ventas 
+        values ('41275', '17159', '1', '1729.0000', '1658.5300', '1', 'SERC SN251601038606') - trueProd: insert into productos_ventas 
+        values ('40828', '17159', '1', '129', '100.0000', '1', 'IMPUL 4667MICP650-80+1155') - trueProd: insert into productos_ventas 
+        values ('41244', '17159', '1', '129', '80.0000', '1', 'IMPUL') - true

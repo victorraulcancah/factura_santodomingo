@@ -1,0 +1,10 @@
+Venta: 14854, fecha: 2025-06-06
+
+Prod: insert into productos_ventas 
+        values ('40493', '14854', '1', '549', '489.0000', '1', 'pega  60481') - trueProd: insert into productos_ventas 
+        values ('40630', '14854', '1', '229', '200.0000', '1', '25523') - trueProd: insert into productos_ventas 
+        values ('40546', '14854', '1', '105.0000', '93.4000', '1', 'max   3042') - trueProd: insert into productos_ventas 
+        values ('40596', '14854', '1', '138', '122.2500', '1', 'roy   880p1128') - trueProd: insert into productos_ventas 
+        values ('40714', '14854', '1', '140.0000', '125.0000', '1', 'ca  f0443 ') - trueProd: insert into productos_ventas 
+        values ('40540', '14854', '1', '130.0000', '110.0000', '1', 'roy ') - trueProd: insert into productos_ventas 
+        values ('40521', '14854', '1', '259.0000', '235.2800', '1', 'del  ') - true

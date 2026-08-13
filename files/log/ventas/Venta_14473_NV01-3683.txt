@@ -1,0 +1,11 @@
+Venta: 14473, fecha: 2025-04-27
+
+Prod: insert into productos_ventas 
+        values ('40535', '14473', '1', '620', '565.0000', '1', 'pegaw30027') - trueProd: insert into productos_ventas 
+        values ('40491', '14473', '1', '329', '297.0000', '1', 'cms2002008') - trueProd: insert into productos_ventas 
+        values ('40597', '14473', '1', '175.0000', '142.9000', '1', 'roy15526') - trueProd: insert into productos_ventas 
+        values ('40596', '14473', '1', '150', '114.5700', '1', 'roy105035p1137') - trueProd: insert into productos_ventas 
+        values ('40505', '14473', '1', '135', '100.9000', '1', 'impulso') - trueProd: insert into productos_ventas 
+        values ('40556', '14473', '1', '150', '111.0500', '1', 'halion00722') - trueProd: insert into productos_ventas 
+        values ('40575', '14473', '1', '90', '73.5000', '1', 'impulso') - trueProd: insert into productos_ventas 
+        values ('40568', '14473', '1', '15', '6.7000', '1', 'impulso') - true

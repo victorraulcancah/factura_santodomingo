@@ -1,0 +1,11 @@
+Venta: 15787, fecha: 2025-09-02
+
+Prod: insert into productos_ventas 
+        values ('40602', '15787', '1', '590.0000', '569.5000', '1', 'DEL 9ML3951N50260') - trueProd: insert into productos_ventas 
+        values ('40546', '15787', '2', '130.0000', '92.2000', '1', 'SPT 30171591005 | 30171591016') - trueProd: insert into productos_ventas 
+        values ('40915', '15787', '1', '145.0000', '111.0000', '1', 'ROY 30175298894') - trueProd: insert into productos_ventas 
+        values ('40558', '15787', '1', '370.0000', '337.1100', '1', 'DEL 601-7C95-310B2504011979') - trueProd: insert into productos_ventas 
+        values ('40629', '15787', '1', '70.0000', '33.0000', '1', 'IMPUL 4596P200W00603') - trueProd: insert into productos_ventas 
+        values ('40540', '15787', '1', '139.0000', '103.7200', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40977', '15787', '1', '249.0000', '215.0000', '1', 'ROY') - trueProd: insert into productos_ventas 
+        values ('40563', '15787', '1', '60.0000', '55.0000', '1', 'HUM') - true

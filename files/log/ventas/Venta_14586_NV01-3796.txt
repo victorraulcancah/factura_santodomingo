@@ -1,0 +1,10 @@
+Venta: 14586, fecha: 2025-05-05
+
+Prod: insert into productos_ventas 
+        values ('40492', '14586', '3', '440', '418.0000', '1', 'RODR40411-40407-40409') - trueProd: insert into productos_ventas 
+        values ('40625', '14586', '3', '219', '184.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40723', '14586', '3', '70', '51.5600', '1', 'maxima7835-7832-7836') - trueProd: insert into productos_ventas 
+        values ('40653', '14586', '3', '89', '76.8500', '1', 'ca6952-2179-2193') - trueProd: insert into productos_ventas 
+        values ('40521', '14586', '2', '259', '243.8400', '1', 'del0433-0407') - trueProd: insert into productos_ventas 
+        values ('40731', '14586', '3', '75', '33.2100', '1', 'ST224C149005326,224C149005338,224B0F0001470') - trueProd: insert into productos_ventas 
+        values ('40616', '14586', '3', '81', '60.7500', '1', 'IMPULSO') - true

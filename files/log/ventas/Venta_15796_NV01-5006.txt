@@ -1,0 +1,8 @@
+Venta: 15796, fecha: 2025-09-03
+
+Prod: insert into productos_ventas 
+        values ('40990', '15796', '1', '895', '630.0000', '1', 'MJ0BAP01') - trueProd: insert into productos_ventas 
+        values ('40572', '15796', '1', '50', '16.0000', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40829', '15796', '1', '65', '42.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40989', '15796', '1', '40', '20.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40735', '15796', '1', '250', '225.0000', '1', 'CA2689') - true

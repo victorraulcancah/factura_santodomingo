@@ -1,0 +1,5 @@
+Venta: 16843, fecha: 2025-12-28
+
+Prod: insert into productos_ventas 
+        values ('40919', '16843', '1', '250', '202.9900', '1', 'CDK 0645') - trueProd: insert into productos_ventas 
+        values ('40538', '16843', '1', '80', '0.0000', '1', 'SERVICIO LIM-DESCAR') - true

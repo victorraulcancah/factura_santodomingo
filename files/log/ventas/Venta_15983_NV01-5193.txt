@@ -1,0 +1,5 @@
+Venta: 15983, fecha: 2025-09-26
+
+Prod: insert into productos_ventas 
+        values ('40648', '15983', '6', '425', '420.0000', '1', 'EL COOLER LA COSA 395 MAS 30 ') - trueProd: insert into productos_ventas 
+        values ('40978', '15983', '1', '89.0000', '66.0000', '1', 'CA') - true

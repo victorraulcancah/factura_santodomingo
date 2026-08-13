@@ -1,0 +1,10 @@
+Venta: 17186, fecha: 2026-02-08
+
+Prod: insert into productos_ventas 
+        values ('40551', '17186', '1', '599', '552.7200', '1', 'adni  x538k198') - trueProd: insert into productos_ventas 
+        values ('41174', '17186', '1', '229.0000', '200.0000', '1', 'ca IH61EMDS-01_61001B23800322') - trueProd: insert into productos_ventas 
+        values ('41184', '17186', '1', '350.0000', '300.0000', '1', 'hu RGX16D4268') - trueProd: insert into productos_ventas 
+        values ('40918', '17186', '1', '220', '148.9800', '1', 'g yg   7743') - trueProd: insert into productos_ventas 
+        values ('41281', '17186', '1', '1123', '1066.4100', '1', 'plus   T7YVYZ058932HDC') - trueProd: insert into productos_ventas 
+        values ('41227', '17186', '1', '199', '175.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('40900', '17186', '1', '179', '165.0000', '1', 'lp AB750CASN241900177') - true

@@ -1,0 +1,8 @@
+Venta: 14449, fecha: 2025-04-25
+
+Prod: insert into productos_ventas 
+        values ('40558', '14449', '2', '375', '352.0000', '1', 'ROY2035-200207') - trueProd: insert into productos_ventas 
+        values ('40579', '14449', '2', '100', '95.0000', '1', 'SMTH630N20L-630N20L') - trueProd: insert into productos_ventas 
+        values ('40499', '14449', '1', '1289', '1250.0000', '1', 'RODRI3014250') - trueProd: insert into productos_ventas 
+        values ('40549', '14449', '1', '324', '310.0000', '1', '98V40402') - trueProd: insert into productos_ventas 
+        values ('40521', '14449', '1', '255', '245.0000', '1', 'TACT3933') - true

@@ -1,0 +1,11 @@
+Venta: 17032, fecha: 2026-01-22
+
+Prod: insert into productos_ventas 
+        values ('40602', '17032', '1', '679', '646.0000', '1', 'cms 9MN6664P50204') - trueProd: insert into productos_ventas 
+        values ('40557', '17032', '1', '200', '178.0000', '1', 'roy 601-7C96-120B2506006670') - trueProd: insert into productos_ventas 
+        values ('40489', '17032', '2', '380', '305.0000', '1', 'micro  0000009277789-S006506 0000009277789-S006505') - trueProd: insert into productos_ventas 
+        values ('40564', '17032', '1', '250', '142.5000', '1', 'lp  ASAD35330300514') - trueProd: insert into productos_ventas 
+        values ('41243', '17032', '1', '159', '99.0000', '1', 'ca TSMJC2507090780') - trueProd: insert into productos_ventas 
+        values ('41207', '17032', '1', '155', '68.3400', '1', 'imp ') - trueProd: insert into productos_ventas 
+        values ('40532', '17032', '1', '769', '690.0000', '1', 'smth 600W602-V812-131ST2508001859') - trueProd: insert into productos_ventas 
+        values ('40571', '17032', '1', '50', '23.3500', '1', 'imp ') - true

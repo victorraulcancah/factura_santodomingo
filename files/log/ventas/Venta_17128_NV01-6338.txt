@@ -1,0 +1,9 @@
+Venta: 17128, fecha: 2026-02-01
+
+Prod: insert into productos_ventas 
+        values ('40804', '17128', '1', '670', '547.3000', '1', 'DEL703109') - trueProd: insert into productos_ventas 
+        values ('41174', '17128', '1', '249', '200.0000', '1', 'REMA8000946') - trueProd: insert into productos_ventas 
+        values ('41200', '17128', '1', '230', '188.0000', '1', 'LP965739') - trueProd: insert into productos_ventas 
+        values ('40489', '17128', '1', '380', '314.2300', '1', 'ROY006267') - trueProd: insert into productos_ventas 
+        values ('41243', '17128', '1', '120.0000', '99.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('41265', '17128', '1', '750', '700.0000', '1', 'TACT8433') - true

@@ -1,0 +1,5 @@
+Venta: 14798, fecha: 2025-05-30
+
+Prod: insert into productos_ventas 
+        values ('40774', '14798', '1', '170.0000', '150.0000', '1', 'FBZ-900EC') - trueProd: insert into productos_ventas 
+        values ('40609', '14798', '1', '40.0000', '29.6000', '1', 'IMPU') - true

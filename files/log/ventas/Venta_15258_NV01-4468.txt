@@ -1,0 +1,4 @@
+Venta: 15258, fecha: 2025-07-17
+
+Prod: insert into productos_ventas 
+        values ('40862', '15258', '1', '318.05', '318.0500', '1', 'del  FLUSH ') - true

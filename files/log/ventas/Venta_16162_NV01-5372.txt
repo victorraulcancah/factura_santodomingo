@@ -1,0 +1,11 @@
+Venta: 16162, fecha: 2025-10-20
+
+Prod: insert into productos_ventas 
+        values ('40535', '16162', '1', '570', '513.4800', '1', 'DEL Y984631R50186') - trueProd: insert into productos_ventas 
+        values ('41041', '16162', '1', '180', '147.0000', '1', 'ROG N2384312503001217') - trueProd: insert into productos_ventas 
+        values ('40651', '16162', '1', '289', '248.0000', '1', 'CALE 601-7E28-010B2503006726') - trueProd: insert into productos_ventas 
+        values ('40629', '16162', '1', '70', '36.5000', '1', 'IMPUL 4630SX2000+0946') - trueProd: insert into productos_ventas 
+        values ('40913', '16162', '1', '80', '75.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40539', '16162', '1', '20', '12.0000', '1', 'LTE') - trueProd: insert into productos_ventas 
+        values ('41054', '16162', '1', '130', '82.0000', '1', 'ROY') - trueProd: insert into productos_ventas 
+        values ('41046', '16162', '1', '40', '30.8400', '1', 'IMPUL') - true

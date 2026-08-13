@@ -1,0 +1,9 @@
+Venta: 16678, fecha: 2025-12-11
+
+Prod: insert into productos_ventas 
+        values ('40583', '16678', '1', '1058', '933.3100', '1', 'CDK  9MQ1947R50128') - trueProd: insert into productos_ventas 
+        values ('41008', '16678', '1', '369', '286.0000', '1', 'CDK  601-7E76-020B2505007913') - trueProd: insert into productos_ventas 
+        values ('41175', '16678', '1', '579', '340.0000', '1', 'REM  30175456606') - trueProd: insert into productos_ventas 
+        values ('40882', '16678', '1', '129', '97.0000', '1', 'CA  4666MICP600-80+2260') - trueProd: insert into productos_ventas 
+        values ('40540', '16678', '1', '115', '90.9560', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40521', '16678', '1', '230', '209.4000', '1', 'DEL TE2415S129625082342') - true

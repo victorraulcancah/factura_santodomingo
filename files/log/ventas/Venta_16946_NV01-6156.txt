@@ -1,0 +1,11 @@
+Venta: 16946, fecha: 2026-01-10
+
+Prod: insert into productos_ventas 
+        values ('40804', '16946', '1', '495', '481.7670', '1', 'MARLEN 4927') - trueProd: insert into productos_ventas 
+        values ('41174', '16946', '1', '229.0000', '200.0000', '1', 'REMA IH61EMDS-02_61002B24800879') - trueProd: insert into productos_ventas 
+        values ('41184', '16946', '1', '349', '250.0000', '1', 'ROG 4131') - trueProd: insert into productos_ventas 
+        values ('41214', '16946', '1', '199.0000', '160.0000', '1', 'MYCRO 1913') - trueProd: insert into productos_ventas 
+        values ('41166', '16946', '1', '1749', '1568.6100', '1', 'CDK 57EU5') - trueProd: insert into productos_ventas 
+        values ('40976', '16946', '1', '179.0000', '125.9300', '1', 'IMPUL 750W0646') - trueProd: insert into productos_ventas 
+        values ('40540', '16946', '1', '119', '90.9560', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40539', '16946', '1', '0', '9.0000', '1', 'freeeee') - true

@@ -1,0 +1,6 @@
+Venta: 16274, fecha: 2025-11-05
+
+Prod: insert into productos_ventas 
+        values ('41081', '16274', '1', '115', '94.5500', '1', 'SPT-7006913') - trueProd: insert into productos_ventas 
+        values ('41080', '16274', '1', '220.0000', '185.7300', '1', 'CMS-p127c5y') - trueProd: insert into productos_ventas 
+        values ('40527', '16274', '1', '90.0000', '73.0000', '1', 'roy') - true

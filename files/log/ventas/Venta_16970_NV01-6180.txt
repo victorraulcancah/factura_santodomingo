@@ -1,0 +1,12 @@
+Venta: 16970, fecha: 2026-01-13
+
+Prod: insert into productos_ventas 
+        values ('40549', '16970', '1', '320.0000', '275.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40558', '16970', '1', '349.0000', '323.0000', '1', 'CMS-601-7C95-310B2506009030') - trueProd: insert into productos_ventas 
+        values ('41184', '16970', '1', '360.0000', '250.0000', '1', 'ROG-RGX16D4129') - trueProd: insert into productos_ventas 
+        values ('41200', '16970', '1', '215.0000', '188.0000', '1', 'LP-4P0921965813') - trueProd: insert into productos_ventas 
+        values ('41207', '16970', '1', '95.0000', '68.3400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40882', '16970', '1', '120.0000', '92.0000', '1', 'CAL-4666MICP600-80+1535') - trueProd: insert into productos_ventas 
+        values ('41239', '16970', '1', '1090.0000', '1043.0000', '1', 'CMS-A6V093588') - trueProd: insert into productos_ventas 
+        values ('40973', '16970', '1', '330.0000', '295.0000', '1', 'CAL-HALION') - trueProd: insert into productos_ventas 
+        values ('41031', '16970', '1', '35.0000', '25.0000', '1', 'ROG') - true

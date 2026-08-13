@@ -1,0 +1,11 @@
+Venta: 15438, fecha: 2025-08-01
+
+Prod: insert into productos_ventas 
+        values ('40552', '15438', '1', '719', '684.8000', '1', 'del 9ACI667M40493') - trueProd: insert into productos_ventas 
+        values ('40597', '15438', '1', '169', '143.0000', '1', 'roy 30173374454') - trueProd: insert into productos_ventas 
+        values ('40488', '15438', '1', '85.0000', '72.0000', '1', 'ca   25060183') - trueProd: insert into productos_ventas 
+        values ('40494', '15438', '1', '89.0000', '58.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40491', '15438', '1', '317', '295.0000', '1', 'tac 601'7E28'070B2505003117') - false 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '7E28'070B2505003117')' at line 2
+
+

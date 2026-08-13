@@ -1,0 +1,4 @@
+Venta: 14610, fecha: 2025-05-08
+
+Prod: insert into productos_ventas 
+        values ('40538', '14610', '1', '100', '0.0000', '1', 'error al generar era pc a 100+') - true

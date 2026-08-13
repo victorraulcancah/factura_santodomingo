@@ -1,0 +1,10 @@
+Venta: 15972, fecha: 2025-09-24
+
+Prod: insert into productos_ventas 
+        values ('40708', '15972', '1', '547.0000', '536.0000', '1', 'CMS U4M642L400887') - trueProd: insert into productos_ventas 
+        values ('40587', '15972', '2', '170', '153.0000', '1', 'SMT EF2503100060355 | EF2503100060356') - trueProd: insert into productos_ventas 
+        values ('40509', '15972', '1', '245', '213.8700', '1', 'DEL 50026B76871E1B29') - trueProd: insert into productos_ventas 
+        values ('41000', '15972', '1', '799', '590.0000', '1', 'SMT SN252900000751') - trueProd: insert into productos_ventas 
+        values ('41003', '15972', '1', '2530.0000', '2448.0000', '1', 'ROY T7YVNC03S276R72') - trueProd: insert into productos_ventas 
+        values ('40919', '15972', '1', '259.0000', '199.0000', '1', 'ROY G750XASN244300473') - trueProd: insert into productos_ventas 
+        values ('40933', '15972', '1', '239.0000', '170.0000', '1', 'CALE') - true

@@ -1,0 +1,4 @@
+Venta: 15566, fecha: 2025-08-12
+
+Prod: insert into productos_ventas 
+        values ('40906', '15566', '1', '275.0000', '254.0000', '1', 'CALE SNCTM2506030588') - true

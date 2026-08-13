@@ -1,0 +1,12 @@
+Venta: 17225, fecha: 2026-02-14
+
+Prod: insert into productos_ventas 
+        values ('40583', '17225', '1', '969', '879.0000', '1', 'roy  9MQ5782R50025') - trueProd: insert into productos_ventas 
+        values ('40942', '17225', '1', '515', '476.5500', '1', 'cms 601-7E77-010B2505008776') - trueProd: insert into productos_ventas 
+        values ('41108', '17225', '2', '743', '514.0000', '1', ' rg  0000009277789-S007403     0000009277789-S007315 ') - trueProd: insert into productos_ventas 
+        values ('41135', '17225', '1', '425', '260.0000', '1', 'lp  S78440L980P8310348012693') - trueProd: insert into productos_ventas 
+        values ('40828', '17225', '1', '149', '100.0000', '1', 'ca  4667MICP650-80+0220') - trueProd: insert into productos_ventas 
+        values ('41188', '17225', '1', '197', '170.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('40521', '17225', '1', '229', '220.0000', '1', 'hu  TE2415S173825101410') - trueProd: insert into productos_ventas 
+        values ('40563', '17225', '1', '59', '53.7760', '1', 'te') - trueProd: insert into productos_ventas 
+        values ('40539', '17225', '1', '0', '9.0000', '1', 'f') - true

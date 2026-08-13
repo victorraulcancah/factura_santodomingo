@@ -1,0 +1,8 @@
+Venta: 17110, fecha: 2026-01-31
+
+Prod: insert into productos_ventas 
+        values ('40549', '17110', '1', '399', '359.0000', '1', 'ca  9MQ4259R50097') - trueProd: insert into productos_ventas 
+        values ('41269', '17110', '1', '375', '326.0000', '1', 'ca SN252300031172              2560') - trueProd: insert into productos_ventas 
+        values ('41243', '17110', '1', '120.0000', '99.0000', '1', 'ca  TSMJC2507090843') - trueProd: insert into productos_ventas 
+        values ('41227', '17110', '1', '199', '175.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('40729', '17110', '1', '957', '746.2000', '1', 'smth  602-V809-2885ST2507002486') - true

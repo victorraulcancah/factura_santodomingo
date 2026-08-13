@@ -1,0 +1,11 @@
+Venta: 16432, fecha: 2025-11-21
+
+Prod: insert into productos_ventas 
+        values ('40592', '16432', '1', '770.0000', '679.2100', '1', 'STH-803340') - trueProd: insert into productos_ventas 
+        values ('40577', '16432', '1', '90.0000', '70.5000', '1', 'GG-0768') - trueProd: insert into productos_ventas 
+        values ('41012', '16432', '1', '429.0000', '369.5100', '1', 'CMS-003207') - trueProd: insert into productos_ventas 
+        values ('41104', '16432', '1', '215.0000', '188.8800', '1', 'DELT-90632') - trueProd: insert into productos_ventas 
+        values ('41105', '16432', '1', '130.0000', '95.0000', '1', 'HUMB-3407KS512A') - trueProd: insert into productos_ventas 
+        values ('41084', '16432', '1', '1370.0000', '1262.0000', '1', 'CDK-31604') - trueProd: insert into productos_ventas 
+        values ('41016', '16432', '1', '125.0000', '95.0000', '1', 'ROG-10056') - trueProd: insert into productos_ventas 
+        values ('41095', '16432', '1', '120.0000', '91.2200', '1', 'CAL') - true

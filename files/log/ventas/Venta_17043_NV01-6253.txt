@@ -1,0 +1,4 @@
+Venta: 17043, fecha: 2026-01-24
+
+Prod: insert into productos_ventas 
+        values ('40883', '17043', '1', '399', '353.1500', '1', 'ama  3067ZP8A12CE010528001662') - true

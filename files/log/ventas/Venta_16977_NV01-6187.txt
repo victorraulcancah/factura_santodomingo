@@ -1,0 +1,11 @@
+Venta: 16977, fecha: 2026-01-13
+
+Prod: insert into productos_ventas 
+        values ('40552', '16977', '1', '720.0000', '652.0000', '1', 'CDK-9AMW222S50244') - trueProd: insert into productos_ventas 
+        values ('41154', '16977', '1', '459.0000', '417.5100', '1', 'CMS-601-7E27-010B2505014925') - trueProd: insert into productos_ventas 
+        values ('41200', '16977', '1', '230.0000', '188.0000', '1', 'LP-4P0921996774') - trueProd: insert into productos_ventas 
+        values ('41231', '16977', '1', '750', '590.0000', '1', 'M-BYTE 0000009277789-S008127') - trueProd: insert into productos_ventas 
+        values ('40882', '16977', '1', '120.0000', '92.0000', '1', 'CAL-4666MICP600-80+1534') - trueProd: insert into productos_ventas 
+        values ('41207', '16977', '1', '100', '68.3400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40521', '16977', '1', '229.0000', '225.0000', '1', 'HUMB-TE2415S159925103998') - trueProd: insert into productos_ventas 
+        values ('40563', '16977', '1', '55.0000', '49.8500', '1', 'DELT') - true

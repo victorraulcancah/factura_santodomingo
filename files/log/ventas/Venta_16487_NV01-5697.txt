@@ -1,0 +1,11 @@
+Venta: 16487, fecha: 2025-11-26
+
+Prod: insert into productos_ventas 
+        values ('40708', '16487', '1', '550.0000', '506.0000', '1', 'ADNI-U5N61V5400003') - trueProd: insert into productos_ventas 
+        values ('41104', '16487', '1', '300.0000', '188.8800', '1', 'DELT-TE165625090642') - trueProd: insert into productos_ventas 
+        values ('41012', '16487', '1', '420.0000', '366.9840', '1', 'CMS-601-7E02-070B2502003202') - trueProd: insert into productos_ventas 
+        values ('40565', '16487', '1', '280.0000', '247.0000', '1', 'CDM-25185P802240') - trueProd: insert into productos_ventas 
+        values ('41110', '16487', '1', '1700.0000', '1598.3500', '1', 'CDK-253441074024') - trueProd: insert into productos_ventas 
+        values ('40976', '16487', '1', '180.0000', '142.0000', '1', 'ROY-4622P80BA750W0270') - trueProd: insert into productos_ventas 
+        values ('41095', '16487', '1', '130.0000', '91.2200', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40521', '16487', '1', '230.0000', '216.7200', '1', 'DELT-SNCTM2506010841') - true

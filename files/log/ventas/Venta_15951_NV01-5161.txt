@@ -1,0 +1,4 @@
+Venta: 15951, fecha: 2025-09-20
+
+Prod: insert into productos_ventas 
+        values ('40538', '15951', '1', '80', '0.0000', '1', ' KILLARI INGENIEROS IGB') - true

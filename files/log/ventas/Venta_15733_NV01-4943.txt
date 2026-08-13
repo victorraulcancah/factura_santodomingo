@@ -1,0 +1,11 @@
+Venta: 15733, fecha: 2025-08-29
+
+Prod: insert into productos_ventas 
+        values ('40592', '15733', '1', '843', '721.0000', '1', 'smt   U50W2D7100120') - trueProd: insert into productos_ventas 
+        values ('40740', '15733', '1', '449.0000', '405.0000', '1', 'roy U50W2D7100120') - trueProd: insert into productos_ventas 
+        values ('40597', '15733', '2', '150', '145.0000', '1', 'roy  30173375425           30173375424') - trueProd: insert into productos_ventas 
+        values ('40915', '15733', '1', '130.0000', '111.0000', '1', ' roy  8906') - trueProd: insert into productos_ventas 
+        values ('40882', '15733', '1', '140.0000', '100.0000', '1', 'ca 4594P80B-600W0967') - trueProd: insert into productos_ventas 
+        values ('40854', '15733', '1', '1490', '1395.4400', '1', 'cms  T7YVYZ07E3927CC') - trueProd: insert into productos_ventas 
+        values ('40540', '15733', '1', '119.0000', '103.7200', '1', 'impulso') - trueProd: insert into productos_ventas 
+        values ('40577', '15733', '1', '99.0000', '80.2617', '1', 'g') - true

@@ -1,0 +1,9 @@
+Venta: 16377, fecha: 2025-11-15
+
+Prod: insert into productos_ventas 
+        values ('40535', '16377', '1', '525', '505.0000', '1', 'del60088') - trueProd: insert into productos_ventas 
+        values ('41113', '16377', '1', '290', '260.0000', '1', 'seda8806t3') - trueProd: insert into productos_ventas 
+        values ('41104', '16377', '1', '190', '188.8800', '1', 'DEL90702') - trueProd: insert into productos_ventas 
+        values ('41105', '16377', '1', '120', '95.0000', '1', 'HUMBERTJJ512A') - trueProd: insert into productos_ventas 
+        values ('40516', '16377', '1', '104', '80.0000', '1', 'TACT') - trueProd: insert into productos_ventas 
+        values ('40521', '16377', '1', '229', '216.7200', '1', 'DEL71331') - true

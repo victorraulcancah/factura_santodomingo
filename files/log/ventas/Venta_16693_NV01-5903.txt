@@ -1,0 +1,10 @@
+Venta: 16693, fecha: 2025-12-12
+
+Prod: insert into productos_ventas 
+        values ('40550', '16693', '1', '650.0000', '510.0000', '1', 'GG-469U50392') - trueProd: insert into productos_ventas 
+        values ('40577', '16693', '1', '90.0000', '70.0000', '1', 'GG-10000131880AI252200617') - trueProd: insert into productos_ventas 
+        values ('40558', '16693', '1', '340.0000', '316.0900', '1', 'MAXIM-601-7C95-310B2506008978') - trueProd: insert into productos_ventas 
+        values ('40919', '16693', '1', '240.0000', '202.9900', '1', 'CDK-G750SASN252700861') - trueProd: insert into productos_ventas 
+        values ('40565', '16693', '1', '320.0000', '250.0000', '1', 'CDM-25200J800501') - trueProd: insert into productos_ventas 
+        values ('40540', '16693', '1', '130.0000', '90.9560', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40536', '16693', '1', '80.0000', '66.0000', '1', 'PEG-2511-20782630') - true

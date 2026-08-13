@@ -1,0 +1,11 @@
+Venta: 15724, fecha: 2025-08-28
+
+Prod: insert into productos_ventas 
+        values ('40549', '15724', '1', '399.0000', '263.7500', '1', 'LABS SMT 9MI8719V40346') - trueProd: insert into productos_ventas 
+        values ('40546', '15724', '1', '100.0000', '92.2000', '1', 'SPT 30171590984') - trueProd: insert into productos_ventas 
+        values ('40915', '15724', '1', '133.0000', '111.0000', '1', 'ROY 30175298908') - trueProd: insert into productos_ventas 
+        values ('40557', '15724', '1', '209.0000', '184.5000', '1', 'ROY 601-7C96-120B2504061799') - trueProd: insert into productos_ventas 
+        values ('40499', '15724', '1', '1139.0000', '1085.0000', '1', 'MAX 602-V397-1139SB2505003787') - trueProd: insert into productos_ventas 
+        values ('40882', '15724', '1', '120.0000', '100.0000', '1', 'CALE 4594P80B-600W1881') - trueProd: insert into productos_ventas 
+        values ('40913', '15724', '1', '99.0000', '75.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40563', '15724', '1', '65.0000', '54.0000', '1', 'ROY KCJT2504040278') - true

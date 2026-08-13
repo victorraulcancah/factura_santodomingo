@@ -1,0 +1,11 @@
+Venta: 17207, fecha: 2026-02-12
+
+Prod: insert into productos_ventas 
+        values ('40603', '17207', '1', '569.0000', '465.0000', '1', 'rg   936093872829') - trueProd: insert into productos_ventas 
+        values ('40651', '17207', '1', '299', '265.0000', '1', 'ca 601-7E28-010B2503007588') - trueProd: insert into productos_ventas 
+        values ('41108', '17207', '1', '599', '514.0000', '1', 'rg 0000009277789-S007275') - trueProd: insert into productos_ventas 
+        values ('40918', '17207', '1', '246', '148.9800', '1', 'GYG 75714') - trueProd: insert into productos_ventas 
+        values ('40828', '17207', '1', '139.0000', '100.0000', '1', 'ca 4667MICP650-80+2423') - trueProd: insert into productos_ventas 
+        values ('41188', '17207', '1', '159', '170.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('40988', '17207', '1', '1389', '1299.0000', '1', 'roy  602-V537-60ST2512013642') - trueProd: insert into productos_ventas 
+        values ('40539', '17207', '1', '0', '9.0000', '1', 'f') - true

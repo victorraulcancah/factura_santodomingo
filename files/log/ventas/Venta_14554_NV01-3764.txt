@@ -1,0 +1,8 @@
+Venta: 14554, fecha: 2025-05-03
+
+Prod: insert into productos_ventas 
+        values ('40552', '14554', '1', '769', '704.0000', '1', 'PEGA4008') - trueProd: insert into productos_ventas 
+        values ('40491', '14554', '1', '319.0000', '295.0000', '1', 'CA5739') - trueProd: insert into productos_ventas 
+        values ('40597', '14554', '1', '187', '155.4200', '1', 'ROY5533') - trueProd: insert into productos_ventas 
+        values ('40699', '14554', '1', '235', '184.0000', '1', 'CA67825P') - trueProd: insert into productos_ventas 
+        values ('40616', '14554', '1', '89', '60.7500', '1', 'IMPULSO') - true

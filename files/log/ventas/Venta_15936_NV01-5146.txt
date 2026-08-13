@@ -1,0 +1,11 @@
+Venta: 15936, fecha: 2025-09-18
+
+Prod: insert into productos_ventas 
+        values ('40552', '15936', '1', '680.0000', '681.2700', '1', 'DEL 9MQ4649S50069') - trueProd: insert into productos_ventas 
+        values ('40587', '15936', '1', '180.0000', '152.5000', '1', 'ROG EF2503130382647') - trueProd: insert into productos_ventas 
+        values ('40651', '15936', '1', '277.0000', '248.0000', '1', 'CALE 601-7E28-010B2503007836') - trueProd: insert into productos_ventas 
+        values ('40882', '15936', '1', '140.0000', '102.0000', '1', 'CALE 4594P80B-600W0878') - trueProd: insert into productos_ventas 
+        values ('40991', '15936', '1', '199.0000', '160.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40521', '15936', '1', '249.0000', '235.1000', '1', 'HUM TE2415S1158A25071360') - trueProd: insert into productos_ventas 
+        values ('40563', '15936', '1', '60.0000', '55.0000', '1', 'HUM') - trueProd: insert into productos_ventas 
+        values ('40585', '15936', '1', '215.0000', '183.0000', '1', 'ROD 4P2120653439') - true

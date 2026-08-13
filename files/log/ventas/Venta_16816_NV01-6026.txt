@@ -1,0 +1,13 @@
+Venta: 16816, fecha: 2025-12-24
+
+Prod: insert into productos_ventas 
+        values ('40549', '16816', '1', '315', '270.0000', '1', 'ROG50268') - trueProd: insert into productos_ventas 
+        values ('40630', '16816', '1', '199', '177.0000', '1', 'CA6708') - trueProd: insert into productos_ventas 
+        values ('40565', '16816', '1', '359', '250.0000', '1', 'CDM4317') - trueProd: insert into productos_ventas 
+        values ('40882', '16816', '1', '120', '92.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40531', '16816', '1', '729', '727.0000', '1', 'ASUS FABRI687XEX') - trueProd: insert into productos_ventas 
+        values ('40821', '16816', '1', '99', '75.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40698', '16816', '1', '50', '45.0000', '1', 'TACT') - trueProd: insert into productos_ventas 
+        values ('40521', '16816', '1', '229', '209.4000', '1', 'DEL80752') - trueProd: insert into productos_ventas 
+        values ('40543', '16816', '1', '40', '37.0000', '1', 'PEGA') - trueProd: insert into productos_ventas 
+        values ('41184', '16816', '1', '300', '250.0000', '1', 'ROG') - true

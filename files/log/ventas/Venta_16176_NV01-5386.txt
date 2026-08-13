@@ -1,0 +1,11 @@
+Venta: 16176, fecha: 2025-10-22
+
+Prod: insert into productos_ventas 
+        values ('40763', '16176', '1', '719', '521.4600', '1', 'SMT 9MG1746S40296') - trueProd: insert into productos_ventas 
+        values ('40558', '16176', '1', '369.0000', '337.1100', '1', 'DEL 601-7C95-310B2504011867') - trueProd: insert into productos_ventas 
+        values ('40546', '16176', '2', '140', '116.6000', '1', 'SPT 30176632196 | 30176632197') - trueProd: insert into productos_ventas 
+        values ('41058', '16176', '1', '235', '195.0000', '1', 'SPT 30171981060') - trueProd: insert into productos_ventas 
+        values ('40988', '16176', '1', '1329', '1243.3400', '1', 'ROY 602-V537-34ST2505011856') - trueProd: insert into productos_ventas 
+        values ('41016', '16176', '1', '140', '100.0000', '1', 'ROG600W2503310188') - trueProd: insert into productos_ventas 
+        values ('40913', '16176', '1', '119', '75.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40944', '16176', '1', '529', '462.0000', '1', 'COMVI TE2769G24M120617') - true

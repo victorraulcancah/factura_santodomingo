@@ -1,0 +1,10 @@
+Venta: 16511, fecha: 2025-11-28
+
+Prod: insert into productos_ventas 
+        values ('40708', '16511', '1', '539', '526.7730', '1', 'DEL U51W30U303869') - trueProd: insert into productos_ventas 
+        values ('41012', '16511', '1', '419', '363.9600', '1', 'CMS 601-7E02-070B2502003215') - trueProd: insert into productos_ventas 
+        values ('41108', '16511', '1', '299', '150.0000', '1', 'ROD 42466') - trueProd: insert into productos_ventas 
+        values ('40565', '16511', '1', '299', '247.0000', '1', 'CDCOM 25185P801353') - trueProd: insert into productos_ventas 
+        values ('41110', '16511', '1', '1680', '1598.3500', '1', 'CDK SN253441074019') - trueProd: insert into productos_ventas 
+        values ('40540', '16511', '1', '125', '97.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40976', '16511', '1', '199', '142.0000', '1', 'ROY 4622P80BA750W0554') - true

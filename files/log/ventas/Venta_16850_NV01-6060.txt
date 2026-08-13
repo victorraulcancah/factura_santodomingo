@@ -1,0 +1,10 @@
+Venta: 16850, fecha: 2025-12-29
+
+Prod: insert into productos_ventas 
+        values ('40552', '16850', '1', '695.0000', '652.0000', '1', 'CDK-468S50563') - trueProd: insert into productos_ventas 
+        values ('41008', '16850', '1', '339.0000', '304.5000', '1', 'CMS-2505004460') - trueProd: insert into productos_ventas 
+        values ('40565', '16850', '1', '399.0000', '250.0000', '1', 'CDM-251719802204') - trueProd: insert into productos_ventas 
+        values ('41175', '16850', '1', '699.0000', '340.0000', '1', 'REMA-30175454336') - trueProd: insert into productos_ventas 
+        values ('40882', '16850', '1', '137.0000', '92.0000', '1', 'CAL-4666MICP600-80+1464') - trueProd: insert into productos_ventas 
+        values ('41195', '16850', '1', '100.0000', '77.4300', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40521', '16850', '1', '230.0000', '209.4000', '1', 'DELT-SNCTM2506010841') - true

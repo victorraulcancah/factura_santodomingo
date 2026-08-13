@@ -1,0 +1,11 @@
+Venta: 14410, fecha: 2025-04-20
+
+Prod: insert into productos_ventas 
+        values ('40548', '14410', '1', '620', '561.1880', '1', 'ROY0163') - trueProd: insert into productos_ventas 
+        values ('40630', '14410', '1', '219.0000', '200.0000', '1', 'TAC9833') - trueProd: insert into productos_ventas 
+        values ('40596', '14410', '1', '152', '113.5000', '1', 'ROY04763') - trueProd: insert into productos_ventas 
+        values ('40579', '14410', '1', '109.0000', '95.0000', '1', 'STH-CNMH-2') - trueProd: insert into productos_ventas 
+        values ('40521', '14410', '1', '259', '245.0000', '1', 'TAC-0277') - trueProd: insert into productos_ventas 
+        values ('40629', '14410', '1', '59.0000', '36.0000', '1', 'ROY-W0048') - trueProd: insert into productos_ventas 
+        values ('40570', '14410', '1', '39.0000', '25.5000', '1', 'IMPLUSO') - trueProd: insert into productos_ventas 
+        values ('40541', '14410', '1', '93.0000', '82.0000', '1', 'CAL-NAND') - true

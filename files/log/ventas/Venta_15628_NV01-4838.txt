@@ -1,0 +1,11 @@
+Venta: 15628, fecha: 2025-08-19
+
+Prod: insert into productos_ventas 
+        values ('40549', '15628', '1', '330.0000', '275.0000', '1', 'SMT 9ML2222M50282') - trueProd: insert into productos_ventas 
+        values ('40918', '15628', '1', '120.0000', '108.6900', '1', 'MAX 30173368739') - trueProd: insert into productos_ventas 
+        values ('40546', '15628', '1', '117.0000', '93.6300', '1', 'SPT 30171591738') - trueProd: insert into productos_ventas 
+        values ('40557', '15628', '1', '209.0000', '185.7200', '1', 'ROY 601-7C96-120B2503016920') - trueProd: insert into productos_ventas 
+        values ('40532', '15628', '1', '759.0000', '685.0000', '1', 'SMT 602-V812-136ST2504006500') - trueProd: insert into productos_ventas 
+        values ('40860', '15628', '1', '65.0000', '45.5000', '1', 'IMPUL 4596ATX250W1163') - trueProd: insert into productos_ventas 
+        values ('40913', '15628', '1', '99.0000', '75.0000', '1', 'CALE ') - trueProd: insert into productos_ventas 
+        values ('40521', '15628', '1', '250.0000', '240.0000', '1', 'HUM SNCTM2504160449') - true

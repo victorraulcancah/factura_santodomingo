@@ -1,0 +1,8 @@
+Venta: 15568, fecha: 2025-08-12
+
+Prod: insert into productos_ventas 
+        values ('40552', '15568', '1', '746.0000', '689.9000', '1', 'DEL 9MP6234R50005') - trueProd: insert into productos_ventas 
+        values ('40597', '15568', '1', '170.0000', '145.0000', '1', 'ROY 30173375393') - trueProd: insert into productos_ventas 
+        values ('40488', '15568', '1', '85.0000', '72.0000', '1', 'CALE 25060088') - trueProd: insert into productos_ventas 
+        values ('40651', '15568', '1', '289.0000', '262.7000', '1', 'CMS 4711377093804') - trueProd: insert into productos_ventas 
+        values ('40494', '15568', '1', '89.0000', '58.0000', '1', 'CALE') - true

@@ -1,0 +1,9 @@
+Venta: 16483, fecha: 2025-11-26
+
+Prod: insert into productos_ventas 
+        values ('40708', '16483', '1', '540.0000', '506.0000', '1', 'DELT- U5G947S405115') - trueProd: insert into productos_ventas 
+        values ('41104', '16483', '1', '290.0000', '188.8800', '1', 'DELT-TE165625090686') - trueProd: insert into productos_ventas 
+        values ('41012', '16483', '1', '390.0000', '366.9840', '1', 'CMS-601-7E02-070B2502003209') - trueProd: insert into productos_ventas 
+        values ('40847', '16483', '1', '200.0000', '175.0000', '1', 'TACT-AG650SASN243600227') - trueProd: insert into productos_ventas 
+        values ('41110', '16483', '1', '1700.0000', '1598.3500', '1', 'CDK-SN253441074120') - trueProd: insert into productos_ventas 
+        values ('41095', '16483', '1', '130.0000', '91.2200', '1', 'CAL') - true

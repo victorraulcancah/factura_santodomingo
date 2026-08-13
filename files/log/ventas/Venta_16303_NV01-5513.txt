@@ -1,0 +1,11 @@
+Venta: 16303, fecha: 2025-11-07
+
+Prod: insert into productos_ventas 
+        values ('40708', '16303', '1', '539.0000', '506.0200', '1', 'DEL  U51W30U301795') - trueProd: insert into productos_ventas 
+        values ('41029', '16303', '1', '399.0000', '363.3700', '1', 'CMS SN251260105205') - trueProd: insert into productos_ventas 
+        values ('41041', '16303', '1', '170.0000', '147.0000', '1', 'SMT A23890025130200048') - trueProd: insert into productos_ventas 
+        values ('40918', '16303', '1', '123', '108.3100', '1', 'max 6747') - trueProd: insert into productos_ventas 
+        values ('41016', '16303', '1', '120.0000', '100.0000', '1', 'ROG600W2503310269') - trueProd: insert into productos_ventas 
+        values ('41082', '16303', '1', '99.0000', '77.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40599', '16303', '1', '949', '888.9400', '1', 'CMS   Z2V021987') - trueProd: insert into productos_ventas 
+        values ('40521', '16303', '1', '229', '221.8700', '1', 'DEL SNCTM2506011368') - true

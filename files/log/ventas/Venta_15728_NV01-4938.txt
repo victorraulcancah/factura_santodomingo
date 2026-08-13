@@ -1,0 +1,7 @@
+Venta: 15728, fecha: 2025-08-28
+
+Prod: insert into productos_ventas 
+        values ('40886', '15728', '5', '262', '250.2500', '1', 'max  3067ZWDA11L8010514002022') - trueProd: insert into productos_ventas 
+        values ('40941', '15728', '1', '178', '165.5500', '1', 'max ') - trueProd: insert into productos_ventas 
+        values ('40540', '15728', '2', '110', '103.7200', '1', 'im') - trueProd: insert into productos_ventas 
+        values ('40723', '15728', '2', '58', '52.5000', '1', 'max') - true

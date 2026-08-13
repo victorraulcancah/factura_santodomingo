@@ -1,0 +1,11 @@
+Venta: 16400, fecha: 2025-11-17
+
+Prod: insert into productos_ventas 
+        values ('40782', '16400', '1', '1299.0000', '1130.0000', '1', 'LABS 9MG1317R40112') - trueProd: insert into productos_ventas 
+        values ('41077', '16400', '1', '700.0000', '620.0000', '1', 'SMT 601-7E56-010B2412007141') - trueProd: insert into productos_ventas 
+        values ('40886', '16400', '1', '249', '228.3400', '1', 'MAX 3067ZWDA11L8010519000923') - trueProd: insert into productos_ventas 
+        values ('41021', '16400', '1', '439', '350.0000', '1', 'SMT N2388232512000836 | N2388232512000837') - trueProd: insert into productos_ventas 
+        values ('40699', '16400', '1', '249', '225.0000', '1', 'CALE QHD072R002504P113B') - trueProd: insert into productos_ventas 
+        values ('41085', '16400', '1', '2449.0000', '2388.0000', '1', 'CALE 602-V532-194SB2509003196') - trueProd: insert into productos_ventas 
+        values ('41076', '16400', '1', '225.0000', '198.0400', '1', 'MAX 3000204') - trueProd: insert into productos_ventas 
+        values ('40991', '16400', '1', '189', '160.0000', '1', 'ROG') - true

@@ -1,0 +1,11 @@
+Venta: 15561, fecha: 2025-08-12
+
+Prod: insert into productos_ventas 
+        values ('40785', '15561', '1', '699', '575.0000', '1', 'ama  9MJ5159W40267') - trueProd: insert into productos_ventas 
+        values ('40495', '15561', '1', '599', '512.3300', '1', 'smt  PRIME B650-PLUS WIFI') - trueProd: insert into productos_ventas 
+        values ('40753', '15561', '1', '399', '243.7500', '1', 'abc  EF2504230361833  EF2504230361834') - trueProd: insert into productos_ventas 
+        values ('40925', '15561', '1', '266', '218.0000', '1', 'roy 30166625504') - trueProd: insert into productos_ventas 
+        values ('40886', '15561', '1', '299', '249.5500', '1', 'max 3067ZWDA11L8010514002154') - trueProd: insert into productos_ventas 
+        values ('40888', '15561', '1', '239', '175.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40754', '15561', '1', '2499', '2398.6500', '1', 'del 602-V532-108SB2505006050') - trueProd: insert into productos_ventas 
+        values ('40555', '15561', '1', '199', '160.0000', '1', 'ca 250127PSDK-G0324') - true

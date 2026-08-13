@@ -1,0 +1,11 @@
+Venta: 16869, fecha: 2025-12-31
+
+Prod: insert into productos_ventas 
+        values ('40552', '16869', '1', '689.0000', '652.0000', '1', 'CDK 9AMW046S50183') - trueProd: insert into productos_ventas 
+        values ('41008', '16869', '1', '369.0000', '298.3000', '1', 'IMPCT 601-7E76-020B2507003540') - trueProd: insert into productos_ventas 
+        values ('41108', '16869', '1', '620', '435.0000', '1', 'ROG 0000009277789 | S007172') - trueProd: insert into productos_ventas 
+        values ('40564', '16869', '1', '199', '142.5000', '1', ' LP ASAD35330300612 ') - trueProd: insert into productos_ventas 
+        values ('40882', '16869', '1', '145', '92.0000', '1', 'IMPUL 4666MICP600-80+1545') - trueProd: insert into productos_ventas 
+        values ('41207', '16869', '1', '119', '68.3400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('41031', '16869', '2', '40', '25.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41072', '16869', '1', '229', '201.8700', '1', 'IMPUL 4664DG24FC-1000481') - true

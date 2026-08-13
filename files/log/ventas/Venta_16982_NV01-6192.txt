@@ -1,0 +1,10 @@
+Venta: 16982, fecha: 2026-01-15
+
+Prod: insert into productos_ventas 
+        values ('40535', '16982', '1', '555.0000', '504.7700', '1', 'CDK-YB03247M40201') - trueProd: insert into productos_ventas 
+        values ('41008', '16982', '1', '355.0000', '300.9000', '1', 'IMPA-601-7E76-020B2507002960') - trueProd: insert into productos_ventas 
+        values ('41241', '16982', '1', '720.0000', '591.0000', '1', 'ADNI-PC525120117') - trueProd: insert into productos_ventas 
+        values ('41200', '16982', '1', '230.0000', '188.0000', '1', 'LP-4P0921966779') - trueProd: insert into productos_ventas 
+        values ('40828', '16982', '1', '140.0000', '100.0000', '1', 'CAL-4667MICP650-80+0530') - trueProd: insert into productos_ventas 
+        values ('40514', '16982', '1', '149.0000', '129.0000', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40521', '16982', '1', '229.0000', '225.0000', '1', 'HUMB-TE2415S159925103443') - true

@@ -1,0 +1,10 @@
+Venta: 16838, fecha: 2025-12-27
+
+Prod: insert into productos_ventas 
+        values ('40549', '16838', '1', '335.0000', '270.0000', '1', 'ROG-ANE159T50031') - trueProd: insert into productos_ventas 
+        values ('40630', '16838', '1', '205.0000', '177.0000', '1', 'CAL-SN253850036707') - trueProd: insert into productos_ventas 
+        values ('41184', '16838', '1', '350.0000', '250.0000', '1', 'ROG-RGX16D4119') - trueProd: insert into productos_ventas 
+        values ('40564', '16838', '1', '189.0000', '142.5000', '1', 'LP-ASAD35330300614') - trueProd: insert into productos_ventas 
+        values ('40882', '16838', '1', '125.0000', '92.0000', '1', 'CAL-4666MICP600-80+1467') - trueProd: insert into productos_ventas 
+        values ('40532', '16838', '1', '750.0000', '675.0000', '1', 'MAXIM-602-V812-131ST2509000422') - trueProd: insert into productos_ventas 
+        values ('41207', '16838', '1', '95.0000', '68.3400', '1', 'IMPU') - true

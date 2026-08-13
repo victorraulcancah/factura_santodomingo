@@ -1,0 +1,11 @@
+Venta: 14439, fecha: 2025-04-23
+
+Prod: insert into productos_ventas 
+        values ('40533', '14439', '16', '287.50', '255.0000', '1', '') - trueProd: insert into productos_ventas 
+        values ('40630', '14439', '16', '209', '201.9500', '1', 'tac 834 / 835 / 838 / 836 / 394 / 392 / 391 / 759 / 393 / 396 / 395     seda   129 / 128 / 126 / 127  / 130 ') - trueProd: insert into productos_ventas 
+        values ('40590', '14439', '16', '99', '90.0000', '1', 'smith ') - trueProd: insert into productos_ventas 
+        values ('40653', '14439', '16', '89', '74.0000', '1', 'ca QAG282R001953P1157 QAG282R004565P1157 QAG282R000753P1157 QAG282R001954P1157 QAG282R001980P1157 QAG282R005424P1157 QAG282R005414P1157 QAG282R005413P1157 QAG282R004588P1157 QAG282R004597P1157 QAG282R012546P1157 QAG282R016222P1157 QAG282R005403P1157 QAG282R008738P1157 QAG282R002068P1157 QAG282R002064P1157') - trueProd: insert into productos_ventas 
+        values ('40616', '14439', '16', '79.0000', '60.7500', '1', 'impulso') - trueProd: insert into productos_ventas 
+        values ('40698', '14439', '16', '49.0000', '40.5000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40697', '14439', '32', '245', '224.8000', '1', 'cms ') - trueProd: insert into productos_ventas 
+        values ('40641', '14439', '16', '10', '4.0000', '1', 'david ') - true

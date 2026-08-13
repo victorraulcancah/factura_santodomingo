@@ -1,0 +1,11 @@
+Venta: 16373, fecha: 2025-11-15
+
+Prod: insert into productos_ventas 
+        values ('40552', '16373', '1', '660.0000', '669.0000', '1', 'ROY 9MQ7563R50240') - trueProd: insert into productos_ventas 
+        values ('40651', '16373', '1', '260.0000', '248.0000', '1', 'SEDA 601-7E28-010B2503007781') - trueProd: insert into productos_ventas 
+        values ('41104', '16373', '1', '200.0000', '188.8800', '1', 'DEL TE165625090692') - trueProd: insert into productos_ventas 
+        values ('40918', '16373', '1', '135.0000', '108.3100', '1', '	MAX 30176976896') - trueProd: insert into productos_ventas 
+        values ('41016', '16373', '1', '115', '95.0000', '1', 'ROG600W2503310012') - trueProd: insert into productos_ventas 
+        values ('41095', '16373', '1', '120.0000', '91.2200', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40862', '16373', '1', '340', '314.3400', '1', 'CMS  SNCTM2506040819') - trueProd: insert into productos_ventas 
+        values ('41109', '16373', '1', '160', '129.0000', '1', 'CALE') - true

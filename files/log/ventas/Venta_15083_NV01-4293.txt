@@ -1,0 +1,5 @@
+Venta: 15083, fecha: 2025-07-03
+
+Prod: insert into productos_ventas 
+        values ('40801', '15083', '1', '240', '232.6660', '1', 'CDM EH22J') - trueProd: insert into productos_ventas 
+        values ('40634', '15083', '1', '100', '90.0000', '1', 'P 8912') - true

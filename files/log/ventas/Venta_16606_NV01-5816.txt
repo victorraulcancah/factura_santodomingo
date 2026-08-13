@@ -1,0 +1,10 @@
+Venta: 16606, fecha: 2025-12-04
+
+Prod: insert into productos_ventas 
+        values ('40586', '16606', '1', '900.0000', '680.0000', '1', 'IMPOR-yh9yO6pO7PG2 9ANF668T50308_100-000001590') - trueProd: insert into productos_ventas 
+        values ('41111', '16606', '1', '151', '94.0000', '1', 'HUMB-FYB9N011912209K1X') - trueProd: insert into productos_ventas 
+        values ('41145', '16606', '1', '400.0000', '329.8700', '1', 'IMPAC-1P3601293709') - trueProd: insert into productos_ventas 
+        values ('41016', '16606', '1', '120.0000', '95.0000', '1', 'ROG 2503310014') - trueProd: insert into productos_ventas 
+        values ('41008', '16606', '1', '349.0000', '310.0000', '1', 'TAC-601-7E76-020B2505005906') - trueProd: insert into productos_ventas 
+        values ('41149', '16606', '1', '1129.0000', '1069.0000', '1', 'CAL-10000420') - trueProd: insert into productos_ventas 
+        values ('40540', '16606', '1', '130', '90.9560', '1', 'IMPUL') - true

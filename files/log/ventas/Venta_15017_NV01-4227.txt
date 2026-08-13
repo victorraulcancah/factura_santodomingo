@@ -1,0 +1,8 @@
+Venta: 15017, fecha: 2025-06-26
+
+Prod: insert into productos_ventas 
+        values ('40533', '15017', '1', '285.0000', '229.0000', '1', 'CAL-40016') - trueProd: insert into productos_ventas 
+        values ('40630', '15017', '1', '220.0000', '195.0000', '1', 'CAL-3879') - trueProd: insert into productos_ventas 
+        values ('40488', '15017', '1', '85.0000', '70.0000', '1', 'CAL-0117') - trueProd: insert into productos_ventas 
+        values ('40723', '15017', '1', '67.0000', '51.5600', '1', 'MAXIM-7884') - trueProd: insert into productos_ventas 
+        values ('40494', '15017', '1', '92.0000', '65.0000', '1', 'HUMB') - true

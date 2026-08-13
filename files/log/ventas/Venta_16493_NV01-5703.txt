@@ -1,0 +1,12 @@
+Venta: 16493, fecha: 2025-11-27
+
+Prod: insert into productos_ventas 
+        values ('40708', '16493', '1', '539.0000', '512.0000', '1', 'AND U5DY753103964') - trueProd: insert into productos_ventas 
+        values ('40702', '16493', '1', '299', '240.0000', '1', 'CMS SN251250103194') - trueProd: insert into productos_ventas 
+        values ('41136', '16493', '1', '300', '278.3500', '1', 'SERC 20228651') - trueProd: insert into productos_ventas 
+        values ('41105', '16493', '1', '130', '95.0000', '1', 'HUM SKHY BCFYB7N024014107H46') - trueProd: insert into productos_ventas 
+        values ('40599', '16493', '1', '999', '891.5700', '1', 'CMS Z2V021986') - trueProd: insert into productos_ventas 
+        values ('41016', '16493', '1', '120.0000', '95.0000', '1', 'ROG600W2503310202') - trueProd: insert into productos_ventas 
+        values ('40913', '16493', '1', '112', '72.5000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('41140', '16493', '1', '100.0000', '74.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40536', '16493', '1', '80', '65.0000', '1', 'CALE 2503-20556975') - true

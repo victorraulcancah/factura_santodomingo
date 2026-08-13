@@ -1,0 +1,11 @@
+Venta: 16920, fecha: 2026-01-06
+
+Prod: insert into productos_ventas 
+        values ('40586', '16920', '1', '899', '702.5000', '1', 'ROG 9ANJ976T50752') - trueProd: insert into productos_ventas 
+        values ('40577', '16920', '1', '90', '74.0000', '1', 'GG 10000131880AC251700619') - trueProd: insert into productos_ventas 
+        values ('41160', '16920', '1', '899', '730.0000', '1', 'SMT SN250750086667') - trueProd: insert into productos_ventas 
+        values ('41108', '16920', '1', '659', '435.0000', '1', 'ROG 0000009277789-S007400') - trueProd: insert into productos_ventas 
+        values ('40565', '16920', '1', '399', '250.0000', '1', 'CDCO 25200J800473') - trueProd: insert into productos_ventas 
+        values ('41166', '16920', '1', '1699', '1568.6100', '1', 'CDK T8YVCM01D6508RG') - trueProd: insert into productos_ventas 
+        values ('40919', '16920', '1', '239', '202.9900', '1', 'CDK G750SASN252700605') - trueProd: insert into productos_ventas 
+        values ('40540', '16920', '1', '116', '90.9560', '1', 'IMPUL') - true

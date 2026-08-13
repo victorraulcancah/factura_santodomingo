@@ -1,0 +1,11 @@
+Venta: 15201, fecha: 2025-07-13
+
+Prod: insert into productos_ventas 
+        values ('40493', '15201', '1', '549', '484.4500', '1', 'del 50590') - trueProd: insert into productos_ventas 
+        values ('40557', '15201', '1', '219', '189.5000', '1', '16772') - trueProd: insert into productos_ventas 
+        values ('40723', '15201', '1', '67', '51.5600', '1', 'max 7858') - trueProd: insert into productos_ventas 
+        values ('40488', '15201', '1', '85.0000', '72.0000', '1', 'carog  60103') - trueProd: insert into productos_ventas 
+        values ('40540', '15201', '1', '119.0000', '103.7200', '1', 'im') - trueProd: insert into productos_ventas 
+        values ('40527', '15201', '1', '90.0000', '70.0000', '1', 'ha ') - trueProd: insert into productos_ventas 
+        values ('40521', '15201', '1', '250', '240.0000', '1', 'tac 40948') - trueProd: insert into productos_ventas 
+        values ('40731', '15201', '1', '50', '32.6070', '1', 'ca  0818') - true

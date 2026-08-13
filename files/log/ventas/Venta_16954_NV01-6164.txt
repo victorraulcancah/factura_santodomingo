@@ -1,0 +1,10 @@
+Venta: 16954, fecha: 2026-01-10
+
+Prod: insert into productos_ventas 
+        values ('40535', '16954', '1', '559.0000', '500.0000', '1', 'CDK-YB03247M40233') - trueProd: insert into productos_ventas 
+        values ('41008', '16954', '1', '345.0000', '299.8410', '1', 'IMPA-601-7E76-020B2507002954') - trueProd: insert into productos_ventas 
+        values ('41231', '16954', '1', '765.0000', '590.0000', '1', 'M-BYTE 0000009277789-S010576') - trueProd: insert into productos_ventas 
+        values ('40971', '16954', '1', '150.0000', '64.6000', '1', 'MAXIM-30174900020') - trueProd: insert into productos_ventas 
+        values ('41157', '16954', '1', '80.0000', '49.0400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40521', '16954', '1', '229.0000', '225.0000', '1', 'HUM-TE2415S171825081079') - trueProd: insert into productos_ventas 
+        values ('40521', '16954', '1', '240.0000', '225.0000', '1', 'LP-TE2415S159925103444') - true

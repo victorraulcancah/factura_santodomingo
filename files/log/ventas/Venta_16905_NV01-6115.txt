@@ -1,0 +1,12 @@
+Venta: 16905, fecha: 2026-01-05
+
+Prod: insert into productos_ventas 
+        values ('40493', '16905', '1', '595', '536.0000', '1', 'lp  9MP7125R50394') - trueProd: insert into productos_ventas 
+        values ('40630', '16905', '1', '199', '175.2000', '1', 'seda  SN251750056246') - trueProd: insert into productos_ventas 
+        values ('41184', '16905', '1', '394', '250.0000', '1', ' RGX16D4135') - trueProd: insert into productos_ventas 
+        values ('41115', '16905', '1', '120', '70.0000', '1', 'dioses  EANJ04N41751070464T') - trueProd: insert into productos_ventas 
+        values ('40660', '16905', '1', '100', '50.0000', '1', 'mb  2GH172-020') - trueProd: insert into productos_ventas 
+        values ('41207', '16905', '1', '97', '68.3400', '1', 'im ') - trueProd: insert into productos_ventas 
+        values ('40629', '16905', '1', '60', '36.5000', '1', 'imp ') - trueProd: insert into productos_ventas 
+        values ('41071', '16905', '1', '200', '186.4200', '1', 'imp 4664MF24.5-75FF0644') - trueProd: insert into productos_ventas 
+        values ('41031', '16905', '1', '35.0000', '25.0000', '1', 'rg') - true

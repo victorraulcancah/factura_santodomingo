@@ -1,0 +1,11 @@
+Venta: 17052, fecha: 2026-01-25
+
+Prod: insert into productos_ventas 
+        values ('40602', '17052', '1', '690', '655.5900', '1', 'LP 9MT1088V50171') - trueProd: insert into productos_ventas 
+        values ('40630', '17052', '1', '219', '182.0000', '1', 'TAC SN251750056222') - trueProd: insert into productos_ventas 
+        values ('40489', '17052', '1', '399', '305.0000', '1', 'MICROB S006497') - trueProd: insert into productos_ventas 
+        values ('40564', '17052', '1', '239', '142.5000', '1', 'LP ASAD35330300409') - trueProd: insert into productos_ventas 
+        values ('41243', '17052', '1', '135', '99.0000', '1', 'CALE TSMJC2507090847') - trueProd: insert into productos_ventas 
+        values ('41207', '17052', '1', '119', '68.3400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('41031', '17052', '1', '35.0000', '25.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40521', '17052', '1', '229', '225.0000', '1', 'HUM TE2415S173825100786') - true

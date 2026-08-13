@@ -1,0 +1,11 @@
+Venta: 17098, fecha: 2026-01-30
+
+Prod: insert into productos_ventas 
+        values ('41268', '17098', '1', '1229.0000', '1132.0000', '1', 'CAL-U58H4T8103551') - trueProd: insert into productos_ventas 
+        values ('41019', '17098', '1', '80.0000', '50.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41012', '17098', '1', '399.0000', '362.0000', '1', 'ROY-601-7E02-080B2507008424') - trueProd: insert into productos_ventas 
+        values ('41231', '17098', '1', '649.0000', '590.0000', '1', 'M-BYTE 0000009277789-S010561') - trueProd: insert into productos_ventas 
+        values ('40699', '17098', '1', '425.0000', '359.0000', '1', 'CAL-QDM423W101914P113A') - trueProd: insert into productos_ventas 
+        values ('41207', '17098', '1', '99.0000', '68.3400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40729', '17098', '1', '919.0000', '746.2000', '1', 'AMA-602-V809-2885ST2507000424') - trueProd: insert into productos_ventas 
+        values ('41243', '17098', '1', '129.0000', '99.0000', '1', 'CAL-TSMJC2507090849') - true

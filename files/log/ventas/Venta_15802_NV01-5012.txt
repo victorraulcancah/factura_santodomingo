@@ -1,0 +1,4 @@
+Venta: 15802, fecha: 2025-09-04
+
+Prod: insert into productos_ventas 
+        values ('40540', '15802', '1', '105', '103.7200', '1', 'flush impulso  cambio rx 580 8gb') - true

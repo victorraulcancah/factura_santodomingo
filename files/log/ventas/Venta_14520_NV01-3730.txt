@@ -1,0 +1,12 @@
+Venta: 14520, fecha: 2025-05-02
+
+Prod: insert into productos_ventas 
+        values ('40535', '14520', '1', '650', '565.0000', '1', 'pega30115') - trueProd: insert into productos_ventas 
+        values ('40491', '14520', '1', '319.0000', '295.0000', '1', 'ca10858') - trueProd: insert into productos_ventas 
+        values ('40597', '14520', '1', '175.0000', '155.4200', '1', 'roy') - trueProd: insert into productos_ventas 
+        values ('40540', '14520', '1', '119.0000', '107.7000', '1', 'impulso') - trueProd: insert into productos_ventas 
+        values ('40714', '14520', '1', '150', '125.0000', '1', 'ca10858') - trueProd: insert into productos_ventas 
+        values ('40596', '14520', '1', '138', '114.5700', '1', 'roy') - trueProd: insert into productos_ventas 
+        values ('40521', '14520', '1', '259', '245.0000', '1', 'tact') - trueProd: insert into productos_ventas 
+        values ('40563', '14520', '1', '60', '54.0000', '1', 'tact') - trueProd: insert into productos_ventas 
+        values ('40543', '14520', '1', '50', '37.0800', '1', 'impact') - true

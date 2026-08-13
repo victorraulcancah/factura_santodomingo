@@ -1,0 +1,10 @@
+Venta: 14922, fecha: 2025-06-16
+
+Prod: insert into productos_ventas 
+        values ('40549', '14922', '1', '345.0000', '286.6600', '1', '214-40141') - trueProd: insert into productos_ventas 
+        values ('40579', '14922', '2', '125.0000', '95.0000', '1', 'STH-KMOP-1-2') - trueProd: insert into productos_ventas 
+        values ('40527', '14922', '1', '95.0000', '73.0000', '1', 'ROY ') - trueProd: insert into productos_ventas 
+        values ('40821', '14922', '1', '110.0000', '78.7200', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40531', '14922', '1', '775.0000', '709.2900', '1', 'MAXIM-3856') - trueProd: insert into productos_ventas 
+        values ('40558', '14922', '1', '375.0000', '357.0000', '1', 'CMS-5055') - trueProd: insert into productos_ventas 
+        values ('40596', '14922', '1', '150.0000', '122.2500', '1', 'ROY-3996') - true

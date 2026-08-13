@@ -1,0 +1,8 @@
+Venta: 16288, fecha: 2025-11-07
+
+Prod: insert into productos_ventas 
+        values ('40535', '16288', '1', '559', '513.4800', '1', 'del  Y984631R50180') - trueProd: insert into productos_ventas 
+        values ('40651', '16288', '1', '279', '248.0000', '1', 'seda 601-7E28-010B2503006283') - trueProd: insert into productos_ventas 
+        values ('41041', '16288', '1', '170.0000', '147.0000', '1', 'smt   10154') - trueProd: insert into productos_ventas 
+        values ('40971', '16288', '1', '72.0000', '64.6000', '1', 'max 5353') - trueProd: insert into productos_ventas 
+        values ('40494', '16288', '1', '69', '51.0000', '1', 'imp') - true

@@ -1,0 +1,11 @@
+Venta: 14874, fecha: 2025-06-09
+
+Prod: insert into productos_ventas 
+        values ('40493', '14874', '1', '509.0000', '489.0000', '1', 'PEGA-0110') - trueProd: insert into productos_ventas 
+        values ('40625', '14874', '1', '209.0000', '177.5000', '1', 'ROG-0278') - trueProd: insert into productos_ventas 
+        values ('40723', '14874', '1', '75.0000', '51.5600', '1', 'MAXI-7896') - trueProd: insert into productos_ventas 
+        values ('40768', '14874', '1', '95.0000', '85.0000', '1', 'TACT-5161') - trueProd: insert into productos_ventas 
+        values ('40494', '14874', '1', '89.0000', '65.0000', '1', 'HUMB') - trueProd: insert into productos_ventas 
+        values ('40521', '14874', '1', '259.0000', '235.2800', '1', 'DELT-30030') - trueProd: insert into productos_ventas 
+        values ('40570', '14874', '1', '39.0000', '25.5000', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40567', '14874', '1', '5.0000', '3.5000', '1', 'AEQ') - true

@@ -1,0 +1,11 @@
+Venta: 16280, fecha: 2025-11-06
+
+Prod: insert into productos_ventas 
+        values ('40886', '16280', '1', '265', '228.3400', '1', 'MAX-9000848') - trueProd: insert into productos_ventas 
+        values ('41015', '16280', '1', '489', '430.0000', '1', 'STH-19672') - trueProd: insert into productos_ventas 
+        values ('41021', '16280', '1', '390', '350.0000', '1', 'STH-2000885-200084') - trueProd: insert into productos_ventas 
+        values ('40509', '16280', '1', '239', '217.0000', '1', 'SPT-399F341') - trueProd: insert into productos_ventas 
+        values ('40991', '16280', '1', '199.0000', '160.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41085', '16280', '1', '2569', '2388.0000', '1', 'CAL-9003205') - trueProd: insert into productos_ventas 
+        values ('41076', '16280', '1', '249', '198.0400', '1', 'MAX-3000139') - trueProd: insert into productos_ventas 
+        values ('41091', '16280', '1', '1199', '1050.0000', '1', 'LABS-CH-603350') - true

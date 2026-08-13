@@ -1,0 +1,8 @@
+Venta: 16166, fecha: 2025-10-21
+
+Prod: insert into productos_ventas 
+        values ('40535', '16166', '1', '559', '513.4800', '1', 'del   Y984624R50205') - trueProd: insert into productos_ventas 
+        values ('40651', '16166', '1', '289.0000', '248.0000', '1', 'ca 601-7E28-010B2503006730') - trueProd: insert into productos_ventas 
+        values ('40918', '16166', '1', '120.0000', '108.3100', '1', 'max 601-7E28-010B2503006730') - trueProd: insert into productos_ventas 
+        values ('41041', '16166', '1', '172', '147.0000', '1', 'rog   N2384312503001218') - trueProd: insert into productos_ventas 
+        values ('40494', '16166', '1', '89.0000', '51.0000', '1', 'impu') - true

@@ -1,0 +1,11 @@
+Venta: 16679, fecha: 2025-12-11
+
+Prod: insert into productos_ventas 
+        values ('40603', '16679', '1', '549', '455.0000', '1', 'ROG 9ANN654U50208') - trueProd: insert into productos_ventas 
+        values ('41154', '16679', '1', '449', '413.8950', '1', 'CMS 601-7E27-010B2505014742') - trueProd: insert into productos_ventas 
+        values ('41145', '16679', '1', '600', '329.8700', '1', 'IMPCT 2P3200312013') - trueProd: insert into productos_ventas 
+        values ('41111', '16679', '1', '155', '94.0000', '1', 'HUM BCFYB7N024013507H27') - trueProd: insert into productos_ventas 
+        values ('41043', '16679', '1', '299.0000', '175.7000', '1', 'MAX S78440P130P8310510004038') - trueProd: insert into productos_ventas 
+        values ('40961', '16679', '1', '1729', '1568.6100', '1', 'CDK AWV007548') - trueProd: insert into productos_ventas 
+        values ('41170', '16679', '1', '199.0000', '145.0000', '1', 'ROG750B2506200234') - trueProd: insert into productos_ventas 
+        values ('40619', '16679', '1', '199', '185.0000', '1', 'ROG') - true

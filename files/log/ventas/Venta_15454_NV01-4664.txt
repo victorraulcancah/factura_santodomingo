@@ -1,0 +1,10 @@
+Venta: 15454, fecha: 2025-08-02
+
+Prod: insert into productos_ventas 
+        values ('40708', '15454', '1', '549.0000', '500.0000', '1', 'DT x446m985') - trueProd: insert into productos_ventas 
+        values ('40597', '15454', '1', '180.0000', '143.0000', '1', 'ROY 30173374452') - trueProd: insert into productos_ventas 
+        values ('40918', '15454', '1', '139.0000', '108.6900', '1', 'MAX 30173368862') - trueProd: insert into productos_ventas 
+        values ('40740', '15454', '1', '449.0000', '405.0000', '1', 'ROY G5M0XB179757') - trueProd: insert into productos_ventas 
+        values ('40499', '15454', '1', '1149.0000', '1094.1200', '1', 'MAXI 602-V397-1139SB2505004797') - trueProd: insert into productos_ventas 
+        values ('40882', '15454', '1', '124.0000', '100.0000', '1', 'CALE 4594P80B-600W0578') - trueProd: insert into productos_ventas 
+        values ('40913', '15454', '1', '109.0000', '79.0000', '1', 'ROY') - true

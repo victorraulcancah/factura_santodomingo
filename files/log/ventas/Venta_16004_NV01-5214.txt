@@ -1,0 +1,9 @@
+Venta: 16004, fecha: 2025-09-29
+
+Prod: insert into productos_ventas 
+        values ('40552', '16004', '1', '639', '681.2700', '1', 'DEL 9MQ5594R50254') - trueProd: insert into productos_ventas 
+        values ('40587', '16004', '1', '175', '153.0000', '1', 'SMT EF2503130361245') - trueProd: insert into productos_ventas 
+        values ('40585', '16004', '1', '235', '183.0000', '1', 'ROD 4P2120645539') - trueProd: insert into productos_ventas 
+        values ('40651', '16004', '1', '285', '248.0000', '1', 'CALE 601-7E28-010B2503007833') - trueProd: insert into productos_ventas 
+        values ('41016', '16004', '1', '146', '95.0000', '1', 'ROG600B2503310091') - trueProd: insert into productos_ventas 
+        values ('40978', '16004', '1', '119', '66.0000', '1', 'CALE') - true

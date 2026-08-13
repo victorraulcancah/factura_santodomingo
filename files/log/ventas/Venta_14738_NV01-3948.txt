@@ -1,0 +1,9 @@
+Venta: 14738, fecha: 2025-05-24
+
+Prod: insert into productos_ventas 
+        values ('40602', '14738', '1', '620', '579.0960', '1', 'ROY50120') - trueProd: insert into productos_ventas 
+        values ('40546', '14738', '2', '110.0000', '92.4600', '1', 'MAXI3066-3064') - trueProd: insert into productos_ventas 
+        values ('40699', '14738', '1', '210.0000', '203.0000', '1', 'DANTE111739P') - trueProd: insert into productos_ventas 
+        values ('40630', '14738', '1', '210', '200.0000', '1', 'TACT25669') - trueProd: insert into productos_ventas 
+        values ('40505', '14738', '1', '119.0000', '100.9000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40629', '14738', '1', '50', '36.0000', '1', 'IMPULSO') - true

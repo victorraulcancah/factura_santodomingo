@@ -1,0 +1,14 @@
+Venta: 15495, fecha: 2025-08-05
+
+Prod: insert into productos_ventas 
+        values ('40708', '15495', '1', '550', '549.2700', '1', 'HIAMN2001969') - trueProd: insert into productos_ventas 
+        values ('40604', '15495', '1', '150', '137.0000', '1', 'PARKERX004DS8APN') - trueProd: insert into productos_ventas 
+        values ('40711', '15495', '1', '620', '490.0000', '1', 'SMTHXB034964') - trueProd: insert into productos_ventas 
+        values ('40813', '15495', '1', '399.0000', '350.0000', '1', 'SMTH20193-20194') - trueProd: insert into productos_ventas 
+        values ('40899', '15495', '1', '235', '230.0000', '1', 'SMTHC7455') - trueProd: insert into productos_ventas 
+        values ('40900', '15495', '1', '235', '200.7650', '1', 'PLUS1900184') - trueProd: insert into productos_ventas 
+        values ('40933', '15495', '1', '229', '178.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40889', '15495', '1', '3054', '2680.8640', '1', 'COMPUDISK252041092172') - trueProd: insert into productos_ventas 
+        values ('40932', '15495', '1', '199.0000', '180.0000', '1', '1') - trueProd: insert into productos_ventas 
+        values ('40935', '15495', '1', '1139', '967.0000', '1', 'CA0224') - trueProd: insert into productos_ventas 
+        values ('40536', '15495', '1', '90', '68.0000', '1', 'PEGA') - true

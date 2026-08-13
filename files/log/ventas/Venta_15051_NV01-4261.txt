@@ -1,0 +1,5 @@
+Venta: 15051, fecha: 2025-06-29
+
+Prod: insert into productos_ventas 
+        values ('40520', '15051', '1', '30', '19.0000', '1', 'ADAPTADOR') - trueProd: insert into productos_ventas 
+        values ('40866', '15051', '1', '390', '370.0000', '1', 'LPD00089') - true

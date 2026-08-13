@@ -1,0 +1,11 @@
+Venta: 16587, fecha: 2025-12-03
+
+Prod: insert into productos_ventas 
+        values ('40708', '16587', '1', '569', '530.0000', '1', 'DEL-LP203987') - trueProd: insert into productos_ventas 
+        values ('41051', '16587', '1', '1899', '1822.2000', '1', 'CDK / PEGA 35241') - trueProd: insert into productos_ventas 
+        values ('41012', '16587', '1', '399', '362.0000', '1', 'ROY08459') - trueProd: insert into productos_ventas 
+        values ('41145', '16587', '1', '399', '329.8700', '1', 'IMPACT3485') - trueProd: insert into productos_ventas 
+        values ('40976', '16587', '1', '179.0000', '142.0000', '1', 'CYBERTEL0450') - trueProd: insert into productos_ventas 
+        values ('40913', '16587', '1', '119', '70.7700', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40565', '16587', '1', '285', '247.0000', '1', 'ADNY') - trueProd: insert into productos_ventas 
+        values ('40521', '16587', '1', '229', '216.7200', '1', 'DEL') - true

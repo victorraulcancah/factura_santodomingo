@@ -1,0 +1,12 @@
+Venta: 14526, fecha: 2025-05-02
+
+Prod: insert into productos_ventas 
+        values ('40552', '14526', '1', '749', '704.0000', '1', 'PEGA8N4060') - trueProd: insert into productos_ventas 
+        values ('40597', '14526', '1', '165', '155.4200', '1', 'ROY06') - trueProd: insert into productos_ventas 
+        values ('40508', '14526', '1', '115', '100.0000', '1', 'HALION') - trueProd: insert into productos_ventas 
+        values ('40527', '14526', '1', '79', '69.0000', '1', 'HALION') - trueProd: insert into productos_ventas 
+        values ('40551', '14526', '1', '450', '420.0000', '1', 'EDU328M566') - trueProd: insert into productos_ventas 
+        values ('40719', '14526', '1', '239', '219.0000', '1', 'ROY0274') - trueProd: insert into productos_ventas 
+        values ('40712', '14526', '1', '100', '90.0000', '1', 'SMTH200156') - trueProd: insert into productos_ventas 
+        values ('40720', '14526', '1', '455', '430.9400', '1', 'SERCO58152KX7') - trueProd: insert into productos_ventas 
+        values ('40616', '14526', '1', '79.0000', '60.7500', '1', 'IMPULSO') - true

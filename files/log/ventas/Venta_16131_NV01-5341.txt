@@ -1,0 +1,11 @@
+Venta: 16131, fecha: 2025-10-17
+
+Prod: insert into productos_ventas 
+        values ('40785', '16131', '1', '770', '700.0000', '1', 'SMT 9AFW796W40182') - trueProd: insert into productos_ventas 
+        values ('40587', '16131', '1', '180', '153.0000', '1', 'ROG EF2503100060365 | EF2503100060366') - trueProd: insert into productos_ventas 
+        values ('41019', '16131', '1', '95', '65.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41008', '16131', '1', '335', '306.0000', '1', 'ROY 601-7E76-020B2505004679') - trueProd: insert into productos_ventas 
+        values ('40846', '16131', '1', '159', '149.5250', '1', 'CMS 50026B76874EFD2B') - trueProd: insert into productos_ventas 
+        values ('40988', '16131', '1', '1299', '1243.3400', '1', 'ROY 602-V537-34ST2505011488') - trueProd: insert into productos_ventas 
+        values ('41016', '16131', '1', '123', '95.0000', '1', 'ROG600B2503310269') - trueProd: insert into productos_ventas 
+        values ('40991', '16131', '1', '189', '160.0000', '1', 'ROG') - true

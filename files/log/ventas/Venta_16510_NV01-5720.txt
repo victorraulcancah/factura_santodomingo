@@ -1,0 +1,12 @@
+Venta: 16510, fecha: 2025-11-28
+
+Prod: insert into productos_ventas 
+        values ('40602', '16510', '1', '590', '561.0800', '1', 'ANDI 9MN7290P50024') - trueProd: insert into productos_ventas 
+        values ('40557', '16510', '1', '215', '175.0000', '1', 'ROY 601-7C96-120B2507014175') - trueProd: insert into productos_ventas 
+        values ('40547', '16510', '1', '130', '118.0000', '1', 'MILI 30133430574') - trueProd: insert into productos_ventas 
+        values ('41115', '16510', '1', '90', '70.0000', '1', 'STC FBBS25031GQ53A0BDC') - trueProd: insert into productos_ventas 
+        values ('40913', '16510', '1', '99.0000', '72.5000', '1', 'ca ') - trueProd: insert into productos_ventas 
+        values ('40629', '16510', '1', '89', '36.5000', '1', 'im  4630SX2000  0941') - trueProd: insert into productos_ventas 
+        values ('40521', '16510', '1', '229', '216.7200', '1', 'del TE2415S1158A25070790') - trueProd: insert into productos_ventas 
+        values ('40698', '16510', '1', '49.0000', '43.0000', '1', 'ca ') - trueProd: insert into productos_ventas 
+        values ('40543', '16510', '1', '49.0000', '35.0000', '1', 'r') - true

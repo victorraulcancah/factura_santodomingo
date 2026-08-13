@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29",
+        "luecano/numero-a-letras": "^3.0",
+        "endroid/qr-code": "^4.6"
+    }
+}

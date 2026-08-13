@@ -1,0 +1,9 @@
+Venta: 16901, fecha: 2026-01-04
+
+Prod: insert into productos_ventas 
+        values ('40548', '16901', '1', '650.0000', '545.0000', '1', 'ROG-J86S10114') - trueProd: insert into productos_ventas 
+        values ('40630', '16901', '1', '199.0000', '175.2000', '1', 'TAC-50056245') - trueProd: insert into productos_ventas 
+        values ('41184', '16901', '1', '380.0000', '250.0000', '1', 'ROG-X16D4012') - trueProd: insert into productos_ventas 
+        values ('40564', '16901', '1', '220.0000', '142.5000', '1', 'LP-300654') - trueProd: insert into productos_ventas 
+        values ('41207', '16901', '1', '100.0000', '68.3400', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40882', '16901', '1', '125.0000', '92.0000', '1', 'CAL-801384') - true

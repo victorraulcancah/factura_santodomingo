@@ -1,0 +1,13 @@
+Venta: 16482, fecha: 2025-11-26
+
+Prod: insert into productos_ventas 
+        values ('40708', '16482', '1', '539.0000', '505.0000', '1', 'DELT-U5DY753105309') - trueProd: insert into productos_ventas 
+        values ('40770', '16482', '2', '265.0000', '249.0000', '1', 'MARLE-30170219940 -30170219944') - trueProd: insert into productos_ventas 
+        values ('40943', '16482', '1', '269.0000', '208.0000', '1', 'CAL-QJ4276R004809P2857') - trueProd: insert into productos_ventas 
+        values ('41012', '16482', '1', '385.0000', '366.9840', '1', 'CMS- 601-7E02-070B2502003203') - trueProd: insert into productos_ventas 
+        values ('40847', '16482', '1', '208.0000', '175.0000', '1', 'TACT-AG650SASN243100147') - trueProd: insert into productos_ventas 
+        values ('40913', '16482', '1', '99.0000', '72.5000', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40536', '16482', '1', '80.0000', '65.0000', '1', 'CAL-2511-20782554') - trueProd: insert into productos_ventas 
+        values ('40830', '16482', '1', '358.0000', '335.0000', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('41051', '16482', '1', '1899.0000', '1763.7000', '1', 'CDK-75287') - trueProd: insert into productos_ventas 
+        values ('40563', '16482', '1', '62.0000', '54.0000', '1', 'HUMB') - true

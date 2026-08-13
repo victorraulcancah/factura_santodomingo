@@ -1,0 +1,5 @@
+Venta: 17067, fecha: 2026-01-27
+
+Prod: insert into productos_ventas 
+        values ('41258', '17067', '1', '1849.0000', '1595.0000', '1', 'ca edu T6N0CV16S10526C') - trueProd: insert into productos_ventas 
+        values ('40805', '17067', '1', '0', '6.8500', '1', 'f') - true

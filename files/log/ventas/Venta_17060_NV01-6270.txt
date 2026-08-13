@@ -1,0 +1,5 @@
+Venta: 17060, fecha: 2026-01-26
+
+Prod: insert into productos_ventas 
+        values ('41188', '17060', '1', '199.0000', '170.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40538', '17060', '1', '10.0000', '0.0000', '1', 'POR EMBALAJE Y ENVIO A AGENCIA') - true

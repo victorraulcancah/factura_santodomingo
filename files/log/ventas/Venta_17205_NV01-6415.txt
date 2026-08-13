@@ -1,0 +1,10 @@
+Venta: 17205, fecha: 2026-02-12
+
+Prod: insert into productos_ventas 
+        values ('40583', '17205', '1', '929', '886.5100', '1', 'CMS 9MR8827T50217') - trueProd: insert into productos_ventas 
+        values ('40651', '17205', '1', '280', '265.0000', '1', 'CALE 601-7E28-010B2503007599') - trueProd: insert into productos_ventas 
+        values ('41108', '17205', '1', '600', '502.0000', '1', 'ROG S007333') - trueProd: insert into productos_ventas 
+        values ('40918', '17205', '1', '240', '148.9800', '1', 'GYG 30176975718') - trueProd: insert into productos_ventas 
+        values ('40882', '17205', '1', '140', '92.0000', '1', 'IMPUL 4666MICP600-80+0188') - trueProd: insert into productos_ventas 
+        values ('40821', '17205', '1', '110', '72.0000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40521', '17205', '1', '229', '220.0000', '1', 'HUM TE2415S173825101681') - true

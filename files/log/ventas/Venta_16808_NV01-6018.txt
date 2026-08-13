@@ -1,0 +1,4 @@
+Venta: 16808, fecha: 2025-12-23
+
+Prod: insert into productos_ventas 
+        values ('41072', '16808', '1', '210', '201.8700', '1', 'im  4664DG24FC-1000428') - true

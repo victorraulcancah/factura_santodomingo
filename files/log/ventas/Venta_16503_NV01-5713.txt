@@ -1,0 +1,10 @@
+Venta: 16503, fecha: 2025-11-28
+
+Prod: insert into productos_ventas 
+        values ('40583', '16503', '1', '995.0000', '933.3100', '1', 'DELT-9MQ1947R50125') - trueProd: insert into productos_ventas 
+        values ('40565', '16503', '1', '280.0000', '247.0000', '1', 'CDM-25185P801268') - trueProd: insert into productos_ventas 
+        values ('41008', '16503', '1', '335.0000', '293.4000', '1', 'CDK-601-7E76-020B2505007800') - trueProd: insert into productos_ventas 
+        values ('40976', '16503', '1', '180.0000', '142.0000', '1', 'ROY-4622P80BA750W0557') - trueProd: insert into productos_ventas 
+        values ('41095', '16503', '1', '130.0000', '91.2200', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('41071', '16503', '1', '200.0000', '186.4200', '1', 'IMPUL-4664MF24.5-75FF0309') - trueProd: insert into productos_ventas 
+        values ('41108', '16503', '2', '325.0000', '150.0000', '1', 'RODRI-KVR48S40BS8-16 812392') - true

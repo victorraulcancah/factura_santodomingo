@@ -1,0 +1,4 @@
+Venta: 15651, fecha: 2025-08-21
+
+Prod: insert into productos_ventas 
+        values ('40512', '15651', '1', '185', '185.0000', '1', 'nota de credito') - true

@@ -1,0 +1,10 @@
+Venta: 17202, fecha: 2026-02-12
+
+Prod: insert into productos_ventas 
+        values ('40552', '17202', '1', '630', '608.7700', '1', 'DEL 9AMW188S50394') - trueProd: insert into productos_ventas 
+        values ('41028', '17202', '1', '500', '463.4000', '1', 'CMS SN250950012223') - trueProd: insert into productos_ventas 
+        values ('41108', '17202', '1', '599', '502.0000', '1', 'ROG S007399') - trueProd: insert into productos_ventas 
+        values ('41261', '17202', '1', '420', '350.0000', '1', 'FRABIPAR 6950509933016') - trueProd: insert into productos_ventas 
+        values ('40882', '17202', '1', '130', '92.0000', '1', 'IMPUL 4666MICP600-80+0182') - trueProd: insert into productos_ventas 
+        values ('40821', '17202', '1', '120', '72.0000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40521', '17202', '1', '229', '220.0000', '1', 'HUM TE2415S173825101403') - true

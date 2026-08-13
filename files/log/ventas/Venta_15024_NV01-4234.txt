@@ -1,0 +1,12 @@
+Venta: 15024, fecha: 2025-06-27
+
+Prod: insert into productos_ventas 
+        values ('40814', '15024', '1', '1200', '840.0000', '1', 'smitth  403847') - trueProd: insert into productos_ventas 
+        values ('40856', '15024', '1', '299', '205.0000', '1', 'ca 1730') - trueProd: insert into productos_ventas 
+        values ('40764', '15024', '1', '110', '90.0000', '1', 'smith  63861') - trueProd: insert into productos_ventas 
+        values ('40596', '15024', '1', '152', '122.2500', '1', 'roy  100038p1128') - trueProd: insert into productos_ventas 
+        values ('40828', '15024', '1', '150', '106.8000', '1', 'IMPU 4594P80B  650W0687') - trueProd: insert into productos_ventas 
+        values ('40577', '15024', '1', '99', '87.0000', '1', 'P') - trueProd: insert into productos_ventas 
+        values ('40540', '15024', '1', '120', '105.6300', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40521', '15024', '1', '270', '235.2800', '1', 'DEL 13545') - trueProd: insert into productos_ventas 
+        values ('40570', '15024', '1', '50', '25.5000', '1', 'IM') - true

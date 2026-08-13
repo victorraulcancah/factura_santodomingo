@@ -1,0 +1,10 @@
+Venta: 14965, fecha: 2025-06-20
+
+Prod: insert into productos_ventas 
+        values ('40708', '14965', '1', '559', '515.0000', '1', 'EDU4100144') - trueProd: insert into productos_ventas 
+        values ('40740', '14965', '1', '460', '405.0000', '1', 'ROY7829') - trueProd: insert into productos_ventas 
+        values ('40774', '14965', '1', '193', '150.0000', '1', 'PARKERD10900C2') - trueProd: insert into productos_ventas 
+        values ('40801', '14965', '1', '239', '234.0000', '1', 'CAQE49JF') - trueProd: insert into productos_ventas 
+        values ('40828', '14965', '1', '119', '106.8000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40821', '14965', '1', '110', '78.7200', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40531', '14965', '1', '719', '709.2900', '1', 'MAXI93848') - true

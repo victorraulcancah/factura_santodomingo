@@ -1,0 +1,9 @@
+Venta: 16393, fecha: 2025-11-17
+
+Prod: insert into productos_ventas 
+        values ('40535', '16393', '1', '533.0000', '505.0000', '1', 'DELT-50295') - trueProd: insert into productos_ventas 
+        values ('40651', '16393', '1', '270.0000', '248.0000', '1', 'SEDA-6597') - trueProd: insert into productos_ventas 
+        values ('41104', '16393', '1', '197.0000', '188.8800', '1', 'DELT-90699') - trueProd: insert into productos_ventas 
+        values ('40971', '16393', '1', '79.0000', '64.6000', '1', 'SPT-5346') - trueProd: insert into productos_ventas 
+        values ('41071', '16393', '1', '195.0000', '186.4200', '1', 'IMPUL-75FF-0650') - trueProd: insert into productos_ventas 
+        values ('40494', '16393', '1', '70.0000', '51.0000', '1', 'IMPULSO') - true

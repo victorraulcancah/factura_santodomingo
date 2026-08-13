@@ -1,0 +1,6 @@
+Venta: 15092, fecha: 2025-07-04
+
+Prod: insert into productos_ventas 
+        values ('40862', '15092', '1', '329.0000', '318.0500', '1', 'DELT-30260') - trueProd: insert into productos_ventas 
+        values ('40632', '15092', '2', '185.0000', '167.5000', '1', 'STH-0DB1-0D8B') - trueProd: insert into productos_ventas 
+        values ('40813', '15092', '1', '379.0000', '350.0000', '1', 'STH-80023-80024') - true

@@ -1,0 +1,12 @@
+Venta: 16782, fecha: 2025-12-21
+
+Prod: insert into productos_ventas 
+        values ('40804', '16782', '1', '463', '445.3700', '1', 'sn U58S2P6701299') - trueProd: insert into productos_ventas 
+        values ('41174', '16782', '1', '229.0000', '200.0000', '1', 'rema IH61EMDS-02_61002B24800610') - trueProd: insert into productos_ventas 
+        values ('41184', '16782', '1', '330', '250.0000', '1', 'RGX16D4144') - trueProd: insert into productos_ventas 
+        values ('41105', '16782', '1', '160.0000', '95.0000', '1', 'sn hu  BTKA21531UG9512A') - trueProd: insert into productos_ventas 
+        values ('40828', '16782', '1', '129', '100.0000', '1', 'ca 4667MICP650-80+1159') - trueProd: insert into productos_ventas 
+        values ('41207', '16782', '1', '79', '68.3400', '1', 'im ') - trueProd: insert into productos_ventas 
+        values ('40532', '16782', '1', '759', '675.0000', '1', 'max 602-V812-131ST2509001461') - trueProd: insert into productos_ventas 
+        values ('40571', '16782', '1', '40.0000', '23.3500', '1', 'im') - trueProd: insert into productos_ventas 
+        values ('40521', '16782', '1', '229', '209.4000', '1', 'del TE2415S129625080724') - true

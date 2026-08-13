@@ -1,0 +1,9 @@
+Venta: 16525, fecha: 2025-11-29
+
+Prod: insert into productos_ventas 
+        values ('41148', '16525', '1', '639', '579.0000', '1', 'roy 9ALS563P50344_100-000000597') - trueProd: insert into productos_ventas 
+        values ('41008', '16525', '1', '329', '293.4000', '1', 'cdk  601-7E76-020B2505007796') - trueProd: insert into productos_ventas 
+        values ('41146', '16525', '1', '390.0000', '327.0350', '1', 'imp  2P4000238972') - trueProd: insert into productos_ventas 
+        values ('41105', '16525', '1', '144', '95.0000', '1', 'hu   2P4000238972') - trueProd: insert into productos_ventas 
+        values ('40913', '16525', '1', '99.0000', '72.5000', '1', 'ca ') - trueProd: insert into productos_ventas 
+        values ('41149', '16525', '1', '1099', '1069.0000', '1', 'ca  602-V538-25ST2509006657') - true

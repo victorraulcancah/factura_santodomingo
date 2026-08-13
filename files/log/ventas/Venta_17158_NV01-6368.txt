@@ -1,0 +1,5 @@
+Venta: 17158, fecha: 2026-02-05
+
+Prod: insert into productos_ventas 
+        values ('40521', '17158', '4', '235', '218.8300', '1', 'HUM TE2415S179525100720 | TE2415S179525100820 | TE2415S179525100760 | TE2415S179525101565') - trueProd: insert into productos_ventas 
+        values ('40698', '17158', '4', '50', '45.0000', '1', 'TAC 2533LOF0S0V9 | 2533LOV1S3P9 | 2533LOF0RVU9 | 2533LOF0RXU9') - true

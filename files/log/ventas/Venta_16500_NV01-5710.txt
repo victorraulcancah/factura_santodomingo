@@ -1,0 +1,6 @@
+Venta: 16500, fecha: 2025-11-28
+
+Prod: insert into productos_ventas 
+        values ('40664', '16500', '2', '1099', '869.0000', '1', 'ca   PF5GPH94  PF5KLZ8M') - trueProd: insert into productos_ventas 
+        values ('40824', '16500', '2', '0', '6.0000', '1', 'f') - trueProd: insert into productos_ventas 
+        values ('40567', '16500', '2', '0', '3.5000', '1', 'f') - true

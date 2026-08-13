@@ -1,0 +1,12 @@
+Venta: 16758, fecha: 2025-12-19
+
+Prod: insert into productos_ventas 
+        values ('40782', '16758', '1', '1270', '1142.5000', '1', 'LABS-9MJ4812W40246') - trueProd: insert into productos_ventas 
+        values ('41175', '16758', '2', '580', '340.0000', '1', 'REMA-30175456625 -30175456629') - trueProd: insert into productos_ventas 
+        values ('40565', '16758', '1', '360', '250.0000', '1', 'CDM-25197E801342') - trueProd: insert into productos_ventas 
+        values ('41206', '16758', '1', '2660', '2499.0000', '1', 'ROY-602-V532-210SB2509004788') - trueProd: insert into productos_ventas 
+        values ('40886', '16758', '1', '260', '228.3400', '1', 'MAXIM-3067ZWDA11L8010519000871') - trueProd: insert into productos_ventas 
+        values ('41077', '16758', '1', '680', '620.0000', '1', 'STH-601-7E56-010B2412007251') - trueProd: insert into productos_ventas 
+        values ('40479', '16758', '1', '240', '214.4500', '1', 'CDK-850w AG850SASN242400172') - trueProd: insert into productos_ventas 
+        values ('41188', '16758', '1', '190', '170.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40944', '16758', '1', '480', '399.0000', '1', 'CAL-25E160088') - true

@@ -1,0 +1,11 @@
+Venta: 16837, fecha: 2025-12-27
+
+Prod: insert into productos_ventas 
+        values ('40586', '16837', '1', '917.0000', '709.6000', '1', 'TACT-J976T50740') - trueProd: insert into productos_ventas 
+        values ('40577', '16837', '1', '85.0000', '74.0000', '1', 'GG-10000131880AH252400826') - trueProd: insert into productos_ventas 
+        values ('41182', '16837', '1', '499.0000', '455.8300', '1', 'PLUS-T7M0KC299307RF5') - trueProd: insert into productos_ventas 
+        values ('41175', '16837', '1', '630.0000', '340.0000', '1', 'REMA-30175454337') - trueProd: insert into productos_ventas 
+        values ('40565', '16837', '1', '430.0000', '250.0000', '1', 'CDM-251719802201') - trueProd: insert into productos_ventas 
+        values ('40941', '16837', '1', '210.0000', '167.0000', '1', 'ROY-3067ZP2B12CE010517002592') - trueProd: insert into productos_ventas 
+        values ('41210', '16837', '1', '2120.0000', '1919.2300', '1', 'LP-SN253541027995') - trueProd: insert into productos_ventas 
+        values ('41188', '16837', '1', '199.0000', '170.0000', '1', 'ROG') - true

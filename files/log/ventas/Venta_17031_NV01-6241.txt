@@ -1,0 +1,10 @@
+Venta: 17031, fecha: 2026-01-22
+
+Prod: insert into productos_ventas 
+        values ('40586', '17031', '1', '875.0000', '775.0000', '1', 'DATA-90U50869') - trueProd: insert into productos_ventas 
+        values ('41028', '17031', '1', '509.0000', '466.0000', '1', 'CMS-SN251150029647') - trueProd: insert into productos_ventas 
+        values ('41108', '17031', '1', '699.0000', '502.0000', '1', 'ROG-0000009277789-S007421') - trueProd: insert into productos_ventas 
+        values ('41200', '17031', '1', '230.0000', '188.0000', '1', 'LP-4P0921965815') - trueProd: insert into productos_ventas 
+        values ('40919', '17031', '1', '245.0000', '202.9900', '1', 'CDK-G750SASN252700685') - trueProd: insert into productos_ventas 
+        values ('41249', '17031', '1', '2599.0000', '2456.0000', '1', 'CAL-EO25017833') - trueProd: insert into productos_ventas 
+        values ('40514', '17031', '1', '149.0000', '129.0000', '1', 'CAL') - true

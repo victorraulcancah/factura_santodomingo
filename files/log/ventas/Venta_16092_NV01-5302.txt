@@ -1,0 +1,8 @@
+Venta: 16092, fecha: 2025-10-12
+
+Prod: insert into productos_ventas 
+        values ('40535', '16092', '1', '569', '530.0000', '1', 'DEL   9AMT293R50005') - trueProd: insert into productos_ventas 
+        values ('40651', '16092', '1', '279', '248.7200', '1', 'CA    601-7E28-010B2503006620') - trueProd: insert into productos_ventas 
+        values ('41024', '16092', '1', '180', '136.5000', '1', 'AMA   N2387252510000269') - trueProd: insert into productos_ventas 
+        values ('40971', '16092', '1', '79', '65.7400', '1', 'max 0893') - trueProd: insert into productos_ventas 
+        values ('40494', '16092', '1', '72', '51.0000', '1', 'IMPULS') - true

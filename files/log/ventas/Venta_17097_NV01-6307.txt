@@ -1,0 +1,14 @@
+Venta: 17097, fecha: 2026-01-30
+
+Prod: insert into productos_ventas 
+        values ('41224', '17097', '1', '1599', '1440.0000', '1', 'IMPORTIL 9AMP657R50323') - trueProd: insert into productos_ventas 
+        values ('41077', '17097', '1', '699', '620.0000', '1', 'SMT 601-7E56-010B2412007160') - trueProd: insert into productos_ventas 
+        values ('41232', '17097', '1', '350', '260.0000', '1', 'FABRIP MLWD36MA18PARW1250300201') - trueProd: insert into productos_ventas 
+        values ('41108', '17097', '2', '600', '502.0000', '1', 'ROG S006516 | S006505') - trueProd: insert into productos_ventas 
+        values ('40943', '17097', '1', '450', '208.0000', '1', 'CALE QJ4276R005806P2857') - trueProd: insert into productos_ventas 
+        values ('40745', '17097', '1', '664', '414.0000', '1', 'DEL 50026B7283B412AA') - trueProd: insert into productos_ventas 
+        values ('41249', '17097', '1', '2599', '2499.0000', '1', 'CALE EO25018281') - trueProd: insert into productos_ventas 
+        values ('40883', '17097', '1', '390', '353.1500', '1', 'DEL 3067ZP8A12CE010528001657') - trueProd: insert into productos_ventas 
+        values ('41227', '17097', '1', '199', '175.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40539', '17097', '1', '0', '9.0000', '1', 'FREEEEEEEEE') - trueProd: insert into productos_ventas 
+        values ('40958', '17097', '1', '0', '23.3500', '1', 'FREEEE') - true

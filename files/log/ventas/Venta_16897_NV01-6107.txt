@@ -1,0 +1,14 @@
+Venta: 16897, fecha: 2026-01-04
+
+Prod: insert into productos_ventas 
+        values ('40586', '16897', '1', '899', '702.5000', '1', 'ROG 9ANJ976T50347') - trueProd: insert into productos_ventas 
+        values ('40942', '16897', '1', '529', '486.8600', '1', 'CMS 601-7E77-010B2505008773') - trueProd: insert into productos_ventas 
+        values ('41108', '16897', '2', '749.5', '435.0000', '1', 'ROG 0000009277789-S007068 | 0000009277789-S007434') - trueProd: insert into productos_ventas 
+        values ('40565', '16897', '1', '399', '250.0000', '1', 'CDCO 25200J800470') - trueProd: insert into productos_ventas 
+        values ('41166', '16897', '1', '1699', '1568.6100', '1', 'CDK T8YVCM01D653F2J') - trueProd: insert into productos_ventas 
+        values ('41228', '16897', '1', '205', '179.0000', '1', 'CMS SN25115P005335') - trueProd: insert into productos_ventas 
+        values ('41195', '16897', '1', '109', '77.4300', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40944', '16897', '1', '440', '418.0000', '1', 'CALE TE2769G169325060474') - trueProd: insert into productos_ventas 
+        values ('41062', '16897', '1', '50', '37.0000', '1', 'FLUS') - trueProd: insert into productos_ventas 
+        values ('41158', '16897', '1', '90.0000', '73.5000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40539', '16897', '1', '0', '9.0000', '1', 'FREEEEEEEE') - true

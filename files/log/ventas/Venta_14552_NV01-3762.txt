@@ -1,0 +1,5 @@
+Venta: 14552, fecha: 2025-05-03
+
+Prod: insert into productos_ventas 
+        values ('40724', '14552', '1', '2899.0000', '2579.0000', '1', 'caleT1NRCX02450402G') - trueProd: insert into productos_ventas 
+        values ('40569', '14552', '1', '0', '7.6000', '1', '1') - true

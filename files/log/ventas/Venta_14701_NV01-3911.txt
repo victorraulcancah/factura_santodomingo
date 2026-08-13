@@ -1,0 +1,4 @@
+Venta: 14701, fecha: 2025-05-19
+
+Prod: insert into productos_ventas 
+        values ('40538', '14701', '1', '12', '0.0000', '1', 'taxi 33 -  25 seria  8 gasto    + 20 de shalom cri  , total 12') - true

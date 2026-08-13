@@ -1,0 +1,9 @@
+Venta: 14870, fecha: 2025-06-09
+
+Prod: insert into productos_ventas 
+        values ('40602', '14870', '1', '615.0000', '563.0000', '1', 'PEGA-50121') - trueProd: insert into productos_ventas 
+        values ('40558', '14870', '1', '380.0000', '360.5000', '1', 'CMS-20052') - trueProd: insert into productos_ventas 
+        values ('40541', '14870', '1', '99.0000', '86.8800', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40723', '14870', '2', '59.0000', '51.5600', '1', 'MAXI-7890-7889') - trueProd: insert into productos_ventas 
+        values ('40596', '14870', '1', '143.0000', '122.2500', '1', 'ROY-1669') - trueProd: insert into productos_ventas 
+        values ('40629', '14870', '1', '55.0000', '36.0000', '1', 'IMPUL-W0094') - true

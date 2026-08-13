@@ -1,0 +1,9 @@
+Venta: 16976, fecha: 2026-01-13
+
+Prod: insert into productos_ventas 
+        values ('41019', '16976', '1', '99.0000', '50.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41182', '16976', '1', '535.0000', '454.7400', '1', 'PLUS-T7M0KC299395AF7') - trueProd: insert into productos_ventas 
+        values ('41231', '16976', '1', '799.0000', '590.0000', '1', 'M-BYTE-0000009277789-S008129') - trueProd: insert into productos_ventas 
+        values ('40514', '16976', '1', '179.0000', '129.0000', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40828', '16976', '1', '145.0000', '100.0000', '1', 'CAL-4667MICP650-80+0522') - trueProd: insert into productos_ventas 
+        values ('41166', '16976', '1', '1700.0000', '1568.6100', '1', 'CDK-T8YVCM01D661A5H') - true

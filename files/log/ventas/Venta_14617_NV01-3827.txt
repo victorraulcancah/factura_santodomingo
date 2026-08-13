@@ -1,0 +1,10 @@
+Venta: 14617, fecha: 2025-05-08
+
+Prod: insert into productos_ventas 
+        values ('40535', '14617', '1', '599', '560.0000', '1', 'PEGA40457') - trueProd: insert into productos_ventas 
+        values ('40651', '14617', '1', '299.0000', '269.0000', '1', 'PEGA120003813') - trueProd: insert into productos_ventas 
+        values ('40597', '14617', '1', '169', '154.7170', '1', 'PLUS5249') - trueProd: insert into productos_ventas 
+        values ('40699', '14617', '1', '205', '184.0000', '1', 'CA57358P1137') - trueProd: insert into productos_ventas 
+        values ('40714', '14617', '1', '150', '125.0000', '1', 'CAPSDK') - trueProd: insert into productos_ventas 
+        values ('40704', '14617', '1', '354', '341.5000', '1', 'CPP') - trueProd: insert into productos_ventas 
+        values ('40540', '14617', '1', '114', '107.7000', '1', 'IMPULSO') - true

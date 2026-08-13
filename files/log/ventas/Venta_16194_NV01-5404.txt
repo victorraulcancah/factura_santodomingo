@@ -1,0 +1,7 @@
+Venta: 16194, fecha: 2025-10-25
+
+Prod: insert into productos_ventas 
+        values ('41019', '16194', '2', '78', '65.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40879', '16194', '1', '360', '315.0000', '1', 'SMITH1E55-E174A') - trueProd: insert into productos_ventas 
+        values ('40918', '16194', '1', '112', '108.3100', '1', 'MAXI6748') - trueProd: insert into productos_ventas 
+        values ('40546', '16194', '1', '127', '116.6000', '1', 'ST2195') - true

@@ -1,0 +1,7 @@
+Venta: 15615, fecha: 2025-08-17
+
+Prod: insert into productos_ventas 
+        values ('40557', '15615', '1', '205', '185.7200', '1', 'del  601-7C96-120B2503016917') - trueProd: insert into productos_ventas 
+        values ('40629', '15615', '1', '55', '35.8330', '1', 'impul ') - trueProd: insert into productos_ventas 
+        values ('40546', '15615', '1', '100', '93.6300', '1', 'spt  30171591737') - trueProd: insert into productos_ventas 
+        values ('40563', '15615', '1', '60', '54.0000', '1', 'hu  ') - true

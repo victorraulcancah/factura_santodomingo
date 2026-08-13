@@ -1,0 +1,12 @@
+Venta: 15876, fecha: 2025-09-12
+
+Prod: insert into productos_ventas 
+        values ('40602', '15876', '1', '599', '569.5000', '1', 'del 9ML3880N50119') - trueProd: insert into productos_ventas 
+        values ('40546', '15876', '1', '105', '105.0000', '1', 'tac spt  30171591794') - trueProd: insert into productos_ventas 
+        values ('40915', '15876', '1', '135', '106.8900', '1', 'max 2583') - trueProd: insert into productos_ventas 
+        values ('40913', '15876', '1', '119', '75.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40629', '15876', '1', '65', '33.0000', '1', 'imp') - trueProd: insert into productos_ventas 
+        values ('40521', '15876', '1', '249', '236.0000', '1', 'hu   TE2415S1158A25071245') - trueProd: insert into productos_ventas 
+        values ('40698', '15876', '1', '49.0000', '40.0660', '1', 'f') - trueProd: insert into productos_ventas 
+        values ('40558', '15876', '1', '379', '337.1100', '1', 'del 601-7C95-310B2504011864') - trueProd: insert into productos_ventas 
+        values ('40539', '15876', '1', '0', '12.0000', '1', 'F') - true

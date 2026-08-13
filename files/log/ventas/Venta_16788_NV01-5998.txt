@@ -1,0 +1,10 @@
+Venta: 16788, fecha: 2025-12-22
+
+Prod: insert into productos_ventas 
+        values ('40533', '16788', '1', '259', '225.0000', '1', 'SEDA 9ALY141Q50490') - trueProd: insert into productos_ventas 
+        values ('41184', '16788', '1', '329', '250.0000', '1', 'ROG RGX16D4116 ') - trueProd: insert into productos_ventas 
+        values ('41115', '16788', '1', '105', '70.0000', '1', 'STOCK HP S79TNX0Y294073') - trueProd: insert into productos_ventas 
+        values ('41157', '16788', '1', '89', '49.0400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40521', '16788', '1', '230', '209.4000', '1', 'DE L TE2415S129625082653') - trueProd: insert into productos_ventas 
+        values ('40571', '16788', '1', '29', '23.3500', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('41080', '16788', '1', '199', '180.0000', '1', 'SEDA 49152W') - true

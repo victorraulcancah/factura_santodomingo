@@ -1,0 +1,11 @@
+Venta: 15614, fecha: 2025-08-17
+
+Prod: insert into productos_ventas 
+        values ('40552', '15614', '1', '710.0000', '691.3500', '1', 'STH-DELT-9ADD804P40013') - trueProd: insert into productos_ventas 
+        values ('40651', '15614', '1', '299.0000', '248.0000', '1', 'CAL-601-7E28-010B2503007630') - trueProd: insert into productos_ventas 
+        values ('40597', '15614', '2', '159.0000', '145.0000', '1', 'ROY-30173375384-30173375385') - trueProd: insert into productos_ventas 
+        values ('40699', '15614', '1', '220.0000', '202.7500', '1', 'ROY-QDM423W102654P113A') - trueProd: insert into productos_ventas 
+        values ('40913', '15614', '1', '95.0000', '75.0000', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40882', '15614', '1', '115.0000', '100.0000', '1', 'CAL-4594P80B-600W0901') - trueProd: insert into productos_ventas 
+        values ('40521', '15614', '1', '249.0000', '240.0000', '1', 'HUMB-SNCTM2504161218') - trueProd: insert into productos_ventas 
+        values ('40563', '15614', '1', '64.0000', '54.0000', '1', 'HUMB- KCJT2504041530') - true

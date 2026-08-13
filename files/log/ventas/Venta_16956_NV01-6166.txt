@@ -1,0 +1,12 @@
+Venta: 16956, fecha: 2026-01-11
+
+Prod: insert into productos_ventas 
+        values ('41221', '16956', '1', '699.0000', '632.1700', '1', 'SERC U47826A504126') - trueProd: insert into productos_ventas 
+        values ('41161', '16956', '1', '694', '535.0000', '1', 'SMT SN244950052765') - trueProd: insert into productos_ventas 
+        values ('41231', '16956', '1', '799.0000', '590.0000', '1', 'MICROB 0000009277789-S008117') - trueProd: insert into productos_ventas 
+        values ('40565', '16956', '1', '450', '250.0000', '1', 'CDCO 25200J800511') - trueProd: insert into productos_ventas 
+        values ('40754', '16956', '1', '2599', '2449.0000', '1', 'CALE 602-V532-194SB2510000015') - trueProd: insert into productos_ventas 
+        values ('41170', '16956', '1', '199.0000', '145.0000', '1', 'ROG ROG750B2506200127') - trueProd: insert into productos_ventas 
+        values ('41188', '16956', '1', '209.0000', '170.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40521', '16956', '1', '230', '225.0000', '1', 'HUM TE2415S159925103215') - trueProd: insert into productos_ventas 
+        values ('41031', '16956', '1', '40', '25.0000', '1', 'ROG') - true

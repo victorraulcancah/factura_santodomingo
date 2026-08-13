@@ -1,0 +1,6 @@
+Venta: 16304, fecha: 2025-11-08
+
+Prod: insert into productos_ventas 
+        values ('40603', '16304', '1', '500', '431.5000', '1', 'rg  9ANP019U50130_100-000001591') - trueProd: insert into productos_ventas 
+        values ('40651', '16304', '1', '280', '248.0000', '1', 'SEDA 601-7E28-010B2503006288') - trueProd: insert into productos_ventas 
+        values ('41041', '16304', '1', '170', '147.0000', '1', 'SMT A23890025130200208') - true

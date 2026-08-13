@@ -1,0 +1,4 @@
+Venta: 16293, fecha: 2025-11-07
+
+Prod: insert into productos_ventas 
+        values ('40944', '16293', '1', '500', '462.0000', '1', 'COMVI 71756') - true

@@ -1,0 +1,11 @@
+Venta: 16019, fecha: 2025-10-01
+
+Prod: insert into productos_ventas 
+        values ('40592', '16019', '1', '749', '623.2100', '1', 'SMT U567GW8305217') - trueProd: insert into productos_ventas 
+        values ('40587', '16019', '2', '180', '153.0000', '1', 'SMT EF2503100060407 | EF2503100060408') - trueProd: insert into productos_ventas 
+        values ('40509', '16019', '1', '235', '213.8700', '1', 'DEL 50026B76871E1B37') - trueProd: insert into productos_ventas 
+        values ('40886', '16019', '1', '280', '250.2500', '1', 'MAX 3067ZWDA11L8010514002082') - trueProd: insert into productos_ventas 
+        values ('41001', '16019', '1', '686', '650.0000', '1', 'SMT T5M0PH098454MKF') - trueProd: insert into productos_ventas 
+        values ('40854', '16019', '1', '1349', '1273.0000', '1', 'SEDA T7YVYZ07E374ZZE') - trueProd: insert into productos_ventas 
+        values ('40976', '16019', '1', '250', '140.0000', '1', 'TAC 4622P80BA750W0592') - trueProd: insert into productos_ventas 
+        values ('40991', '16019', '1', '220', '160.0000', '1', 'ROG') - true

@@ -1,0 +1,12 @@
+Venta: 15476, fecha: 2025-08-04
+
+Prod: insert into productos_ventas 
+        values ('40592', '15476', '1', '809.0000', '718.3300', '1', 'SMT U47C36S001359') - trueProd: insert into productos_ventas 
+        values ('40918', '15476', '1', '130.0000', '108.6900', '1', 'MAX 30173368844') - trueProd: insert into productos_ventas 
+        values ('40711', '15476', '1', '650.0000', '490.0000', '1', 'SMT H8M0XB034720') - trueProd: insert into productos_ventas 
+        values ('40577', '15476', '1', '90.0000', '84.5000', '1', 'ROY 6933412727767') - trueProd: insert into productos_ventas 
+        values ('40893', '15476', '1', '1389.0000', '1400.0000', '1', 'FLUSH 602-V537-24SB2506017465') - trueProd: insert into productos_ventas 
+        values ('40882', '15476', '1', '123.0000', '100.0000', '1', 'CALE 4594P80B-600W0576') - trueProd: insert into productos_ventas 
+        values ('40540', '15476', '1', '119.0000', '103.7200', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40521', '15476', '1', '250.0000', '240.0000', '1', 'HUMB SNCTM2504160655') - trueProd: insert into productos_ventas 
+        values ('40813', '15476', '1', '389.0000', '350.0000', '1', 'SMT EF2502120220057 | EF2502120220058') - true

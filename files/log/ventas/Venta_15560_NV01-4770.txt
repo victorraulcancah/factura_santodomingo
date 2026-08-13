@@ -1,0 +1,9 @@
+Venta: 15560, fecha: 2025-08-12
+
+Prod: insert into productos_ventas 
+        values ('40583', '15560', '1', '1089', '1007.1500', '1', 'del  9MQ0579R50314') - trueProd: insert into productos_ventas 
+        values ('40651', '15560', '1', '289.0000', '262.7000', '1', 'cms 601-7E28-010B2501004720') - trueProd: insert into productos_ventas 
+        values ('40597', '15560', '1', '160', '145.0000', '1', 'roy  30173375394') - trueProd: insert into productos_ventas 
+        values ('40918', '15560', '1', '122', '108.6900', '1', 'max  8723') - trueProd: insert into productos_ventas 
+        values ('40540', '15560', '1', '119.0000', '103.7200', '1', 'impul') - trueProd: insert into productos_ventas 
+        values ('40882', '15560', '1', '120.0000', '100.0000', '1', 'ca  4594P80B-600W0908') - true

@@ -1,0 +1,13 @@
+Venta: 16152, fecha: 2025-10-19
+
+Prod: insert into productos_ventas 
+        values ('40592', '16152', '1', '769', '623.2100', '1', 'smt  U57G1R5201736') - trueProd: insert into productos_ventas 
+        values ('41029', '16152', '1', '399.0000', '369.9400', '1', 'cms  SN251260105210') - trueProd: insert into productos_ventas 
+        values ('41024', '16152', '2', '185', '142.7800', '1', 'smt   42388212512020277 -8') - trueProd: insert into productos_ventas 
+        values ('40509', '16152', '1', '229', '212.4100', '1', 'del 50026B728393C30B') - trueProd: insert into productos_ventas 
+        values ('40605', '16152', '1', '190', '165.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('41019', '16152', '1', '89', '65.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('41027', '16152', '1', '560', '400.0000', '1', 'del  SNCTM2504120049') - trueProd: insert into productos_ventas 
+        values ('40634', '16152', '1', '100', '85.0000', '1', 'ry 2511-20776215 ') - trueProd: insert into productos_ventas 
+        values ('40969', '16152', '1', '2395', '2298.0000', '1', 'pega  602-V535-49SB2505002083') - trueProd: insert into productos_ventas 
+        values ('40479', '16152', '1', '249', '226.0000', '1', 'roy  AG850SASN242400173') - true

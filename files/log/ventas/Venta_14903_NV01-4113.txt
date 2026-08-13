@@ -1,0 +1,5 @@
+Venta: 14903, fecha: 2025-06-13
+
+Prod: insert into productos_ventas 
+        values ('40499', '14903', '1', '1199', '1199.0000', '1', 'pega  18128') - trueProd: insert into productos_ventas 
+        values ('40596', '14903', '1', '135', '122.2500', '1', 'roy  1607p1128') - true

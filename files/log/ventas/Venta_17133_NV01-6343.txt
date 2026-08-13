@@ -1,0 +1,13 @@
+Venta: 17133, fecha: 2026-02-02
+
+Prod: insert into productos_ventas 
+        values ('40804', '17133', '1', '599', '547.3000', '1', 'DEL U5Y79T5504377') - trueProd: insert into productos_ventas 
+        values ('41174', '17133', '1', '245', '200.0000', '1', 'REMA IH61EMDS-02_61002B24800889') - trueProd: insert into productos_ventas 
+        values ('41230', '17133', '2', '190', '165.0000', '1', 'MICROB S004132 | S004126') - trueProd: insert into productos_ventas 
+        values ('40564', '17133', '1', '239', '142.5000', '1', 'LP ASAD35330300659') - trueProd: insert into productos_ventas 
+        values ('41271', '17133', '1', '899', '860.0000', '1', 'TAC 602-V375-284ST2203002934') - trueProd: insert into productos_ventas 
+        values ('40882', '17133', '1', '140', '92.0000', '1', 'IMPUL 4666MICP600-80+2279') - trueProd: insert into productos_ventas 
+        values ('41244', '17133', '1', '129', '80.0000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40543', '17133', '1', '40', '35.0000', '1', 'PEG 6643') - trueProd: insert into productos_ventas 
+        values ('40521', '17133', '1', '229', '195.3200', '1', 'COMPUV TE2415S173825102114') - trueProd: insert into productos_ventas 
+        values ('40539', '17133', '1', '0', '9.0000', '1', 'FREEEEEE') - true

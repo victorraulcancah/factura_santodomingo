@@ -1,0 +1,9 @@
+Venta: 15856, fecha: 2025-09-10
+
+Prod: insert into productos_ventas 
+        values ('40493', '15856', '1', '529.0000', '476.9300', '1', 'DEL 9MN8485Q50005') - trueProd: insert into productos_ventas 
+        values ('40546', '15856', '1', '120.0000', '105.0000', '1', 'TAC 30173286170') - trueProd: insert into productos_ventas 
+        values ('40585', '15856', '1', '236.0000', '183.0000', '1', '4P0821090546') - trueProd: insert into productos_ventas 
+        values ('40557', '15856', '1', '230.0000', '186.0000', '1', 'SSEDA 601-7C96-120B2505029983') - trueProd: insert into productos_ventas 
+        values ('40629', '15856', '1', '60.0000', '33.0000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40997', '15856', '1', '119.0000', '100.1000', '1', 'SERCO') - true

@@ -1,0 +1,4 @@
+Venta: 16569, fecha: 2025-12-02
+
+Prod: insert into productos_ventas 
+        values ('41155', '16569', '1', '230', '230.0000', '1', ' ca 6972237683858') - true

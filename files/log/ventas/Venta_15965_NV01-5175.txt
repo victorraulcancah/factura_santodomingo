@@ -1,0 +1,11 @@
+Venta: 15965, fecha: 2025-09-22
+
+Prod: insert into productos_ventas 
+        values ('40785', '15965', '1', '899', '624.4520', '1', 'ROY 9AFW672W40499') - trueProd: insert into productos_ventas 
+        values ('40587', '15965', '2', '170.0000', '153.8000', '1', 'SMT EF2503130361871 | EF2503130361872') - trueProd: insert into productos_ventas 
+        values ('40915', '15965', '1', '145.0000', '106.8900', '1', 'MAX 30174792570') - trueProd: insert into productos_ventas 
+        values ('40577', '15965', '1', '109.0000', '80.2617', '1', 'GG 10000131880AJ252100682') - trueProd: insert into productos_ventas 
+        values ('40976', '15965', '1', '249.0000', '140.0000', '1', 'TAC 4622P80BA750W0591') - trueProd: insert into productos_ventas 
+        values ('40988', '15965', '1', '1329.0000', '1270.0000', '1', 'ROY 602-V537-38ST2507020222') - trueProd: insert into productos_ventas 
+        values ('40956', '15965', '1', '489.0000', '449.1500', '1', 'COMSHO SN250860070509') - trueProd: insert into productos_ventas 
+        values ('40991', '15965', '1', '249.0000', '160.0000', '1', 'ROG') - true

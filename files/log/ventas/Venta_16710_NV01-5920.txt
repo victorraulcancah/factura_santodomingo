@@ -1,0 +1,7 @@
+Venta: 16710, fecha: 2025-12-14
+
+Prod: insert into productos_ventas 
+        values ('40602', '16710', '1', '678', '561.0800', '1', 'adny60246') - trueProd: insert into productos_ventas 
+        values ('40558', '16710', '1', '337.0000', '316.0900', '1', 'MAXI8971') - trueProd: insert into productos_ventas 
+        values ('40828', '16710', '1', '120', '101.5000', '1', 'ca0209') - trueProd: insert into productos_ventas 
+        values ('40514', '16710', '1', '165', '135.0000', '1', 'CA') - true

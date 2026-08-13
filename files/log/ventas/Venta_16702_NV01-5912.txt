@@ -1,0 +1,4 @@
+Venta: 16702, fecha: 2025-12-13
+
+Prod: insert into productos_ventas 
+        values ('40549', '16702', '2', '305', '270.0000', '1', 'ROG533TC50394-33T50390') - true

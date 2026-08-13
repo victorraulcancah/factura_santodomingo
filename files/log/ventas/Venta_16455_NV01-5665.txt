@@ -1,0 +1,12 @@
+Venta: 16455, fecha: 2025-11-22
+
+Prod: insert into productos_ventas 
+        values ('41123', '16455', '1', '759', '700.0000', '1', 'edu  U4MY744201069') - trueProd: insert into productos_ventas 
+        values ('41122', '16455', '1', '489', '420.0000', '1', 'labs  SN251260093131') - trueProd: insert into productos_ventas 
+        values ('41128', '16455', '2', '100', '80.0000', '1', 'cgs  8GBPC524H0020 8GBPC524H0042') - trueProd: insert into productos_ventas 
+        values ('41111', '16455', '1', '115', '94.0000', '1', 'hu  FYB7N024013507H08') - trueProd: insert into productos_ventas 
+        values ('41034', '16455', '1', '189', '160.0000', '1', 'ROG850B2506200022') - trueProd: insert into productos_ventas 
+        values ('41095', '16455', '1', '109', '91.2200', '1', 'im ') - trueProd: insert into productos_ventas 
+        values ('40577', '16455', '1', '100', '70.5000', '1', 'g') - trueProd: insert into productos_ventas 
+        values ('41042', '16455', '1', '1969', '1836.6500', '1', 'cms  602-V535-61SB2506004624') - trueProd: insert into productos_ventas 
+        values ('41100', '16455', '1', '280', '212.8200', '1', 'plus 25332V800887') - true

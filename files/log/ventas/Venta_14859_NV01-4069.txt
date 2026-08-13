@@ -1,0 +1,12 @@
+Venta: 14859, fecha: 2025-06-07
+
+Prod: insert into productos_ventas 
+        values ('40550', '14859', '1', '637', '508.3300', '1', 'EDU') - trueProd: insert into productos_ventas 
+        values ('40558', '14859', '1', '389.0000', '355.0000', '1', 'ROY12005282') - trueProd: insert into productos_ventas 
+        values ('40546', '14859', '2', '105.0000', '93.4000', '1', 'MAXIMA63039-63082') - trueProd: insert into productos_ventas 
+        values ('40565', '14859', '1', '219.0000', '200.0000', '1', 'PARKER801541') - trueProd: insert into productos_ventas 
+        values ('40714', '14859', '1', '140.0000', '125.5000', '1', 'CA241204PSDK') - trueProd: insert into productos_ventas 
+        values ('40594', '14859', '1', '1577', '1600.0000', '1', 'RODR1083252') - trueProd: insert into productos_ventas 
+        values ('40540', '14859', '1', '130.0000', '110.0000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40624', '14859', '1', '89.0000', '55.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40808', '14859', '1', '489', '489.0000', '1', 'PEGABC0M014600590') - true

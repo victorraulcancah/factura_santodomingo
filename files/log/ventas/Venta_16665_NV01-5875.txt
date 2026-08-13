@@ -1,0 +1,10 @@
+Venta: 16665, fecha: 2025-12-09
+
+Prod: insert into productos_ventas 
+        values ('40589', '16665', '1', '950.0000', '750.0000', '1', 'STH-M5477QN000648') - trueProd: insert into productos_ventas 
+        values ('41124', '16665', '1', '210.0000', '165.0000', '1', 'EDU-X004IJJWDV') - trueProd: insert into productos_ventas 
+        values ('41001', '16665', '1', '770.0000', '650.0000', '1', 'STH-T5M0PH098450CN4') - trueProd: insert into productos_ventas 
+        values ('40565', '16665', '1', '310.0000', '250.0000', '1', 'CDM-25197E801895') - trueProd: insert into productos_ventas 
+        values ('41145', '16665', '1', '550.0000', '329.8700', '1', 'IMPA-1P3601293431') - trueProd: insert into productos_ventas 
+        values ('40919', '16665', '1', '250.0000', '202.9900', '1', 'CDK-G750SASN252700619') - trueProd: insert into productos_ventas 
+        values ('41181', '16665', '1', '300.0000', '268.0000', '1', 'CAL') - true

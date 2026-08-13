@@ -1,0 +1,12 @@
+Venta: 15470, fecha: 2025-08-03
+
+Prod: insert into productos_ventas 
+        values ('40763', '15470', '1', '699', '521.4600', '1', 'SMT  9AEB718R40466') - trueProd: insert into productos_ventas 
+        values ('40931', '15470', '1', '379.0000', '353.8800', '1', 'LP SN24403A017733') - trueProd: insert into productos_ventas 
+        values ('40546', '15470', '1', '110.0000', '94.4620', '1', 'ROY 30171592116') - trueProd: insert into productos_ventas 
+        values ('40918', '15470', '1', '123', '108.6900', '1', 'MAX  8856') - trueProd: insert into productos_ventas 
+        values ('40532', '15470', '1', '749', '685.0000', '1', 'SMT  602-V812-136ST2504008055') - trueProd: insert into productos_ventas 
+        values ('40540', '15470', '1', '119.0000', '103.7200', '1', 'F') - trueProd: insert into productos_ventas 
+        values ('40882', '15470', '1', '120.0000', '100.0000', '1', 'CA 4594P80B-600W0571') - trueProd: insert into productos_ventas 
+        values ('40521', '15470', '1', '250', '240.0000', '1', 'HU SNCTM2504160350') - trueProd: insert into productos_ventas 
+        values ('40575', '15470', '1', '89.0000', '66.7000', '1', 'IMPU') - true

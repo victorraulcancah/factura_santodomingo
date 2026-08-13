@@ -1,0 +1,7 @@
+Venta: 16622, fecha: 2025-12-06
+
+Prod: insert into productos_ventas 
+        values ('40647', '16622', '1', '351', '296.7000', '1', 'marlen0448') - trueProd: insert into productos_ventas 
+        values ('40558', '16622', '1', '350', '316.0900', '1', 'maxi8976') - trueProd: insert into productos_ventas 
+        values ('40888', '16622', '1', '199', '165.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40538', '16622', '1', '20.0000', '0.0000', '1', 'sertec') - true

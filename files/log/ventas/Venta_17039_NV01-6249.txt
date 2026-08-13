@@ -1,0 +1,5 @@
+Venta: 17039, fecha: 2026-01-23
+
+Prod: insert into productos_ventas 
+        values ('40521', '17039', '1', '230.0000', '225.0000', '1', 'HUMB-TE2415S173825101812') - trueProd: insert into productos_ventas 
+        values ('40536', '17039', '1', '80.0000', '66.0000', '1', 'PEG-2533-21351802') - true

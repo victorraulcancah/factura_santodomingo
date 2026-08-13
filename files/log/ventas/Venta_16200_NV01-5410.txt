@@ -1,0 +1,4 @@
+Venta: 16200, fecha: 2025-10-25
+
+Prod: insert into productos_ventas 
+        values ('40906', '16200', '1', '270', '249.9500', '1', 'plus  TE2417S169025070490') - true

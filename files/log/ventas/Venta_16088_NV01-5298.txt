@@ -1,0 +1,12 @@
+Venta: 16088, fecha: 2025-10-11
+
+Prod: insert into productos_ventas 
+        values ('40583', '16088', '1', '1009', '984.0000', '1', 'DEL 9AMN024Q50249') - trueProd: insert into productos_ventas 
+        values ('41024', '16088', '1', '180', '136.5000', '1', 'AMA 42388212512020453') - trueProd: insert into productos_ventas 
+        values ('40915', '16088', '1', '120.0000', '106.8900', '1', 'MAX 30174792486') - trueProd: insert into productos_ventas 
+        values ('40651', '16088', '1', '263', '248.7200', '1', 'CALE 601-7E28-010B2503006613') - trueProd: insert into productos_ventas 
+        values ('41016', '16088', '1', '120.0000', '95.0000', '1', 'ROG600B2503310202') - trueProd: insert into productos_ventas 
+        values ('40913', '16088', '1', '99.0000', '75.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40870', '16088', '1', '50', '37.0000', '1', 'CALE 224C149000819') - trueProd: insert into productos_ventas 
+        values ('40946', '16088', '1', '150.0000', '90.0000', '1', 'ROY ') - trueProd: insert into productos_ventas 
+        values ('40521', '16088', '1', '249.0000', '221.8700', '1', 'DEL SNCTM2506011730') - true

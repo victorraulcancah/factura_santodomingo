@@ -1,0 +1,4 @@
+Venta: 16769, fecha: 2025-12-20
+
+Prod: insert into productos_ventas 
+        values ('40988', '16769', '1', '1299.0000', '1195.0000', '1', 'roy 602-V537-38ST2510007535') - true

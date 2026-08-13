@@ -1,0 +1,8 @@
+Venta: 15137, fecha: 2025-07-07
+
+Prod: insert into productos_ventas 
+        values ('40539', '15137', '2', '12.5', '10.5000', '1', 'pad') - trueProd: insert into productos_ventas 
+        values ('40535', '15137', '1', '559', '560.0000', '1', 'pega40454') - trueProd: insert into productos_ventas 
+        values ('40531', '15137', '1', '719', '705.9000', '1', 'maxi1094602') - trueProd: insert into productos_ventas 
+        values ('40537', '15137', '1', '722', '712.6000', '1', 'maxi1953sl') - trueProd: insert into productos_ventas 
+        values ('40499', '15137', '1', '1129', '1097.6000', '1', 'maxi5004387') - true

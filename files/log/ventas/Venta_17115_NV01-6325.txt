@@ -1,0 +1,9 @@
+Venta: 17115, fecha: 2026-01-31
+
+Prod: insert into productos_ventas 
+        values ('40533', '17115', '1', '260', '200.0000', '1', 'PEG 9AHG587V50760') - trueProd: insert into productos_ventas 
+        values ('40557', '17115', '1', '220.0000', '187.9766', '1', 'ADNI 601-7C96-120B2506002505') - trueProd: insert into productos_ventas 
+        values ('41230', '17115', '1', '200.0000', '165.0000', '1', 'MICROB S006953') - trueProd: insert into productos_ventas 
+        values ('41115', '17115', '1', '120', '70.0000', '1', 'DANNY SK EACS04N581812004K0A') - trueProd: insert into productos_ventas 
+        values ('41157', '17115', '1', '89', '49.0400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40805', '17115', '1', '0', '6.8500', '1', 'FREEEEE') - true

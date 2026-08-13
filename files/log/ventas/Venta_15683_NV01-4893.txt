@@ -1,0 +1,10 @@
+Venta: 15683, fecha: 2025-08-23
+
+Prod: insert into productos_ventas 
+        values ('40549', '15683', '1', '330.0000', '263.7500', '1', 'LABSMT 9ML2142M50370') - trueProd: insert into productos_ventas 
+        values ('40546', '15683', '1', '110.0000', '93.6300', '1', 'SPT 30171591792') - trueProd: insert into productos_ventas 
+        values ('40596', '15683', '1', '142.0000', '114.0000', '1', 'ROY QD2898W104654P1128') - trueProd: insert into productos_ventas 
+        values ('40558', '15683', '1', '369.0000', '337.1100', '1', 'DEL 601-7C95-310B2505007443') - trueProd: insert into productos_ventas 
+        values ('40599', '15683', '1', '999.0000', '924.8600', '1', 'CMS 25V051224') - trueProd: insert into productos_ventas 
+        values ('40882', '15683', '1', '140.0000', '100.0000', '1', 'CALE 4594P80B-600W1872') - trueProd: insert into productos_ventas 
+        values ('40913', '15683', '1', '99.0000', '75.0000', '1', 'CALE') - true

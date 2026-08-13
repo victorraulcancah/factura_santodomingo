@@ -1,0 +1,4 @@
+Venta: 16988, fecha: 2026-01-16
+
+Prod: insert into productos_ventas 
+        values ('40538', '16988', '1', '30.0000', '0.0000', '1', 'POR FORMATEO Y DESCARTE DE COMPONENTES') - true

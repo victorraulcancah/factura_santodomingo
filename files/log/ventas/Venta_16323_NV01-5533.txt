@@ -1,0 +1,6 @@
+Venta: 16323, fecha: 2025-11-10
+
+Prod: insert into productos_ventas 
+        values ('40664', '16323', '3', '1099', '949.0000', '1', 'CA  PF5KN0TW   PF5GNGAH  PF5KMNEA') - trueProd: insert into productos_ventas 
+        values ('40824', '16323', '3', '0', '6.0000', '1', 'IM') - trueProd: insert into productos_ventas 
+        values ('40567', '16323', '3', '0', '3.5000', '1', 'F') - true

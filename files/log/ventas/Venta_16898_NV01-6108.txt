@@ -1,0 +1,8 @@
+Venta: 16898, fecha: 2026-01-04
+
+Prod: insert into productos_ventas 
+        values ('41221', '16898', '1', '690', '640.0000', '1', 'SERC U47826A500312') - trueProd: insert into productos_ventas 
+        values ('41161', '16898', '1', '700', '535.0000', '1', 'SMT SN244850076096') - trueProd: insert into productos_ventas 
+        values ('41108', '16898', '1', '760', '435.0000', '1', 'ROG 0000009277789-S007213') - trueProd: insert into productos_ventas 
+        values ('40565', '16898', '1', '450', '250.0000', '1', 'CDCO 25200J800590') - trueProd: insert into productos_ventas 
+        values ('40754', '16898', '1', '2700', '2449.0000', '1', 'CALE 602-V532-194SB2510000009') - true

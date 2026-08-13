@@ -1,0 +1,8 @@
+Venta: 16283, fecha: 2025-11-06
+
+Prod: insert into productos_ventas 
+        values ('40552', '16283', '1', '710', '670.0000', '1', 'ROY-9AMW069S50153') - trueProd: insert into productos_ventas 
+        values ('40651', '16283', '1', '270', '248.0000', '1', 'CAL-3006738') - trueProd: insert into productos_ventas 
+        values ('41041', '16283', '1', '169', '147.0000', '1', 'ROG-8000006') - trueProd: insert into productos_ventas 
+        values ('40918', '16283', '1', '120', '108.3100', '1', 'MAXIM-76749') - trueProd: insert into productos_ventas 
+        values ('40494', '16283', '1', '70', '51.0000', '1', 'IMPUL') - true

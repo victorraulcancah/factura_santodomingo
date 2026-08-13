@@ -1,0 +1,4 @@
+Venta: 16936, fecha: 2026-01-09
+
+Prod: insert into productos_ventas 
+        values ('40602', '16936', '1', '545.0000', '630.0000', '1', 'ADNI 9MQ8560S50382 CAMBIO DE PROCESADOR BOX POR OEM GARANTIA ROG') - true

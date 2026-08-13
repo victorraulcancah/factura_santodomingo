@@ -1,0 +1,7 @@
+Venta: 15070, fecha: 2025-07-01
+
+Prod: insert into productos_ventas 
+        values ('40521', '15070', '7', '240', '235.2800', '1', 'deltron') - trueProd: insert into productos_ventas 
+        values ('40813', '15070', '1', '379', '350.0000', '1', 'wick') - trueProd: insert into productos_ventas 
+        values ('40491', '15070', '2', '279', '271.0000', '1', 'deltron') - trueProd: insert into productos_ventas 
+        values ('40499', '15070', '1', '1140', '1097.6000', '1', 'cv') - true

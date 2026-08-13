@@ -1,0 +1,8 @@
+Venta: 15053, fecha: 2025-06-29
+
+Prod: insert into productos_ventas 
+        values ('40865', '15053', '1', '799', '625.0000', '1', 'smth40260') - trueProd: insert into productos_ventas 
+        values ('40495', '15053', '1', '569', '530.0000', '1', 'smth8263u2') - trueProd: insert into productos_ventas 
+        values ('40753', '15053', '2', '191.50', '156.7000', '1', 'smth50999-51000') - trueProd: insert into productos_ventas 
+        values ('40801', '15053', '1', '249', '230.0000', '1', 'CDMQ5H81T') - trueProd: insert into productos_ventas 
+        values ('40619', '15053', '1', '220', '185.0000', '1', 'ROG ') - true

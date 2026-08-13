@@ -1,0 +1,6 @@
+Venta: 15490, fecha: 2025-08-05
+
+Prod: insert into productos_ventas 
+        values ('40521', '15490', '1', '250', '240.0000', '1', 'hu  SNCTM2504161601') - trueProd: insert into productos_ventas 
+        values ('40539', '15490', '1', '20', '11.0000', '1', 'f') - trueProd: insert into productos_ventas 
+        values ('40732', '15490', '1', '200', '183.5000', '1', 'roy  AGC3100X3KRE25011126') - true

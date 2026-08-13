@@ -1,0 +1,14 @@
+Venta: 16234, fecha: 2025-10-31
+
+Prod: insert into productos_ventas 
+        values ('40797', '16234', '1', '1299', '1200.0000', '1', 'LABS   U4PD415102004') - trueProd: insert into productos_ventas 
+        values ('40861', '16234', '1', '799.0000', '680.0000', '1', 'SMT  T4M0PH015390ARP') - trueProd: insert into productos_ventas 
+        values ('40813', '16234', '1', '419', '348.6750', '1', 'SMT   EF2502120220119   EF2502120220120') - trueProd: insert into productos_ventas 
+        values ('40509', '16234', '1', '229', '212.4100', '1', 'DEL   50026B728393C30A') - trueProd: insert into productos_ventas 
+        values ('40745', '16234', '1', '450', '414.0000', '1', 'DEL   50026B7283B41202') - trueProd: insert into productos_ventas 
+        values ('40919', '16234', '1', '239', '199.0000', '1', 'ROY  AG750SASN242000613') - trueProd: insert into productos_ventas 
+        values ('40933', '16234', '1', '199.0000', '167.8500', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40889', '16234', '1', '2777', '2660.1500', '1', 'CDK  SN251641050995') - trueProd: insert into productos_ventas 
+        values ('40892', '16234', '1', '389', '299.6000', '1', 'SMT ') - trueProd: insert into productos_ventas 
+        values ('41074', '16234', '1', '980', '898.3500', '1', 'imp 55058-151C00038137') - trueProd: insert into productos_ventas 
+        values ('40539', '16234', '1', '0', '12.0000', '1', 'F') - true

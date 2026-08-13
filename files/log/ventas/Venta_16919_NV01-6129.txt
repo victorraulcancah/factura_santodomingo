@@ -1,0 +1,10 @@
+Venta: 16919, fecha: 2026-01-06
+
+Prod: insert into productos_ventas 
+        values ('40586', '16919', '1', '869', '702.5000', '1', 'import-rog50022') - trueProd: insert into productos_ventas 
+        values ('41008', '16919', '1', '325', '301.0000', '1', 'impac2946') - trueProd: insert into productos_ventas 
+        values ('41175', '16919', '1', '699', '340.0000', '1', 'rema54334') - trueProd: insert into productos_ventas 
+        values ('41200', '16919', '1', '214', '188.0000', '1', 'lp5806') - trueProd: insert into productos_ventas 
+        values ('40919', '16919', '1', '245', '202.9900', '1', 'cdk700604') - trueProd: insert into productos_ventas 
+        values ('41188', '16919', '1', '199.0000', '170.0000', '1', 'rog') - trueProd: insert into productos_ventas 
+        values ('41206', '16919', '1', '2749', '2599.0000', '1', 'pega2506000003') - true

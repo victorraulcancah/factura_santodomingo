@@ -1,0 +1,11 @@
+Venta: 16664, fecha: 2025-12-09
+
+Prod: insert into productos_ventas 
+        values ('41180', '16664', '1', '1949', '1844.4000', '1', 'SERC 9MM3465O50157') - trueProd: insert into productos_ventas 
+        values ('41160', '16664', '1', '890', '730.0000', '1', 'SMT SN250750086239') - trueProd: insert into productos_ventas 
+        values ('41146', '16664', '1', '600', '327.0400', '1', 'IMPCT 2P4000238562') - trueProd: insert into productos_ventas 
+        values ('41111', '16664', '1', '135', '94.0000', '1', 'HUM BCFSBBN40051050B31C') - trueProd: insert into productos_ventas 
+        values ('41042', '16664', '1', '1999', '1932.0200', '1', 'SERC 602-V535-61SB2506004466') - trueProd: insert into productos_ventas 
+        values ('41170', '16664', '1', '199.0000', '145.0000', '1', 'ROG750B2506200235') - trueProd: insert into productos_ventas 
+        values ('40540', '16664', '1', '129', '90.9560', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40981', '16664', '1', '199', '190.0000', '1', 'SMT X004N1T8C9') - true

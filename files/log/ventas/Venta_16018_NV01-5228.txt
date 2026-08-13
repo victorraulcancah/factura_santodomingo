@@ -1,0 +1,9 @@
+Venta: 16018, fecha: 2025-10-01
+
+Prod: insert into productos_ventas 
+        values ('40493', '16018', '1', '519', '470.6000', '1', 'DEL 9MN7359P50239') - trueProd: insert into productos_ventas 
+        values ('40547', '16018', '1', '75', '54.7100', '1', 'MAX 30174011716') - trueProd: insert into productos_ventas 
+        values ('40971', '16018', '1', '90', '70.0000', '1', 'MAX 30174900022') - trueProd: insert into productos_ventas 
+        values ('40557', '16018', '1', '215', '183.0000', '1', 'ROY 601-7C96-120B2503086623') - trueProd: insert into productos_ventas 
+        values ('40494', '16018', '1', '100', '58.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('41002', '16018', '1', '200', '183.0000', '1', 'EDU 4641MF22FC-1000444') - true

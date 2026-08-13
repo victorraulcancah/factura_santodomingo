@@ -1,0 +1,9 @@
+Venta: 15464, fecha: 2025-08-02
+
+Prod: insert into productos_ventas 
+        values ('40602', '15464', '1', '593.0000', '571.7100', '1', 'CMS 9MN7036P50492') - trueProd: insert into productos_ventas 
+        values ('40557', '15464', '1', '209.0000', '187.0000', '1', 'ROY 601-7C96-120B2503016901') - trueProd: insert into productos_ventas 
+        values ('40546', '15464', '1', '130.0000', '94.4620', '1', 'SPT 30171592117') - trueProd: insert into productos_ventas 
+        values ('40918', '15464', '1', '139.0000', '108.6900', '1', 'MAX 30173368834') - trueProd: insert into productos_ventas 
+        values ('40913', '15464', '1', '109.0000', '79.0000', '1', 'ROY') - trueProd: insert into productos_ventas 
+        values ('40862', '15464', '1', '329.0000', '311.9200', '1', 'DEL SNCTM2504170289') - true

@@ -1,0 +1,8 @@
+Venta: 16651, fecha: 2025-12-08
+
+Prod: insert into productos_ventas 
+        values ('41075', '16651', '1', '85', '85.0000', '1', 'roy') - trueProd: insert into productos_ventas 
+        values ('40629', '16651', '1', '50', '36.5000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('40543', '16651', '1', '37', '37.0000', '1', 'p') - trueProd: insert into productos_ventas 
+        values ('41031', '16651', '1', '25', '25.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('40601', '16651', '1', '33', '33.0000', '1', 'im') - true

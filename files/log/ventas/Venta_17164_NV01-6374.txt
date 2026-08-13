@@ -1,0 +1,9 @@
+Venta: 17164, fecha: 2026-02-06
+
+Prod: insert into productos_ventas 
+        values ('40533', '17164', '1', '259.0000', '227.0000', '1', 'SED-9ALX688P50104') - trueProd: insert into productos_ventas 
+        values ('40723', '17164', '1', '225.0000', '190.0000', '1', 'LP-30172422987') - trueProd: insert into productos_ventas 
+        values ('41080', '17164', '1', '199.0000', '185.0000', '1', 'ROY-T8M0CS07N989SEB') - trueProd: insert into productos_ventas 
+        values ('40971', '17164', '1', '125.0000', '64.6000', '1', 'SPT-30174345350') - trueProd: insert into productos_ventas 
+        values ('40521', '17164', '1', '227.0000', '218.8300', '1', 'HUMB-TE2415S179525100725') - trueProd: insert into productos_ventas 
+        values ('40494', '17164', '1', '65.0000', '50.3000', '1', 'IMPULSO') - true

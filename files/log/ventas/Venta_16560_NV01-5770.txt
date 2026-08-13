@@ -1,0 +1,9 @@
+Venta: 16560, fecha: 2025-12-01
+
+Prod: insert into productos_ventas 
+        values ('40583', '16560', '1', '989.0000', '933.3100', '1', 'DEL50083') - trueProd: insert into productos_ventas 
+        values ('41154', '16560', '1', '436', '415.7400', '1', 'CORP2505014743') - trueProd: insert into productos_ventas 
+        values ('41136', '16560', '2', '355', '278.3500', '1', 'PLUS8659') - trueProd: insert into productos_ventas 
+        values ('41111', '16560', '1', '150', '94.0000', '1', 'HUMBERT07H6E') - trueProd: insert into productos_ventas 
+        values ('41016', '16560', '1', '120.0000', '95.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41082', '16560', '1', '100', '77.0000', '1', 'CA') - true

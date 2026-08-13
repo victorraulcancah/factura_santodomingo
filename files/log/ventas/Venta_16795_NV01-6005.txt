@@ -1,0 +1,10 @@
+Venta: 16795, fecha: 2025-12-22
+
+Prod: insert into productos_ventas 
+        values ('40583', '16795', '1', '999', '892.7200', '1', 'DEL 9AMN034Q50167') - trueProd: insert into productos_ventas 
+        values ('41008', '16795', '1', '359', '298.7350', '1', 'CMS 601-7E76-020B2505004452') - trueProd: insert into productos_ventas 
+        values ('41175', '16795', '1', '599', '340.0000', '1', 'REMA 30175454332') - trueProd: insert into productos_ventas 
+        values ('41106', '16795', '1', '195', '102.0000', '1', 'HUM 22176E802435') - trueProd: insert into productos_ventas 
+        values ('40882', '16795', '1', '140', '92.0000', '1', 'IMPUL 4667MICP650-80+1154') - trueProd: insert into productos_ventas 
+        values ('41207', '16795', '1', '109', '68.3400', '1', 'IMPUL ') - trueProd: insert into productos_ventas 
+        values ('40521', '16795', '1', '229', '209.4000', '1', 'DEL TE2415S129625082294') - true

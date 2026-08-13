@@ -1,0 +1,5 @@
+Venta: 14559, fecha: 2025-05-03
+
+Prod: insert into productos_ventas 
+        values ('40699', '14559', '10', '195', '184.0000', '1', 'CA9890-1358-7748-9075-8819--5639-5782-4529-7602-2165') - trueProd: insert into productos_ventas 
+        values ('40596', '14559', '5', '125', '114.5700', '1', 'ROY2698-2073-3683-3487-2655') - true

@@ -1,0 +1,10 @@
+Venta: 17170, fecha: 2026-02-07
+
+Prod: insert into productos_ventas 
+        values ('40552', '17170', '1', '660', '608.7700', '1', 'DEL 9AMW188S50393') - trueProd: insert into productos_ventas 
+        values ('41008', '17170', '1', '330', '305.0000', '1', 'CALE 601-7E76-020B2505007897') - trueProd: insert into productos_ventas 
+        values ('41108', '17170', '1', '600', '502.0000', '1', 'ROG S006259') - trueProd: insert into productos_ventas 
+        values ('40564', '17170', '1', '240', '142.5000', '1', 'LP ASAD35330300874') - trueProd: insert into productos_ventas 
+        values ('40882', '17170', '1', '120', '92.0000', '1', 'IMPUL 4666MICP600-80+1779') - trueProd: insert into productos_ventas 
+        values ('41279', '17170', '1', '99', '80.0000', '1', 'TAC ') - trueProd: insert into productos_ventas 
+        values ('40805', '17170', '1', '0', '6.8500', '1', 'FREEEEEEEE') - true

@@ -1,0 +1,7 @@
+Venta: 14388, fecha: 2025-04-19
+
+Prod: insert into productos_ventas 
+        values ('40507', '14388', '2', '345', '335.0000', '1', 'ROY10304-11593') - trueProd: insert into productos_ventas 
+        values ('40597', '14388', '2', '148', '142.9000', '1', 'ROY1554315542') - trueProd: insert into productos_ventas 
+        values ('40521', '14388', '2', '255', '245.0000', '1', 'TACT1888-30264') - trueProd: insert into productos_ventas 
+        values ('40596', '14388', '1', '119', '113.5000', '1', 'ROY84P1137') - true

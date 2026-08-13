@@ -1,0 +1,11 @@
+Venta: 17014, fecha: 2026-01-19
+
+Prod: insert into productos_ventas 
+        values ('40975', '17014', '1', '1319.0000', '1150.0000', '1', 'LABS-U5F852Q603971') - trueProd: insert into productos_ventas 
+        values ('40886', '17014', '1', '279.0000', '228.3400', '1', 'MAXIM-3067ZWDA11L8010519000249') - trueProd: insert into productos_ventas 
+        values ('41161', '17014', '1', '620.0000', '535.0000', '1', 'STH-SN244650085894') - trueProd: insert into productos_ventas 
+        values ('41231', '17014', '1', '700.0000', '590.0000', '1', 'M-BYTE 0000009277789-S010549') - trueProd: insert into productos_ventas 
+        values ('40509', '17014', '1', '499.0000', '331.6600', '1', 'SED-50026B728399F544') - trueProd: insert into productos_ventas 
+        values ('41215', '17014', '1', '2685.0000', '2525.0000', '1', 'CAL-602-V532-206SB2509001997') - trueProd: insert into productos_ventas 
+        values ('40479', '17014', '1', '269.0000', '214.4500', '1', 'CDK-G850SASN252700598') - trueProd: insert into productos_ventas 
+        values ('41188', '17014', '1', '199.0000', '170.0000', '1', 'ROG') - true

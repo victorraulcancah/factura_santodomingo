@@ -1,0 +1,12 @@
+Venta: 16428, fecha: 2025-11-20
+
+Prod: insert into productos_ventas 
+        values ('41119', '16428', '1', '529', '520.9290', '1', 'cdk 9MC3174P40043') - trueProd: insert into productos_ventas 
+        values ('40651', '16428', '1', '279', '260.0000', '1', 'sed 601-7E28-010B2503007130') - trueProd: insert into productos_ventas 
+        values ('41104', '16428', '1', '199', '188.8800', '1', 'TE165625090657') - trueProd: insert into productos_ventas 
+        values ('41058', '16428', '1', '229', '192.5000', '1', 'spt 80994') - trueProd: insert into productos_ventas 
+        values ('41016', '16428', '1', '110', '95.0000', '1', 'rog') - trueProd: insert into productos_ventas 
+        values ('41095', '16428', '1', '109', '91.2200', '1', 'im  ') - trueProd: insert into productos_ventas 
+        values ('41084', '16428', '1', '1384', '1262.0000', '1', 'pega  SN253001031610') - trueProd: insert into productos_ventas 
+        values ('40521', '16428', '1', '229', '216.7200', '1', 'del TE2415S1158A25070549') - trueProd: insert into productos_ventas 
+        values ('40536', '16428', '1', '80', '65.0000', '1', 'roy   2503-20556974') - true

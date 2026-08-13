@@ -1,0 +1,4 @@
+Venta: 15333, fecha: 2025-07-22
+
+Prod: insert into productos_ventas 
+        values ('40493', '15333', '11', '485.806', '485.8060', '1', 'flush deltron ') - true

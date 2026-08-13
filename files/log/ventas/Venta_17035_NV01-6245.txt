@@ -1,0 +1,11 @@
+Venta: 17035, fecha: 2026-01-23
+
+Prod: insert into productos_ventas 
+        values ('40591', '17035', '1', '799.0000', '730.0000', '1', 'LABS  4AD7881O50146') - trueProd: insert into productos_ventas 
+        values ('41090', '17035', '1', '345', '295.0000', '1', 'SMT KFL360WS25080046') - trueProd: insert into productos_ventas 
+        values ('41077', '17035', '1', '699', '620.0000', '1', 'SMT 601-7E56-010B2412007248') - trueProd: insert into productos_ventas 
+        values ('41108', '17035', '1', '649', '502.0000', '1', 'ROG2 601-7E56-010B2412007248') - trueProd: insert into productos_ventas 
+        values ('40699', '17035', '1', '399', '359.0000', '1', 'REMA QDM423W101916P113A') - trueProd: insert into productos_ventas 
+        values ('40889', '17035', '1', '2799', '2660.1500', '1', 'CDK SN251641050996') - trueProd: insert into productos_ventas 
+        values ('40919', '17035', '1', '259.0000', '202.9900', '1', 'CDK G750SASN252700603') - trueProd: insert into productos_ventas 
+        values ('41227', '17035', '1', '250', '175.0000', '1', 'ROG') - true

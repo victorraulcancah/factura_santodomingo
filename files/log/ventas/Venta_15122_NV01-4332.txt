@@ -1,0 +1,11 @@
+Venta: 15122, fecha: 2025-07-05
+
+Prod: insert into productos_ventas 
+        values ('40533', '15122', '1', '299', '229.0000', '1', 'ca407t4021u') - trueProd: insert into productos_ventas 
+        values ('40723', '15122', '2', '56', '51.5600', '1', 'maxi7916-7915') - trueProd: insert into productos_ventas 
+        values ('40557', '15122', '1', '216', '189.5000', '1', 'maxi16775') - trueProd: insert into productos_ventas 
+        values ('40821', '15122', '1', '109', '78.7200', '1', 'impulso') - trueProd: insert into productos_ventas 
+        values ('40629', '15122', '1', '59.0000', '35.8330', '1', 'impulso') - trueProd: insert into productos_ventas 
+        values ('40567', '15122', '3', '4', '3.5000', '1', 'mouse pad') - trueProd: insert into productos_ventas 
+        values ('40575', '15122', '1', '80', '66.7000', '1', 'impulso') - trueProd: insert into productos_ventas 
+        values ('40488', '15122', '1', '89', '70.0000', '1', 'ca') - true

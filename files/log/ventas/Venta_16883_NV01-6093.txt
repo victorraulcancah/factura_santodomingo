@@ -1,0 +1,11 @@
+Venta: 16883, fecha: 2026-01-02
+
+Prod: insert into productos_ventas 
+        values ('40804', '16883', '1', '490', '456.4300', '1', 'LP-U50F2U6800196') - trueProd: insert into productos_ventas 
+        values ('41174', '16883', '1', '230.0000', '200.0000', '1', 'REMA-IH61EMDS-02_61002B24800726') - trueProd: insert into productos_ventas 
+        values ('41184', '16883', '1', '350.0000', '250.0000', '1', 'ROG-RGX16D4006') - trueProd: insert into productos_ventas 
+        values ('40565', '16883', '1', '420.0000', '250.0000', '1', 'CDM-251719801611') - trueProd: insert into productos_ventas 
+        values ('40926', '16883', '1', '1300.0000', '1215.0000', '1', 'ROY-602-V537-070T2511005597') - trueProd: insert into productos_ventas 
+        values ('40882', '16883', '1', '129.0000', '92.0000', '1', 'CAL-4666MICP600-80+1543') - trueProd: insert into productos_ventas 
+        values ('41072', '16883', '1', '215.0000', '201.8700', '1', 'IMPUL-4664DG24FC-1000180') - trueProd: insert into productos_ventas 
+        values ('41207', '16883', '1', '95.0000', '68.3400', '1', 'IMPUL') - true

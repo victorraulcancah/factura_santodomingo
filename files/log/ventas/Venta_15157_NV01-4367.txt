@@ -1,0 +1,8 @@
+Venta: 15157, fecha: 2025-07-10
+
+Prod: insert into productos_ventas 
+        values ('40499', '15157', '3', '1129', '1096.5000', '1', 'MAXI11790-05390-05389') - trueProd: insert into productos_ventas 
+        values ('40862', '15157', '2', '328', '318.0500', '1', 'DEL30193 - DEL1478') - trueProd: insert into productos_ventas 
+        values ('40592', '15157', '1', '725', '700.0000', '1', 'SMTH36300010') - trueProd: insert into productos_ventas 
+        values ('40539', '15157', '2', '12.50', '11.0000', '1', 'XXL') - trueProd: insert into productos_ventas 
+        values ('40538', '15157', '1', '10', '0.0000', '1', 'SHALOM') - true

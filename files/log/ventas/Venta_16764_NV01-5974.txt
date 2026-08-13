@@ -1,0 +1,9 @@
+Venta: 16764, fecha: 2025-12-20
+
+Prod: insert into productos_ventas 
+        values ('40583', '16764', '1', '1029', '892.7200', '1', 'CORPR50077') - trueProd: insert into productos_ventas 
+        values ('41008', '16764', '1', '350', '297.0000', '1', 'ROY7003360') - trueProd: insert into productos_ventas 
+        values ('41175', '16764', '2', '576', '340.0000', '1', 'REMA54340-54341') - trueProd: insert into productos_ventas 
+        values ('40565', '16764', '1', '350', '250.0000', '1', 'CDM2135') - trueProd: insert into productos_ventas 
+        values ('40882', '16764', '1', '150', '97.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('41082', '16764', '1', '119', '77.0000', '1', 'VIBRANT') - true

@@ -1,0 +1,9 @@
+Venta: 15649, fecha: 2025-08-21
+
+Prod: insert into productos_ventas 
+        values ('40552', '15649', '1', '699', '691.3500', '1', 'DEL234R60007') - trueProd: insert into productos_ventas 
+        values ('40956', '15649', '1', '475', '432.3000', '1', 'DISKET105091') - trueProd: insert into productos_ventas 
+        values ('40918', '15649', '1', '130', '108.6900', '1', 'MAX68753') - trueProd: insert into productos_ventas 
+        values ('40597', '15649', '1', '150', '145.0000', '1', 'ROY5380') - trueProd: insert into productos_ventas 
+        values ('40882', '15649', '1', '125', '100.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40540', '15649', '1', '120', '103.7200', '1', 'IMPU') - true

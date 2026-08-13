@@ -1,0 +1,10 @@
+Venta: 14579, fecha: 2025-05-05
+
+Prod: insert into productos_ventas 
+        values ('40549', '14579', '1', '330.0000', '295.0000', '1', '') - trueProd: insert into productos_ventas 
+        values ('40557', '14579', '1', '225', '202.0000', '1', 'ROY 50882') - trueProd: insert into productos_ventas 
+        values ('40712', '14579', '1', '120.0000', '90.0000', '1', 'SMITH 7000804') - trueProd: insert into productos_ventas 
+        values ('40596', '14579', '1', '150', '114.5700', '1', 'ROY 0968') - trueProd: insert into productos_ventas 
+        values ('40540', '14579', '1', '139', '107.7000', '1', 'impu') - trueProd: insert into productos_ventas 
+        values ('40714', '14579', '1', '150', '125.0000', '1', 'CA  204PSDK  F0101') - trueProd: insert into productos_ventas 
+        values ('40729', '14579', '1', '986', '911.8960', '1', ' LP 1450') - true

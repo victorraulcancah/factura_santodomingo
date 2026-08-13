@@ -1,0 +1,11 @@
+Venta: 17156, fecha: 2026-02-05
+
+Prod: insert into productos_ventas 
+        values ('40493', '17156', '1', '560.0000', '535.0000', '1', 'CAL-9ML4505N50056') - trueProd: insert into productos_ventas 
+        values ('41080', '17156', '1', '200.0000', '185.0000', '1', 'ROY-T8M0CS07P081EKJ') - trueProd: insert into productos_ventas 
+        values ('41184', '17156', '1', '399.0000', '300.0000', '1', 'HUMB- RGX16D4209') - trueProd: insert into productos_ventas 
+        values ('40882', '17156', '1', '120.0000', '92.0000', '1', 'CAL-4666MICP600-80+1402') - trueProd: insert into productos_ventas 
+        values ('40971', '17156', '1', '120.0000', '64.6000', '1', 'SPT-30174345347') - trueProd: insert into productos_ventas 
+        values ('41244', '17156', '1', '100.0000', '80.0000', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40521', '17156', '1', '229', '195.3200', '1', 'CV-CV-TE2415S179525100298') - trueProd: insert into productos_ventas 
+        values ('40543', '17156', '1', '50.0000', '35.0000', '1', 'PEG') - true

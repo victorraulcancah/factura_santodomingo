@@ -1,0 +1,9 @@
+Venta: 16011, fecha: 2025-10-01
+
+Prod: insert into productos_ventas 
+        values ('40592', '16011', '1', '712', '623.2100', '1', 'smthU5L61A5403320') - trueProd: insert into productos_ventas 
+        values ('40831', '16011', '1', '399', '357.0000', '1', 'tactSN250760041494') - trueProd: insert into productos_ventas 
+        values ('41016', '16011', '1', '120.0000', '95.0000', '1', 'ROG600B2503310095') - trueProd: insert into productos_ventas 
+        values ('40577', '16011', '1', '95', '80.2617', '1', 'gg6933412727767') - trueProd: insert into productos_ventas 
+        values ('40499', '16011', '1', '1139', '1089.0000', '1', 'roy602-V397-1139SB2505004614') - trueProd: insert into productos_ventas 
+        values ('40991', '16011', '1', '199.0000', '160.0000', '1', 'rog') - true

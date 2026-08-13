@@ -1,0 +1,11 @@
+Venta: 14918, fecha: 2025-06-16
+
+Prod: insert into productos_ventas 
+        values ('40546', '14918', '6', '98', '93.4000', '1', 'MAXI') - trueProd: insert into productos_ventas 
+        values ('40531', '14918', '8', '721.75', '709.2900', '1', 'MAXI') - trueProd: insert into productos_ventas 
+        values ('40624', '14918', '1', '63', '55.0000', '1', 'HU') - trueProd: insert into productos_ventas 
+        values ('40543', '14918', '1', '40', '38.0000', '1', '1') - trueProd: insert into productos_ventas 
+        values ('40638', '14918', '1', '61', '56.5000', '1', '|1') - trueProd: insert into productos_ventas 
+        values ('40658', '14918', '1', '609', '600.0000', '1', 'PEGA') - trueProd: insert into productos_ventas 
+        values ('40495', '14918', '2', '559', '530.0000', '1', 'WICK') - trueProd: insert into productos_ventas 
+        values ('40550', '14918', '1', '510', '500.0000', '1', '1') - true

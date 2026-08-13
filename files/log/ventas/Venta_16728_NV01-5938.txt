@@ -1,0 +1,10 @@
+Venta: 16728, fecha: 2025-12-16
+
+Prod: insert into productos_ventas 
+        values ('40603', '16728', '1', '570.0000', '455.0000', '1', 'ROG-9ANN654U50064_100-000001591') - trueProd: insert into productos_ventas 
+        values ('41008', '16728', '1', '330.0000', '286.0000', '1', 'CDK-B840 601-7E76-020B2505007859') - trueProd: insert into productos_ventas 
+        values ('41175', '16728', '1', '585.0000', '340.0000', '1', 'REMA-30175456621') - trueProd: insert into productos_ventas 
+        values ('40565', '16728', '1', '370.0000', '250.0000', '1', 'CDM-25200J800593') - trueProd: insert into productos_ventas 
+        values ('41084', '16728', '1', '1350.0000', '1262.0000', '1', 'CDK-SN253441008130') - trueProd: insert into productos_ventas 
+        values ('40540', '16728', '1', '125.0000', '90.9560', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40919', '16728', '1', '250.0000', '202.9900', '1', 'CDK-G750SASN252700864') - true

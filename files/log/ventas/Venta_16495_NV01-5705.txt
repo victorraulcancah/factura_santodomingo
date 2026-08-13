@@ -1,0 +1,10 @@
+Venta: 16495, fecha: 2025-11-27
+
+Prod: insert into productos_ventas 
+        values ('40708', '16495', '1', '549.0000', '512.0000', '1', 'ROY-U5TB113403695') - trueProd: insert into productos_ventas 
+        values ('41122', '16495', '1', '499.0000', '420.0000', '1', 'MISI-LABS-251260093138') - trueProd: insert into productos_ventas 
+        values ('41104', '16495', '1', '200.0000', '188.8800', '1', 'DELT-TE165625090650') - trueProd: insert into productos_ventas 
+        values ('40531', '16495', '1', '725.0000', '696.4500', '1', 'DATA-252101023934') - trueProd: insert into productos_ventas 
+        values ('41105', '16495', '1', '115.0000', '95.0000', '1', 'HUMB-541NP9512A') - trueProd: insert into productos_ventas 
+        values ('41016', '16495', '1', '120.0000', '95.0000', '1', 'ROG-600W2503310148') - trueProd: insert into productos_ventas 
+        values ('41095', '16495', '1', '125.0000', '91.2200', '1', 'CAL') - true

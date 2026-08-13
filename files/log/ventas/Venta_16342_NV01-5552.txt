@@ -1,0 +1,9 @@
+Venta: 16342, fecha: 2025-11-12
+
+Prod: insert into productos_ventas 
+        values ('40552', '16342', '1', '679.0000', '650.1000', '1', 'DEL 9AMU427S50039') - trueProd: insert into productos_ventas 
+        values ('40651', '16342', '1', '262.0000', '248.0000', '1', 'SEDA 601-7E28-010B2503006294') - trueProd: insert into productos_ventas 
+        values ('41104', '16342', '2', '190', '188.8800', '1', 'DEL TE165625090672 | TE165625090670') - trueProd: insert into productos_ventas 
+        values ('40918', '16342', '1', '129', '108.3100', '1', 'MAX 30176976898') - trueProd: insert into productos_ventas 
+        values ('40976', '16342', '1', '169', '140.0000', '1', 'IMPUL 4622P80BA750W0476') - trueProd: insert into productos_ventas 
+        values ('41095', '16342', '1', '120.0000', '91.2200', '1', 'CALE') - true

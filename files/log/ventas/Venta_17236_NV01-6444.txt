@@ -1,0 +1,10 @@
+Venta: 17236, fecha: 2026-02-16
+
+Prod: insert into productos_ventas 
+        values ('40551', '17236', '1', '620', '552.7200', '1', 'ADNI   SRL5Z x538K198') - trueProd: insert into productos_ventas 
+        values ('41174', '17236', '1', '239.0000', '208.5300', '1', 'ca IH61EMDS-02_61002B24800874') - trueProd: insert into productos_ventas 
+        values ('41261', '17236', '1', '455', '350.0000', '1', 'FABRI  460627') - trueProd: insert into productos_ventas 
+        values ('41120', '17236', '2', '199', '95.9000', '1', 'acho RG DC8JF8P3240062   DC8JF8P3240065') - trueProd: insert into productos_ventas 
+        values ('40828', '17236', '1', '139.0000', '100.0000', '1', 'ca  4667MICP650-80+2428') - trueProd: insert into productos_ventas 
+        values ('40821', '17236', '1', '99.0000', '72.0000', '1', 'ca ') - trueProd: insert into productos_ventas 
+        values ('40988', '17236', '1', '1399', '1299.0000', '1', 'roy  602-V537-60ST2512013639') - true

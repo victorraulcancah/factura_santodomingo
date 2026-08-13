@@ -1,0 +1,8 @@
+Venta: 15049, fecha: 2025-06-29
+
+Prod: insert into productos_ventas 
+        values ('40565', '15049', '1', '230.0000', '211.0000', '1', 'CAL-1057') - trueProd: insert into productos_ventas 
+        values ('40764', '15049', '2', '100.0000', '90.0000', '1', 'STH-6917-6916') - trueProd: insert into productos_ventas 
+        values ('40543', '15049', '1', '50.0000', '38.0000', '1', 'PEG-1988') - trueProd: insert into productos_ventas 
+        values ('40563', '15049', '1', '69.0000', '58.0000', '1', 'HUM') - trueProd: insert into productos_ventas 
+        values ('40521', '15049', '1', '250.0000', '235.2800', '1', 'DELT-13589') - true

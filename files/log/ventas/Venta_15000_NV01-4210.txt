@@ -1,0 +1,10 @@
+Venta: 15000, fecha: 2025-06-24
+
+Prod: insert into productos_ventas 
+        values ('40552', '15000', '1', '764', '712.0000', '1', 'max 40310') - trueProd: insert into productos_ventas 
+        values ('40760', '15000', '1', '419', '411.0000', '1', 'ca 8218') - trueProd: insert into productos_ventas 
+        values ('40587', '15000', '2', '162.50', '150.0000', '1', 'smith 129-130') - trueProd: insert into productos_ventas 
+        values ('40801', '15000', '1', '244', '230.0000', '1', 'cdm  6g2x') - trueProd: insert into productos_ventas 
+        values ('40775', '15000', '1', '199', '190.0000', '1', 'ca  4698') - trueProd: insert into productos_ventas 
+        values ('40619', '15000', '1', '219', '185.0000', '1', 'rog') - trueProd: insert into productos_ventas 
+        values ('40521', '15000', '1', '250', '235.2800', '1', 'del  12907') - true

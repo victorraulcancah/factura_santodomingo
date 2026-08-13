@@ -1,0 +1,11 @@
+Venta: 17002, fecha: 2026-01-18
+
+Prod: insert into productos_ventas 
+        values ('40975', '17002', '1', '1299', '1150.0000', '1', 'darco  U52JJ63100085') - trueProd: insert into productos_ventas 
+        values ('41222', '17002', '1', '499', '426.0000', '1', 'ca SN250950010603') - trueProd: insert into productos_ventas 
+        values ('41231', '17002', '1', '749', '590.0000', '1', 'microb  0000009277789-S008126') - trueProd: insert into productos_ventas 
+        values ('41200', '17002', '1', '239', '188.0000', '1', 'lp  4P0921965750') - trueProd: insert into productos_ventas 
+        values ('40919', '17002', '1', '239', '202.9900', '1', 'cdk  G750SASN252700686') - trueProd: insert into productos_ventas 
+        values ('41249', '17002', '1', '2646', '2456.0000', '1', 'ca M925013535') - trueProd: insert into productos_ventas 
+        values ('41227', '17002', '1', '199', '175.0000', '1', 'rg ') - trueProd: insert into productos_ventas 
+        values ('40618', '17002', '1', '230', '230.0000', '1', 'rg') - true

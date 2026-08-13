@@ -1,0 +1,11 @@
+Venta: 16607, fecha: 2025-12-05
+
+Prod: insert into productos_ventas 
+        values ('40552', '16607', '1', '697.0000', '654.1900', '1', 'CDK-9MQ7854S50021') - trueProd: insert into productos_ventas 
+        values ('41145', '16607', '1', '499.0000', '329.8700', '1', 'IMPA-1P3601294287') - trueProd: insert into productos_ventas 
+        values ('41115', '16607', '1', '125.0000', '70.0000', '1', 'STO-LVZ070') - trueProd: insert into productos_ventas 
+        values ('41008', '16607', '1', '359.0000', '310.0000', '1', 'TACT-601-7E76-020B2505005894') - trueProd: insert into productos_ventas 
+        values ('40494', '16607', '1', '90.0000', '51.0000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('41071', '16607', '1', '200.0000', '186.4200', '1', 'IMPUL-4664MF24.5-75FF0304') - trueProd: insert into productos_ventas 
+        values ('41047', '16607', '1', '45.0000', '32.0000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('41031', '16607', '1', '35.0000', '25.0000', '1', 'ROG') - true

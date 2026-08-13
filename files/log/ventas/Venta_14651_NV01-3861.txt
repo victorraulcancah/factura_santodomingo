@@ -1,0 +1,15 @@
+Venta: 14651, fecha: 2025-05-14
+
+Prod: insert into productos_ventas 
+        values ('40592', '14651', '1', '750', '725.0000', '1', 'SMTHU4Q28T8201035') - trueProd: insert into productos_ventas 
+        values ('40711', '14651', '1', '641', '490.0000', '1', 'SMTHH8M0XB35769') - trueProd: insert into productos_ventas 
+        values ('40587', '14651', '4', '189.0000', '145.6000', '1', 'SMTH262005-262006') - trueProd: insert into productos_ventas 
+        values ('40746', '14651', '1', '2999.0000', '2979.0000', '1', 'ROY251141017845') - trueProd: insert into productos_ventas 
+        values ('40745', '14651', '1', '499.0000', '469.0000', '1', 'PEGAnv32tb00056') - trueProd: insert into productos_ventas 
+        values ('40619', '14651', '1', '249.0000', '185.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40744', '14651', '1', '599.0000', '505.0000', '1', 'IMPACT10436001159') - trueProd: insert into productos_ventas 
+        values ('40742', '14651', '1', '149.0000', '129.0000', '1', 'CA - RAZER ') - trueProd: insert into productos_ventas 
+        values ('40539', '14651', '1', '19.0000', '10.5000', '1', 'XXL') - trueProd: insert into productos_ventas 
+        values ('40521', '14651', '1', '250', '243.8400', '1', 'DEL2502091297') - trueProd: insert into productos_ventas 
+        values ('40566', '14651', '1', '289', '225.0000', '1', 'ROG- GAMING X HUG') - trueProd: insert into productos_ventas 
+        values ('40634', '14651', '1', '100', '90.0000', '1', 'PEGA1766') - true

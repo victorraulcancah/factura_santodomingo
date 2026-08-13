@@ -1,0 +1,8 @@
+Venta: 17126, fecha: 2026-02-01
+
+Prod: insert into productos_ventas 
+        values ('40535', '17126', '1', '540.0000', '504.7700', '1', 'DELT-9MU2654W50400') - trueProd: insert into productos_ventas 
+        values ('41008', '17126', '1', '345.0000', '305.0000', '1', 'CAL-601-7E76-020B2505007846') - trueProd: insert into productos_ventas 
+        values ('41108', '17126', '1', '600.0000', '502.0000', '1', 'ROG- 0000009277789-S007409') - trueProd: insert into productos_ventas 
+        values ('40971', '17126', '1', '149.0000', '64.6000', '1', 'SPT-30174345352') - trueProd: insert into productos_ventas 
+        values ('41157', '17126', '1', '65.0000', '49.0400', '1', 'IMPUL') - true

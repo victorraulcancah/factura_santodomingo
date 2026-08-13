@@ -1,0 +1,10 @@
+Venta: 17172, fecha: 2026-02-07
+
+Prod: insert into productos_ventas 
+        values ('40493', '17172', '1', '570.0000', '532.4600', '1', 'ADNI-9MQ5665R50054') - trueProd: insert into productos_ventas 
+        values ('40918', '17172', '1', '220.0000', '148.9800', '1', 'GYG-30176976882') - trueProd: insert into productos_ventas 
+        values ('41080', '17172', '1', '200.0000', '185.0000', '1', 'ROY-T8M0CS07P080SGW') - trueProd: insert into productos_ventas 
+        values ('41184', '17172', '1', '390.0000', '300.0000', '1', 'ROG-RGX16D4266') - trueProd: insert into productos_ventas 
+        values ('40882', '17172', '1', '120.0000', '92.0000', '1', 'CAL-4666MICP600-80+1773') - trueProd: insert into productos_ventas 
+        values ('41083', '17172', '1', '99.0000', '75.7500', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40521', '17172', '1', '229.0000', '218.8300', '1', 'HUMB-TE2415S179525100730') - true

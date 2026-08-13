@@ -1,0 +1,10 @@
+Venta: 16874, fecha: 2026-01-02
+
+Prod: insert into productos_ventas 
+        values ('40548', '16874', '1', '659', '545.0000', '1', 'rog   9KH7011X10055_100-000000263') - trueProd: insert into productos_ventas 
+        values ('40630', '16874', '1', '199', '175.2000', '1', 'tac SN251750056242') - trueProd: insert into productos_ventas 
+        values ('41184', '16874', '1', '349', '250.0000', '1', ' RGX16D4136') - trueProd: insert into productos_ventas 
+        values ('41214', '16874', '1', '219', '160.0000', '1', 'ST20248801885') - trueProd: insert into productos_ventas 
+        values ('41157', '16874', '1', '75', '49.0400', '1', 'im ') - trueProd: insert into productos_ventas 
+        values ('41072', '16874', '1', '219', '201.8700', '1', 'impulso') - trueProd: insert into productos_ventas 
+        values ('40571', '16874', '1', '39', '23.3500', '1', 'imp') - true

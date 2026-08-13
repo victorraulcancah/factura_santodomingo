@@ -1,0 +1,6 @@
+Venta: 15777, fecha: 2025-09-02
+
+Prod: insert into productos_ventas 
+        values ('40602', '15777', '1', '585', '569.5000', '1', 'DEL2060107') - trueProd: insert into productos_ventas 
+        values ('40699', '15777', '1', '210', '202.7500', '1', 'ROY2655P113A') - trueProd: insert into productos_ventas 
+        values ('40540', '15777', '10', '109', '103.7200', '1', 'IMPU') - true

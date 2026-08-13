@@ -1,0 +1,9 @@
+Venta: 16547, fecha: 2025-11-30
+
+Prod: insert into productos_ventas 
+        values ('40583', '16547', '1', '989.0000', '933.3100', '1', 'cdk  9MQ1947R50129') - trueProd: insert into productos_ventas 
+        values ('41008', '16547', '1', '331', '293.4000', '1', 'cdk') - trueProd: insert into productos_ventas 
+        values ('41146', '16547', '1', '350', '327.0350', '1', 'imp  6872') - trueProd: insert into productos_ventas 
+        values ('41105', '16547', '1', '120', '95.0000', '1', 'nu512gzh') - trueProd: insert into productos_ventas 
+        values ('41016', '16547', '1', '110', '95.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('40913', '16547', '1', '99.0000', '74.0000', '1', 'ca') - true

@@ -1,0 +1,8 @@
+Venta: 17209, fecha: 2026-02-13
+
+Prod: insert into productos_ventas 
+        values ('40494', '17209', '1.00', '99.00', '58.3890', '5', '') - trueProd: insert into productos_ventas 
+        values ('40662', '17209', '1.00', '189.00', '135.0000', '5', 'CA 30170') - trueProd: insert into productos_ventas 
+        values ('40971', '17209', '1.00', '121.00', '64.6000', '5', 'ST 46349') - trueProd: insert into productos_ventas 
+        values ('41080', '17209', '1.00', '220.00', '185.0000', '5', 'ROY 885AJ') - trueProd: insert into productos_ventas 
+        values ('41230', '17209', '1.00', '200.00', '170.0000', '5', 'ROC01931') - true

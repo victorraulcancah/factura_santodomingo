@@ -1,0 +1,10 @@
+Venta: 15721, fecha: 2025-08-27
+
+Prod: insert into productos_ventas 
+        values ('40552', '15721', '1', '720.0000', '687.8900', '1', 'DEL 9MQ5381S50093') - trueProd: insert into productos_ventas 
+        values ('40597', '15721', '1', '160.0000', '145.0000', '1', 'ROY 30173375429') - trueProd: insert into productos_ventas 
+        values ('40915', '15721', '1', '130.0000', '111.0000', '1', 'ROY 30175298910') - trueProd: insert into productos_ventas 
+        values ('40956', '15721', '1', '462.0000', '432.3000', '1', 'COMPUDISK SN251260105093') - trueProd: insert into productos_ventas 
+        values ('40882', '15721', '1', '120.0000', '100.0000', '1', 'CALE 4594P80B-600W1886') - trueProd: insert into productos_ventas 
+        values ('40913', '15721', '1', '99.0000', '75.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40521', '15721', '1', '249.0000', '240.0000', '1', 'HUM SNCTM2504161046') - true

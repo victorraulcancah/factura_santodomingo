@@ -1,0 +1,4 @@
+Venta: 16658, fecha: 2025-12-09
+
+Prod: insert into productos_ventas 
+        values ('41158', '16658', '1', '80', '73.5000', '1', 'impu  4592GK10031000') - true

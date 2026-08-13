@@ -1,0 +1,4 @@
+Venta: 16258, fecha: 2025-11-03
+
+Prod: insert into productos_ventas 
+        values ('40521', '16258', '1', '229', '221.8700', '1', 'DEL SNCTM2506011498') - true

@@ -1,0 +1,11 @@
+Venta: 16720, fecha: 2025-12-15
+
+Prod: insert into productos_ventas 
+        values ('40589', '16720', '1', '879', '750.0000', '1', 'SMT U54R5K9404457') - trueProd: insert into productos_ventas 
+        values ('40534', '16720', '1', '399.0000', '317.6300', '1', 'impac  601-7E02-020B2407003168') - trueProd: insert into productos_ventas 
+        values ('41184', '16720', '2', '324.5', '250.0000', '1', 'ROG  RGX16D4139 RGX16D4141') - trueProd: insert into productos_ventas 
+        values ('41111', '16720', '1', '180', '94.0000', '1', ' HU BCFYB7N024012207H24') - trueProd: insert into productos_ventas 
+        values ('40847', '16720', '1', '199.0000', '175.0000', '1', 'TAC AG650SASN243100101') - trueProd: insert into productos_ventas 
+        values ('40886', '16720', '1', '250', '228.3400', '1', 'MAX 3067ZWDA11L8010519000886') - trueProd: insert into productos_ventas 
+        values ('41199', '16720', '1', '629', '600.0000', '1', 'ROY ') - trueProd: insert into productos_ventas 
+        values ('40961', '16720', '1', '1695', '1568.6100', '1', 'CDK  AWV007545') - true

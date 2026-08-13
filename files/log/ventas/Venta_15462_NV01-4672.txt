@@ -1,0 +1,9 @@
+Venta: 15462, fecha: 2025-08-02
+
+Prod: insert into productos_ventas 
+        values ('40662', '15462', '1', '199.0000', '162.5000', '1', 'CORP30043') - trueProd: insert into productos_ventas 
+        values ('40557', '15462', '1', '209.0000', '187.0000', '1', 'ROY19908') - trueProd: insert into productos_ventas 
+        values ('40488', '15462', '1', '92', '72.0000', '1', 'ROG60179') - trueProd: insert into productos_ventas 
+        values ('40723', '15462', '1', '70', '51.5600', '1', 'MAXIMA17878') - trueProd: insert into productos_ventas 
+        values ('40494', '15462', '1', '89.0000', '58.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40882', '15462', '1', '140', '100.0000', '1', 'CAW0572') - true

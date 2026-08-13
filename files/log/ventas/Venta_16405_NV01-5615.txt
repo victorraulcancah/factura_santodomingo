@@ -1,0 +1,11 @@
+Venta: 16405, fecha: 2025-11-18
+
+Prod: insert into productos_ventas 
+        values ('40535', '16405', '1', '520.0000', '505.0000', '1', 'DELT-50260') - trueProd: insert into productos_ventas 
+        values ('41104', '16405', '1', '205.0000', '188.8800', '1', 'DELT-90678') - trueProd: insert into productos_ventas 
+        values ('41113', '16405', '1', '275.0000', '260.0000', '1', 'SEDA-87299N') - trueProd: insert into productos_ventas 
+        values ('41111', '16405', '1', '120.0000', '94.0000', '1', 'HUMB-09K5M') - trueProd: insert into productos_ventas 
+        values ('41016', '16405', '1', '115.0000', '95.0000', '1', 'ROG-10023') - trueProd: insert into productos_ventas 
+        values ('41095', '16405', '1', '124.0000', '91.2200', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40521', '16405', '1', '230.0000', '216.7200', '1', 'DELT-70741') - trueProd: insert into productos_ventas 
+        values ('41116', '16405', '1', '100.0000', '82.0000', '1', 'CAL-HAL') - true

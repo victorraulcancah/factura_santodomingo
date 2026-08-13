@@ -1,0 +1,4 @@
+Venta: 16942, fecha: 2026-01-10
+
+Prod: insert into productos_ventas 
+        values ('41184', '16942', '1', '350.0000', '250.0000', '1', 'ROG-RGX16D4010') - true

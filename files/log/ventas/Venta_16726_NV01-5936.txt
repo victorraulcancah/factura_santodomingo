@@ -1,0 +1,8 @@
+Venta: 16726, fecha: 2025-12-16
+
+Prod: insert into productos_ventas 
+        values ('40549', '16726', '1', '325', '270.0000', '1', 'rog50162') - trueProd: insert into productos_ventas 
+        values ('41080', '16726', '1', '199', '180.0000', '1', 'seda312fvc') - trueProd: insert into productos_ventas 
+        values ('40882', '16726', '1', '120', '97.0000', '1', 'ca2122') - trueProd: insert into productos_ventas 
+        values ('40913', '16726', '1', '99.0000', '70.7700', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40870', '16726', '1', '55', '37.0000', '1', 'ca') - true

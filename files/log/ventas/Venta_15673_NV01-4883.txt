@@ -1,0 +1,11 @@
+Venta: 15673, fecha: 2025-08-23
+
+Prod: insert into productos_ventas 
+        values ('40763', '15673', '1', '659.0000', '521.4600', '1', 'SMT  9MG9528T40184') - trueProd: insert into productos_ventas 
+        values ('40699', '15673', '1', '200.0000', '202.7500', '1', 'ROY QDM423W102652P113A') - trueProd: insert into productos_ventas 
+        values ('40558', '15673', '1', '369.0000', '337.1100', '1', 'DEL 601-7C95-310B2505007444') - trueProd: insert into productos_ventas 
+        values ('40854', '15673', '1', '1530.0000', '1395.4400', '1', 'LP T5YVYZ01P8318K8') - trueProd: insert into productos_ventas 
+        values ('40650', '15673', '1', '121.0000', '115.0000', '1', 'CALE 4594P80B-600W1007') - trueProd: insert into productos_ventas 
+        values ('40539', '15673', '1', '15.0000', '11.0000', '1', 'ACE') - trueProd: insert into productos_ventas 
+        values ('40540', '15673', '1', '125.0000', '103.7200', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40546', '15673', '2', '110.0000', '93.6300', '1', 'SPT  30171591793 | 30171591789') - true

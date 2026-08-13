@@ -1,0 +1,10 @@
+Venta: 16078, fecha: 2025-10-10
+
+Prod: insert into productos_ventas 
+        values ('40552', '16078', '3', '699', '670.4000', '1', 'DEL  9AHE823R50272  9AHE823R50261  9AMT726S50429') - trueProd: insert into productos_ventas 
+        values ('40651', '16078', '3', '279', '248.7200', '1', 'CA  601-7E28-010B2503006605  601-7E28-010B2503006606   601-7E28-010B2503006608') - trueProd: insert into productos_ventas 
+        values ('41024', '16078', '3', '170', '136.5000', '1', 'AMA  42388212512020219  N2387702511001062  N2387702511001061') - trueProd: insert into productos_ventas 
+        values ('40915', '16078', '3', '125', '106.8900', '1', 'MAX  2488  2487  2441') - trueProd: insert into productos_ventas 
+        values ('40516', '16078', '3', '141', '85.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('41036', '16078', '3', '219', '205.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40829', '16078', '1', '0', '42.0000', '1', 'CA 4632MICW7002000') - true

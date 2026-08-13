@@ -1,0 +1,6 @@
+Venta: 15552, fecha: 2025-08-11
+
+Prod: insert into productos_ventas 
+        values ('40579', '15552', '2', '109.0000', '95.0000', '1', 'smt  A4ZJT51002N69E   3   4 ') - trueProd: insert into productos_ventas 
+        values ('40941', '15552', '1', '185.0000', '165.5500', '1', 'max 3067ZP2B12CE010516005576') - trueProd: insert into productos_ventas 
+        values ('40763', '15552', '1', '629', '521.4600', '1', 'smt  9MG5915S40217') - true

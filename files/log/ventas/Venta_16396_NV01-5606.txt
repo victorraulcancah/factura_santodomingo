@@ -1,0 +1,8 @@
+Venta: 16396, fecha: 2025-11-17
+
+Prod: insert into productos_ventas 
+        values ('40533', '16396', '1', '269.0000', '238.0000', '1', 'CMS-50299') - trueProd: insert into productos_ventas 
+        values ('40557', '16396', '1', '209.0000', '175.0000', '1', 'ROY-13638') - trueProd: insert into productos_ventas 
+        values ('40544', '16396', '1', '85.0000', '55.0000', '1', 'HUM-00542') - trueProd: insert into productos_ventas 
+        values ('40494', '16396', '1', '80.0000', '51.0000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('41115', '16396', '1', '86.0000', '70.0000', '1', 'STOCK01104') - true

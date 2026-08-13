@@ -1,0 +1,5 @@
+Venta: 15062, fecha: 2025-06-30
+
+Prod: insert into productos_ventas 
+        values ('40872', '15062', '1', '50.0000', '14.0000', '1', 'BXNW2-KJXGC-PG99M-8MVVR-4X8XG') - trueProd: insert into productos_ventas 
+        values ('40538', '15062', '1', '10', '0.0000', '1', 'formateo a 11 ') - true

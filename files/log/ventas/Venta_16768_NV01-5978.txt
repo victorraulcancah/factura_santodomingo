@@ -1,0 +1,4 @@
+Venta: 16768, fecha: 2025-12-20
+
+Prod: insert into productos_ventas 
+        values ('40634', '16768', '1', '100.0000', '88.0000', '1', 'PEG-997839') - true

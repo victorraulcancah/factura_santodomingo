@@ -1,0 +1,12 @@
+Venta: 17083, fecha: 2026-01-29
+
+Prod: insert into productos_ventas 
+        values ('40549', '17083', '1', '399', '364.0000', '1', 'ROY 9MU9145W50153') - trueProd: insert into productos_ventas 
+        values ('40557', '17083', '1', '205', '182.5750', '1', 'ADNI 601-7C96-120B2506006448') - trueProd: insert into productos_ventas 
+        values ('40489', '17083', '1', '405', '305.0000', '1', 'MICROB S006488') - trueProd: insert into productos_ventas 
+        values ('41200', '17083', '1', '229', '188.0000', '1', 'LP 4P0921996836') - trueProd: insert into productos_ventas 
+        values ('41193', '17083', '1', '645', '583.2100', '1', 'SERC A9V019154') - trueProd: insert into productos_ventas 
+        values ('40882', '17083', '1', '120', '92.0000', '1', 'IMPUL 4666MICP600-80+2271') - trueProd: insert into productos_ventas 
+        values ('41188', '17083', '1', '199', '170.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40521', '17083', '1', '229', '195.3200', '1', 'COMPVI TE2415S173825100143') - trueProd: insert into productos_ventas 
+        values ('40563', '17083', '1', '57', '49.8500', '1', 'DEL ') - true

@@ -1,0 +1,8 @@
+Venta: 17150, fecha: 2026-02-04
+
+Prod: insert into productos_ventas 
+        values ('40602', '17150', '1', '689.0000', '656.0000', '1', 'SEDA-9MQ8539S50358') - trueProd: insert into productos_ventas 
+        values ('40723', '17150', '1', '220.0000', '190.0000', '1', 'LP-30172422986') - trueProd: insert into productos_ventas 
+        values ('41080', '17150', '1', '205.0000', '185.0000', '1', 'ROY-T8M0CS07P082YZF') - trueProd: insert into productos_ventas 
+        values ('41115', '17150', '1', '105.0000', '70.0000', '1', 'DANY-S35ENA0J975459') - trueProd: insert into productos_ventas 
+        values ('40494', '17150', '1', '80.0000', '50.3000', '1', 'IMPUL') - true

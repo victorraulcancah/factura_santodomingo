@@ -1,0 +1,16 @@
+Venta: 15492, fecha: 2025-08-05
+
+Prod: insert into productos_ventas 
+        values ('40762', '15492', '8', '619', '582.0700', '1', 'corp- U5B66L2702504-X504F418 U5VK302200190-X504G636 U5K25E2500253-X504G350 U5VK302200069-X504G636 U577FH1102151-X504F608 U5VK302200538-X504G636 U577FH1100589-X504F608 U5KX231900942-X504G048') - trueProd: insert into productos_ventas 
+        values ('40934', '15492', '8', '279', '239.2500', '1', 'corp601'7E44'040B2501054753 601'7E44'040B2501054706 601'7E44'040B2501054540 601'7E44'040B2412042455 601'7E44'040B2501054707 601'7E44'040B2412042458 601'7E44'040B2412042453 601'7E44'040B2412042456') - false 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '7E44'040B2501054753 601'7E44'040B2501054706 601'7E44'040B2501054540 601'7E44'040' at line 2
+
+
+Prod: insert into productos_ventas 
+        values ('40723', '15492', '8', '69', '52.5000', '1', 'roy') - trueProd: insert into productos_ventas 
+        values ('40918', '15492', '8', '120.0000', '108.6900', '1', 'maxima') - trueProd: insert into productos_ventas 
+        values ('40494', '15492', '8', '79', '58.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40572', '15492', '8', '29', '15.0000', '1', 'roy') - trueProd: insert into productos_ventas 
+        values ('40543', '15492', '8', '55', '38.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40521', '15492', '8', '250', '240.0000', '1', 'HUMBER') - trueProd: insert into productos_ventas 
+        values ('40909', '15492', '1', '225', '217.0000', '1', 'CA') - true

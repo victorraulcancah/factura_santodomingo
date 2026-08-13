@@ -1,0 +1,14 @@
+Venta: 14827, fecha: 2025-06-03
+
+Prod: insert into productos_ventas 
+        values ('40551', '14827', '1', '470', '420.0000', '1', 'EDUX328M566') - trueProd: insert into productos_ventas 
+        values ('40675', '14827', '1', '355', '330.0000', '1', 'CA3000669') - trueProd: insert into productos_ventas 
+        values ('40579', '14827', '2', '125', '95.0000', '1', 'SMTH4M4E3200C16') - trueProd: insert into productos_ventas 
+        values ('40565', '14827', '1', '230', '200.0000', '1', 'PARKER803346') - trueProd: insert into productos_ventas 
+        values ('40540', '14827', '1', '130.0000', '110.0000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40729', '14827', '1', '985', '911.8960', '1', 'LP410001443') - trueProd: insert into productos_ventas 
+        values ('40714', '14827', '1', '150', '125.0000', '1', 'CADKPM') - trueProd: insert into productos_ventas 
+        values ('40638', '14827', '1', '75', '56.5000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40654', '14827', '1', '25', '14.6000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40792', '14827', '1', '285', '265.0000', '1', 'CA2401S24K102626') - trueProd: insert into productos_ventas 
+        values ('40609', '14827', '1', '45.0000', '29.6000', '1', 'IMPULSO') - true

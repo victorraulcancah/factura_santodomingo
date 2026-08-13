@@ -1,0 +1,10 @@
+Venta: 16328, fecha: 2025-11-10
+
+Prod: insert into productos_ventas 
+        values ('40552', '16328', '1', '679', '650.1000', '1', 'DEL 9AMW226S50559') - trueProd: insert into productos_ventas 
+        values ('40651', '16328', '1', '279', '248.0000', '1', 'SEDA 601-7E28-010B2503006298') - trueProd: insert into productos_ventas 
+        values ('41041', '16328', '1', '180', '147.0000', '1', 'ROG A23890025130200227') - trueProd: insert into productos_ventas 
+        values ('41058', '16328', '1', '229', '192.5000', '1', 'SPT 30171981226') - trueProd: insert into productos_ventas 
+        values ('41016', '16328', '1', '114', '100.0000', '1', 'ROG600W2503310263') - trueProd: insert into productos_ventas 
+        values ('41082', '16328', '1', '89', '77.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40521', '16328', '2', '229', '221.8700', '1', 'DEL SNCTM2506011732 | SNCTM2506011517') - true

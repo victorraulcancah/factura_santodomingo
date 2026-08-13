@@ -1,0 +1,4 @@
+Venta: 17040, fecha: 2026-01-23
+
+Prod: insert into productos_ventas 
+        values ('41039', '17040', '1', '1310.0000', '1280.0000', '1', 'ROD-T5YVMX00Y401GWZ') - true

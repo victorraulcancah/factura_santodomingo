@@ -1,0 +1,10 @@
+Venta: 17117, fecha: 2026-01-31
+
+Prod: insert into productos_ventas 
+        values ('40603', '17117', '1', '539', '465.0000', '1', 'ROG 9ANN654U50273') - trueProd: insert into productos_ventas 
+        values ('41008', '17117', '1', '350', '305.0000', '1', 'CALE 601-7E76-020B2505007850') - trueProd: insert into productos_ventas 
+        values ('41108', '17117', '1', '600', '502.0000', '1', 'ROG S007327') - trueProd: insert into productos_ventas 
+        values ('40918', '17117', '1', '240', '148.9800', '1', 'GYG 77676') - trueProd: insert into productos_ventas 
+        values ('40980', '17117', '1', '1700', '1676.0000', '1', 'CALE A9V111674') - trueProd: insert into productos_ventas 
+        values ('40976', '17117', '1', '180', '125.9300', '1', 'IMPUL 4622P80BPW750W0643') - trueProd: insert into productos_ventas 
+        values ('40540', '17117', '1', '140', '90.9560', '1', 'IMPUL') - true

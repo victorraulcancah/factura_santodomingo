@@ -1,0 +1,11 @@
+Venta: 16596, fecha: 2025-12-04
+
+Prod: insert into productos_ventas 
+        values ('40592', '16596', '1', '799', '679.2100', '1', 'smt  U5BH397900175') - trueProd: insert into productos_ventas 
+        values ('41000', '16596', '1', '729', '612.0000', '1', 'smt SN393000000580') - trueProd: insert into productos_ventas 
+        values ('41145', '16596', '2', '350', '329.8700', '1', 'imp   1P3601293415    1P3601294248') - trueProd: insert into productos_ventas 
+        values ('41144', '16596', '1', '580.0000', '441.4700', '1', 'imp 022412120800052') - trueProd: insert into productos_ventas 
+        values ('40991', '16596', '1', '199.0000', '160.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('40479', '16596', '1', '245', '214.4500', '1', 'cdk  G850SASN252700401') - trueProd: insert into productos_ventas 
+        values ('41051', '16596', '1', '1899', '1822.2000', '1', 'pega SN253541035242') - trueProd: insert into productos_ventas 
+        values ('40886', '16596', '1', '249', '228.3400', '1', 'max  3067ZWDA11L8010519000860') - true

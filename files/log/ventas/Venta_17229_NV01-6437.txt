@@ -1,0 +1,10 @@
+Venta: 17229, fecha: 2026-02-15
+
+Prod: insert into productos_ventas 
+        values ('40549', '17229', '1', '369', '343.8000', '1', 'ca 9MV2216X50909') - trueProd: insert into productos_ventas 
+        values ('41080', '17229', '1', '199', '185.0000', '1', 'roy T8M0CS07N987BEZ') - trueProd: insert into productos_ventas 
+        values ('41230', '17229', '2', '199', '170.0000', '1', 'rg 0000007136864-T000542') - trueProd: insert into productos_ventas 
+        values ('40564', '17229', '1', '229', '142.5000', '1', 'lp ASAD35330300549') - trueProd: insert into productos_ventas 
+        values ('40941', '17229', '1', '179', '159.0000', '1', 'pega 3067ZP2B12CE010520002987') - trueProd: insert into productos_ventas 
+        values ('40985', '17229', '1', '750', '705.7100', '1', 'smt  602-V812-129ST2508003708') - trueProd: insert into productos_ventas 
+        values ('41227', '17229', '1', '199', '175.0000', '1', 'rg') - true

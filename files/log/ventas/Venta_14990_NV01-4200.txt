@@ -1,0 +1,6 @@
+Venta: 14990, fecha: 2025-06-23
+
+Prod: insert into productos_ventas 
+        values ('40499', '14990', '1', '1200', '1130.0000', '1', 'peg 18127') - trueProd: insert into productos_ventas 
+        values ('40828', '14990', '1', '150', '106.8000', '1', 'impu  4594p80b 650w0637') - trueProd: insert into productos_ventas 
+        values ('40825', '14990', '1', '25.0000', '15.3000', '1', 'impu') - true

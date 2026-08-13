@@ -1,0 +1,13 @@
+Venta: 16727, fecha: 2025-12-16
+
+Prod: insert into productos_ventas 
+        values ('41173', '16727', '1', '1099', '900.0000', '1', 'FABP 9AFQ794V40261') - trueProd: insert into productos_ventas 
+        values ('40577', '16727', '1', '90', '70.0000', '1', 'GG 10000131880AI252200623') - trueProd: insert into productos_ventas 
+        values ('41077', '16727', '1', '699', '620.0000', '1', 'SMT 601-7E56-010B2412007144') - trueProd: insert into productos_ventas 
+        values ('41175', '16727', '1', '599', '340.0000', '1', 'REMA 30175456622') - trueProd: insert into productos_ventas 
+        values ('40509', '16727', '1', '385', '217.0000', '1', 'SEDA 50026B728399F557') - trueProd: insert into productos_ventas 
+        values ('40959', '16727', '1', '2699', '2409.3400', '1', 'CDK SN252241067594') - trueProd: insert into productos_ventas 
+        values ('40919', '16727', '1', '230', '202.9900', '1', 'CDK G750SASN252700863') - trueProd: insert into productos_ventas 
+        values ('41188', '16727', '1', '199.0000', '170.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40521', '16727', '1', '230', '209.4000', '1', 'DEL TE2415S129625082593') - trueProd: insert into productos_ventas 
+        values ('40634', '16727', '1', '90', '88.0000', '1', 'PEG 7833') - true

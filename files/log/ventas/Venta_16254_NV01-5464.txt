@@ -1,0 +1,12 @@
+Venta: 16254, fecha: 2025-11-02
+
+Prod: insert into productos_ventas 
+        values ('40708', '16254', '1', '539.0000', '516.6700', '1', 'DEL U5HH132603496') - trueProd: insert into productos_ventas 
+        values ('41064', '16254', '1', '299.0000', '279.0000', '1', 'SEDA H5M0XB071726') - trueProd: insert into productos_ventas 
+        values ('41041', '16254', '1', '180', '147.0000', '1', 'ROG A23890025130200159') - trueProd: insert into productos_ventas 
+        values ('40918', '16254', '1', '123', '108.3100', '1', 'MAX 30176976726') - trueProd: insert into productos_ventas 
+        values ('40531', '16254', '1', '709', '640.0000', '1', 'SMT SN252101023985') - trueProd: insert into productos_ventas 
+        values ('41016', '16254', '1', '140', '100.0000', '1', 'ROG600W2503310224') - trueProd: insert into productos_ventas 
+        values ('40913', '16254', '1', '109', '75.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('41072', '16254', '1', '249', '201.8700', '1', 'IMPU 4664DG24FC-1000480') - trueProd: insert into productos_ventas 
+        values ('40946', '16254', '1', '110', '90.0000', '1', 'ROY') - true

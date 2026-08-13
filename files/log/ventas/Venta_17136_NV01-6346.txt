@@ -1,0 +1,6 @@
+Venta: 17136, fecha: 2026-02-02
+
+Prod: insert into productos_ventas 
+        values ('40493', '17136', '1', '578.0000', '535.0000', '1', 'CAL-9MN9519Q50186') - trueProd: insert into productos_ventas 
+        values ('40630', '17136', '1', '210.0000', '190.0000', '1', 'ROY-SN250960029059') - trueProd: insert into productos_ventas 
+        values ('41188', '17136', '1', '199.0000', '170.0000', '1', 'ROG') - true

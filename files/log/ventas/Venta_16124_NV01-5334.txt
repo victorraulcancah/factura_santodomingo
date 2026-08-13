@@ -1,0 +1,8 @@
+Venta: 16124, fecha: 2025-10-16
+
+Prod: insert into productos_ventas 
+        values ('40991', '16124', '16', '170', '160.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('40538', '16124', '1', '13', '0.0000', '1', 'sha') - trueProd: insert into productos_ventas 
+        values ('40540', '16124', '1', '112', '103.7200', '1', 'im') - trueProd: insert into productos_ventas 
+        values ('40586', '16124', '1', '750', '680.0000', '1', 'LBS  50045') - trueProd: insert into productos_ventas 
+        values ('40494', '16124', '1', '63', '51.0000', '1', 'IMP') - true

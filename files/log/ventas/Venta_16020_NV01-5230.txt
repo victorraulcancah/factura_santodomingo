@@ -1,0 +1,9 @@
+Venta: 16020, fecha: 2025-10-01
+
+Prod: insert into productos_ventas 
+        values ('40552', '16020', '1', '695', '681.2700', '1', 'DEL 9MQ5557S50018') - trueProd: insert into productos_ventas 
+        values ('41024', '16020', '1', '170', '136.5000', '1', 'AMA 42388212512020021') - trueProd: insert into productos_ventas 
+        values ('40734', '16020', '1', '90', '77.0000', '1', 'MAX 30174792445') - trueProd: insert into productos_ventas 
+        values ('40651', '16020', '1', '285', '248.0000', '1', 'CALE 601-7E28-010B2503007824') - trueProd: insert into productos_ventas 
+        values ('40494', '16020', '1', '90', '58.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40906', '16020', '1', '270', '245.9100', '1', 'SPT TE2417S169025070689') - true

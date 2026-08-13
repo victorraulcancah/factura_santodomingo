@@ -1,0 +1,4 @@
+Venta: 16745, fecha: 2025-12-18
+
+Prod: insert into productos_ventas 
+        values ('40647', '16745', '1', '450.0000', '296.7000', '1', 'MRLEN 9KJ6143Q20399') - true

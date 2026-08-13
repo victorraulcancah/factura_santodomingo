@@ -1,0 +1,11 @@
+Venta: 15946, fecha: 2025-09-19
+
+Prod: insert into productos_ventas 
+        values ('40535', '15946', '1', '560', '530.0000', '1', 'del 9AMT439R50050') - trueProd: insert into productos_ventas 
+        values ('40651', '15946', '1', '267', '248.0000', '1', 'ca  601-7E28-010B2503007835') - trueProd: insert into productos_ventas 
+        values ('40587', '15946', '1', '180', '151.2500', '1', 'rog EF2503130382648') - trueProd: insert into productos_ventas 
+        values ('40882', '15946', '1', '133', '102.0000', '1', 'ca 4594P80B-600W0871') - trueProd: insert into productos_ventas 
+        values ('40585', '15946', '1', '230.0000', '183.0000', '1', 'rdr 4P0821090551') - trueProd: insert into productos_ventas 
+        values ('40973', '15946', '1', '320.0000', '289.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40563', '15946', '1', '59', '55.0000', '1', 'hu') - trueProd: insert into productos_ventas 
+        values ('40913', '15946', '1', '99.0000', '75.0000', '1', 'ca') - true

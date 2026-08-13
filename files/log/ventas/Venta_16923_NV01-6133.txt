@@ -1,0 +1,4 @@
+Venta: 16923, fecha: 2026-01-06
+
+Prod: insert into productos_ventas 
+        values ('40521', '16923', '1', '225', '225.0000', '1', 'lpTE2415S171825081172') - true

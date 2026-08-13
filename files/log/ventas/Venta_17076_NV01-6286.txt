@@ -1,0 +1,4 @@
+Venta: 17076, fecha: 2026-01-29
+
+Prod: insert into productos_ventas 
+        values ('40538', '17076', '1', '30.0000', '0.0000', '1', 'POR INSTALCION DE OFFICE Y ADOBE') - true

@@ -1,0 +1,11 @@
+Venta: 16930, fecha: 2026-01-08
+
+Prod: insert into productos_ventas 
+        values ('40804', '16930', '1', '490.0000', '449.0000', '1', 'PEG-WK301742') - trueProd: insert into productos_ventas 
+        values ('41184', '16930', '1', '360.0000', '250.0000', '1', 'RG-X16D4132') - trueProd: insert into productos_ventas 
+        values ('41174', '16930', '1', '230.0000', '200.0000', '1', 'REMA-24800601') - trueProd: insert into productos_ventas 
+        values ('41214', '16930', '1', '229.0000', '160.0000', '1', 'BYTE-880192') - trueProd: insert into productos_ventas 
+        values ('40882', '16930', '1', '140.0000', '92.0000', '1', 'CAL-80+1419') - trueProd: insert into productos_ventas 
+        values ('41207', '16930', '1', '100.0000', '68.3400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40532', '16930', '1', '750.0000', '685.0000', '1', 'ROY-101448') - trueProd: insert into productos_ventas 
+        values ('40521', '16930', '1', '229.0000', '225.0000', '1', 'HUMB-5081071') - true

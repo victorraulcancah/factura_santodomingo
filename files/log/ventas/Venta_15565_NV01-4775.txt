@@ -1,0 +1,5 @@
+Venta: 15565, fecha: 2025-08-12
+
+Prod: insert into productos_ventas 
+        values ('40945', '15565', '1', '389.0000', '365.0000', '1', 'CALE 4613MG27FF-1800027') - trueProd: insert into productos_ventas 
+        values ('40622', '15565', '1', '25.0000', '15.0000', '1', 'FLUSH') - true

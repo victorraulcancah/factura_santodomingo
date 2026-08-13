@@ -1,0 +1,8 @@
+Venta: 15228, fecha: 2025-07-15
+
+Prod: insert into productos_ventas 
+        values ('40583', '15228', '1', '1060', '1013.8500', '1', 'DEL50333') - trueProd: insert into productos_ventas 
+        values ('40812', '15228', '1', '365', '350.0000', '1', 'SMTH80011-80012') - trueProd: insert into productos_ventas 
+        values ('40491', '15228', '1', '307', '271.0000', '1', 'DEL3008866') - trueProd: insert into productos_ventas 
+        values ('40877', '15228', '1', '119.0000', '77.0300', '1', 'HALION') - trueProd: insert into productos_ventas 
+        values ('40882', '15228', '1', '129.0000', '103.5000', '1', 'CA') - true

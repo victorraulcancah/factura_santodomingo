@@ -1,0 +1,10 @@
+Venta: 15855, fecha: 2025-09-10
+
+Prod: insert into productos_ventas 
+        values ('40602', '15855', '1', '589.0000', '569.5000', '1', 'DEL 9ML3880N50105') - trueProd: insert into productos_ventas 
+        values ('40546', '15855', '1', '130.0000', '105.0000', '1', 'TAC 30173286171') - trueProd: insert into productos_ventas 
+        values ('40734', '15855', '1', '100.0000', '77.0000', '1', 'TAC 25027723') - trueProd: insert into productos_ventas 
+        values ('40557', '15855', '1', '206.0000', '186.0000', '1', 'SEDA 601-7C96-120B2505029985') - trueProd: insert into productos_ventas 
+        values ('40494', '15855', '1', '95.0000', '61.5000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40862', '15855', '1', '360.0000', '320.0000', '1', 'HUM SNCTM2506040871') - trueProd: insert into productos_ventas 
+        values ('40538', '15855', '1', '60.0000', '0.0000', '1', 'MANTENIMIENTO') - true

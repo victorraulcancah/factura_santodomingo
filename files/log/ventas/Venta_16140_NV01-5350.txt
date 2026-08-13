@@ -1,0 +1,11 @@
+Venta: 16140, fecha: 2025-10-18
+
+Prod: insert into productos_ventas 
+        values ('40785', '16140', '1', '789', '700.0000', '1', 'SMT 9AFW795W40128') - trueProd: insert into productos_ventas 
+        values ('41019', '16140', '1', '89', '65.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40651', '16140', '1', '269', '248.0000', '1', 'CALE 601-7E28-010B2503006722') - trueProd: insert into productos_ventas 
+        values ('41041', '16140', '2', '180', '147.0000', '1', 'ROG 42388212513010239 | 42388212513010240') - trueProd: insert into productos_ventas 
+        values ('40509', '16140', '1', '245', '212.4100', '1', 'DEL 50026B728393C30C') - trueProd: insert into productos_ventas 
+        values ('41042', '16140', '1', '1879', '1799.0000', '1', 'PEG 602-V535-090B2508007127') - trueProd: insert into productos_ventas 
+        values ('40847', '16140', '1', '214', '175.0000', '1', 'TAC AG650SASN243600128') - trueProd: insert into productos_ventas 
+        values ('40991', '16140', '1', '199.0000', '160.0000', '1', 'ROG') - true

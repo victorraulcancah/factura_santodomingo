@@ -1,0 +1,12 @@
+Venta: 17013, fecha: 2026-01-19
+
+Prod: insert into productos_ventas 
+        values ('40603', '17013', '1', '512.0000', '465.0000', '1', 'ROG50244') - trueProd: insert into productos_ventas 
+        values ('41166', '17013', '1', '1722', '1568.6100', '1', 'CDK1D660BKJ') - trueProd: insert into productos_ventas 
+        values ('41241', '17013', '1', '699.0000', '591.0000', '1', 'ADNY20109') - trueProd: insert into productos_ventas 
+        values ('40699', '17013', '1', '399', '359.0000', '1', 'REMA101911P3A') - trueProd: insert into productos_ventas 
+        values ('41008', '17013', '1', '369.0000', '300.9000', '1', 'IMPACT3531') - trueProd: insert into productos_ventas 
+        values ('40976', '17013', '1', '179.0000', '125.9300', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('41207', '17013', '1', '139', '68.3400', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40521', '17013', '1', '229', '225.0000', '1', 'HUMBERT0996') - trueProd: insert into productos_ventas 
+        values ('40563', '17013', '1', '60', '49.8500', '1', 'DEL') - true

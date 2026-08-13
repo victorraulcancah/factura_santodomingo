@@ -1,0 +1,12 @@
+Venta: 15260, fecha: 2025-07-17
+
+Prod: insert into productos_ventas 
+        values ('40852', '15260', '1', '465', '215.5000', '1', 'SMTH405367') - trueProd: insert into productos_ventas 
+        values ('40711', '15260', '1', '585', '490.0000', '1', 'SMTH35304') - trueProd: insert into productos_ventas 
+        values ('40597', '15260', '1', '155', '150.0000', '1', 'CA19441') - trueProd: insert into productos_ventas 
+        values ('40699', '15260', '1', '230', '205.0000', '1', 'ROY2864P113A') - trueProd: insert into productos_ventas 
+        values ('40882', '15260', '1', '150', '100.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40885', '15260', '1', '215', '170.0000', '1', 'PEGA') - trueProd: insert into productos_ventas 
+        values ('40499', '15260', '1', '1150', '1159.2930', '1', 'MAXI5003708') - trueProd: insert into productos_ventas 
+        values ('40536', '15260', '1', '75', '66.0000', '1', 'PEGA38205') - trueProd: insert into productos_ventas 
+        values ('40539', '15260', '1', '0', '11.0000', '1', 'REGALO') - true

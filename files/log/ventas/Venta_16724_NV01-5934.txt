@@ -1,0 +1,10 @@
+Venta: 16724, fecha: 2025-12-16
+
+Prod: insert into productos_ventas 
+        values ('40583', '16724', '1', '1000', '932.0500', '1', 'CMS 9MQ5700R50441') - trueProd: insert into productos_ventas 
+        values ('41008', '16724', '1', '350', '286.0000', '1', 'CDK 601-7E76-020B2505007860') - trueProd: insert into productos_ventas 
+        values ('41175', '16724', '1', '699', '340.0000', '1', 'REMA 30175456618') - trueProd: insert into productos_ventas 
+        values ('41105', '16724', '1', '140', '95.0000', '1', 'HUM BTKA21541R7D512A') - trueProd: insert into productos_ventas 
+        values ('40882', '16724', '1', '120', '97.0000', '1', 'CALE 4666MICP600-80+2126') - trueProd: insert into productos_ventas 
+        values ('40913', '16724', '1', '90', '70.7700', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40521', '16724', '1', '230', '209.4000', '1', 'DEL TE2415S129625081222') - true

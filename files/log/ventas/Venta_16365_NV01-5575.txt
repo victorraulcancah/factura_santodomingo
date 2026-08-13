@@ -1,0 +1,11 @@
+Venta: 16365, fecha: 2025-11-14
+
+Prod: insert into productos_ventas 
+        values ('40586', '16365', '1', '789', '650.0000', '1', 'IMPORT 50282') - trueProd: insert into productos_ventas 
+        values ('41060', '16365', '1', '535', '610.0000', '1', 'CMS SN251150029653') - trueProd: insert into productos_ventas 
+        values ('40577', '16365', '1', '90', '70.5000', '1', 'GG 10000131880AI252200138') - trueProd: insert into productos_ventas 
+        values ('40587', '16365', '2', '200', '153.0000', '1', 'SMT EF2503130382463 | EF2503130382463') - trueProd: insert into productos_ventas 
+        values ('41058', '16365', '1', '235', '192.5000', '1', 'SPT 30171981089') - trueProd: insert into productos_ventas 
+        values ('41084', '16365', '1', '1349', '1248.0000', '1', 'CDK SN253001031607') - trueProd: insert into productos_ventas 
+        values ('40976', '16365', '1', '179.0000', '140.0000', '1', 'IMPU 4622P80BA750W0473') - trueProd: insert into productos_ventas 
+        values ('40991', '16365', '1', '193', '160.0000', '1', 'ROG') - true

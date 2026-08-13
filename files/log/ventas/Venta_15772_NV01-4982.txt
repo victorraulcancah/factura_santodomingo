@@ -1,0 +1,13 @@
+Venta: 15772, fecha: 2025-09-01
+
+Prod: insert into productos_ventas 
+        values ('40708', '15772', '1', '569', '531.0000', '1', 'MILI2802181') - trueProd: insert into productos_ventas 
+        values ('40577', '15772', '1', '100', '80.2617', '1', 'GG') - trueProd: insert into productos_ventas 
+        values ('40740', '15772', '1', '400', '405.0000', '1', 'ROY100680') - trueProd: insert into productos_ventas 
+        values ('40907', '15772', '1', '350', '300.0000', '1', 'SMTHC649-C807') - trueProd: insert into productos_ventas 
+        values ('40915', '15772', '1', '135', '111.0000', '1', 'ROY8905') - trueProd: insert into productos_ventas 
+        values ('40540', '15772', '1', '119', '103.7200', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40847', '15772', '1', '199.0000', '175.0000', '1', 'TACT3600023') - trueProd: insert into productos_ventas 
+        values ('40854', '15772', '1', '1430', '1395.4400', '1', 'CORP3557DB') - trueProd: insert into productos_ventas 
+        values ('40536', '15772', '1', '79', '66.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40984', '15772', '1', '199.0000', '180.0000', '1', 'TACT') - true

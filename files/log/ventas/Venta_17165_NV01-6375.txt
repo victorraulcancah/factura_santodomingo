@@ -1,0 +1,10 @@
+Venta: 17165, fecha: 2026-02-06
+
+Prod: insert into productos_ventas 
+        values ('40552', '17165', '1', '665', '608.7700', '1', 'DEL50395') - trueProd: insert into productos_ventas 
+        values ('41278', '17165', '1', '350', '306.0000', '1', 'ROY78768L3A') - trueProd: insert into productos_ventas 
+        values ('41108', '17165', '1', '605', '502.0000', '1', 'ROGS006575') - trueProd: insert into productos_ventas 
+        values ('40918', '17165', '1', '215', '148.9800', '1', 'G&G76851') - trueProd: insert into productos_ventas 
+        values ('41227', '17165', '1', '199', '175.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40882', '17165', '1', '130', '92.0000', '1', 'CA1776') - trueProd: insert into productos_ventas 
+        values ('41151', '17165', '1', '325', '302.0000', '1', 'CA') - true

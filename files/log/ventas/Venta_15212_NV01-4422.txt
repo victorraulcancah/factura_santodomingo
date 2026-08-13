@@ -1,0 +1,8 @@
+Venta: 15212, fecha: 2025-07-14
+
+Prod: insert into productos_ventas 
+        values ('40529', '15212', '2', '270', '229.2600', '1', 'del  40438 -  40189') - trueProd: insert into productos_ventas 
+        values ('40557', '15212', '2', '210', '189.5000', '1', 'del   16776  -  16637') - trueProd: insert into productos_ventas 
+        values ('40723', '15212', '1', '60', '51.5600', '1', 'max 7863') - trueProd: insert into productos_ventas 
+        values ('40540', '15212', '1', '120', '103.7200', '1', 'imp') - trueProd: insert into productos_ventas 
+        values ('40538', '15212', '1', '35', '0.0000', '1', 'traslado ensamble') - true

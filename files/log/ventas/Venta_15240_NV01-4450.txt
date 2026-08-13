@@ -1,0 +1,5 @@
+Venta: 15240, fecha: 2025-07-16
+
+Prod: insert into productos_ventas 
+        values ('40521', '15240', '2', '255.0000', '246.5000', '1', 'TACT-40960  CMS-01146') - trueProd: insert into productos_ventas 
+        values ('40862', '15240', '3', '349.0000', '318.0500', '1', 'DELT - 70053 - 70872 - 70215') - true

@@ -1,0 +1,10 @@
+Venta: 16709, fecha: 2025-12-14
+
+Prod: insert into productos_ventas 
+        values ('40602', '16709', '1', '690', '561.0800', '1', 'adny60141') - trueProd: insert into productos_ventas 
+        values ('40657', '16709', '1', '360', '330.0000', '1', 'rodr96332') - trueProd: insert into productos_ventas 
+        values ('40545', '16709', '2', '360', '300.0000', '1', 'LP6856-6833') - trueProd: insert into productos_ventas 
+        values ('40565', '16709', '1', '320', '250.0000', '1', 'ADNY802235') - trueProd: insert into productos_ventas 
+        values ('40933', '16709', '1', '190', '165.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40828', '16709', '1', '160', '101.5000', '1', 'ca0208') - trueProd: insert into productos_ventas 
+        values ('40944', '16709', '1', '460', '418.0000', '1', 'corp60391') - true

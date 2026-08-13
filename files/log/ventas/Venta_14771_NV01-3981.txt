@@ -1,0 +1,7 @@
+Venta: 14771, fecha: 2025-05-27
+
+Prod: insert into productos_ventas 
+        values ('40592', '14771', '9', '799', '720.0000', '1', 'wilder-joaquin-(6302306-6802342 ) / smth(502206-3589-3068-3068-1470-503646 - (LAPS703579)') - trueProd: insert into productos_ventas 
+        values ('40494', '14771', '9', '79', '65.0000', '1', 'humb') - trueProd: insert into productos_ventas 
+        values ('40546', '14771', '9', '98', '93.4000', '1', 'maxima') - trueProd: insert into productos_ventas 
+        values ('40538', '14771', '1', '50', '0.0000', '1', '1') - true

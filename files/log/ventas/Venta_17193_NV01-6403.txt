@@ -1,0 +1,8 @@
+Venta: 17193, fecha: 2026-02-09
+
+Prod: insert into productos_ventas 
+        values ('41008', '17193', '1', '340', '305.0000', '1', 'CA7787') - trueProd: insert into productos_ventas 
+        values ('41108', '17193', '1', '600', '502.0000', '1', 'ROG6434') - trueProd: insert into productos_ventas 
+        values ('41115', '17193', '1', '130', '70.0000', '1', 'DIOSES5672') - trueProd: insert into productos_ventas 
+        values ('40494', '17193', '1', '89', '58.3890', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40535', '17193', '1', '540', '504.7700', '1', 'DEL50497') - true

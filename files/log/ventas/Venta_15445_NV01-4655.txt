@@ -1,0 +1,9 @@
+Venta: 15445, fecha: 2025-08-01
+
+Prod: insert into productos_ventas 
+        values ('40552', '15445', '1', '730.0000', '684.8000', '1', 'DELT-9ACI658M40028') - trueProd: insert into productos_ventas 
+        values ('40918', '15445', '1', '120.0000', '108.6900', '1', 'MAXI-3368868') - trueProd: insert into productos_ventas 
+        values ('40597', '15445', '1', '170.0000', '143.0000', '1', 'ROY-30173374464') - trueProd: insert into productos_ventas 
+        values ('40882', '15445', '1', '115.0000', '100.0000', '1', 'CAL-4594P80B-600W1282') - trueProd: insert into productos_ventas 
+        values ('40760', '15445', '1', '436.0000', '400.0000', '1', 'CAL-SN243700008199') - trueProd: insert into productos_ventas 
+        values ('40913', '15445', '1', '99.0000', '79.0000', '1', 'CAL') - true

@@ -1,0 +1,4 @@
+Venta: 15636, fecha: 2025-08-19
+
+Prod: insert into productos_ventas 
+        values ('40538', '15636', '1', '50', '0.0000', '1', '2 fans RGB FLUSHHHH') - true

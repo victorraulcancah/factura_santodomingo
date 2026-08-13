@@ -1,0 +1,11 @@
+Venta: 14817, fecha: 2025-06-01
+
+Prod: insert into productos_ventas 
+        values ('40583', '14817', '1', '1105', '1058.0000', '1', 'corp10162') - trueProd: insert into productos_ventas 
+        values ('40491', '14817', '1', '325', '290.0000', '1', 'tact3007508') - trueProd: insert into productos_ventas 
+        values ('40774', '14817', '1', '180', '150.0000', '1', 'parker643bd9') - trueProd: insert into productos_ventas 
+        values ('40596', '14817', '1', '155.0000', '122.2500', '1', 'roy101908p') - trueProd: insert into productos_ventas 
+        values ('40505', '14817', '1', '125', '100.9000', '1', 'impulso') - trueProd: insert into productos_ventas 
+        values ('40714', '14817', '1', '155', '125.0000', '1', 'ca250125psdk') - trueProd: insert into productos_ventas 
+        values ('40521', '14817', '1', '255', '243.8400', '1', 'DEL90254') - trueProd: insert into productos_ventas 
+        values ('40543', '14817', '1', '50', '36.8850', '1', 'impac') - true

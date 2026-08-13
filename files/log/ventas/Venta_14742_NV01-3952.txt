@@ -1,0 +1,6 @@
+Venta: 14742, fecha: 2025-05-24
+
+Prod: insert into productos_ventas 
+        values ('40777', '14742', '1', '75.0000', '57.0000', '1', '') - trueProd: insert into productos_ventas 
+        values ('40699', '14742', '1', '230.0000', '203.0000', '1', 'dante-7721') - trueProd: insert into productos_ventas 
+        values ('40538', '14742', '1', '50.0000', '0.0000', '1', 'ace') - true

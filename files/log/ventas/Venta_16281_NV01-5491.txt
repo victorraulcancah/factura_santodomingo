@@ -1,0 +1,15 @@
+Venta: 16281, fecha: 2025-11-06
+
+Prod: insert into productos_ventas 
+        values ('40592', '16281', '1', '749', '642.1400', '1', 'SMT U56V5D3401389') - trueProd: insert into productos_ventas 
+        values ('41029', '16281', '1', '419', '363.3700', '1', 'CMS SN251260105207') - trueProd: insert into productos_ventas 
+        values ('41021', '16281', '1', '400', '350.0000', '1', 'SMT N2388232512001114 | N2388232512001115') - trueProd: insert into productos_ventas 
+        values ('40509', '16281', '1', '245', '217.0000', '1', 'SEDA 50026B728399F436') - trueProd: insert into productos_ventas 
+        values ('40988', '16281', '1', '1329', '1139.4900', '1', 'MAX 602-V537-38ST2507022430') - trueProd: insert into productos_ventas 
+        values ('40886', '16281', '1', '249', '228.3400', '1', 'MAX 3067ZWDA11L8010519000857') - trueProd: insert into productos_ventas 
+        values ('40976', '16281', '1', '199', '140.0000', '1', 'IMPUL 4622P80BA750W0597') - trueProd: insert into productos_ventas 
+        values ('40991', '16281', '1', '219', '160.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40536', '16281', '1', '79', '67.0000', '1', 'ROY ') - trueProd: insert into productos_ventas 
+        values ('41089', '16281', '1', '690', '641.0000', '1', 'ROY DD4M135300693') - trueProd: insert into productos_ventas 
+        values ('41087', '16281', '1', '42', '32.0000', '1', 'ROY') - trueProd: insert into productos_ventas 
+        values ('41086', '16281', '1', '130', '93.0000', '1', 'CALE') - true

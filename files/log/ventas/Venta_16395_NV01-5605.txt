@@ -1,0 +1,4 @@
+Venta: 16395, fecha: 2025-11-17
+
+Prod: insert into productos_ventas 
+        values ('40602', '16395', '5', '579.0000', '555.7400', '1', 'DEL 9AKY696N50182 | 9ALA030N50262 | 9MN8979Q50354 | 9AKY696N50430 | 9AKY696N50427') - true

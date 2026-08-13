@@ -1,0 +1,10 @@
+Venta: 16450, fecha: 2025-11-22
+
+Prod: insert into productos_ventas 
+        values ('40535', '16450', '1', '529', '500.9400', '1', 'DEL Y984639S50138') - trueProd: insert into productos_ventas 
+        values ('41008', '16450', '1', '329', '306.0000', '1', 'ROY 601-7E76-020B2505004630') - trueProd: insert into productos_ventas 
+        values ('40770', '16450', '1', '280', '249.0000', '1', 'MARLEN 30170219933') - trueProd: insert into productos_ventas 
+        values ('41105', '16450', '1', '132', '95.0000', '1', 'HUM BTKA216105G3512A') - trueProd: insert into productos_ventas 
+        values ('41042', '16450', '1', '1860', '1836.6500', '1', 'CMS 602-V535-61SB2506004632') - trueProd: insert into productos_ventas 
+        values ('40976', '16450', '1', '170', '140.0000', '1', 'TAC 4622P80BA750W0423') - trueProd: insert into productos_ventas 
+        values ('40913', '16450', '1', '99.0000', '72.5000', '1', 'CALE') - true

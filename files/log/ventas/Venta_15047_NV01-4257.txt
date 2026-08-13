@@ -1,0 +1,7 @@
+Venta: 15047, fecha: 2025-06-28
+
+Prod: insert into productos_ventas 
+        values ('40549', '15047', '1', '325', '306.0000', '1', 'LP40245') - trueProd: insert into productos_ventas 
+        values ('40557', '15047', '1', '219', '189.5000', '1', 'MAXI54100') - trueProd: insert into productos_ventas 
+        values ('40723', '15047', '1', '60', '51.5600', '1', 'MAXI7892') - trueProd: insert into productos_ventas 
+        values ('40538', '15047', '1', '16', '0.0000', '1', 'SERTEC') - true

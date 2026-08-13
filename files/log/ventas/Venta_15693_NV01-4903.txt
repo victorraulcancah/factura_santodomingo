@@ -1,0 +1,6 @@
+Venta: 15693, fecha: 2025-08-24
+
+Prod: insert into productos_ventas 
+        values ('40966', '15693', '1', '2635', '2499.0000', '1', 'CAMP2RXEAP') - trueProd: insert into productos_ventas 
+        values ('40908', '15693', '1', '165.0000', '156.0000', '1', 'CA1CD6') - trueProd: insert into productos_ventas 
+        values ('40824', '15693', '1', '0', '6.0000', '1', 'REGALO') - true

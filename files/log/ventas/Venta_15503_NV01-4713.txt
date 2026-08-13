@@ -1,0 +1,11 @@
+Venta: 15503, fecha: 2025-08-06
+
+Prod: insert into productos_ventas 
+        values ('40583', '15503', '1', '1099.0000', '1007.1500', '1', 'DEL 9MQ0963R50210') - trueProd: insert into productos_ventas 
+        values ('40597', '15503', '1', '160.0000', '143.0000', '1', 'ROY 30173374458') - trueProd: insert into productos_ventas 
+        values ('40918', '15503', '1', '120.0000', '108.6900', '1', 'MAX 30173368870') - trueProd: insert into productos_ventas 
+        values ('40491', '15503', '1', '300.0000', '300.0000', '1', 'MARLEN 601-7E28-070B2505003115') - trueProd: insert into productos_ventas 
+        values ('40913', '15503', '1', '100.0000', '79.0000', '1', 'ROY') - trueProd: insert into productos_ventas 
+        values ('40882', '15503', '1', '120.0000', '100.0000', '1', 'CALE BULK') - trueProd: insert into productos_ventas 
+        values ('40521', '15503', '1', '249.0000', '240.0000', '1', 'HUM SNCTM2504160601') - trueProd: insert into productos_ventas 
+        values ('40732', '15503', '1', '220.0000', '183.5000', '1', 'ROY AGC3100X3KRE25011130') - true

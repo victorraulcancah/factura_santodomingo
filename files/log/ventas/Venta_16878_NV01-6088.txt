@@ -1,0 +1,7 @@
+Venta: 16878, fecha: 2026-01-02
+
+Prod: insert into productos_ventas 
+        values ('40561', '16878', '1', '25.0000', '11.9200', '1', 'HAL') - trueProd: insert into productos_ventas 
+        values ('41072', '16878', '1', '215.0000', '201.8700', '1', 'IMPUL-4664DG24FC-1000220') - trueProd: insert into productos_ventas 
+        values ('40825', '16878', '10', '27.0000', '15.3000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40958', '16878', '11', '32.0000', '23.3500', '1', 'IMPUL') - true

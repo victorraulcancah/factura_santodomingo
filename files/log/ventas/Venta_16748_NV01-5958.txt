@@ -1,0 +1,11 @@
+Venta: 16748, fecha: 2025-12-18
+
+Prod: insert into productos_ventas 
+        values ('41204', '16748', '1', '999.0000', '876.7200', '1', 'MK9902149') - trueProd: insert into productos_ventas 
+        values ('40886', '16748', '1', '259', '228.3400', '1', 'MAXI0879') - trueProd: insert into productos_ventas 
+        values ('41117', '16748', '1', '849', '665.0000', '1', 'SMTH8002352') - trueProd: insert into productos_ventas 
+        values ('41146', '16748', '2', '588', '327.0400', '1', 'IMPACT6922-9253') - trueProd: insert into productos_ventas 
+        values ('40565', '16748', '1', '350', '250.0000', '1', 'CDM800214') - trueProd: insert into productos_ventas 
+        values ('41205', '16748', '1', '369', '339.0000', '1', 'CA520854') - trueProd: insert into productos_ventas 
+        values ('41188', '16748', '1', '199.0000', '170.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41078', '16748', '1', '3999', '3557.4600', '1', 'MK800011990') - true

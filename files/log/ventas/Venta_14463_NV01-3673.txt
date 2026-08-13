@@ -1,0 +1,8 @@
+Venta: 14463, fecha: 2025-04-26
+
+Prod: insert into productos_ventas 
+        values ('40540', '14463', '1', '139', '107.7000', '1', '') - trueProd: insert into productos_ventas 
+        values ('40703', '14463', '1', '132', '115.0000', '1', 'CA  1383') - trueProd: insert into productos_ventas 
+        values ('40556', '14463', '1', '139', '111.0500', '1', 'HA    A00732') - trueProd: insert into productos_ventas 
+        values ('40532', '14463', '1', '760', '736.0000', '1', 'H I M   1007317') - trueProd: insert into productos_ventas 
+        values ('40538', '14463', '1', '50', '0.0000', '1', '123') - true

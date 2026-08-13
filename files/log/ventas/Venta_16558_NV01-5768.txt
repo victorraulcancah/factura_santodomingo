@@ -1,0 +1,10 @@
+Venta: 16558, fecha: 2025-12-01
+
+Prod: insert into productos_ventas 
+        values ('40552', '16558', '1', '690', '654.1900', '1', 'CDK 9MQ7854S50023') - trueProd: insert into productos_ventas 
+        values ('41008', '16558', '1', '339', '306.0000', '1', 'ROY 601-7E76-020B2505004649') - trueProd: insert into productos_ventas 
+        values ('41145', '16558', '2', '364.5', '328.0000', '1', 'IMPCT 1P3601293797 | 1P3601293973') - trueProd: insert into productos_ventas 
+        values ('41111', '16558', '1', '145', '94.0000', '1', 'HUM BCFSBBN40051060B31E') - trueProd: insert into productos_ventas 
+        values ('41016', '16558', '1', '139', '95.0000', '1', 'ROG600W2503310248') - trueProd: insert into productos_ventas 
+        values ('41082', '16558', '1', '119', '77.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40521', '16558', '2', '229', '216.7200', '1', 'DEL TE2415S1158A25070696 | TE2415S1158A25070517') - true

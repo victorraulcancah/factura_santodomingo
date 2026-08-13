@@ -1,0 +1,9 @@
+Venta: 16064, fecha: 2025-10-08
+
+Prod: insert into productos_ventas 
+        values ('40550', '16064', '1', '500', '500.0000', '1', 'EDU 0340') - trueProd: insert into productos_ventas 
+        values ('40547', '16064', '2', '60', '54.7100', '1', 'MAX 30174011696 | 30174011697') - trueProd: insert into productos_ventas 
+        values ('40915', '16064', '1', '117', '106.8900', '1', 'MAX 30174790443') - trueProd: insert into productos_ventas 
+        values ('40557', '16064', '1', '230', '183.0000', '1', 'ROY 601-7C96-120B2503086204') - trueProd: insert into productos_ventas 
+        values ('40577', '16064', '1', '95', '80.2617', '1', 'GG 10000131880AH251801327') - trueProd: insert into productos_ventas 
+        values ('40729', '16064', '1', '899', '830.4000', '1', 'LP 602-V809-2885SD2502008335') - true

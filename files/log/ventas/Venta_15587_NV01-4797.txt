@@ -1,0 +1,10 @@
+Venta: 15587, fecha: 2025-08-14
+
+Prod: insert into productos_ventas 
+        values ('40762', '15587', '1', '660.0000', '589.5800', '1', 'CMS-Q501700') - trueProd: insert into productos_ventas 
+        values ('40546', '15587', '1', '115.0000', '93.6300', '1', 'SPT-591723') - trueProd: insert into productos_ventas 
+        values ('40723', '15587', '1', '60.0000', '52.5000', '1', 'ROY-11436') - trueProd: insert into productos_ventas 
+        values ('40918', '15587', '1', '140.0000', '108.6900', '1', 'ROY-LEXA-101719') - trueProd: insert into productos_ventas 
+        values ('40516', '15587', '1', '125.0000', '86.0000', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40719', '15587', '1', '250.0000', '215.0000', '1', 'ROY-22800024') - trueProd: insert into productos_ventas 
+        values ('40572', '15587', '1', '25.0000', '15.0000', '1', 'IMPU') - true

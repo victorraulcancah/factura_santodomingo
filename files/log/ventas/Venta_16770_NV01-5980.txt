@@ -1,0 +1,9 @@
+Venta: 16770, fecha: 2025-12-20
+
+Prod: insert into productos_ventas 
+        values ('40512', '16770', '1', '249', '152.0000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40919', '16770', '1', '340', '202.9900', '1', 'CDK G750SASN252700644') - trueProd: insert into productos_ventas 
+        values ('40565', '16770', '1', '350', '250.0000', '1', 'CDCO 251719801133') - trueProd: insert into productos_ventas 
+        values ('41188', '16770', '1', '199.0000', '170.0000', '1', 'ROG ') - trueProd: insert into productos_ventas 
+        values ('40538', '16770', '1', '30', '0.0000', '1', 'INSTALACION ') - trueProd: insert into productos_ventas 
+        values ('40539', '16770', '1', '0.0000001', '10.8330', '1', 'FREEEEEEE') - true

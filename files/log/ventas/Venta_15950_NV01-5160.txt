@@ -1,0 +1,10 @@
+Venta: 15950, fecha: 2025-09-20
+
+Prod: insert into productos_ventas 
+        values ('41013', '15950', '1', '1399.0000', '1148.1700', '1', 'IMPC U50C2K5101414') - trueProd: insert into productos_ventas 
+        values ('40813', '15950', '1', '399.0000', '348.6750', '1', 'SMT EF2502120220135 | EF2502120220136') - trueProd: insert into productos_ventas 
+        values ('40699', '15950', '1', '250.0000', '202.7500', '1', 'ROY QDA034R002048P2237') - trueProd: insert into productos_ventas 
+        values ('40951', '15950', '1', '675.0000', '621.0000', '1', 'IMPC 601-7D98-390B2412004058') - trueProd: insert into productos_ventas 
+        values ('40886', '15950', '1', '299.0000', '250.2500', '1', 'MAX 3067ZWDA11L8010514002068') - trueProd: insert into productos_ventas 
+        values ('40919', '15950', '1', '229.0000', '199.0000', '1', 'TAC G750XASN244300472') - trueProd: insert into productos_ventas 
+        values ('40991', '15950', '1', '199.0000', '160.0000', '1', 'ROG') - true

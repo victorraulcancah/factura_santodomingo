@@ -1,0 +1,10 @@
+Venta: 15383, fecha: 2025-07-26
+
+Prod: insert into productos_ventas 
+        values ('40708', '15383', '1', '549.0000', '530.0000', '1', 'PLUS6800628') - trueProd: insert into productos_ventas 
+        values ('40740', '15383', '1', '449.0000', '405.0000', '1', 'ROY073825') - trueProd: insert into productos_ventas 
+        values ('40699', '15383', '1', '250.0000', '205.0000', '1', 'ROY2772P113A') - trueProd: insert into productos_ventas 
+        values ('40540', '15383', '1', '139', '103.7200', '1', 'MICRONICS') - trueProd: insert into productos_ventas 
+        values ('40893', '15383', '1', '1523', '1398.7000', '1', 'CV506017465') - trueProd: insert into productos_ventas 
+        values ('40882', '15383', '1', '150', '100.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40597', '15383', '1', '180.0000', '143.0000', '1', 'ROY74376') - true

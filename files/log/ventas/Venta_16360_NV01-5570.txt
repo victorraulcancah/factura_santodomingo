@@ -1,0 +1,8 @@
+Venta: 16360, fecha: 2025-11-14
+
+Prod: insert into productos_ventas 
+        values ('40583', '16360', '1', '970', '951.8600', '1', 'DEL 9MQ5851R50063') - trueProd: insert into productos_ventas 
+        values ('40587', '16360', '1', '200', '153.0000', '1', 'SMT EF2503130360997') - trueProd: insert into productos_ventas 
+        values ('40509', '16360', '1', '260', '217.0000', '1', 'SEDA 50026B728399F53B') - trueProd: insert into productos_ventas 
+        values ('41008', '16360', '1', '340', '306.0000', '1', 'ROY 601-7E76-020B2505004426') - trueProd: insert into productos_ventas 
+        values ('40494', '16360', '1', '79', '51.0000', '1', 'CALE') - true

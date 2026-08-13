@@ -1,0 +1,6 @@
+Venta: 16723, fecha: 2025-12-16
+
+Prod: insert into productos_ventas 
+        values ('40521', '16723', '1', '230.0000', '209.4000', '1', 'DELT-TE2415S129625081220') - trueProd: insert into productos_ventas 
+        values ('40636', '16723', '1', '40.0000', '20.0000', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40563', '16723', '1', '65.0000', '49.8500', '1', 'DELT') - true

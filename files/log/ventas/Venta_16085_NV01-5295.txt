@@ -1,0 +1,11 @@
+Venta: 16085, fecha: 2025-10-11
+
+Prod: insert into productos_ventas 
+        values ('40647', '16085', '1', '357', '296.7000', '1', 'mar 9KJ5741Q20282_100-000000927') - trueProd: insert into productos_ventas 
+        values ('41037', '16085', '1', '349.0000', '271.0000', '1', 'roy SN25173A001297') - trueProd: insert into productos_ventas 
+        values ('40547', '16085', '2', '69', '54.7100', '1', 'max  30174011692     30174011693') - trueProd: insert into productos_ventas 
+        values ('40509', '16085', '1', '229', '212.4100', '1', 'del  50026B728392E986') - trueProd: insert into productos_ventas 
+        values ('40646', '16085', '1', '1099', '1048.6800', '1', 'cms  N251300045052') - trueProd: insert into productos_ventas 
+        values ('40847', '16085', '1', '219', '175.0000', '1', 'tac  AG650SASN243600129') - trueProd: insert into productos_ventas 
+        values ('40913', '16085', '1', '99.0000', '75.0000', '1', 'ca ') - trueProd: insert into productos_ventas 
+        values ('40521', '16085', '1', '240', '221.8700', '1', 'del   SNCTM2506011363') - true

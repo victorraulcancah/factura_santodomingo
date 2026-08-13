@@ -1,0 +1,10 @@
+Venta: 16448, fecha: 2025-11-22
+
+Prod: insert into productos_ventas 
+        values ('40552', '16448', '5', '689.0000', '650.1092', '1', 'del  9AMT978R50474 9AMW222S50019 9AMT978R50472 9AMT978R50476 9AMW222S50741') - trueProd: insert into productos_ventas 
+        values ('40651', '16448', '5', '269', '260.0000', '1', ' seda 601-7E28-010B2503007126 601-7E28-010B2503007140 601-7E28-010B2503007137 601-7E28-010B2503007136 601-7E28-010B2503007127') - trueProd: insert into productos_ventas 
+        values ('41111', '16448', '5', '119', '94.0000', '1', 'hu  09K4A 7H1Q 7H2L B432 7H0N') - trueProd: insert into productos_ventas 
+        values ('41104', '16448', '10', '200', '188.8800', '1', 'te  TE165625090599 TE165625090668 TE165625090679 TE165625090675 TE165625090667 TE165625090643 TE165625090634 TE165625090639 TE165625090653 TE165625090659') - trueProd: insert into productos_ventas 
+        values ('41016', '16448', '5', '119', '95.0000', '1', 'ROG600W2503310055 ROG600W2503310059 ROG600W2503310022 ROG600W2503310027 ROG600W2503310058') - trueProd: insert into productos_ventas 
+        values ('40913', '16448', '5', '89', '72.5000', '1', 's131    3ms') - trueProd: insert into productos_ventas 
+        values ('41130', '16448', '5', '150.0000', '120.0000', '1', 's131') - true

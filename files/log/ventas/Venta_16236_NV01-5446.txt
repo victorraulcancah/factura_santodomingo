@@ -1,0 +1,10 @@
+Venta: 16236, fecha: 2025-10-31
+
+Prod: insert into productos_ventas 
+        values ('40603', '16236', '1', '494.0000', '445.8400', '1', 'ROG-50334') - trueProd: insert into productos_ventas 
+        values ('41041', '16236', '1', '170.0000', '147.0000', '1', 'ROG-00158') - trueProd: insert into productos_ventas 
+        values ('40531', '16236', '1', '739.0000', '640.0000', '1', 'STH-23989') - trueProd: insert into productos_ventas 
+        values ('41016', '16236', '1', '120.0000', '100.0000', '1', 'ROG-10175') - trueProd: insert into productos_ventas 
+        values ('40651', '16236', '1', '279.0000', '248.0000', '1', 'CA-3006736') - trueProd: insert into productos_ventas 
+        values ('40521', '16236', '1', '249.0000', '221.8700', '1', 'DELTRON-11048') - trueProd: insert into productos_ventas 
+        values ('40978', '16236', '1', '80.0000', '66.0000', '1', 'IMPUL') - true

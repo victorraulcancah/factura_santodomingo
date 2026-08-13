@@ -1,0 +1,5 @@
+Venta: 16505, fecha: 2025-11-28
+
+Prod: insert into productos_ventas 
+        values ('41110', '16505', '2', '1695', '1598.3500', '1', 'CDK SN253441074020 | SN253441074025') - trueProd: insert into productos_ventas 
+        values ('40944', '16505', '1', '450', '430.0000', '1', 'CALE TE2769G169325060119') - true

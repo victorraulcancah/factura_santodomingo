@@ -1,0 +1,6 @@
+Venta: 16609, fecha: 2025-12-05
+
+Prod: insert into productos_ventas 
+        values ('40549', '16609', '1', '330.0000', '257.8500', '1', 'SMT 9ML2836M50593') - trueProd: insert into productos_ventas 
+        values ('40540', '16609', '1', '119.0000', '90.9560', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40531', '16609', '1', '800', '749.0000', '1', 'ROY SN252201025039') - true

@@ -1,0 +1,12 @@
+Venta: 16736, fecha: 2025-12-17
+
+Prod: insert into productos_ventas 
+        values ('40603', '16736', '1', '549', '455.0000', '1', 'ROG 9ANR006U50160') - trueProd: insert into productos_ventas 
+        values ('41008', '16736', '1', '369.0000', '286.0000', '1', 'CDK 601-7E76-020B2505007920') - trueProd: insert into productos_ventas 
+        values ('41175', '16736', '1', '599', '340.0000', '1', 'REMA 30175456624') - trueProd: insert into productos_ventas 
+        values ('41111', '16736', '1', '190', '94.0000', '1', 'HUM BCFYB7N024014107H3Y') - trueProd: insert into productos_ventas 
+        values ('40961', '16736', '1', '1699', '1568.6100', '1', 'CDK AWV007550') - trueProd: insert into productos_ventas 
+        values ('41170', '16736', '1', '194', '145.0000', '1', 'ROG750B2506200065') - trueProd: insert into productos_ventas 
+        values ('40913', '16736', '1', '99.0000', '70.7700', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40521', '16736', '1', '230', '209.4000', '1', 'DEL TE2415S129625081257') - trueProd: insert into productos_ventas 
+        values ('41046', '16736', '1', '40.0000', '30.8400', '1', 'IMPUL') - true

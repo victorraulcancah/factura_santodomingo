@@ -1,0 +1,7 @@
+Venta: 15538, fecha: 2025-08-09
+
+Prod: insert into productos_ventas 
+        values ('40854', '15538', '2', '1435', '1402.6400', '1', 'lp829g58-p8304wb') - trueProd: insert into productos_ventas 
+        values ('40862', '15538', '2', '319', '311.9200', '1', 'del70213-70054') - trueProd: insert into productos_ventas 
+        values ('40558', '15538', '1', '342', '337.1100', '1', 'delroy4011970') - trueProd: insert into productos_ventas 
+        values ('40813', '15538', '1', '379', '340.0000', '1', 'smth220123-220124') - true

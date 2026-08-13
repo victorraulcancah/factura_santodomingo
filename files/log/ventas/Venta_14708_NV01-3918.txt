@@ -1,0 +1,9 @@
+Venta: 14708, fecha: 2025-05-20
+
+Prod: insert into productos_ventas 
+        values ('40493', '14708', '1', '551', '520.0000', '1', 'roy60274') - trueProd: insert into productos_ventas 
+        values ('40630', '14708', '1', '219.0000', '200.9750', '1', 'tact66146') - trueProd: insert into productos_ventas 
+        values ('40723', '14708', '1', '65.0000', '51.5600', '1', 'maxi7881') - trueProd: insert into productos_ventas 
+        values ('40596', '14708', '1', '135.0000', '114.5700', '1', '1') - trueProd: insert into productos_ventas 
+        values ('40494', '14708', '1', '79', '64.0000', '1', 'humber') - trueProd: insert into productos_ventas 
+        values ('40655', '14708', '1', '49.0000', '32.2000', '1', 'impulso') - true

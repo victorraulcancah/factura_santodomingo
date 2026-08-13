@@ -1,0 +1,11 @@
+Venta: 16458, fecha: 2025-11-22
+
+Prod: insert into productos_ventas 
+        values ('40583', '16458', '1', '979', '951.8600', '1', 'del 9MQ5851R50213') - trueProd: insert into productos_ventas 
+        values ('40811', '16458', '1', '422', '370.0000', '1', 'roy 601-7E30-030B2507005571') - trueProd: insert into productos_ventas 
+        values ('41104', '16458', '1', '200', '188.8800', '1', 'del TE165625090695') - trueProd: insert into productos_ventas 
+        values ('41100', '16458', '1', '239', '212.8200', '1', 'plus 253209801355') - trueProd: insert into productos_ventas 
+        values ('41016', '16458', '1', '110', '95.0000', '1', 'ROG600W2503310052') - trueProd: insert into productos_ventas 
+        values ('40913', '16458', '1', '89', '72.5000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40521', '16458', '1', '230', '216.7200', '1', 'del  TE2415S1158B25071093') - trueProd: insert into productos_ventas 
+        values ('40563', '16458', '1', '68.0000', '54.0000', '1', 'hu') - true

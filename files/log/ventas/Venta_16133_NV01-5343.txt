@@ -1,0 +1,6 @@
+Venta: 16133, fecha: 2025-10-17
+
+Prod: insert into productos_ventas 
+        values ('40546', '16133', '2', '125', '115.0000', '1', 'tact7295-7297') - trueProd: insert into productos_ventas 
+        values ('40509', '16133', '1', '218', '212.4100', '1', 'DELC2FE') - trueProd: insert into productos_ventas 
+        values ('40708', '16133', '1', '526', '516.6700', '1', 'DEL2603643') - true

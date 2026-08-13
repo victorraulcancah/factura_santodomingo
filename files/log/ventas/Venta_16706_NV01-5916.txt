@@ -1,0 +1,11 @@
+Venta: 16706, fecha: 2025-12-14
+
+Prod: insert into productos_ventas 
+        values ('40603', '16706', '1', '579', '455.0000', '1', 'ROG50154') - trueProd: insert into productos_ventas 
+        values ('41175', '16706', '1', '633', '340.0000', '1', 'REMA6613') - trueProd: insert into productos_ventas 
+        values ('41111', '16706', '1', '150', '94.0000', '1', 'humbert1060b334') - trueProd: insert into productos_ventas 
+        values ('41008', '16706', '1', '369.0000', '286.0000', '1', 'CDK50078454') - trueProd: insert into productos_ventas 
+        values ('40882', '16706', '1', '180', '97.0000', '1', 'ca2253') - trueProd: insert into productos_ventas 
+        values ('41188', '16706', '1', '199', '170.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41149', '16706', '1', '1189', '1099.0000', '1', 'CA9004710') - trueProd: insert into productos_ventas 
+        values ('40521', '16706', '1', '230', '209.4000', '1', 'DEL0735') - true

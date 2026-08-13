@@ -1,0 +1,9 @@
+Venta: 14476, fecha: 2025-04-27
+
+Prod: insert into productos_ventas 
+        values ('40583', '14476', '1', '1129.0000', '1069.0000', '1', 'ROY40459') - trueProd: insert into productos_ventas 
+        values ('40618', '14476', '1', '260', '230.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40658', '14476', '1', '655', '600.0000', '1', 'PEGA2000969') - trueProd: insert into productos_ventas 
+        values ('40706', '14476', '2', '213', '205.2400', '1', 'IMPACT3748-4019') - trueProd: insert into productos_ventas 
+        values ('40584', '14476', '1', '230', '180.0000', '1', 'PEGA101057') - trueProd: insert into productos_ventas 
+        values ('40605', '14476', '1', '200', '185.0000', '1', 'ROG') - true

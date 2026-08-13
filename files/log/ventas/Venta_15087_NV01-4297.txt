@@ -1,0 +1,4 @@
+Venta: 15087, fecha: 2025-07-03
+
+Prod: insert into productos_ventas 
+        values ('40862', '15087', '1', '329.0000', '318.0500', '1', 'delt-30736') - true

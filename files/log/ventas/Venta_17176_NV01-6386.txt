@@ -1,0 +1,4 @@
+Venta: 17176, fecha: 2026-02-07
+
+Prod: insert into productos_ventas 
+        values ('40538', '17176', '1', '65', '0.0000', '1', 'MANTENIMIENTO Y FORMATEO DE PC') - true

@@ -1,0 +1,9 @@
+Venta: 15935, fecha: 2025-09-18
+
+Prod: insert into productos_ventas 
+        values ('40552', '15935', '1', '650', '681.2700', '1', 'DEL 9MQ7480R50320') - trueProd: insert into productos_ventas 
+        values ('40770', '15935', '1', '170', '160.0000', '1', 'LP 30170220169') - trueProd: insert into productos_ventas 
+        values ('40915', '15935', '1', '140', '106.8900', '1', 'MAX 30174792544') - trueProd: insert into productos_ventas 
+        values ('40651', '15935', '1', '280', '248.0000', '1', 'CALE 601-7E28-010B2503007838') - trueProd: insert into productos_ventas 
+        values ('40882', '15935', '1', '140', '102.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40978', '15935', '1', '119', '66.0000', '1', 'CALE') - true

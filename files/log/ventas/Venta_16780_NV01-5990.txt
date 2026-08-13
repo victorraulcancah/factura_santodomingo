@@ -1,0 +1,4 @@
+Venta: 16780, fecha: 2025-12-21
+
+Prod: insert into productos_ventas 
+        values ('40552', '16780', '1', '689.0000', '652.0000', '1', 'cdk 9AMW222S50265') - true

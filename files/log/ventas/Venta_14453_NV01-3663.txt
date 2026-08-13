@@ -1,0 +1,5 @@
+Venta: 14453, fecha: 2025-04-25
+
+Prod: insert into productos_ventas 
+        values ('40556', '14453', '4', '125', '111.0500', '1', 'halion0847-0994-0844-0852') - trueProd: insert into productos_ventas 
+        values ('40513', '14453', '2', '145', '134.6000', '1', 'impulso') - true

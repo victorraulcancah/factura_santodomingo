@@ -1,0 +1,11 @@
+Venta: 16834, fecha: 2025-12-27
+
+Prod: insert into productos_ventas 
+        values ('40586', '16834', '1', '899', '709.6000', '1', 'TAC  9ANJ976T50763_100-000001590') - trueProd: insert into productos_ventas 
+        values ('41077', '16834', '1', '699', '620.0000', '1', 'SMT  601-7E56-010B2412007147') - trueProd: insert into productos_ventas 
+        values ('41175', '16834', '1', '699', '340.0000', '1', 'REMA 30175454348') - trueProd: insert into productos_ventas 
+        values ('40565', '16834', '1', '350', '250.0000', '1', 'CDM 251719800312') - trueProd: insert into productos_ventas 
+        values ('40933', '16834', '1', '199.0000', '165.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('41206', '16834', '1', '2654', '2499.0000', '1', 'ROY  602-V532-210SB2509004786') - trueProd: insert into productos_ventas 
+        values ('40479', '16834', '1', '250', '214.4500', '1', 'CDK  G850SASN252700600') - trueProd: insert into productos_ventas 
+        values ('41019', '16834', '1', '80', '65.0000', '1', 'ROG') - true

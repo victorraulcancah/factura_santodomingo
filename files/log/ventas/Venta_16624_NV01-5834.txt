@@ -1,0 +1,5 @@
+Venta: 16624, fecha: 2025-12-06
+
+Prod: insert into productos_ventas 
+        values ('40944', '16624', '1', '470.0000', '420.0000', '1', 'CMS-TE2769G24M120297') - trueProd: insert into productos_ventas 
+        values ('41167', '16624', '1', '375.0000', '350.0000', '1', 'CA-2440MEJ0HJD9') - true

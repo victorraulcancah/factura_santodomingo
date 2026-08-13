@@ -1,0 +1,10 @@
+Venta: 15722, fecha: 2025-08-27
+
+Prod: insert into productos_ventas 
+        values ('40605', '15722', '1', '199', '185.0000', '1', 'rog') - trueProd: insert into productos_ventas 
+        values ('40535', '15722', '1', '559', '540.8000', '1', 'del   9AMT293R50086') - trueProd: insert into productos_ventas 
+        values ('40597', '15722', '1', '150', '145.0000', '1', 'roy   30173375428') - trueProd: insert into productos_ventas 
+        values ('40882', '15722', '1', '113', '100.0000', '1', 'ca 4594P80B-600W1883') - trueProd: insert into productos_ventas 
+        values ('40536', '15722', '1', '70', '66.0000', '1', 'roy  2433-19666171') - trueProd: insert into productos_ventas 
+        values ('40570', '15722', '1', '39.0000', '25.5000', '1', 'impul 4469T100w0992') - trueProd: insert into productos_ventas 
+        values ('40538', '15722', '1', '20.0000', '0.0000', '1', 'ENSAMBLADO E INSTALACION WINDOWS OFFICE') - true

@@ -1,0 +1,12 @@
+Venta: 17084, fecha: 2026-01-29
+
+Prod: insert into productos_ventas 
+        values ('40603', '17084', '1', '514.0000', '465.0000', '1', 'ROG-9ANR006U50102_100-000001591') - trueProd: insert into productos_ventas 
+        values ('41008', '17084', '1', '339.0000', '305.0000', '1', 'CAL-601-7E76-020B2505007845') - trueProd: insert into productos_ventas 
+        values ('41231', '17084', '1', '629.0000', '590.0000', '1', 'ROG-0000009277789-S006524') - trueProd: insert into productos_ventas 
+        values ('40918', '17084', '1', '219.0000', '148.9800', '1', 'MAXIM-30176975167') - trueProd: insert into productos_ventas 
+        values ('41039', '17084', '1', '1469.0000', '1280.0000', '1', 'ROD214-T7YVMX02P980DPX') - trueProd: insert into productos_ventas 
+        values ('40828', '17084', '1', '130.0000', '100.0000', '1', 'CAL-4667MICP650-80+2425') - trueProd: insert into productos_ventas 
+        values ('41188', '17084', '1', '199.0000', '170.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41019', '17084', '1', '71.0000', '50.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40536', '17084', '1', '80.0000', '66.0000', '1', 'PEG- 2533-21351804') - true

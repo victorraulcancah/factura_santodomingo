@@ -1,0 +1,13 @@
+Venta: 16787, fecha: 2025-12-22
+
+Prod: insert into productos_ventas 
+        values ('40586', '16787', '1', '919', '770.0000', '1', 'TAC  t50326') - trueProd: insert into productos_ventas 
+        values ('41008', '16787', '1', '369.0000', '300.0000', '1', ' cms 601-7E76-020B2505004610') - trueProd: insert into productos_ventas 
+        values ('41175', '16787', '1', '680', '340.0000', '1', 'REMA  30175454338') - trueProd: insert into productos_ventas 
+        values ('41105', '16787', '1', '189', '95.0000', '1', 'hu  BTKA2161060T512A') - trueProd: insert into productos_ventas 
+        values ('41207', '16787', '1', '99', '68.3400', '1', 'im ') - trueProd: insert into productos_ventas 
+        values ('40882', '16787', '1', '144', '92.0000', '1', 'ca 4666MICP600-80+1259') - trueProd: insert into productos_ventas 
+        values ('40988', '16787', '1', '1299.0000', '1195.0000', '1', 'roy 7541') - trueProd: insert into productos_ventas 
+        values ('41158', '16787', '1', '90.0000', '73.5000', '1', 'im ') - trueProd: insert into productos_ventas 
+        values ('40636', '16787', '1', '40', '20.0000', '1', 'im ') - trueProd: insert into productos_ventas 
+        values ('40539', '16787', '1', '0', '10.8330', '1', 'REGALO') - true

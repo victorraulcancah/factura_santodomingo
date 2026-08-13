@@ -1,0 +1,6 @@
+Venta: 15591, fecha: 2025-08-15
+
+Prod: insert into productos_ventas 
+        values ('40557', '15591', '40', '187', '185.7200', '1', '8801-8820 / 9001-9020') - trueProd: insert into productos_ventas 
+        values ('40862', '15591', '10', '325', '311.9200', '1', 'del0641-0328-0948-0302-0700-0760-0808-0062-0689-0537') - trueProd: insert into productos_ventas 
+        values ('40763', '15591', '5', '550', '521.4600', '1', 'smth40174-706009-40225-40199-40514') - true

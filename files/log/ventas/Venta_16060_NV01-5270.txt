@@ -1,0 +1,6 @@
+Venta: 16060, fecha: 2025-10-07
+
+Prod: insert into productos_ventas 
+        values ('40592', '16060', '1', '699', '623.2100', '1', 'SMITH14602232') - trueProd: insert into productos_ventas 
+        values ('41033', '16060', '1', '415', '369.1500', '1', 'IMPAC006951') - trueProd: insert into productos_ventas 
+        values ('40862', '16060', '1', '339', '320.0000', '1', 'HUMBERT40739') - true

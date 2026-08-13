@@ -1,0 +1,11 @@
+Venta: 16801, fecha: 2025-12-23
+
+Prod: insert into productos_ventas 
+        values ('40647', '16801', '1', '440.0000', '296.7000', '1', 'MARLEM-38020065') - trueProd: insert into productos_ventas 
+        values ('40558', '16801', '1', '350.0000', '320.0000', '1', 'ROY-601-7C95-310B2506008669') - trueProd: insert into productos_ventas 
+        values ('41184', '16801', '1', '350.0000', '250.0000', '1', 'ROG-RGX16D4122TE2415S129625080718') - trueProd: insert into productos_ventas 
+        values ('40565', '16801', '1', '320.0000', '250.0000', '1', 'CDM-25197E801713') - trueProd: insert into productos_ventas 
+        values ('40882', '16801', '1', '125.0000', '92.0000', '1', 'CAL- 4666MICP600-80+1252') - trueProd: insert into productos_ventas 
+        values ('41207', '16801', '1', '100.0000', '68.3400', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40988', '16801', '1', '1285.0000', '1195.0000', '1', 'ROY-602-V537-38ST2510007540') - trueProd: insert into productos_ventas 
+        values ('40521', '16801', '1', '230.0000', '209.4000', '1', 'DELT-TE2415S129625082320') - true

@@ -1,0 +1,10 @@
+Venta: 16927, fecha: 2026-01-07
+
+Prod: insert into productos_ventas 
+        values ('40535', '16927', '1', '540', '500.0000', '1', 'CDK YB03247M40006') - trueProd: insert into productos_ventas 
+        values ('41108', '16927', '2', '750', '435.0000', '1', 'ROG S007438 | S007436') - trueProd: insert into productos_ventas 
+        values ('41125', '16927', '1', '240', '120.0000', '1', 'TAC 2441129601807') - trueProd: insert into productos_ventas 
+        values ('40828', '16927', '1', '140', '100.0000', '1', 'IMPUL 4667MICP650-80+0524') - trueProd: insert into productos_ventas 
+        values ('41207', '16927', '1', '110', '68.3400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('41028', '16927', '1', '530', '465.0000', '1', 'CMS SN250950012129') - trueProd: insert into productos_ventas 
+        values ('40521', '16927', '1', '230', '225.0000', '1', 'LP TE2415S171825081380') - true

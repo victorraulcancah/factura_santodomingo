@@ -1,0 +1,10 @@
+Venta: 16362, fecha: 2025-11-14
+
+Prod: insert into productos_ventas 
+        values ('40552', '16362', '4', '677.0000', '650.1000', '1', 'DELT-9AMW071S50152 9AMW071S50205 9AHE834S50033 9AMW226S50558') - trueProd: insert into productos_ventas 
+        values ('40651', '16362', '4', '269.0000', '248.0000', '1', 'SEDA-601-7E28-010B2503007793 601-7E28-010B2503007792 601-7E28-010B2503007796 601-7E28-010B2503007791') - trueProd: insert into productos_ventas 
+        values ('41104', '16362', '4', '200.0000', '188.8800', '1', 'DELT-TE165625090663 TE165625090669 TE165625090706 TE165625090658') - trueProd: insert into productos_ventas 
+        values ('40494', '16362', '4', '75.0000', '51.0000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40918', '16362', '4', '129.0000', '108.3100', '1', 'MAXIM-76895 MAX-76897 MAX-76863 MAX-76894') - trueProd: insert into productos_ventas 
+        values ('40521', '16362', '4', '228.0000', '221.8700', '1', 'DELT-SNCTM2506011518 SNCTM2506011350 SNCTM2506011482 SNCTM2506011348') - trueProd: insert into productos_ventas 
+        values ('40888', '16362', '4', '172.0000', '163.0000', '1', 'CAL') - true

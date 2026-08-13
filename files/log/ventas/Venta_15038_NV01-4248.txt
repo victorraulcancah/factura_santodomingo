@@ -1,0 +1,7 @@
+Venta: 15038, fecha: 2025-06-28
+
+Prod: insert into productos_ventas 
+        values ('40602', '15038', '1', '599', '569.2800', '1', 'cms  60171') - trueProd: insert into productos_ventas 
+        values ('40630', '15038', '1', '236', '195.0000', '1', 'ca  43877') - trueProd: insert into productos_ventas 
+        values ('40723', '15038', '1', '65', '51.5600', '1', 'max 17882') - trueProd: insert into productos_ventas 
+        values ('40616', '15038', '1', '99', '56.6900', '1', 'impu') - true

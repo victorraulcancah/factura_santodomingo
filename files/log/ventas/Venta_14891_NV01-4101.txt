@@ -1,0 +1,10 @@
+Venta: 14891, fecha: 2025-06-12
+
+Prod: insert into productos_ventas 
+        values ('40552', '14891', '1', '770.0000', '712.0000', '1', 'STH-40040') - trueProd: insert into productos_ventas 
+        values ('40491', '14891', '1', '320.0000', '290.0000', '1', 'PEGA-7507') - trueProd: insert into productos_ventas 
+        values ('40774', '14891', '1', '170.0000', '150.0000', '1', 'FBZ-9000C') - trueProd: insert into productos_ventas 
+        values ('40801', '14891', '1', '255.0000', '233.0000', '1', 'ROY-5JGKR') - trueProd: insert into productos_ventas 
+        values ('40714', '14891', '1', '150.0000', '125.0000', '1', 'CAL-F1019') - trueProd: insert into productos_ventas 
+        values ('40540', '14891', '1', '135.0000', '110.0000', '1', 'ROY') - trueProd: insert into productos_ventas 
+        values ('40536', '14891', '1', '80.0000', '68.0000', '1', 'PEGA-8337') - true

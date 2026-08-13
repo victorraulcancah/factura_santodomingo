@@ -1,0 +1,5 @@
+Venta: 16685, fecha: 2025-12-11
+
+Prod: insert into productos_ventas 
+        values ('40829', '16685', '1', '60', '41.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('41163', '16685', '1', '360', '325.0000', '1', 'ROY IPX2711GOL25070315') - true

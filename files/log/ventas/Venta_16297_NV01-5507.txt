@@ -1,0 +1,10 @@
+Venta: 16297, fecha: 2025-11-07
+
+Prod: insert into productos_ventas 
+        values ('40603', '16297', '1', '489', '431.5000', '1', 'ROG 50456') - trueProd: insert into productos_ventas 
+        values ('40651', '16297', '1', '269', '248.0000', '1', 'SEDA 601-7E28-010B2503006284') - trueProd: insert into productos_ventas 
+        values ('41041', '16297', '1', '165', '147.0000', '1', 'ROG A23890025130200090') - trueProd: insert into productos_ventas 
+        values ('40918', '16297', '1', '135', '108.3100', '1', 'MAX 30176976746') - trueProd: insert into productos_ventas 
+        values ('41016', '16297', '1', '135', '100.0000', '1', 'ROG600W2503310261') - trueProd: insert into productos_ventas 
+        values ('41082', '16297', '1', '107', '77.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('41023', '16297', '1', '1099', '1048.0000', '1', 'PEG 602-V538-19ST2507000945') - true

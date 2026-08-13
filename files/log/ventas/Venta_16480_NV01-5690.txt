@@ -1,0 +1,10 @@
+Venta: 16480, fecha: 2025-11-26
+
+Prod: insert into productos_ventas 
+        values ('40708', '16480', '1', '555', '505.0000', '1', 'ADNY1615') - trueProd: insert into productos_ventas 
+        values ('41012', '16480', '1', '400', '366.9840', '1', 'CORP2003210') - trueProd: insert into productos_ventas 
+        values ('40770', '16480', '1', '275', '249.0000', '1', 'LP9943') - trueProd: insert into productos_ventas 
+        values ('41111', '16480', '1', '140', '94.0000', '1', 'HU107H09') - trueProd: insert into productos_ventas 
+        values ('40913', '16480', '1', '100', '72.5000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('41051', '16480', '1', '1894', '1763.7000', '1', 'DISK5287') - trueProd: insert into productos_ventas 
+        values ('41016', '16480', '1', '135', '95.0000', '1', 'ROG10146') - true

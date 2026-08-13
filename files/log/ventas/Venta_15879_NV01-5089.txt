@@ -1,0 +1,11 @@
+Venta: 15879, fecha: 2025-09-12
+
+Prod: insert into productos_ventas 
+        values ('40493', '15879', '1', '529.0000', '476.9300', '1', 'DEL 9MN8506Q50026') - trueProd: insert into productos_ventas 
+        values ('40546', '15879', '1', '120.0000', '105.0000', '1', 'TAC 30173286178') - trueProd: insert into productos_ventas 
+        values ('40585', '15879', '1', '230.0000', '183.0000', '1', 'RODRI 4P2120635928') - trueProd: insert into productos_ventas 
+        values ('40557', '15879', '1', '210.0000', '186.0000', '1', 'SEDA 601-7C96-120B2505029989') - trueProd: insert into productos_ventas 
+        values ('40882', '15879', '1', '140.0000', '102.0000', '1', 'CALE 4594P80B-600W0729') - trueProd: insert into productos_ventas 
+        values ('40978', '15879', '1', '90.0000', '66.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40521', '15879', '1', '249.0000', '236.0000', '1', 'HUM TE2415S1158A25071209') - trueProd: insert into productos_ventas 
+        values ('40563', '15879', '1', '60.0000', '55.0000', '1', 'HUM') - true

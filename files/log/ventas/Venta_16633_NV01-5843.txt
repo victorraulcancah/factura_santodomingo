@@ -1,0 +1,4 @@
+Venta: 16633, fecha: 2025-12-07
+
+Prod: insert into productos_ventas 
+        values ('40847', '16633', '1', '199.0000', '175.0000', '1', 'tac AG650SASN243100097') - true

@@ -1,0 +1,13 @@
+Venta: 17217, fecha: 2026-02-14
+
+Prod: insert into productos_ventas 
+        values ('40586', '17217', '1', '889.0000', '759.3700', '1', 'DAN  9ANE777T50357_100-000001590') - trueProd: insert into productos_ventas 
+        values ('41287', '17217', '1', '293', '260.7600', '1', 'PLUS SN251150029317') - trueProd: insert into productos_ventas 
+        values ('41108', '17217', '1', '599', '514.0000', '1', 'RG 0000009277789-S007273') - trueProd: insert into productos_ventas 
+        values ('40564', '17217', '1', '250', '142.5000', '1', 'LP ASAD35330300630') - trueProd: insert into productos_ventas 
+        values ('40976', '17217', '1', '179.0000', '125.9300', '1', 'IMPU 4622P80BPW750W0391') - trueProd: insert into productos_ventas 
+        values ('40955', '17217', '1', '1790', '1701.0000', '1', 'SEDA  AXV046432') - trueProd: insert into productos_ventas 
+        values ('41188', '17217', '1', '199', '170.0000', '1', 'RG') - trueProd: insert into productos_ventas 
+        values ('40862', '17217', '1', '339', '324.5000', '1', 'PEGA  TE2714S185425111608') - trueProd: insert into productos_ventas 
+        values ('41109', '17217', '1', '150', '129.0000', '1', 'CA ') - trueProd: insert into productos_ventas 
+        values ('40539', '17217', '1', '0', '9.0000', '1', 'f') - true

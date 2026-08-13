@@ -1,0 +1,12 @@
+Venta: 16585, fecha: 2025-12-03
+
+Prod: insert into productos_ventas 
+        values ('40602', '16585', '1', '630.0000', '561.0800', '1', 'ADNI-9MN7511P50140') - trueProd: insert into productos_ventas 
+        values ('40558', '16585', '1', '350.0000', '316.0900', '1', 'MAXIM-2503310168') - trueProd: insert into productos_ventas 
+        values ('40489', '16585', '1', '350.0000', '295.0000', '1', 'LP-233339T2T20000006954840002 0000007136864-T000542') - trueProd: insert into productos_ventas 
+        values ('41111', '16585', '1', '150.0000', '94.0000', '1', 'HUMB-14107H07') - trueProd: insert into productos_ventas 
+        values ('41016', '16585', '1', '120.0000', '95.0000', '1', 'ROG600W 601-7C95-310B2506008977') - trueProd: insert into productos_ventas 
+        values ('40540', '16585', '1', '120.0000', '90.9560', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40563', '16585', '1', '70', '55.0000', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40521', '16585', '1', '230.0000', '216.7200', '1', 'DELT-1158B25070957') - trueProd: insert into productos_ventas 
+        values ('40543', '16585', '1', '50.0000', '35.0000', '1', 'ROY-2520-21023091') - true

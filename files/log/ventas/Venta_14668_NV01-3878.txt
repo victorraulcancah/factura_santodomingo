@@ -1,0 +1,6 @@
+Venta: 14668, fecha: 2025-05-16
+
+Prod: insert into productos_ventas 
+        values ('40531', '14668', '1', '748', '732.2000', '1', 'roy250651112102') - trueProd: insert into productos_ventas 
+        values ('40723', '14668', '2', '55', '51.5600', '1', 'maxi7899-7855') - trueProd: insert into productos_ventas 
+        values ('40538', '14668', '1', '10', '0.0000', '1', 'shalom') - true

@@ -1,0 +1,8 @@
+Venta: 16813, fecha: 2025-12-24
+
+Prod: insert into productos_ventas 
+        values ('40586', '16813', '1', '899', '709.6000', '1', 'ROG 9ANJ976T50755') - trueProd: insert into productos_ventas 
+        values ('41146', '16813', '1', '649', '327.0400', '1', 'IMPCT 2P2800172278') - trueProd: insert into productos_ventas 
+        values ('40943', '16813', '1', '399', '208.0000', '1', 'REMA QJ4276R004502P2857') - trueProd: insert into productos_ventas 
+        values ('40942', '16813', '1', '484', '470.0000', '1', 'CALE 601-7E77-010B2505008908') - trueProd: insert into productos_ventas 
+        values ('40988', '16813', '1', '1329', '1232.0000', '1', 'CALE 602-V537-109ST2510006166') - true

@@ -1,0 +1,4 @@
+Venta: 14632, fecha: 2025-05-10
+
+Prod: insert into productos_ventas 
+        values ('40540', '14632', '1', '125', '107.7000', '1', 'MICRONIC') - true

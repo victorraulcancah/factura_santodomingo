@@ -1,0 +1,12 @@
+Venta: 16594, fecha: 2025-12-04
+
+Prod: insert into productos_ventas 
+        values ('40708', '16594', '1', '529.0000', '534.0000', '1', 'ROY U5X983B604355') - trueProd: insert into productos_ventas 
+        values ('41012', '16594', '1', '400', '362.0000', '1', 'ROY 601-7E02-070B2504013252') - trueProd: insert into productos_ventas 
+        values ('41145', '16594', '1', '360', '329.8700', '1', 'IMPCT 1P3601294861') - trueProd: insert into productos_ventas 
+        values ('40565', '16594', '1', '320', '247.0000', '1', 'CD 25200J800158') - trueProd: insert into productos_ventas 
+        values ('41051', '16594', '1', '1944.0000', '1822.2000', '1', 'PEG SN253541035251') - trueProd: insert into productos_ventas 
+        values ('40976', '16594', '1', '179.0000', '142.0000', '1', 'IMPU 4622P80BA750W0465') - trueProd: insert into productos_ventas 
+        values ('40913', '16594', '1', '109', '70.7700', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('40906', '16594', '1', '279', '248.0000', '1', 'HUM 90565') - trueProd: insert into productos_ventas 
+        values ('40536', '16594', '1', '80', '66.0000', '1', 'CALE 2511-20780647') - true

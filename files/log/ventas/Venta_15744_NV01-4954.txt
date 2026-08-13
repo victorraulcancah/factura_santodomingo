@@ -1,0 +1,13 @@
+Venta: 15744, fecha: 2025-08-30
+
+Prod: insert into productos_ventas 
+        values ('40785', '15744', '1', '740.0000', '575.0000', '1', 'AMA 9AFW818W40198') - trueProd: insert into productos_ventas 
+        values ('40813', '15744', '1', '399.0000', '347.3500', '1', 'SMT EF2505060080189 | EF2505060080190') - trueProd: insert into productos_ventas 
+        values ('40943', '15744', '1', '230.0000', '218.5000', '1', 'ROY QDA034R002941P2237') - trueProd: insert into productos_ventas 
+        values ('40658', '15744', '1', '603.0000', '530.0000', '1', 'PEG 601-7E24-030B2408008350') - trueProd: insert into productos_ventas 
+        values ('40941', '15744', '1', '179.0000', '165.5500', '1', 'MAX 3067ZP2B12CE010516005716') - trueProd: insert into productos_ventas 
+        values ('40888', '15744', '1', '199.0000', '170.0000', '1', 'CALE ') - trueProd: insert into productos_ventas 
+        values ('40536', '15744', '1', '69.90000', '66.0000', '1', 'CALE 2433-19666177') - trueProd: insert into productos_ventas 
+        values ('40980', '15744', '1', '1800.0000', '1699.0000', '1', 'ROY A6V030705') - trueProd: insert into productos_ventas 
+        values ('40944', '15744', '1', '550.0000', '462.0000', '1', 'COMPVI TE2769G24M120729') - trueProd: insert into productos_ventas 
+        values ('40981', '15744', '1', '150.0000', '210.0000', '1', 'SMT X004N1T8C9') - true

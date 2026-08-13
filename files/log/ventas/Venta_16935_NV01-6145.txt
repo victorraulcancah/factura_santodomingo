@@ -1,0 +1,11 @@
+Venta: 16935, fecha: 2026-01-09
+
+Prod: insert into productos_ventas 
+        values ('40804', '16935', '1', '499', '481.7670', '1', 'marl   U53F1E6802682') - trueProd: insert into productos_ventas 
+        values ('41174', '16935', '1', '229.0000', '200.0000', '1', 'rema IH61EMDS-02_61002B24800942') - trueProd: insert into productos_ventas 
+        values ('41230', '16935', '2', '220', '165.0000', '1', 'microo 6957 --6962') - trueProd: insert into productos_ventas 
+        values ('41214', '16935', '1', '199.0000', '160.0000', '1', 'micr ST20248801897') - trueProd: insert into productos_ventas 
+        values ('40976', '16935', '1', '176', '125.9300', '1', 'impu  0649') - trueProd: insert into productos_ventas 
+        values ('41166', '16935', '1', '1699', '1568.6100', '1', 'cdk T8YVCM01D662AUE') - trueProd: insert into productos_ventas 
+        values ('41083', '16935', '1', '99.0000', '75.7500', '1', 'impu ') - trueProd: insert into productos_ventas 
+        values ('40521', '16935', '1', '229', '225.0000', '1', 'hu   TE2415S171825080805') - true

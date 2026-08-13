@@ -1,0 +1,8 @@
+Venta: 16337, fecha: 2025-11-11
+
+Prod: insert into productos_ventas 
+        values ('40603', '16337', '1', '499.0000', '431.5000', '1', 'ROG-50268') - trueProd: insert into productos_ventas 
+        values ('41098', '16337', '1', '1122.0000', '1045.0000', '1', 'CAL-70000946') - trueProd: insert into productos_ventas 
+        values ('40587', '16337', '1', '180.0000', '153.0000', '1', 'STH-60421') - trueProd: insert into productos_ventas 
+        values ('41028', '16337', '1', '499.0000', '464.6800', '1', 'CMS-12122') - trueProd: insert into productos_ventas 
+        values ('41103', '16337', '1', '150.0000', '135.0000', '1', 'CAL') - true

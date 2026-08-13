@@ -1,0 +1,10 @@
+Venta: 16346, fecha: 2025-11-12
+
+Prod: insert into productos_ventas 
+        values ('40603', '16346', '1', '479.0000', '431.5000', '1', 'LABS 5002') - trueProd: insert into productos_ventas 
+        values ('40651', '16346', '1', '264.0000', '248.0000', '1', 'SEDA 601-7E28-010B2503007790') - trueProd: insert into productos_ventas 
+        values ('41104', '16346', '1', '199', '188.8800', '1', 'DEL TE165625090641') - trueProd: insert into productos_ventas 
+        values ('40918', '16346', '1', '129', '108.3100', '1', 'MAX 76899') - trueProd: insert into productos_ventas 
+        values ('40936', '16346', '1', '1299.0000', '1216.5700', '1', 'PEG SN253501036123') - trueProd: insert into productos_ventas 
+        values ('41016', '16346', '1', '120.0000', '100.0000', '1', 'ROG600W2503310011') - trueProd: insert into productos_ventas 
+        values ('40913', '16346', '1', '109', '74.0000', '1', 'CALE') - true

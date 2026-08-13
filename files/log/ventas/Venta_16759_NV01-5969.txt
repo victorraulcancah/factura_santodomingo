@@ -1,0 +1,11 @@
+Venta: 16759, fecha: 2025-12-20
+
+Prod: insert into productos_ventas 
+        values ('40551', '16759', '1', '489', '380.0000', '1', 'ROG    E736') - trueProd: insert into productos_ventas 
+        values ('41174', '16759', '1', '249', '200.0000', '1', 'rema  IH61EMDS-02_61002B24800519') - trueProd: insert into productos_ventas 
+        values ('41184', '16759', '2', '350.0000', '250.0000', '1', 'rg   RGX16D4107 RGX16D4105') - trueProd: insert into productos_ventas 
+        values ('40565', '16759', '1', '370', '250.0000', '1', 'cdm  25197E802582') - trueProd: insert into productos_ventas 
+        values ('40540', '16759', '1', '119.0000', '90.9560', '1', 'impu ') - trueProd: insert into productos_ventas 
+        values ('40988', '16759', '1', '1299.0000', '1195.0000', '1', 'roy  602-V537-38ST2510007537') - trueProd: insert into productos_ventas 
+        values ('40882', '16759', '1', '143', '97.0000', '1', 'ca 4666MICP600-80+2139') - trueProd: insert into productos_ventas 
+        values ('40536', '16759', '1', '80', '66.0000', '1', 'p ') - true

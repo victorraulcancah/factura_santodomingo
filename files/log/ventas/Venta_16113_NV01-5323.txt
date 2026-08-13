@@ -1,0 +1,11 @@
+Venta: 16113, fecha: 2025-10-14
+
+Prod: insert into productos_ventas 
+        values ('40583', '16113', '1', '1019', '984.0000', '1', 'DEL   9MQ1947R50157') - trueProd: insert into productos_ventas 
+        values ('40760', '16113', '1', '435', '407.6660', '1', 'CA   SN243700008258') - trueProd: insert into productos_ventas 
+        values ('41014', '16113', '1', '699', '633.6250', '1', 'IMPAC   A4V9T51185HNPV') - trueProd: insert into productos_ventas 
+        values ('40918', '16113', '1', '127', '112.0000', '1', 'ROY   7016') - trueProd: insert into productos_ventas 
+        values ('41034', '16113', '1', '200', '160.0000', '1', 'ROG850B2506200021') - trueProd: insert into productos_ventas 
+        values ('40577', '16113', '1', '90', '80.2617', '1', '10000131880AH251801322') - trueProd: insert into productos_ventas 
+        values ('40991', '16113', '1', '190', '160.0000', '1', 'R') - trueProd: insert into productos_ventas 
+        values ('40759', '16113', '1', '65', '42.0000', '1', '0152502328') - true

@@ -1,0 +1,11 @@
+Venta: 16433, fecha: 2025-11-21
+
+Prod: insert into productos_ventas 
+        values ('40592', '16433', '1', '739', '679.2100', '1', 'dt  U5QP152800863') - trueProd: insert into productos_ventas 
+        values ('41000', '16433', '1', '675', '612.0000', '1', 'smt SN253000000578') - trueProd: insert into productos_ventas 
+        values ('41104', '16433', '2', '200', '188.8800', '1', 'del  TE165625090631 TE165625090636') - trueProd: insert into productos_ventas 
+        values ('41100', '16433', '1', '229', '212.8200', '1', 'plus  25332V802489') - trueProd: insert into productos_ventas 
+        values ('40886', '16433', '1', '239', '228.3400', '1', 'max  3067ZWDA11L8010519000897') - trueProd: insert into productos_ventas 
+        values ('40936', '16433', '1', '1259', '1205.3300', '1', 'dvdpe  SN253501035823') - trueProd: insert into productos_ventas 
+        values ('40991', '16433', '1', '189', '160.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('40976', '16433', '1', '169', '140.0000', '1', 'tac  4622P80BA750W0477') - true

@@ -1,0 +1,12 @@
+Venta: 16372, fecha: 2025-11-15
+
+Prod: insert into productos_ventas 
+        values ('40785', '16372', '1', '789.0000', '700.0000', '1', 'STH-40092') - trueProd: insert into productos_ventas 
+        values ('40886', '16372', '1', '239.0000', '228.3400', '1', 'MAXIM-00911') - trueProd: insert into productos_ventas 
+        values ('41077', '16372', '1', '720.0000', '620.0000', '1', 'STH-007162') - trueProd: insert into productos_ventas 
+        values ('40587', '16372', '2', '200.0000', '153.0000', '1', 'STH-382449-382450') - trueProd: insert into productos_ventas 
+        values ('40509', '16372', '1', '235.0000', '217.0000', '1', 'SED-99F453') - trueProd: insert into productos_ventas 
+        values ('41110', '16372', '1', '1699.0000', '1598.3500', '1', 'CDK-74119') - trueProd: insert into productos_ventas 
+        values ('41076', '16372', '1', '220.0000', '198.0400', '1', 'MAXIM-00203') - trueProd: insert into productos_ventas 
+        values ('40888', '16372', '1', '188.0000', '163.0000', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('41097', '16372', '1', '440.0000', '440.0000', '1', 'LEO-01098') - true

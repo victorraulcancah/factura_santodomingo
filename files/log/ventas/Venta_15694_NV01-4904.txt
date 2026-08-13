@@ -1,0 +1,9 @@
+Venta: 15694, fecha: 2025-08-24
+
+Prod: insert into productos_ventas 
+        values ('40602', '15694', '1', '589.0000', '566.1700', '1', 'del  9MM2590O50442') - trueProd: insert into productos_ventas 
+        values ('40557', '15694', '1', '209.0000', '184.5000', '1', 'roy  601-7C96-120B2504061797') - trueProd: insert into productos_ventas 
+        values ('40546', '15694', '1', '110.0000', '93.6300', '1', 'spt 30171591787') - trueProd: insert into productos_ventas 
+        values ('40699', '15694', '1', '250.0000', '202.7500', '1', 'roy QDM423W100761P113A') - trueProd: insert into productos_ventas 
+        values ('40882', '15694', '1', '132', '100.0000', '1', 'ca  4594P80B-600W1877') - trueProd: insert into productos_ventas 
+        values ('40913', '15694', '1', '99.0000', '75.0000', '1', 'ca') - true

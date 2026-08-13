@@ -1,0 +1,9 @@
+Venta: 15197, fecha: 2025-07-13
+
+Prod: insert into productos_ventas 
+        values ('40763', '15197', '1', '600', '539.0000', '1', 'ROG40117') - trueProd: insert into productos_ventas 
+        values ('40645', '15197', '1', '199.0000', '169.0000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40882', '15197', '1', '140', '103.5000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40699', '15197', '1', '225', '205.0000', '1', 'ROY102826P') - trueProd: insert into productos_ventas 
+        values ('40536', '15197', '1', '80', '66.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40893', '15197', '1', '1499', '1412.1300', '1', 'CV17470') - true

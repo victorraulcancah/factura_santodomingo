@@ -1,0 +1,9 @@
+Venta: 16325, fecha: 2025-11-10
+
+Prod: insert into productos_ventas 
+        values ('41072', '16325', '1', '215.0000', '201.8700', '1', 'IMPUL-1000475') - trueProd: insert into productos_ventas 
+        values ('40654', '16325', '1', '25.0000', '14.6000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40575', '16325', '1', '75.0000', '66.7000', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40600', '16325', '1', '40.0000', '33.0000', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('41048', '16325', '1', '41.0000', '34.2700', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('41083', '16325', '1', '89.0000', '81.0000', '1', 'CAL') - true

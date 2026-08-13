@@ -1,0 +1,4 @@
+Venta: 17200, fecha: 2026-02-11
+
+Prod: insert into productos_ventas 
+        values ('41285', '17200', '1', '800.0000', '749.0600', '1', 'IMPCT MT325Q0000037') - true

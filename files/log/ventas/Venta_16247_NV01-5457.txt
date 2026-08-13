@@ -1,0 +1,12 @@
+Venta: 16247, fecha: 2025-11-01
+
+Prod: insert into productos_ventas 
+        values ('40603', '16247', '1', '499.0000', '445.8400', '1', 'LBS 9AMW067S50397_100-000001591') - trueProd: insert into productos_ventas 
+        values ('40651', '16247', '1', '289', '248.0000', '1', 'CA   A23890025130200231') - trueProd: insert into productos_ventas 
+        values ('41041', '16247', '1', '169', '147.0000', '1', 'RG  A23890025130200231') - trueProd: insert into productos_ventas 
+        values ('40918', '16247', '1', '119', '108.3100', '1', ' MAX 76718') - trueProd: insert into productos_ventas 
+        values ('41016', '16247', '1', '119', '100.0000', '1', 'ROG600W2503310180') - trueProd: insert into productos_ventas 
+        values ('40913', '16247', '1', '85', '75.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40531', '16247', '1', '719', '640.0000', '1', 'SMT SN252101023746') - trueProd: insert into productos_ventas 
+        values ('40521', '16247', '1', '229', '221.8700', '1', 'DEL  SNCTM2506011501  ') - trueProd: insert into productos_ventas 
+        values ('40539', '16247', '1', '0', '12.0000', '1', 'F') - true

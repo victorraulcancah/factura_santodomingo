@@ -1,0 +1,4 @@
+Venta: 16638, fecha: 2025-12-08
+
+Prod: insert into productos_ventas 
+        values ('40550', '16638', '2', '550', '519.5000', '1', 'import-rog40616-import50576') - true

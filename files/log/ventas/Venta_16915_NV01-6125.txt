@@ -1,0 +1,10 @@
+Venta: 16915, fecha: 2026-01-06
+
+Prod: insert into productos_ventas 
+        values ('41221', '16915', '1', '679', '632.1700', '1', 'SER 2210') - trueProd: insert into productos_ventas 
+        values ('41222', '16915', '1', '487', '426.0000', '1', 'CALE SN250950010674') - trueProd: insert into productos_ventas 
+        values ('41108', '16915', '1', '685', '435.0000', '1', 'ROG 0000009277789-S007201') - trueProd: insert into productos_ventas 
+        values ('41214', '16915', '1', '189', '160.0000', '1', 'MICROBYT ST20248801912') - trueProd: insert into productos_ventas 
+        values ('40882', '16915', '1', '120', '92.0000', '1', 'IMPUL 4666MICP600-80+1382') - trueProd: insert into productos_ventas 
+        values ('40514', '16915', '1', '135', '119.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40988', '16915', '1', '1299.0000', '1239.0000', '1', 'roy 602-V537-070T2511005753') - true

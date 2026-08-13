@@ -1,0 +1,8 @@
+Venta: 16089, fecha: 2025-10-11
+
+Prod: insert into productos_ventas 
+        values ('40662', '16089', '1', '171', '138.6000', '1', 'CMS 9KT6464R30167') - trueProd: insert into productos_ventas 
+        values ('40971', '16089', '1', '109', '65.7400', '1', 'SPT 30174900892') - trueProd: insert into productos_ventas 
+        values ('40557', '16089', '1', '230', '183.0000', '1', 'ROY 601-7C96-120B2503086202') - trueProd: insert into productos_ventas 
+        values ('40494', '16089', '1', '60', '51.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40995', '16089', '1', '220', '170.0000', '1', 'EDU 931T') - true

@@ -1,0 +1,8 @@
+Venta: 16415, fecha: 2025-11-18
+
+Prod: insert into productos_ventas 
+        values ('41077', '16415', '15', '670', '620.0000', '1', '007024-07127-2432-07125-07140-7259-7258-7128-3018-7143-7025-7126-7122-7020-7124') - trueProd: insert into productos_ventas 
+        values ('40521', '16415', '6', '226', '216.7200', '1', 'DEL0106-0683-0694-0650-0651-0711') - trueProd: insert into productos_ventas 
+        values ('40558', '16415', '10', '325', '316.0900', '1', '0B2506008950-60') - trueProd: insert into productos_ventas 
+        values ('41117', '16415', '1', '720', '665.0000', '1', '020B2408002353') - trueProd: insert into productos_ventas 
+        values ('41111', '16415', '15', '105', '94.0000', '1', 'HU9k40 / b33ph2a / h4t / h1x/ 7hiy/7h18 / 7h49 / 7h2p / b32n / 7h3t / b350 / 7h06 / 7h2f / b33g') - true

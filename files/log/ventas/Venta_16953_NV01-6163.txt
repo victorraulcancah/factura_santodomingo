@@ -1,0 +1,4 @@
+Venta: 16953, fecha: 2026-01-10
+
+Prod: insert into productos_ventas 
+        values ('41240', '16953', '1', '429', '386.0000', '1', 'cale 4690GM27FQ1800092') - true

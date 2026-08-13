@@ -1,0 +1,10 @@
+Venta: 15484, fecha: 2025-08-05
+
+Prod: insert into productos_ventas 
+        values ('40763', '15484', '1', '725', '521.4600', '1', 'smt 9MG9510T40402') - trueProd: insert into productos_ventas 
+        values ('40558', '15484', '1', '379', '343.0000', '1', 'seda 601-7C95-310B2504001324') - trueProd: insert into productos_ventas 
+        values ('40546', '15484', '1', '109', '93.6300', '1', 'spt  30171591814') - trueProd: insert into productos_ventas 
+        values ('40925', '15484', '1', '249.0000', '218.0000', '1', 'roy 30166625487') - trueProd: insert into productos_ventas 
+        values ('40555', '15484', '1', '189', '163.0000', '1', 'ca 250127PSDK-G0379') - trueProd: insert into productos_ventas 
+        values ('40499', '15484', '1', '1149.0000', '1100.0000', '1', 'max 602-V397-1139SB2505004476') - trueProd: insert into productos_ventas 
+        values ('40540', '15484', '1', '119.0000', '103.7200', '1', 'impul') - true

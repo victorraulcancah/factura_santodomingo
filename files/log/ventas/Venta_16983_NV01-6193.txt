@@ -1,0 +1,10 @@
+Venta: 16983, fecha: 2026-01-16
+
+Prod: insert into productos_ventas 
+        values ('40535', '16983', '1', '554', '504.7700', '1', 'CDK YB03247M40075') - trueProd: insert into productos_ventas 
+        values ('41008', '16983', '1', '369.0000', '300.9000', '1', 'IMPCT 601-7E76-020B2507002888') - trueProd: insert into productos_ventas 
+        values ('41241', '16983', '1', '699.0000', '591.0000', '1', 'AND PC525120059') - trueProd: insert into productos_ventas 
+        values ('40564', '16983', '1', '239', '142.5000', '1', 'LP ASAD35330300442') - trueProd: insert into productos_ventas 
+        values ('41243', '16983', '1', '139', '99.0000', '1', 'CALE TSMJC2507090774') - trueProd: insert into productos_ventas 
+        values ('41244', '16983', '1', '119', '80.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('41031', '16983', '1', '35.0000', '25.0000', '1', 'ROG') - true

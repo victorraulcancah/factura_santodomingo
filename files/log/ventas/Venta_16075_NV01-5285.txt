@@ -1,0 +1,4 @@
+Venta: 16075, fecha: 2025-10-09
+
+Prod: insert into productos_ventas 
+        values ('40862', '16075', '1', '340', '320.0000', '1', 'HUM SNCTM2506040674') - true

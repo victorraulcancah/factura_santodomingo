@@ -1,0 +1,8 @@
+Venta: 16866, fecha: 2025-12-31
+
+Prod: insert into productos_ventas 
+        values ('40630', '16866', '1', '219.0000', '175.2000', '1', 'CA-0056241') - trueProd: insert into productos_ventas 
+        values ('40493', '16866', '1', '594.0000', '536.6300', '1', 'LP860023') - trueProd: insert into productos_ventas 
+        values ('41184', '16866', '1', '359.0000', '250.0000', '1', 'ROG-X16D4110') - trueProd: insert into productos_ventas 
+        values ('41157', '16866', '1', '79.0000', '49.0400', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('41072', '16866', '4', '227.0000', '201.8700', '1', 'IMPU-4664DG24FC 1000163 1000473 1000078 1000219') - true

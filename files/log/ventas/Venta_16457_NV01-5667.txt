@@ -1,0 +1,11 @@
+Venta: 16457, fecha: 2025-11-22
+
+Prod: insert into productos_ventas 
+        values ('40589', '16457', '1', '790.0000', '750.0000', '1', 'STH-U59K8P2404432') - trueProd: insert into productos_ventas 
+        values ('41124', '16457', '1', '195.0000', '165.0000', '1', 'EDU-JJWDV') - trueProd: insert into productos_ventas 
+        values ('41001', '16457', '1', '770.0000', '650.0000', '1', 'STH-X004IJJWDV') - trueProd: insert into productos_ventas 
+        values ('41104', '16457', '2', '250.0000', '188.8800', '1', 'DELT-TE1656250906380-TE165625090646') - trueProd: insert into productos_ventas 
+        values ('40509', '16457', '1', '269.0000', '217.0000', '1', 'SED-50026B728399F333') - trueProd: insert into productos_ventas 
+        values ('41042', '16457', '1', '1920.0000', '1836.6500', '1', 'CMS-602-V535-61SB2506004628') - trueProd: insert into productos_ventas 
+        values ('40976', '16457', '1', '175.0000', '140.0000', '1', 'IMPUL-4622P80BA750W0424') - trueProd: insert into productos_ventas 
+        values ('41095', '16457', '1', '130.0000', '91.2200', '1', 'CAL') - true

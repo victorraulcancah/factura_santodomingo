@@ -1,0 +1,6 @@
+Venta: 16802, fecha: 2025-12-23
+
+Prod: insert into productos_ventas 
+        values ('40543', '16802', '1', '50.0000', '37.0000', '1', 'PEG-2501-20503417') - trueProd: insert into productos_ventas 
+        values ('41158', '16802', '1', '90.0000', '73.5000', '1', 'IMPU') - trueProd: insert into productos_ventas 
+        values ('41046', '16802', '1', '50', '30.8400', '1', 'IMPU') - true

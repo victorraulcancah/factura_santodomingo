@@ -1,0 +1,9 @@
+Venta: 14767, fecha: 2025-05-26
+
+Prod: insert into productos_ventas 
+        values ('40535', '14767', '1', '599', '560.0000', '1', 'pega 40470') - trueProd: insert into productos_ventas 
+        values ('40760', '14767', '1', '445', '412.0000', '1', 'ca  40470') - trueProd: insert into productos_ventas 
+        values ('40587', '14767', '1', '175', '145.6000', '1', 'fabrsmith  90257') - trueProd: insert into productos_ventas 
+        values ('40596', '14767', '1', '145', '135.0000', '1', '1670p1137') - trueProd: insert into productos_ventas 
+        values ('40527', '14767', '1', '100', '69.0000', '1', 'ha') - trueProd: insert into productos_ventas 
+        values ('40541', '14767', '1', '96', '86.5000', '1', 'ca') - true

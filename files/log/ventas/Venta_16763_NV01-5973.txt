@@ -1,0 +1,10 @@
+Venta: 16763, fecha: 2025-12-20
+
+Prod: insert into productos_ventas 
+        values ('40549', '16763', '1', '310.0000', '270.0000', '1', 'ROG-159T50048') - trueProd: insert into productos_ventas 
+        values ('41080', '16763', '1', '195.0000', '180.0000', '1', 'SED-T4M0CS07T578WTD') - trueProd: insert into productos_ventas 
+        values ('41184', '16763', '1', '340.0000', '250.0000', '1', 'ROG-RGX16D4101') - trueProd: insert into productos_ventas 
+        values ('41105', '16763', '1', '170.0000', '95.0000', '1', 'HUMB-BTKA21350HGE512A') - trueProd: insert into productos_ventas 
+        values ('40537', '16763', '1', '745.0000', '672.1200', '1', 'JOTI-T8YVMX00U780G49') - trueProd: insert into productos_ventas 
+        values ('40882', '16763', '1', '120.0000', '97.0000', '1', 'CAL-4666MICP600-80+2134') - trueProd: insert into productos_ventas 
+        values ('41082', '16763', '1', '95.0000', '77.0000', '1', 'IMPU') - true

@@ -1,0 +1,7 @@
+Venta: 15898, fecha: 2025-09-15
+
+Prod: insert into productos_ventas 
+        values ('40499', '15898', '1', '1149.0000', '1085.0000', '1', 'MAX 602-V397-1139SB2505003785') - trueProd: insert into productos_ventas 
+        values ('40882', '15898', '1', '135.0000', '102.0000', '1', 'CALE 4594P80B-600W1793') - trueProd: insert into productos_ventas 
+        values ('40546', '15898', '1', '120.0000', '109.0000', '1', 'LP 2193') - trueProd: insert into productos_ventas 
+        values ('40538', '15898', '1', '25.0000', '0.0000', '1', 'SERVICIO TECNICO') - true

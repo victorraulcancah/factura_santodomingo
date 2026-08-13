@@ -1,0 +1,9 @@
+Venta: 16581, fecha: 2025-12-03
+
+Prod: insert into productos_ventas 
+        values ('40552', '16581', '1', '689', '654.1900', '1', 'CDK60186') - trueProd: insert into productos_ventas 
+        values ('41156', '16581', '1', '300', '276.4200', '1', 'TACT7463') - trueProd: insert into productos_ventas 
+        values ('41145', '16581', '1', '399', '329.8700', '1', 'IMPACT3444') - trueProd: insert into productos_ventas 
+        values ('40565', '16581', '1', '319', '247.0000', '1', 'ADNY2291') - trueProd: insert into productos_ventas 
+        values ('40976', '16581', '1', '169', '142.0000', '1', 'MICR0466') - trueProd: insert into productos_ventas 
+        values ('40991', '16581', '1', '199', '160.0000', '1', 'ROG') - true

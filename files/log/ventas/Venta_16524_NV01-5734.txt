@@ -1,0 +1,10 @@
+Venta: 16524, fecha: 2025-11-29
+
+Prod: insert into productos_ventas 
+        values ('40708', '16524', '1', '539.0000', '520.0000', '1', 'DEL1863') - trueProd: insert into productos_ventas 
+        values ('41012', '16524', '1', '425.0000', '363.9600', '1', 'CMS3103') - trueProd: insert into productos_ventas 
+        values ('41128', '16524', '2', '150', '80.0000', '1', 'CGS0063-0056') - trueProd: insert into productos_ventas 
+        values ('41105', '16524', '1', '125', '95.0000', '1', 'HUMBERNUS3512A') - trueProd: insert into productos_ventas 
+        values ('40976', '16524', '1', '199', '142.0000', '1', 'DANTE') - trueProd: insert into productos_ventas 
+        values ('41051', '16524', '1', '1899', '1822.2000', '1', 'CDK5286') - trueProd: insert into productos_ventas 
+        values ('40933', '16524', '1', '212', '166.0000', '1', 'CA') - true

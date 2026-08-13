@@ -1,0 +1,11 @@
+Venta: 16918, fecha: 2026-01-06
+
+Prod: insert into productos_ventas 
+        values ('40583', '16918', '1', '989.0000', '892.7200', '1', 'cms  9AMN034Q50146') - trueProd: insert into productos_ventas 
+        values ('41008', '16918', '1', '365', '301.0000', '1', 'cms  4711377360166') - trueProd: insert into productos_ventas 
+        values ('41108', '16918', '1', '699', '435.0000', '1', 'rg  7452') - trueProd: insert into productos_ventas 
+        values ('41214', '16918', '1', '220', '160.0000', '1', 'micro  ST20248801879') - trueProd: insert into productos_ventas 
+        values ('40828', '16918', '1', '129', '100.0000', '1', 'ca  4667MICP650-80+0527') - trueProd: insert into productos_ventas 
+        values ('40521', '16918', '1', '229', '225.0000', '1', 'hu  TE2415S171825081092') - trueProd: insert into productos_ventas 
+        values ('41031', '16918', '1', '40', '25.0000', '1', 'rg ') - trueProd: insert into productos_ventas 
+        values ('41207', '16918', '1', '89', '68.3400', '1', 'im') - true

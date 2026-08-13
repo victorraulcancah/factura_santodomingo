@@ -1,0 +1,8 @@
+Venta: 14389, fecha: 2025-04-19
+
+Prod: insert into productos_ventas 
+        values ('40565', '14389', '1', '180', '170.0000', '1', 'tact802587') - trueProd: insert into productos_ventas 
+        values ('40579', '14389', '1', '110', '95.0000', '1', 'smth90cmmh') - trueProd: insert into productos_ventas 
+        values ('40531', '14389', '1', '760', '728.5000', '1', 'MAXIMA251083281') - trueProd: insert into productos_ventas 
+        values ('40556', '14389', '1', '140', '111.0500', '1', 'HALIONZB24A00841') - trueProd: insert into productos_ventas 
+        values ('40549', '14389', '1', '330.0000', '315.7000', '1', 'CMS40023') - true

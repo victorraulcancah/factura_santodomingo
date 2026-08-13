@@ -1,0 +1,7 @@
+Venta: 15302, fecha: 2025-07-20
+
+Prod: insert into productos_ventas 
+        values ('40531', '15302', '7', '735', '709.8300', '1', 'corp64802 64803 64804 64809 64811 64813 64818') - trueProd: insert into productos_ventas 
+        values ('40862', '15302', '8', '325', '311.9200', '1', 'del170707 170339 170996 170483 170374 170514 170746 170044') - trueProd: insert into productos_ventas 
+        values ('40732', '15302', '8', '190', '172.0000', '1', 'roy11201 11202 11203 11206 11207 11208 11209 11210') - trueProd: insert into productos_ventas 
+        values ('40882', '15302', '8', '120', '101.7500', '1', '1592 1593 1594 1595 1597 1598 1599 1600') - true

@@ -1,0 +1,11 @@
+Venta: 16774, fecha: 2025-12-20
+
+Prod: insert into productos_ventas 
+        values ('41209', '16774', '1', '699.0000', '660.0000', '1', 'MARLEM-V4221737') - trueProd: insert into productos_ventas 
+        values ('40702', '16774', '1', '299.0000', '255.9270', '1', 'CMS-SN251250103200') - trueProd: insert into productos_ventas 
+        values ('41105', '16774', '1', '189.0000', '95.0000', '1', 'HUMB-BTKA216105EP512A') - trueProd: insert into productos_ventas 
+        values ('41175', '16774', '1', '600.0000', '340.0000', '1', 'REMA-30175454355') - trueProd: insert into productos_ventas 
+        values ('40882', '16774', '1', '125.0000', '97.0000', '1', 'CAL-4666MICP600-80+2137') - trueProd: insert into productos_ventas 
+        values ('40988', '16774', '1', '1288.0000', '1195.0000', '1', 'ROY-602-V537-38ST2510007532') - trueProd: insert into productos_ventas 
+        values ('41188', '16774', '1', '199.0000', '170.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40539', '16774', '1', '000.0000', '10.8330', '1', 'FD') - true

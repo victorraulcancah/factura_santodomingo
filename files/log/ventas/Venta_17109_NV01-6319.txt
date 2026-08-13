@@ -1,0 +1,4 @@
+Venta: 17109, fecha: 2026-01-31
+
+Prod: insert into productos_ventas 
+        values ('40521', '17109', '1', '229', '195.3200', '1', 'DEL TE2415S179525100139') - true

@@ -1,0 +1,9 @@
+Venta: 16906, fecha: 2026-01-05
+
+Prod: insert into productos_ventas 
+        values ('40558', '16906', '1', '340', '345.5120', '1', 'roy  4719072733698') - trueProd: insert into productos_ventas 
+        values ('40828', '16906', '1', '140', '100.0000', '1', 'ca  4667MICP650-80+0528') - trueProd: insert into productos_ventas 
+        values ('40926', '16906', '1', '1290', '1238.4000', '1', 'ro  602-V537-070T2511005576') - trueProd: insert into productos_ventas 
+        values ('41188', '16906', '1', '200', '170.0000', '1', 'rg ') - trueProd: insert into productos_ventas 
+        values ('40512', '16906', '1', '200', '152.0000', '1', 'imp  4602ARC3600500') - trueProd: insert into productos_ventas 
+        values ('40538', '16906', '1', '30', '0.0000', '1', 'f') - true

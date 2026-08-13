@@ -1,0 +1,4 @@
+Venta: 14921, fecha: 2025-06-16
+
+Prod: insert into productos_ventas 
+        values ('40830', '14921', '1', '400.0000', '359.1000', '1', 'CORPTE2732S02A250507') - true

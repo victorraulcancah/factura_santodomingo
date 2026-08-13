@@ -1,0 +1,12 @@
+Venta: 16300, fecha: 2025-11-07
+
+Prod: insert into productos_ventas 
+        values ('40592', '16300', '1', '764', '642.1400', '1', 'SMT U5K6V00603750') - trueProd: insert into productos_ventas 
+        values ('40702', '16300', '1', '299', '271.6270', '1', 'IMPCT SN251250102870') - trueProd: insert into productos_ventas 
+        values ('41019', '16300', '1', '90', '65.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41041', '16300', '2', '170.0000', '147.0000', '1', 'ROG E23829524510000142 | E23829524510000141') - trueProd: insert into productos_ventas 
+        values ('41058', '16300', '1', '229', '192.5000', '1', 'SPT 30171981230') - trueProd: insert into productos_ventas 
+        values ('41051', '16300', '1', '1859', '1799.0000', '1', 'PEG SN253641075270') - trueProd: insert into productos_ventas 
+        values ('40976', '16300', '1', '179.0000', '140.0000', '1', 'IMPU 4622P80BA750W0478') - trueProd: insert into productos_ventas 
+        values ('40991', '16300', '1', '199.0000', '160.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41094', '16300', '1', '589', '585.0000', '1', 'CALE 57459/174C00016555') - true

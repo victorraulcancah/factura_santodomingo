@@ -1,0 +1,10 @@
+Venta: 16469, fecha: 2025-11-24
+
+Prod: insert into productos_ventas 
+        values ('40583', '16469', '1', '999', '951.8600', '1', 'DEL 9AMN024Q50252') - trueProd: insert into productos_ventas 
+        values ('41008', '16469', '1', '329', '306.0000', '1', 'ROY 601-7E76-020B2505004628') - trueProd: insert into productos_ventas 
+        values ('41101', '16469', '1', '289', '181.4400', '1', 'MEMO EF2411010150130') - trueProd: insert into productos_ventas 
+        values ('40943', '16469', '1', '279', '208.0000', '1', 'CALE QJ4276R005383P2857') - trueProd: insert into productos_ventas 
+        values ('41016', '16469', '1', '125', '95.0000', '1', 'ROG600W2503310204') - trueProd: insert into productos_ventas 
+        values ('40991', '16469', '1', '199.0000', '160.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40536', '16469', '1', '80', '65.0000', '1', 'CALE 2503-20556966') - true

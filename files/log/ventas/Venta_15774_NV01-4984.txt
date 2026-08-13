@@ -1,0 +1,13 @@
+Venta: 15774, fecha: 2025-09-01
+
+Prod: insert into productos_ventas 
+        values ('40763', '15774', '1', '700.0000', '521.4600', '1', 'SMT 9MG6918S40252') - trueProd: insert into productos_ventas 
+        values ('40546', '15774', '2', '110.0000', '92.2000', '1', 'SPT 30171591014 | 30171591015') - trueProd: insert into productos_ventas 
+        values ('40558', '15774', '1', '369.0000', '337.1100', '1', 'DEL 601-7C95-310B2504011980') - trueProd: insert into productos_ventas 
+        values ('40585', '15774', '1', '199.0000', '183.0000', '1', '4P2120635920 ROD') - trueProd: insert into productos_ventas 
+        values ('40983', '15774', '1', '1430.0000', '1350.0000', '1', 'FABRI SN253101024813') - trueProd: insert into productos_ventas 
+        values ('40513', '15774', '1', '159.0000', '134.6000', '1', 'FABRI') - trueProd: insert into productos_ventas 
+        values ('40882', '15774', '1', '140.0000', '100.0000', '1', 'CALE 4594P80B-600W0932') - trueProd: insert into productos_ventas 
+        values ('40888', '15774', '1', '232.0000', '170.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40536', '15774', '1', '80.0000', '66.0000', '1', 'CALE 2433-19666179') - trueProd: insert into productos_ventas 
+        values ('40977', '15774', '3', '249.0000', '215.0000', '1', 'ROY') - true

@@ -1,0 +1,4 @@
+Venta: 15585, fecha: 2025-08-14
+
+Prod: insert into productos_ventas 
+        values ('40950', '15585', '1', '650.0000', '570.0000', '1', 'LEO CE0M175301263') - true

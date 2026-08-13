@@ -1,0 +1,10 @@
+Venta: 16627, fecha: 2025-12-06
+
+Prod: insert into productos_ventas 
+        values ('40708', '16627', '1', '577.0000', '553.0100', '1', 'LP-U5GV232803746') - trueProd: insert into productos_ventas 
+        values ('41145', '16627', '1', '499.0000', '329.8700', '1', 'IMPA-1P3601294080') - trueProd: insert into productos_ventas 
+        values ('41144', '16627', '1', '570.0000', '441.4700', '1', 'IMPA-022412120800244') - trueProd: insert into productos_ventas 
+        values ('40961', '16627', '1', '1750.0000', '1654.3400', '1', 'CDK-AWV007549') - trueProd: insert into productos_ventas 
+        values ('41034', '16627', '1', '190.0000', '160.0000', '1', 'ROG-B2506200262') - trueProd: insert into productos_ventas 
+        values ('41164', '16627', '1', '465.0000', '415.0000', '1', 'ROY-601-7D99-210B2508002105') - trueProd: insert into productos_ventas 
+        values ('40540', '16627', '1', '129.0000', '90.9560', '1', 'IMPUL') - true

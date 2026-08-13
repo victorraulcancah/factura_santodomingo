@@ -1,0 +1,8 @@
+Venta: 17127, fecha: 2026-02-01
+
+Prod: insert into productos_ventas 
+        values ('40852', '17127', '1', '680', '532.0000', '1', 'TACT701756') - trueProd: insert into productos_ventas 
+        values ('41174', '17127', '1', '240', '200.0000', '1', 'CA800875') - trueProd: insert into productos_ventas 
+        values ('40882', '17127', '1', '120', '92.0000', '1', 'CA2275') - trueProd: insert into productos_ventas 
+        values ('41188', '17127', '1', '200', '170.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41253', '17127', '1', '999', '920.0000', '1', 'DAVIDA21520017') - true

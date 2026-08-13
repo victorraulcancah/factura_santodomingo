@@ -1,0 +1,8 @@
+Venta: 17088, fecha: 2026-01-29
+
+Prod: insert into productos_ventas 
+        values ('40493', '17088', '1', '560', '535.0000', '1', 'CALE 50063') - trueProd: insert into productos_ventas 
+        values ('40557', '17088', '1', '219', '182.5750', '1', 'ADNI 6450') - trueProd: insert into productos_ventas 
+        values ('40918', '17088', '1', '240', '148.9800', '1', 'GYG 75168') - trueProd: insert into productos_ventas 
+        values ('41157', '17088', '1', '100', '49.0400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40521', '17088', '1', '229', '195.3200', '1', 'COMPUVI TE2415S179525100289') - true

@@ -1,0 +1,4 @@
+Venta: 16502, fecha: 2025-11-28
+
+Prod: insert into productos_ventas 
+        values ('41105', '16502', '1', '130.0000', '95.0000', '1', 'HUMB-BTKA216105R1512A') - true

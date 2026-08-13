@@ -1,0 +1,9 @@
+Venta: 16386, fecha: 2025-11-16
+
+Prod: insert into productos_ventas 
+        values ('40591', '16386', '1', '799.0000', '650.0000', '1', 'smt  4AD7829O50594') - trueProd: insert into productos_ventas 
+        values ('40587', '16386', '2', '200', '153.0000', '1', 'smt  EF2503130381473  EF2503130381474') - trueProd: insert into productos_ventas 
+        values ('40943', '16386', '1', '269', '208.0000', '1', 'ca  02M6IYXPVTCSD5') - trueProd: insert into productos_ventas 
+        values ('40936', '16386', '1', '1299', '1205.3300', '1', 'dvdpg  SN253501036024') - trueProd: insert into productos_ventas 
+        values ('41019', '16386', '1', '85', '65.0000', '1', 'rg') - trueProd: insert into productos_ventas 
+        values ('41008', '16386', '1', '348', '306.0000', '1', 'roy 601-7E76-020B2505004423') - true

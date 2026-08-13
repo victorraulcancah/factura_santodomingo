@@ -1,0 +1,8 @@
+Venta: 16421, fecha: 2025-11-20
+
+Prod: insert into productos_ventas 
+        values ('40535', '16421', '1', '540', '500.9400', '1', 'DEL Y984639S50351') - trueProd: insert into productos_ventas 
+        values ('41113', '16421', '1', '270', '269.1000', '1', 'SEDA T4M0KK06P861CU8') - trueProd: insert into productos_ventas 
+        values ('41104', '16421', '1', '200', '188.8800', '1', 'DEL TE165625090655') - trueProd: insert into productos_ventas 
+        values ('41111', '16421', '1', '140', '94.0000', '1', 'HUM FYB7N024010107H1Z') - trueProd: insert into productos_ventas 
+        values ('40516', '16421', '1', '100', '80.0000', '1', 'TAC') - true

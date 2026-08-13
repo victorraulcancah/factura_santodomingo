@@ -1,0 +1,11 @@
+Venta: 16245, fecha: 2025-11-01
+
+Prod: insert into productos_ventas 
+        values ('40552', '16245', '1', '685', '671.9300', '1', 'ROY 9MQ7904S50293') - trueProd: insert into productos_ventas 
+        values ('41024', '16245', '1', '180', '142.7800', '1', 'SMT N2387252510000448') - trueProd: insert into productos_ventas 
+        values ('40918', '16245', '1', '145', '108.3100', '1', 'MAX 30176975713') - trueProd: insert into productos_ventas 
+        values ('41028', '16245', '1', '490', '464.4400', '1', 'CMS SN251150029652') - trueProd: insert into productos_ventas 
+        values ('41016', '16245', '1', '140', '100.0000', '1', 'ROG600B2503310004') - trueProd: insert into productos_ventas 
+        values ('40913', '16245', '1', '109', '75.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40521', '16245', '1', '250', '221.8700', '1', 'DEL SNCTM2506011092') - trueProd: insert into productos_ventas 
+        values ('40536', '16245', '2', '75', '67.0000', '1', 'ROY 2433-19657104 | 2433-19657107') - true

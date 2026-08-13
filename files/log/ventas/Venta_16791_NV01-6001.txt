@@ -1,0 +1,9 @@
+Venta: 16791, fecha: 2025-12-22
+
+Prod: insert into productos_ventas 
+        values ('40603', '16791', '1', '549', '465.0000', '1', 'ROG00001591') - trueProd: insert into productos_ventas 
+        values ('41175', '16791', '1', '649', '340.0000', '1', 'REMA54331') - trueProd: insert into productos_ventas 
+        values ('40564', '16791', '1', '190', '142.5000', '1', 'LP300467') - trueProd: insert into productos_ventas 
+        values ('41008', '16791', '1', '337', '300.0000', '1', 'CMS5004601') - trueProd: insert into productos_ventas 
+        values ('40479', '16791', '1', '260', '214.4500', '1', 'CDK700597') - trueProd: insert into productos_ventas 
+        values ('40514', '16791', '1', '125', '119.0000', '1', 'CA') - true

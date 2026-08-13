@@ -1,0 +1,12 @@
+Venta: 14746, fecha: 2025-05-24
+
+Prod: insert into productos_ventas 
+        values ('40778', '14746', '1', '1675', '1527.6700', '1', '') - trueProd: insert into productos_ventas 
+        values ('40658', '14746', '1', '649', '600.0000', '1', 'tac  2000966') - trueProd: insert into productos_ventas 
+        values ('40781', '14746', '1', '699', '630.9900', '1', 'impc 200c40 n24p  1  - 2 ') - trueProd: insert into productos_ventas 
+        values ('40584', '14746', '1', '235', '180.0000', '1', 'pega  1149') - trueProd: insert into productos_ventas 
+        values ('40620', '14746', '1', '349', '268.0000', '1', 'ROY') - trueProd: insert into productos_ventas 
+        values ('40780', '14746', '1', '449', '365.3000', '1', 'PLUS  9494') - trueProd: insert into productos_ventas 
+        values ('40728', '14746', '1', '399', '328.7050', '1', 'IMPAC 30011') - trueProd: insert into productos_ventas 
+        values ('40565', '14746', '1', '225', '200.0000', '1', 'FAB 0512') - trueProd: insert into productos_ventas 
+        values ('40779', '14746', '1', '280', '240.2200', '1', 'PLUS  ') - true

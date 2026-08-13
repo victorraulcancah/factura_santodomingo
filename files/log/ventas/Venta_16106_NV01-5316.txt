@@ -1,0 +1,6 @@
+Venta: 16106, fecha: 2025-10-13
+
+Prod: insert into productos_ventas 
+        values ('41000', '16106', '5', '680', '590.0000', '1', 'SN244650075926 SN244750058111 SN244750058270 SN244850076820 SN244750058107') - trueProd: insert into productos_ventas 
+        values ('40986', '16106', '5', '480', '460.0000', '1', 'U4Y16V6202006 U4Y16V6204927 U4ED705502413 U4KP595103046 U4Y16V6204273') - trueProd: insert into productos_ventas 
+        values ('41000', '16106', '5', '630', '590.0000', '1', 'SN253000000334 SN252900000644 SN252900000902 SN252900000904 SN253000000375') - true

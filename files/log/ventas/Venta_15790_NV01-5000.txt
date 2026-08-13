@@ -1,0 +1,12 @@
+Venta: 15790, fecha: 2025-09-03
+
+Prod: insert into productos_ventas 
+        values ('40592', '15790', '1', '829.0000', '659.4000', '1', 'SMT U5LH877703837') - trueProd: insert into productos_ventas 
+        values ('40813', '15790', '1', '419.0000', '347.3500', '1', 'SMT EF2502120220039 | EF2502120220040') - trueProd: insert into productos_ventas 
+        values ('40585', '15790', '1', '244.0000', '183.0000', '1', 'RODR 4P2120645538') - trueProd: insert into productos_ventas 
+        values ('40889', '15790', '1', '2899.0000', '2660.1500', '1', 'DISKE SN251641050993') - trueProd: insert into productos_ventas 
+        values ('40740', '15790', '1', '449.0000', '405.0000', '1', 'ROY H3M0XB073693') - trueProd: insert into productos_ventas 
+        values ('40892', '15790', '1', '370.0000', '299.6000', '1', 'AMA BL25D19FWSE360ARGBV2WCB0274') - trueProd: insert into productos_ventas 
+        values ('40479', '15790', '1', '330.0000', '226.0000', '1', 'ROY AG850SASN242400216') - trueProd: insert into productos_ventas 
+        values ('40933', '15790', '1', '249.0000', '170.0000', '1', 'CALE') - trueProd: insert into productos_ventas 
+        values ('40977', '15790', '1', '249.0000', '215.0000', '1', 'ROY') - true

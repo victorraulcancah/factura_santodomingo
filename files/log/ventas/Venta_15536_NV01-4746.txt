@@ -1,0 +1,4 @@
+Venta: 15536, fecha: 2025-08-09
+
+Prod: insert into productos_ventas 
+        values ('40785', '15536', '1', '760.0000', '575.0000', '1', 'AMA 9MJ4433W40047') - true

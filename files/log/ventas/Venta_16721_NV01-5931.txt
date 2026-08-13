@@ -1,0 +1,11 @@
+Venta: 16721, fecha: 2025-12-16
+
+Prod: insert into productos_ventas 
+        values ('40603', '16721', '1', '550', '455.0000', '1', 'ROG50409') - trueProd: insert into productos_ventas 
+        values ('41134', '16721', '1', '160', '135.0000', '1', 'DIOSES92217-2959') - trueProd: insert into productos_ventas 
+        values ('41175', '16721', '1', '599', '340.0000', '1', 'REMA6617') - trueProd: insert into productos_ventas 
+        values ('41008', '16721', '1', '340', '286.0000', '1', 'CDK07852') - trueProd: insert into productos_ventas 
+        values ('40913', '16721', '1', '119', '70.7700', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('41170', '16721', '1', '199.0000', '145.0000', '1', 'ROG200255') - trueProd: insert into productos_ventas 
+        values ('41166', '16721', '1', '1732', '1568.6100', '1', 'CDK489F5') - trueProd: insert into productos_ventas 
+        values ('40521', '16721', '1', '230', '209.4000', '1', 'DEL0731') - true

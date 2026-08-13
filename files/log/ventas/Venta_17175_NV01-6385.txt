@@ -1,0 +1,5 @@
+Venta: 17175, fecha: 2026-02-07
+
+Prod: insert into productos_ventas 
+        values ('41043', '17175', '1', '299.0000', '175.7000', '1', 'CDK-S78440P130P8310510004006') - trueProd: insert into productos_ventas 
+        values ('40698', '17175', '1', '50.0000', '45.0000', '1', 'TACT') - true

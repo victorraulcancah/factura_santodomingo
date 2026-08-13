@@ -1,0 +1,12 @@
+Venta: 16875, fecha: 2026-01-02
+
+Prod: insert into productos_ventas 
+        values ('40589', '16875', '1', '885.0000', '750.0000', '1', 'LABS-X531C422') - trueProd: insert into productos_ventas 
+        values ('40577', '16875', '1', '85.0000', '74.0000', '1', 'GG') - trueProd: insert into productos_ventas 
+        values ('41164', '16875', '1', '459.0000', '417.0000', '1', 'CAL-601-7D99-210B2508002345') - trueProd: insert into productos_ventas 
+        values ('41175', '16875', '1', '599.0000', '340.0000', '1', 'REMA-30175454335') - trueProd: insert into productos_ventas 
+        values ('41200', '16875', '1', '200.0000', '185.1700', '1', 'LP-4P0921965729') - trueProd: insert into productos_ventas 
+        values ('40926', '16875', '1', '1320.0000', '1215.0000', '1', 'ROY-602-V537-070T2511005595') - trueProd: insert into productos_ventas 
+        values ('40828', '16875', '1', '145.0000', '100.0000', '1', 'CAL-4667MICP650-80+1152') - trueProd: insert into productos_ventas 
+        values ('41207', '16875', '1', '100.0000', '68.3400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40698', '16875', '1', '55.0000', '45.0000', '1', 'TACT') - true

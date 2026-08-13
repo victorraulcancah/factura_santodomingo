@@ -1,0 +1,11 @@
+Venta: 17022, fecha: 2026-01-21
+
+Prod: insert into productos_ventas 
+        values ('40602', '17022', '1', '708.0000', '638.7800', '1', 'CMS-9MR7960T50056') - trueProd: insert into productos_ventas 
+        values ('40558', '17022', '1', '360.0000', '323.0000', '1', 'CMS-601-7C95-310B2506009024') - trueProd: insert into productos_ventas 
+        values ('40489', '17022', '1', '404.0000', '305.0000', '1', 'M-BYTE 0000009277789-S006521') - trueProd: insert into productos_ventas 
+        values ('41200', '17022', '1', '219.0000', '188.0000', '1', 'LP-4P0921965826') - trueProd: insert into productos_ventas 
+        values ('41207', '17022', '1', '99.0000', '68.3400', '1', 'CAL') - trueProd: insert into productos_ventas 
+        values ('40882', '17022', '1', '125.0000', '92.0000', '1', 'CAL-4666MICP600-80+2274') - trueProd: insert into productos_ventas 
+        values ('40521', '17022', '1', '229.0000', '225.0000', '1', 'HUM-TE2415S173825100112') - trueProd: insert into productos_ventas 
+        values ('40563', '17022', '1', '59.0000', '49.8500', '1', 'DELT') - true

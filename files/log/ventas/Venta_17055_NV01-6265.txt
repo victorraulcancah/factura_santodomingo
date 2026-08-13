@@ -1,0 +1,9 @@
+Venta: 17055, fecha: 2026-01-26
+
+Prod: insert into productos_ventas 
+        values ('40533', '17055', '1', '269.0000', '200.0000', '1', 'PEG 9AHJ125V50385') - trueProd: insert into productos_ventas 
+        values ('40630', '17055', '1', '219.0000', '182.0000', '1', 'SEDA SN251750056223') - trueProd: insert into productos_ventas 
+        values ('41115', '17055', '1', '99', '70.0000', '1', 'DANNY S35ENX1J916959') - trueProd: insert into productos_ventas 
+        values ('41230', '17055', '1', '199', '165.0000', '1', 'MICROB S004134') - trueProd: insert into productos_ventas 
+        values ('41157', '17055', '1', '103', '49.0400', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40958', '17055', '1', '40', '23.3500', '1', 'IMPUL') - true

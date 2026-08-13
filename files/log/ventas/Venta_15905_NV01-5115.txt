@@ -1,0 +1,7 @@
+Venta: 15905, fecha: 2025-09-15
+
+Prod: insert into productos_ventas 
+        values ('40915', '15905', '1', '130.0000', '106.8900', '1', 'MAX 30174792540') - trueProd: insert into productos_ventas 
+        values ('40908', '15905', '1', '0', '156.0000', '1', 'CALE D1981CF42513') - trueProd: insert into productos_ventas 
+        values ('40669', '15905', '1', '2899.0000', '2462.0000', '1', 'EDU MP2S3LA5') - trueProd: insert into productos_ventas 
+        values ('40824', '15905', '1', '0', '6.0000', '1', 'IMPUL') - true

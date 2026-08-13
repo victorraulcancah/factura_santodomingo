@@ -1,0 +1,12 @@
+Venta: 16412, fecha: 2025-11-18
+
+Prod: insert into productos_ventas 
+        values ('40535', '16412', '1', '533', '517.4500', '1', 'cms 9MQ4216R50036') - trueProd: insert into productos_ventas 
+        values ('40651', '16412', '1', '279', '260.0000', '1', 'seda 601-7E28-010B2503007135') - trueProd: insert into productos_ventas 
+        values ('41104', '16412', '1', '199', '188.8800', '1', 'del TE165625090698') - trueProd: insert into productos_ventas 
+        values ('41105', '16412', '1', '119', '95.0000', '1', 'hu  BTKA21541CT3512A') - trueProd: insert into productos_ventas 
+        values ('41093', '16412', '1', '119', '105.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('41016', '16412', '1', '110', '95.0000', '1', 'ROG600W2503310019') - trueProd: insert into productos_ventas 
+        values ('40521', '16412', '1', '230', '216.7200', '1', 'del  TE2415S1158B25070956') - trueProd: insert into productos_ventas 
+        values ('41063', '16412', '1', '170', '136.0000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40539', '16412', '1', '0', '12.0000', '1', 'f') - true

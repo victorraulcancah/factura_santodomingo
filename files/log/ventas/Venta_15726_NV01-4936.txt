@@ -1,0 +1,9 @@
+Venta: 15726, fecha: 2025-08-28
+
+Prod: insert into productos_ventas 
+        values ('40552', '15726', '1', '715.0000', '687.8900', '1', 'DELT-S60038') - trueProd: insert into productos_ventas 
+        values ('40495', '15726', '1', '585', '512.3300', '1', 'AMA-Z798EEX') - trueProd: insert into productos_ventas 
+        values ('40907', '15726', '1', '340.0000', '300.0000', '1', 'STH-1542BF-15484D') - trueProd: insert into productos_ventas 
+        values ('40882', '15726', '1', '115.0000', '100.0000', '1', 'CAL-W1882') - trueProd: insert into productos_ventas 
+        values ('40540', '15726', '1', '120.0000', '103.7200', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40699', '15726', '1', '225.0000', '202.7500', '1', 'ROY-100763') - true

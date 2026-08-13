@@ -1,0 +1,11 @@
+Venta: 17247, fecha: 2026-02-17
+
+Prod: insert into productos_ventas 
+        values ('41221', '17247', '1', '699.0000', '645.0000', '1', 'SMTH303220') - trueProd: insert into productos_ventas 
+        values ('41257', '17247', '1', '200', '162.0000', '1', 'CA32200126') - trueProd: insert into productos_ventas 
+        values ('41161', '17247', '1', '659', '611.0000', '1', 'SMTH50070070') - trueProd: insert into productos_ventas 
+        values ('41108', '17247', '1', '645', '514.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('41261', '17247', '1', '389', '350.0000', '1', 'FABRI') - trueProd: insert into productos_ventas 
+        values ('41264', '17247', '1', '129', '105.0000', '1', 'TACT') - trueProd: insert into productos_ventas 
+        values ('41249', '17247', '1', '2799.0000', '2549.0000', '1', 'CA25017840') - trueProd: insert into productos_ventas 
+        values ('41170', '17247', '1', '180', '145.0000', '1', 'ROG') - true

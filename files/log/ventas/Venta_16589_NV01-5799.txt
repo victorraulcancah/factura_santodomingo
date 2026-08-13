@@ -1,0 +1,9 @@
+Venta: 16589, fecha: 2025-12-03
+
+Prod: insert into productos_ventas 
+        values ('40552', '16589', '1', '689.0000', '654.1900', '1', 'CDK50043') - trueProd: insert into productos_ventas 
+        values ('41008', '16589', '1', '342', '310.0000', '1', 'YSVY5904') - trueProd: insert into productos_ventas 
+        values ('41145', '16589', '1', '399', '329.8700', '1', 'IMPACT4250') - trueProd: insert into productos_ventas 
+        values ('41105', '16589', '1', '160.0000', '95.0000', '1', 'HUMBERTC512A') - trueProd: insert into productos_ventas 
+        values ('41016', '16589', '1', '120.0000', '95.0000', '1', 'ROG') - trueProd: insert into productos_ventas 
+        values ('40540', '16589', '1', '119.0000', '90.9560', '1', 'IMPU') - true

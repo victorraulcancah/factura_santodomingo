@@ -1,0 +1,5 @@
+Venta: 16580, fecha: 2025-12-03
+
+Prod: insert into productos_ventas 
+        values ('41016', '16580', '1', '120.0000', '95.0000', '1', 'ROG-600W2503310164') - trueProd: insert into productos_ventas 
+        values ('40599', '16580', '1', '930.0000', '887.0000', '1', 'CMS-Z5V051221') - true

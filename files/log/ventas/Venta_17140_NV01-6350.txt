@@ -1,0 +1,4 @@
+Venta: 17140, fecha: 2026-02-03
+
+Prod: insert into productos_ventas 
+        values ('40521', '17140', '1', '235', '195.3200', '1', 'COMPVI TE2415S173825100254') - true

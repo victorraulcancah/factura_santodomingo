@@ -1,0 +1,12 @@
+Venta: 14376, fecha: 2025-04-16
+
+Prod: insert into productos_ventas 
+        values ('40548', '14376', '1', '620', '561.1880', '1', 'roy40313') - trueProd: insert into productos_ventas 
+        values ('40565', '14376', '1', '200', '170.0000', '1', 'cal0241') - trueProd: insert into productos_ventas 
+        values ('40630', '14376', '1', '220', '200.0000', '1', 'TAC9839') - trueProd: insert into productos_ventas 
+        values ('40621', '14376', '1', '200', '175.0000', '1', 'STH-J5XQ1') - trueProd: insert into productos_ventas 
+        values ('40617', '14376', '1', '150', '105.0000', '1', 'ROG-600W') - trueProd: insert into productos_ventas 
+        values ('40541', '14376', '1', '101', '82.0000', '1', 'CAL-007') - trueProd: insert into productos_ventas 
+        values ('40521', '14376', '1', '259', '245.0000', '1', 'TAC-0810') - trueProd: insert into productos_ventas 
+        values ('40543', '14376', '1', '50', '38.0000', '1', 'PEGA-44139') - trueProd: insert into productos_ventas 
+        values ('40570', '14376', '1', '50', '25.5000', '1', 'IMPULSO') - true

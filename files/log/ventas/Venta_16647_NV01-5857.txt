@@ -1,0 +1,9 @@
+Venta: 16647, fecha: 2025-12-08
+
+Prod: insert into productos_ventas 
+        values ('40647', '16647', '1', '449', '296.7000', '1', 'MARLEN0927') - trueProd: insert into productos_ventas 
+        values ('40558', '16647', '1', '360', '316.0900', '1', 'MAXI08974') - trueProd: insert into productos_ventas 
+        values ('40565', '16647', '1', '350', '250.0000', '1', 'MADNY3520') - trueProd: insert into productos_ventas 
+        values ('40828', '16647', '1', '150', '101.5000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40933', '16647', '1', '152', '166.0000', '1', 'CA') - trueProd: insert into productos_ventas 
+        values ('40537', '16647', '1', '839', '709.0000', '1', 'SMTH00U7815VP') - true

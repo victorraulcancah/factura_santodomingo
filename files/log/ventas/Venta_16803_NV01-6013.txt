@@ -1,0 +1,8 @@
+Venta: 16803, fecha: 2025-12-23
+
+Prod: insert into productos_ventas 
+        values ('40493', '16803', '1', '609.0000', '508.0000', '1', 'LP-1881860497') - trueProd: insert into productos_ventas 
+        values ('40630', '16803', '1', '230.0000', '177.0000', '1', 'CAL-0036709') - trueProd: insert into productos_ventas 
+        values ('41184', '16803', '1', '350.0000', '250.0000', '1', 'ROG-RGX16D4117') - trueProd: insert into productos_ventas 
+        values ('41115', '16803', '1', '130.0000', '70.0000', '1', 'STOCK-JGY001295') - trueProd: insert into productos_ventas 
+        values ('41157', '16803', '1', '80.0000', '49.0400', '1', 'IMPUL') - true

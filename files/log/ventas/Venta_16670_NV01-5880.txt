@@ -1,0 +1,14 @@
+Venta: 16670, fecha: 2025-12-10
+
+Prod: insert into productos_ventas 
+        values ('40586', '16670', '1', '829', '700.0000', '1', 'DANTE 9ANJ976T50736') - trueProd: insert into productos_ventas 
+        values ('41028', '16670', '1', '519.0000', '473.4800', '1', 'CMS SN250950012121') - trueProd: insert into productos_ventas 
+        values ('41145', '16670', '1', '600', '329.8700', '1', 'IMPCT 1P3601294860') - trueProd: insert into productos_ventas 
+        values ('40509', '16670', '1', '349', '217.0000', '1', 'SEDA 50026B728399F446') - trueProd: insert into productos_ventas 
+        values ('41043', '16670', '1', '270', '175.7000', '1', 'MAX S78440P130P8310510004036') - trueProd: insert into productos_ventas 
+        values ('41042', '16670', '1', '2100', '1938.9000', '1', 'SERC 602-V535-61SB2506004474') - trueProd: insert into productos_ventas 
+        values ('40941', '16670', '1', '235', '167.0000', '1', 'ROY 3067ZP2B12CE010517003230') - trueProd: insert into productos_ventas 
+        values ('40540', '16670', '1', '129', '90.9560', '1', 'IMPUL') - trueProd: insert into productos_ventas 
+        values ('40536', '16670', '1', '80', '66.0000', '1', 'PEG 2511-20782634') - trueProd: insert into productos_ventas 
+        values ('40944', '16670', '1', '459', '416.0000', '1', 'CMS TE2769G24M120618') - trueProd: insert into productos_ventas 
+        values ('40601', '16670', '1', '20', '33.0000', '1', 'IMPUL') - true

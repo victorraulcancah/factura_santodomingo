@@ -1,0 +1,9 @@
+Venta: 15241, fecha: 2025-07-16
+
+Prod: insert into productos_ventas 
+        values ('40540', '15241', '1', '139', '103.7200', '1', 'IMPULSO') - trueProd: insert into productos_ventas 
+        values ('40711', '15241', '1', '620', '490.0000', '1', 'SMTHXB035030') - trueProd: insert into productos_ventas 
+        values ('40577', '15241', '1', '100', '87.0000', '1', 'PEGA') - trueProd: insert into productos_ventas 
+        values ('40592', '15241', '1', '862', '700.0000', '1', 'smth503660') - trueProd: insert into productos_ventas 
+        values ('40882', '15241', '1', '129.0000', '103.5000', '1', 'ca') - trueProd: insert into productos_ventas 
+        values ('40518', '15241', '1', '150', '139.0000', '1', 'rog') - true
