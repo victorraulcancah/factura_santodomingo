@@ -87,6 +87,9 @@ class ClientesController extends Controller
                 if ($doctTrueInt == true || $tipoDocumentoAgregar === '4') {
                     $this->cliente->setDocumento($doc);
                     $this->cliente->setTipoDocumento($tipoDocumentoAgregar);
+                    if (isset($_POST['idUsuarioAgregar'])) {
+                        $this->cliente->setIdUsuarioNuevo($_POST['idUsuarioAgregar']);
+                    }
                     $this->cliente->setDatos($datosAgregar);
                     $this->cliente->setDireccion($direccionAgregar);
                     $this->cliente->setDireccion2($direccionAgregar2);
@@ -165,6 +168,9 @@ class ClientesController extends Controller
                 if ($tipoDocumentoEditar === '4' || ($doctTrueInt == true && strlen($docIntVal) == 8) || strlen($docIntVal) == 11) {
                     $this->cliente->setDocumento($doc);
                     $this->cliente->setTipoDocumento($tipoDocumentoEditar);
+                    if (isset($_POST['idUsuarioEditar'])) {
+                        $this->cliente->setIdUsuarioNuevo($_POST['idUsuarioEditar']);
+                    }
                     $this->cliente->setDatos($datosEditar);
                     $this->cliente->setDireccion($direccionEditar);
                     $this->cliente->setDireccion2($direccionEditar2);

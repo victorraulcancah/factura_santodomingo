@@ -5,6 +5,25 @@ require_once "app/models/Cliente.php";
 $c_cliente = new Cliente();
 $c_cliente->setIdEmpresa($_SESSION['id_empresa']);
 
+// Solo el ADMIN puede reasignar un cliente a otro usuario
+$esAdminClientes = ((int) ($_SESSION['rol'] ?? 0) === 1);
+$usuariosEmpresa = [];
+if ($esAdminClientes) {
+    $_conexUsr = (new Conexion())->getConexion();
+    $_resUsr = $_conexUsr->query("SELECT usuario_id,
+            COALESCE(
+                NULLIF(TRIM(CONCAT(COALESCE(nombres,''),' ',COALESCE(apellidos,''))),''),
+                NULLIF(TRIM(nombres_apellidos),''),
+                usuario
+            ) AS nombre
+        FROM usuarios
+        WHERE id_empresa = '{$_SESSION['id_empresa']}' AND estado = 1
+        ORDER BY nombre");
+    while ($_u = $_resUsr->fetch_assoc()) {
+        $usuariosEmpresa[] = $_u;
+    }
+}
+
 ?>
 <div class="page-title-box" style="padding: 12px 0;">
     <div class="row align-items-center">
@@ -144,10 +163,22 @@ $c_cliente->setIdEmpresa($_SESSION['id_empresa']);
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-8 form-group">
+                                            <div class="col-md-5 form-group">
                                                 <label for="datosAgregar">Nombre/Razon Social <span style="color: red;"> (*)</span></label>
                                                 <input type="text" class="form-control" id="datosAgregar" name="datosAgregar">
                                             </div>
+<?php if ($esAdminClientes) : ?>
+                                            <div class="col-md-12 mt-3">
+                                                <label for="idUsuarioAgregar" class="col-form-label">Registrado por (vendedor)</label>
+                                                <select class="form-control" id="idUsuarioAgregar" name="idUsuarioAgregar">
+                                                    <option value="">-- Sin asignar --</option>
+<?php foreach ($usuariosEmpresa as $_u) : ?>
+                                                    <option value="<?= $_u['usuario_id'] ?>" <?= ($_u['usuario_id'] == ($_SESSION['usuario_fac'] ?? 0)) ? 'selected' : '' ?>><?= htmlspecialchars($_u['nombre'], ENT_QUOTES) ?></option>
+<?php endforeach; ?>
+                                                </select>
+                                                <div class="form-text">Define que usuario vera este cliente en su lista. Por defecto, tu.</div>
+                                            </div>
+<?php endif; ?>
 
 
                                             <div class="col-md-6 mt-3">
@@ -243,10 +274,22 @@ $c_cliente->setIdEmpresa($_SESSION['id_empresa']);
                                             <label for="documentoEditar" class="col-form-label">Documento <span style="color: red;">(*)</span></label>
                                             <input type="text" class="form-control" id="documentoEditar" name="documentoEditar">
                                         </div> -->
-                                            <div class="col-md-8 form-group">
+                                            <div class="col-md-5 form-group">
                                                 <label for="datosAgregar">Nombre/Razon Social <span style="color: red;"> (*)</span></label>
                                                 <input type="text" class="form-control" id="datosEditar" name="datosEditar">
                                             </div>
+<?php if ($esAdminClientes) : ?>
+                                            <div class="col-md-12 mt-3">
+                                                <label for="idUsuarioEditar" class="col-form-label">Registrado por (vendedor)</label>
+                                                <select class="form-control" id="idUsuarioEditar" name="idUsuarioEditar">
+                                                    <option value="">-- Sin asignar --</option>
+<?php foreach ($usuariosEmpresa as $_u) : ?>
+                                                    <option value="<?= $_u['usuario_id'] ?>"><?= htmlspecialchars($_u['nombre'], ENT_QUOTES) ?></option>
+<?php endforeach; ?>
+                                                </select>
+                                                <div class="form-text">Define que usuario ve este cliente en su lista. Solo el admin puede cambiarlo.</div>
+                                            </div>
+<?php endif; ?>
 
 
                                             <div class="col-md-6 mt-3">
@@ -556,6 +599,7 @@ $c_cliente->setIdEmpresa($_SESSION['id_empresa']);
                     console.log(datos);
                     $("#documentoEditar").val(datos.documento);
                     $("#tipoDocumentoEditar").val(datos.tipo_documento || "1");
+                    $("#idUsuarioEditar").val(datos.id_usuario || "");
                     $("#datosEditar").val(datos.datos);
                     $("#direccionEditar").val(datos.direccion);
                     $("#direccionEditar2").val(datos.direccion2);

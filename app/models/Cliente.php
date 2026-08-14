@@ -5,6 +5,7 @@ class Cliente
     private $id_cliente;
     private $documento;
     private $tipo_documento = '1'; // 1=DNI, 6=RUC, 4=Carnet de extranjeria
+    private $id_usuario_nuevo = null; // reasignacion de dueno, solo la usa el ADMIN
     private $datos;
     private $direccion;
     private $direccion2;
@@ -105,6 +106,15 @@ class Cliente
     /**
      * @param mixed $datos
      */
+    /**
+     * Reasigna el cliente a otro usuario. Cadena vacia = dejarlo sin asignar.
+     * Solo tiene efecto si quien edita es ADMIN.
+     */
+    public function setIdUsuarioNuevo($id_usuario)
+    {
+        $this->id_usuario_nuevo = ($id_usuario === '' || $id_usuario === null) ? 'NULL' : (int) $id_usuario;
+    }
+
     public function setTipoDocumento($tipo_documento)
     {
         $tipo_documento = trim($tipo_documento ?? '');
@@ -218,9 +228,14 @@ class Cliente
 
     public function insertar()
     {
+        // Por defecto el dueno es quien lo crea; el ADMIN puede asignarlo a otro
         $idUsuario = (int) ($_SESSION['usuario_fac'] ?? 0);
+        if ($this->id_usuario_nuevo !== null && (int) ($_SESSION['rol'] ?? 0) === 1) {
+            $idUsuario = $this->id_usuario_nuevo === 'NULL' ? 'NULL' : (int) $this->id_usuario_nuevo;
+        }
+        $sqlIdUsuario = ($idUsuario === 'NULL') ? 'NULL' : "'$idUsuario'";
         $sql = "insert into clientes (documento, tipo_documento, datos, direccion, direccion2, telefono, telefono2, email, id_empresa, id_usuario, ultima_venta, total_venta, departamento, provincia, distrito, fecha_nacimiento)
-                values ('$this->documento', '$this->tipo_documento', '$this->datos','$this->direccion','$this->direccion2','$this->telefono','$this->telefono2','$this->email', {$_SESSION['id_empresa']}, '$idUsuario', '1000-01-01', '0', '$this->departamento', '$this->provincia', '$this->distrito', ".($this->fecha_nacimiento ? "'$this->fecha_nacimiento'" : "NULL").")";
+                values ('$this->documento', '$this->tipo_documento', '$this->datos','$this->direccion','$this->direccion2','$this->telefono','$this->telefono2','$this->email', {$_SESSION['id_empresa']}, $sqlIdUsuario, '1000-01-01', '0', '$this->departamento', '$this->provincia', '$this->distrito', ".($this->fecha_nacimiento ? "'$this->fecha_nacimiento'" : "NULL").")";
         $result =  $this->conectar->query($sql);
 
         if ($result) {
@@ -411,6 +426,11 @@ class Cliente
     public function editar($id)
     {
         $sql = "UPDATE clientes SET datos ='$this->datos',documento ='$this->documento',tipo_documento ='$this->tipo_documento',direccion ='$this->direccion',direccion2 ='$this->direccion2',telefono ='$this->telefono',telefono2 ='$this->telefono2',email='$this->email', departamento='$this->departamento', provincia='$this->provincia', distrito='$this->distrito', fecha_nacimiento=".($this->fecha_nacimiento ? "'$this->fecha_nacimiento'" : "NULL")." WHERE id_cliente = $id";
+
+        // Solo el ADMIN puede cambiar a que usuario pertenece el cliente
+        if ($this->id_usuario_nuevo !== null && (int) ($_SESSION['rol'] ?? 0) === 1) {
+            $sql = str_replace('SET datos =', "SET id_usuario = {$this->id_usuario_nuevo}, datos =", $sql);
+        }
 
         // Un usuario que no es ADMIN solo puede editar los clientes que el registro
         if ((int) ($_SESSION['rol'] ?? 0) !== 1) {
