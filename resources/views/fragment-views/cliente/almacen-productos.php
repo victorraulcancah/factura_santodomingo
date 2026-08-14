@@ -44,9 +44,9 @@ $c_producto->setIdEmpresa($_SESSION['id_empresa']);
 		<div class="card card-default">
 			<div class="card-body">
 				<div class="alert alert-warning" role="alert">
-					<strong>ALERTA DE ACTUALIZACION!</strong> a partir del año 2021, sunat exige el codigo SUNAT (Codigo
-					de productos y servicios estándar de las Naciones Unidas - UNSPSC v14_0801, a que hace referencia el
-					catálogo N° 25 del Anexo V de la Resolución de Superintendencia N° 340-2017/SUNAT y
+					<strong>ALERTA DE ACTUALIZACION!</strong> a partir del ano 2021, sunat exige el codigo SUNAT (Codigo
+					de productos y servicios estandar de las Naciones Unidas - UNSPSC v14_0801, a que hace referencia el
+					catalogo Nro 25 del Anexo V de la Resolucion de Superintendencia Nro 340-2017/SUNAT y
 					modificatorias.). Modifique el valor en Productos
 				</div>
 			</div>
@@ -419,7 +419,7 @@ foreach ($a_productos as $fila) {
 								placeholder="Ej: Caja, Docena, Pack">
 						</div>
 						<div class="form-group">
-							<label>Descripción</label>
+							<label>Descripcion</label>
 							<input v-model="nuevaUnidad.descripcion" type="text" class="form-control" placeholder="Opcional">
 						</div>
 					</div>
@@ -785,7 +785,7 @@ foreach ($a_productos as $fila) {
 			</div>
 			<div class="modal-body">
 				<div class="col-md-12 mb-3">
-					<label class="form-label">AÃ±o</label>
+					<label class="form-label">Ano</label>
 					<select id='anioreporEFG' class="form-control">
 						<?php
 						$anio = date("Y");
@@ -987,19 +987,19 @@ https://cdn.jsdelivr.net/npm/@pokusew/escpos@3.0.8/dist/index.min.js
 			// Conectar a la impresora
 			await printer.connect();
 
-			// Configurar el tamaÃ±o del ticket (50 mm x 25 mm)
+			// Configurar el tamano del ticket (50 mm x 25 mm)
 			await printer.setPageFormat(50, 25);
 
-			// Imprimir el tÃ­tulo
+			// Imprimir el titulo
 			await printer.printText('Barcode Title\n');
 
-			// Generar el cÃ³digo de barras utilizando JsBarcode
+			// Generar el codigo de barras utilizando JsBarcode
 			const svgData = JsBarcode.generateSvg('123456789', {
 				format: 'CODE128',
 				displayValue: true,
 			});
 
-			// Imprimir el cÃ³digo de barras
+			// Imprimir el codigo de barras
 			await printer.printImage(svgData);
 
 			// Cortar el ticket
@@ -1037,7 +1037,7 @@ https://cdn.jsdelivr.net/npm/@pokusew/escpos@3.0.8/dist/index.min.js
 		/* let imgCodigo = $('#idCodigoBarras').attr('src');
         let ticketContent = `
         <html>
-        <head><title>Ticket de impresiÃ³n</title></head>
+        <head><title>Ticket de impresion</title></head>
         <body style="width: 5cm; height: 2.5cm; padding: 0; margin: 0;">
           <h3 style="font-size: 12px;text-align: center; margin: 0; padding: 0;">"+nombreBarraTemps+"</h3>
           <img src="${imgCodigo}" style="width: 100%; height: calc(100% - 1em); display: block; margin: 0 auto;">
@@ -1160,7 +1160,7 @@ https://cdn.jsdelivr.net/npm/@pokusew/escpos@3.0.8/dist/index.min.js
 						if (resp.res) {
 							$("#modal-nueva-unidad").modal("hide");
 							self.cargarUnidadesDerivadas();
-							// auto-seleccionar la unidad recién creada en el form activo
+							// auto-seleccionar la unidad recien creada en el form activo
 							self.$nextTick(() => {
 								if ($("#modal-add-prod").hasClass("show")) {
 									self.reg.id_unidad_derivada = resp.id_unidad;
@@ -1504,7 +1504,7 @@ https://cdn.jsdelivr.net/npm/@pokusew/escpos@3.0.8/dist/index.min.js
 					} else if (this.edt.ruc.length == 11) {
 						this.getInfoDoc3();
 					} else {
-						alertAdvertencia("El RUC es de 11 dÃ­gitos")
+						alertAdvertencia("El RUC es de 11 digitos")
 					}
 				},
 				getInfoDoc2() {
@@ -1641,11 +1641,11 @@ https://cdn.jsdelivr.net/npm/@pokusew/escpos@3.0.8/dist/index.min.js
 							}
 						},
 						error: function(jqXHR, textStatus, errorThrown) {
-							// Si el servidor devuelve un error 500, aquí podrás ver el mensaje real
-							console.error("Error técnico detectado:", textStatus, errorThrown);
+							// Si el servidor devuelve un error 500, aqui podras ver el mensaje real
+							console.error("Error tecnico detectado:", textStatus, errorThrown);
 							console.log("Cuerpo de la respuesta fallida:", jqXHR.responseText);
 
-							alertAdvertencia("Error crítico del servidor. Revisa la consola para más detalles.");
+							alertAdvertencia("Error critico del servidor. Revisa la consola para mas detalles.");
 						}
 					});
 				},
