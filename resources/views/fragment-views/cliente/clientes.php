@@ -585,7 +585,7 @@ if ($esAdminClientes) {
             $("#editarModal").modal("show");
             $("#editarModal")
                 .find(".modal-title")
-                .text("Editar cliente N�" + id);
+                .text("Editar cliente Nro " + id);
             $.ajax({
                 url: _URL + "/ajs/clientes/getOne",
                 data: {
