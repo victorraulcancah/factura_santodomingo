@@ -30,6 +30,7 @@ $ORDEN = [
     'migracion_unidades_derivadas.sql',  // tabla unidades_derivadas + 1 col a productos
     'migracion_planilla_pagos.sql',      // tabla planilla_pagos
     'migracion_clientes_tipo_doc_usuario.sql', // tipo_documento + id_usuario en clientes
+    'migracion_usuarios_ubigeo.sql',           // departamento + provincia + distrito en usuarios
 ];
 
 // Errores que significan "ya aplicado" (no son fallas reales)

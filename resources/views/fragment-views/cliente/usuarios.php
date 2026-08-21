@@ -217,6 +217,24 @@
                                                 <input type="text" class="form-control" id="direccionAgregar"
                                                        name="direccion">
                                             </div>
+                                            <div class="col-md-4 mt-3">
+                                                <label for="departamentoAgregar">Departamento</label>
+                                                <select class="form-control" id="departamentoAgregar" name="departamento">
+                                                    <option value="">-- Seleccionar --</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-4 mt-3">
+                                                <label for="provinciaAgregar">Provincia</label>
+                                                <select class="form-control" id="provinciaAgregar" name="provincia">
+                                                    <option value="">-- Seleccionar --</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-4 mt-3">
+                                                <label for="distritoAgregar">Distrito</label>
+                                                <select class="form-control" id="distritoAgregar" name="distrito">
+                                                    <option value="">-- Seleccionar --</option>
+                                                </select>
+                                            </div>
                                             <!-- Inicio Esquema de Pago -->
                                             <div class="col-md-12 mt-3">
                                                 <hr>
@@ -329,6 +347,24 @@
                                                 <label for="telefonoEditar" class="col-form-label">Telefono</label>
                                                 <input type="number" class="form-control" id="telefonoEditar"
                                                        name="telefono">
+                                            </div>
+                                            <div class="col-md-4 mt-3">
+                                                <label for="departamentoEditar">Departamento</label>
+                                                <select class="form-control" id="departamentoEditar" name="departamento">
+                                                    <option value="">-- Seleccionar --</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-4 mt-3">
+                                                <label for="provinciaEditar">Provincia</label>
+                                                <select class="form-control" id="provinciaEditar" name="provincia">
+                                                    <option value="">-- Seleccionar --</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-4 mt-3">
+                                                <label for="distritoEditar">Distrito</label>
+                                                <select class="form-control" id="distritoEditar" name="distrito">
+                                                    <option value="">-- Seleccionar --</option>
+                                                </select>
                                             </div>
 
                                             <!-- Inicio Esquema de Pago Editar -->
@@ -552,6 +588,7 @@
 		$("#nuevoUsuario").click(function () {
 			$("#loader-menor").show();
 			let data = $("#frmClientesAgregar").serializeArray();
+			data = reemplazarUbigeoPorTexto(data, "Agregar");
 			$.ajax({
 				type: "POST",
 				url: _URL + "/ajs/usuarios/set",
@@ -603,6 +640,7 @@
 					$("#apellidosEditar").val(datos.apellidos);
 					$("#num_docEditar").val(datos.num_doc);
 					$("#telefonoEditar").val(datos.telefono);
+					cargarUbigeoEditar(datos);
 					
 					$("#tipo_sueldoEditar").val(datos.tipo_sueldo || 1);
 					$("#monto_sueldo_fijoEditar").val(datos.monto_sueldo_fijo || 0);
@@ -621,6 +659,7 @@
 		$("#updateUsuario").click(function () {
 			$("#loader-menor").show();
 			let data = $("#usuarioEditar").serializeArray();
+			data = reemplazarUbigeoPorTexto(data, "Editar");
 			let id = $("#iDusuario").val();
 			let idData = {
 				name: "idPre",
@@ -833,6 +872,141 @@
 				})
 			}
 		})
+
+		// === Ubigeo (departamento / provincia / distrito), igual que en el modal de clientes ===
+		function cargarDepartamentos(selectId, callback) {
+			$.post(_URL + "/ajs/consulta/lista/departamentos", function (resp) {
+				let data = JSON.parse(resp);
+				let select = $(selectId);
+				select.find("option:not(:first)").remove();
+				data.forEach(function (item) {
+					select.append($("<option>").val(item.departamento).text(item.nombre));
+				});
+				if (typeof callback === "function") callback();
+			});
+		}
+
+		function cargarProvincias(departamento, selectId, callback) {
+			if (!departamento) {
+				$(selectId).html('<option value="">-- Seleccionar --</option>');
+				return;
+			}
+			$.post(_URL + "/ajs/consulta/lista/provincias", { departamento: departamento }, function (resp) {
+				let data = JSON.parse(resp);
+				let select = $(selectId);
+				select.find("option:not(:first)").remove();
+				data.forEach(function (item) {
+					select.append($("<option>").val(item.provincia).text(item.nombre));
+				});
+				if (typeof callback === "function") callback();
+			});
+		}
+
+		function cargarDistritos(departamento, provincia, selectId, callback) {
+			if (!departamento || !provincia) {
+				$(selectId).html('<option value="">-- Seleccionar --</option>');
+				return;
+			}
+			$.post(_URL + "/ajs/consulta/lista/distrito", { departamento: departamento, provincia: provincia }, function (resp) {
+				let data = JSON.parse(resp);
+				let select = $(selectId);
+				select.find("option:not(:first)").remove();
+				data.forEach(function (item) {
+					select.append($("<option>").val(item.ubigeo).text(item.nombre));
+				});
+				if (typeof callback === "function") callback();
+			});
+		}
+
+		// Texto de la opcion seleccionada ("" si no se eligio nada)
+		function selectedText(selectId) {
+			if (!$(selectId).val()) return "";
+			return $(selectId + " option:selected").text();
+		}
+
+		function selectByText(selectId, text) {
+			$(selectId).val("");
+			if (!text) return;
+			$(selectId + " option").each(function () {
+				if ($(this).text() == text) {
+					$(selectId).val($(this).val());
+					return false;
+				}
+			});
+		}
+
+		function getCodeByText(selectId, text) {
+			var code = "";
+			if (!text) return code;
+			$(selectId + " option").each(function () {
+				if ($(this).text() == text) {
+					code = $(this).val();
+					return false;
+				}
+			});
+			return code;
+		}
+
+		// En BD se guarda el nombre (texto) y no el codigo, igual que en clientes
+		function reemplazarUbigeoPorTexto(data, sufijo) {
+			data.forEach(function (item) {
+				if (item.name == "departamento") item.value = selectedText("#departamento" + sufijo);
+				if (item.name == "provincia") item.value = selectedText("#provincia" + sufijo);
+				if (item.name == "distrito") item.value = selectedText("#distrito" + sufijo);
+			});
+			return data;
+		}
+
+		function limpiarUbigeo(sufijo) {
+			$("#departamento" + sufijo).val("");
+			$("#provincia" + sufijo).html('<option value="">-- Seleccionar --</option>');
+			$("#distrito" + sufijo).html('<option value="">-- Seleccionar --</option>');
+		}
+
+		// Carga en cascada los selects del modal Editar con lo guardado en BD
+		function cargarUbigeoEditar(datos) {
+			limpiarUbigeo("Editar");
+			var depCode = getCodeByText("#departamentoEditar", datos.departamento);
+			if (!depCode) return;
+			$("#departamentoEditar").val(depCode);
+			cargarProvincias(depCode, "#provinciaEditar", function () {
+				var provCode = getCodeByText("#provinciaEditar", datos.provincia);
+				if (!provCode) return;
+				$("#provinciaEditar").val(provCode);
+				cargarDistritos(depCode, provCode, "#distritoEditar", function () {
+					selectByText("#distritoEditar", datos.distrito);
+				});
+			});
+		}
+
+		cargarDepartamentos("#departamentoAgregar");
+		cargarDepartamentos("#departamentoEditar");
+
+		$("#departamentoAgregar").change(function () {
+			$("#provinciaAgregar").html('<option value="">-- Seleccionar --</option>');
+			$("#distritoAgregar").html('<option value="">-- Seleccionar --</option>');
+			cargarProvincias($(this).val(), "#provinciaAgregar");
+		});
+
+		$("#provinciaAgregar").change(function () {
+			$("#distritoAgregar").html('<option value="">-- Seleccionar --</option>');
+			cargarDistritos($("#departamentoAgregar").val(), $(this).val(), "#distritoAgregar");
+		});
+
+		$("#departamentoEditar").change(function () {
+			$("#provinciaEditar").html('<option value="">-- Seleccionar --</option>');
+			$("#distritoEditar").html('<option value="">-- Seleccionar --</option>');
+			cargarProvincias($(this).val(), "#provinciaEditar");
+		});
+
+		$("#provinciaEditar").change(function () {
+			$("#distritoEditar").html('<option value="">-- Seleccionar --</option>');
+			cargarDistritos($("#departamentoEditar").val(), $(this).val(), "#distritoEditar");
+		});
+
+		$("#agregarModal").on("hidden.bs.modal", function () {
+			limpiarUbigeo("Agregar");
+		});
 
 		// === UX: ocultar/mostrar campos según tipo de sueldo y meta ===
 		function aplicarVisibilidadEsquema(sufijo) {
