@@ -298,8 +298,6 @@ if (isset($_GET["coti"])) {
 											<div class="col-md-12">
 												<select @change="onChangeTiDoc($event)" v-model="venta.tipo_doc"
 													class="form-control">
-													<option value="1">BOLETA DE VENTA</option>
-													<option value="2">FACTURA</option>
 													<option value="6">NOTA DE VENTA</option>
 												</select>
 											</div>
@@ -1314,7 +1312,7 @@ if (isset($_GET["coti"])) {
 							vue.venta.cotiId = resp.cotizacion_id
 							vue.venta.moneda = resp.moneda
 							vue.venta.tc = resp.cm_tc
-							vue.venta.tipo_doc = resp.id_tido
+							vue.venta.tipo_doc = '6'
 							vue.venta.tipo_pago = resp.id_tipo_pago
 							vue.venta.dias_pago = resp.dias_pagos
 							vue.venta.dir_pos = parseInt(resp.direccion + "")

@@ -118,8 +118,6 @@
                                         <label class="control-label">Documento</label>
                                         <div class="col-md-12">
                                             <select @change="onChangeTiDoc($event)" v-model="venta.tipo_doc" class="form-control" >
-                                                <option value="1">BOLETA DE VENTA</option>
-                                                <option value="2">FACTURA</option>
                                                 <option value="6">NOTA DE VENTA</option>
                                             </select>
                                         </div>
@@ -347,7 +345,7 @@
                     observ:'',
                     apli_igv:1,
                     dir_pos:1,
-                    tipo_doc:'1',
+                    tipo_doc:'6',
                     serie:'',
                     numero:'',
                     tipo_pago:'1',
