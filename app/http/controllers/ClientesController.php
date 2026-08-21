@@ -262,54 +262,163 @@ class ClientesController extends Controller
         echo json_encode($_POST);
     } */
 
-    public function exportarExcel()
+    /**
+     * Arma el Excel de clientes con las mismas columnas que la tabla en pantalla
+     * (mas Direccion 2 y Telefono 2, que tambien estan en la BD).
+     * Se separa de exportarExcel() para poder probarlo sin enviar cabeceras HTTP.
+     */
+    public function armarExcelClientes()
     {
-        $getAll = $this->cliente->getAllData();
-        
+        $clientes = $this->cliente->getAllData();
+        $clientes = is_array($clientes) ? $clientes : [];
+
         $spreadsheet = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
         $sheet = $spreadsheet->getActiveSheet();
-        
-        // Cabeceras
-        $sheet->setCellValue('A1', 'Documento');
-        $sheet->setCellValue('B1', 'Nombres/Razon Social');
-        $sheet->setCellValue('C1', 'Direccion');
-        $sheet->setCellValue('D1', 'Direccion Llegada');
-        $sheet->setCellValue('E1', 'Telefono 1');
-        $sheet->setCellValue('F1', 'Telefono 2');
-        $sheet->setCellValue('G1', 'Email');
-        $sheet->setCellValue('H1', 'Departamento');
-        $sheet->setCellValue('I1', 'Provincia');
-        $sheet->setCellValue('J1', 'Distrito');
-        $sheet->setCellValue('K1', 'Fecha Nacimiento');
-        $sheet->setCellValue('L1', 'Tipo Documento');
-        $sheet->setCellValue('M1', 'Vendedor');
+        $sheet->setTitle('Clientes');
 
-        // Datos
-        $fila = 2;
-        foreach ($getAll as $c) {
-            $cFull = current($this->cliente->getOne($c['id_cliente'])) ?: [];
-            if(empty($cFull)) continue;
-            
-            $sheet->setCellValue('A' . $fila, $cFull['documento'] ?? '');
-            $sheet->setCellValue('B' . $fila, $cFull['datos'] ?? '');
-            $sheet->setCellValue('C' . $fila, $cFull['direccion'] ?? '');
-            $sheet->setCellValue('D' . $fila, $cFull['direccion2'] ?? '');
-            $sheet->setCellValue('E' . $fila, $cFull['telefono'] ?? '');
-            $sheet->setCellValue('F' . $fila, $cFull['telefono2'] ?? '');
-            $sheet->setCellValue('G' . $fila, $cFull['email'] ?? '');
-            $sheet->setCellValue('H' . $fila, $cFull['departamento'] ?? '');
-            $sheet->setCellValue('I' . $fila, $cFull['provincia'] ?? '');
-            $sheet->setCellValue('J' . $fila, $cFull['distrito'] ?? '');
-            $sheet->setCellValue('K' . $fila, $cFull['fecha_nacimiento'] ?? '');
-            $sheet->setCellValue('L' . $fila, $c['tipo_documento_desc'] ?? '');
-            $sheet->setCellValue('M' . $fila, $c['vendedor'] ?? '');
+        // [titulo, ancho, alineacion]
+        $columnas = [
+            ['Item', 7, 'center'],
+            ['Tipo Doc.', 14, 'center'],
+            ['Documento', 16, 'left'],
+            ['Nombre/Razon Social', 42, 'left'],
+            ['Vendedor', 26, 'left'],
+            ['Direccion', 40, 'left'],
+            ['Direccion 2', 30, 'left'],
+            ['Telefono', 14, 'left'],
+            ['Telefono 2', 14, 'left'],
+            ['Email', 30, 'left'],
+            ['Departamento', 16, 'left'],
+            ['Provincia', 16, 'left'],
+            ['Distrito', 18, 'left'],
+            ['F. Nacimiento', 14, 'center'],
+            ['S/ Venta', 14, 'right'],
+            ['Ultima Venta', 14, 'center'],
+        ];
+        $letras = range('A', 'Z');
+        $ultimaCol = $letras[count($columnas) - 1];
+        $colVenta = 'O'; // S/ Venta
+        $colTotalLabel = 'N';
+
+        // ---- Titulo ----
+        $sheet->mergeCells("A1:{$ultimaCol}1");
+        $sheet->setCellValue('A1', 'LISTA DE CLIENTES');
+        $sheet->getStyle('A1')->getFont()->setBold(true)->setSize(16)->getColor()->setRGB('0866C6');
+        $sheet->getRowDimension(1)->setRowHeight(26);
+
+        $sheet->mergeCells("A2:{$ultimaCol}2");
+        $sheet->setCellValue('A2', trim(($_SESSION['nombre_empresa'] ?? '') . '   |   Exportado: ' . date('d/m/Y H:i') . '   |   Total clientes: ' . count($clientes), ' |'));
+        $sheet->getStyle('A2')->getFont()->setSize(10)->getColor()->setRGB('666666');
+
+        // ---- Cabecera ----
+        $filaCab = 4;
+        foreach ($columnas as $i => $col) {
+            $sheet->setCellValue($letras[$i] . $filaCab, $col[0]);
+            $sheet->getColumnDimension($letras[$i])->setWidth($col[1]);
+        }
+        $rangoCab = "A{$filaCab}:{$ultimaCol}{$filaCab}";
+        $sheet->getStyle($rangoCab)->applyFromArray([
+            'font' => ['bold' => true, 'size' => 11, 'color' => ['rgb' => 'FFFFFF']],
+            'fill' => ['fillType' => \PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID, 'startColor' => ['rgb' => '0866C6']],
+            'alignment' => [
+                'horizontal' => \PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_CENTER,
+                'vertical' => \PhpOffice\PhpSpreadsheet\Style\Alignment::VERTICAL_CENTER,
+                'wrapText' => true,
+            ],
+            'borders' => ['allBorders' => [
+                'borderStyle' => \PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN,
+                'color' => ['rgb' => '0B4F8F'],
+            ]],
+        ]);
+        $sheet->getRowDimension($filaCab)->setRowHeight(22);
+
+        // ---- Datos ----
+        $fmtFecha = function ($f) {
+            return ($f && $f !== '0000-00-00') ? date('d/m/Y', strtotime($f)) : '';
+        };
+        $fila = $filaCab + 1;
+        $item = 1;
+        foreach ($clientes as $c) {
+            $valores = [
+                $item++,
+                $c['tipo_documento_desc'] ?? '',
+                $c['documento'] ?? '',
+                $c['datos'] ?? '',
+                $c['vendedor'] ?? '',
+                $c['direccion'] ?? '',
+                $c['direccion2'] ?? '',
+                $c['telefono'] ?? '',
+                $c['telefono2'] ?? '',
+                $c['email'] ?? '',
+                $c['departamento'] ?? '',
+                $c['provincia'] ?? '',
+                $c['distrito'] ?? '',
+                $fmtFecha($c['fecha_nacimiento'] ?? ''),
+                (float) ($c['total_venta'] ?? 0),
+                $fmtFecha($c['ultima_venta'] ?? ''),
+            ];
+            foreach ($valores as $i => $v) {
+                $celda = $letras[$i] . $fila;
+                if ($i === 0 || $letras[$i] === $colVenta) {
+                    $sheet->setCellValue($celda, $v);
+                } else {
+                    // Texto explicito: conserva ceros a la izquierda en documentos y telefonos
+                    $sheet->setCellValueExplicit($celda, trim((string) $v), \PhpOffice\PhpSpreadsheet\Cell\DataType::TYPE_STRING);
+                }
+            }
+            if ($fila % 2 === 0) {
+                $sheet->getStyle("A{$fila}:{$ultimaCol}{$fila}")->getFill()
+                    ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)->getStartColor()->setRGB('F3F7FC');
+            }
             $fila++;
         }
+        $ultimaFila = $fila - 1;
 
+        if ($ultimaFila > $filaCab) {
+            $primeraFila = $filaCab + 1;
+            $rangoDatos = "A{$primeraFila}:{$ultimaCol}{$ultimaFila}";
+            $sheet->getStyle($rangoDatos)->getBorders()->getAllBorders()
+                ->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN)->getColor()->setRGB('D0D7DE');
+            $sheet->getStyle($rangoDatos)->getAlignment()
+                ->setVertical(\PhpOffice\PhpSpreadsheet\Style\Alignment::VERTICAL_CENTER);
+            foreach ($columnas as $i => $col) {
+                $sheet->getStyle("{$letras[$i]}{$primeraFila}:{$letras[$i]}{$ultimaFila}")
+                    ->getAlignment()->setHorizontal($col[2]);
+            }
+            $sheet->getStyle("{$colVenta}{$primeraFila}:{$colVenta}{$ultimaFila}")
+                ->getNumberFormat()->setFormatCode('#,##0.00');
+
+            // ---- Total ----
+            $filaTot = $ultimaFila + 1;
+            $sheet->setCellValue("{$colTotalLabel}{$filaTot}", 'TOTAL');
+            $sheet->setCellValue("{$colVenta}{$filaTot}", "=SUM({$colVenta}{$primeraFila}:{$colVenta}{$ultimaFila})");
+            $sheet->getStyle("{$colTotalLabel}{$filaTot}:{$colVenta}{$filaTot}")->applyFromArray([
+                'font' => ['bold' => true],
+                'borders' => ['top' => ['borderStyle' => \PhpOffice\PhpSpreadsheet\Style\Border::BORDER_MEDIUM]],
+            ]);
+            $sheet->getStyle("{$colTotalLabel}{$filaTot}")->getAlignment()
+                ->setHorizontal(\PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_RIGHT);
+            $sheet->getStyle("{$colVenta}{$filaTot}")->getNumberFormat()->setFormatCode('#,##0.00');
+        }
+
+        // ---- Filtro, cabecera fija e impresion ----
+        $sheet->setAutoFilter($rangoCab);
+        $sheet->freezePane('A' . ($filaCab + 1));
+        $sheet->getPageSetup()
+            ->setOrientation(\PhpOffice\PhpSpreadsheet\Worksheet\PageSetup::ORIENTATION_LANDSCAPE)
+            ->setFitToWidth(1)->setFitToHeight(0);
+
+        return $spreadsheet;
+    }
+
+    public function exportarExcel()
+    {
+        $spreadsheet = $this->armarExcelClientes();
         $writer = new \PhpOffice\PhpSpreadsheet\Writer\Xlsx($spreadsheet);
-        
+
         header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-        header('Content-Disposition: attachment; filename="clientes_export.xlsx"');
+        header('Content-Disposition: attachment; filename="clientes_' . date('Y-m-d') . '.xlsx"');
+        header('Cache-Control: max-age=0');
         $writer->save('php://output');
         exit;
     }
