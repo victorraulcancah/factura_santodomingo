@@ -63,54 +63,46 @@ class ClientesController extends Controller
     public function insertar()
     {
         if (!empty($_POST)) {
-            $doc = trim($_POST['documentoAgregar'] ?? '');
-            if (($_POST['tipoDocumentoAgregar'] ?? '1') !== '4') {
-                $doc = trim(filter_var($doc, FILTER_SANITIZE_NUMBER_INT));
-            }
-            $datosAgregar = trim(filter_var($_POST['datosAgregar'], FILTER_SANITIZE_STRING));
-            $direccionAgregar = trim(filter_var($_POST['direccionAgregar'], FILTER_SANITIZE_STRING));
-            $direccionAgregar2 = trim(filter_var($_POST['direccionAgregar2'], FILTER_SANITIZE_STRING));
+            // Sin validaciones: el documento es opcional y se guarda tal como se escribe.
+            // Lo unico que se pide es el nombre / razon social.
+            $doc = $this->conectar->real_escape_string(trim($_POST['documentoAgregar'] ?? ''));
+            $datosAgregar = trim(filter_var($_POST['datosAgregar'] ?? '', FILTER_SANITIZE_STRING));
+            $direccionAgregar = trim(filter_var($_POST['direccionAgregar'] ?? '', FILTER_SANITIZE_STRING));
+            $direccionAgregar2 = trim(filter_var($_POST['direccionAgregar2'] ?? '', FILTER_SANITIZE_STRING));
             $departamentoAgregar = isset($_POST['departamentoAgregar']) ? trim(filter_var($_POST['departamentoAgregar'], FILTER_SANITIZE_STRING)) : null;
             $provinciaAgregar = isset($_POST['provinciaAgregar']) ? trim(filter_var($_POST['provinciaAgregar'], FILTER_SANITIZE_STRING)) : null;
             $distritoAgregar = isset($_POST['distritoAgregar']) ? trim(filter_var($_POST['distritoAgregar'], FILTER_SANITIZE_STRING)) : null;
-            $fecha_nacimientoAgregar = isset($_POST['fecha_nacimientoAgregar']) && !empty($_POST['fecha_nacimientoAgregar']) ? trim(filter_var($_POST['fecha_nacimientoAgregar'], FILTER_SANITIZE_STRING)) : null;
+            $fecha_nacimientoAgregar = !empty($_POST['fecha_nacimientoAgregar']) ? trim(filter_var($_POST['fecha_nacimientoAgregar'], FILTER_SANITIZE_STRING)) : null;
             $tipoDocumentoAgregar = isset($_POST['tipoDocumentoAgregar']) ? trim($_POST['tipoDocumentoAgregar']) : '1';
-            $telefonoAgregar = trim(filter_var($_POST['telefonoAgregar'], FILTER_SANITIZE_NUMBER_INT));
-            $telefonoAgregar2 = trim(filter_var($_POST['telefonoAgregar2'], FILTER_SANITIZE_NUMBER_INT));
-            $direccion = trim(filter_var($_POST['direccion'], FILTER_VALIDATE_EMAIL, FILTER_SANITIZE_EMAIL));
-            $telefonoIntVal = intval($telefonoAgregar);
-            $docIntVal = intval($doc);
-            if ($doc !== "" && $datosAgregar !== "") {
-                $telefonoTrueInt = filter_var($telefonoIntVal, FILTER_VALIDATE_INT);
-                $doctTrueInt = filter_var($docIntVal, FILTER_VALIDATE_INT);
-                // El carnet de extranjeria puede ser alfanumerico, no se exige que sea numerico
-                if ($doctTrueInt == true || $tipoDocumentoAgregar === '4') {
-                    $this->cliente->setDocumento($doc);
-                    $this->cliente->setTipoDocumento($tipoDocumentoAgregar);
-                    if (isset($_POST['idUsuarioAgregar'])) {
-                        $this->cliente->setIdUsuarioNuevo($_POST['idUsuarioAgregar']);
-                    }
-                    $this->cliente->setDatos($datosAgregar);
-                    $this->cliente->setDireccion($direccionAgregar);
-                    $this->cliente->setDireccion2($direccionAgregar2);
-                    $this->cliente->setDepartamento($departamentoAgregar);
-                    $this->cliente->setProvincia($provinciaAgregar);
-                    $this->cliente->setDistrito($distritoAgregar);
-                    $this->cliente->setFechaNacimiento($fecha_nacimientoAgregar);
-                    $this->cliente->setTelefono($telefonoAgregar);
-                    $this->cliente->setTelefono2($telefonoAgregar2);
-                    $this->cliente->setEmail($direccion);
-                    $save = $this->cliente->insertar();
-                    if ($save == true) {
-                        echo json_encode($this->cliente->idLast());
-                    } else {
-                        echo json_encode("Ocurrio un Error");
-                    }
-                } else {
-                    echo json_encode('Llene el formulario correctamente 39');
-                }
+            $telefonoAgregar = trim(filter_var($_POST['telefonoAgregar'] ?? '', FILTER_SANITIZE_STRING));
+            $telefonoAgregar2 = trim(filter_var($_POST['telefonoAgregar2'] ?? '', FILTER_SANITIZE_STRING));
+            $direccion = trim(filter_var($_POST['direccion'] ?? '', FILTER_SANITIZE_EMAIL));
+
+            if ($datosAgregar === "") {
+                echo json_encode('Escriba el nombre o razon social del cliente');
+                return;
+            }
+
+            $this->cliente->setDocumento($doc);
+            $this->cliente->setTipoDocumento($tipoDocumentoAgregar);
+            if (isset($_POST['idUsuarioAgregar'])) {
+                $this->cliente->setIdUsuarioNuevo($_POST['idUsuarioAgregar']);
+            }
+            $this->cliente->setDatos($datosAgregar);
+            $this->cliente->setDireccion($direccionAgregar);
+            $this->cliente->setDireccion2($direccionAgregar2);
+            $this->cliente->setDepartamento($departamentoAgregar);
+            $this->cliente->setProvincia($provinciaAgregar);
+            $this->cliente->setDistrito($distritoAgregar);
+            $this->cliente->setFechaNacimiento($fecha_nacimientoAgregar);
+            $this->cliente->setTelefono($telefonoAgregar);
+            $this->cliente->setTelefono2($telefonoAgregar2);
+            $this->cliente->setEmail($direccion);
+            $save = $this->cliente->insertar();
+            if ($save == true) {
+                echo json_encode($this->cliente->idLast());
             } else {
-                echo json_encode('Llene el formulario correctamente 42');
+                echo json_encode("Ocurrio un Error");
             }
         } else {
             echo json_encode('Error');
@@ -144,54 +136,51 @@ class ClientesController extends Controller
     public function editar()
     {
         if (!empty($_POST)) {
-            $doc = trim(filter_var($_POST['documentoEditar'], FILTER_SANITIZE_STRING));
-            $datosEditar = trim(filter_var($_POST['datosEditar'], FILTER_SANITIZE_STRING));
-            $direccionEditar = trim(filter_var($_POST['direccionEditar'], FILTER_SANITIZE_STRING));
-            $direccionEditar2 = trim(filter_var($_POST['direccionEditar2'], FILTER_SANITIZE_STRING));
+            // Sin validaciones: el documento es opcional y se guarda tal como se escribe.
+            // Lo unico que se pide es el nombre / razon social.
+            $doc = $this->conectar->real_escape_string(trim($_POST['documentoEditar'] ?? ''));
+            $datosEditar = trim(filter_var($_POST['datosEditar'] ?? '', FILTER_SANITIZE_STRING));
+            $direccionEditar = trim(filter_var($_POST['direccionEditar'] ?? '', FILTER_SANITIZE_STRING));
+            $direccionEditar2 = trim(filter_var($_POST['direccionEditar2'] ?? '', FILTER_SANITIZE_STRING));
             $departamentoEditar = isset($_POST['departamentoEditar']) ? trim(filter_var($_POST['departamentoEditar'], FILTER_SANITIZE_STRING)) : null;
             $provinciaEditar = isset($_POST['provinciaEditar']) ? trim(filter_var($_POST['provinciaEditar'], FILTER_SANITIZE_STRING)) : null;
             $distritoEditar = isset($_POST['distritoEditar']) ? trim(filter_var($_POST['distritoEditar'], FILTER_SANITIZE_STRING)) : null;
-            $fecha_nacimientoEditar = isset($_POST['fecha_nacimientoEditar']) && !empty($_POST['fecha_nacimientoEditar']) ? trim(filter_var($_POST['fecha_nacimientoEditar'], FILTER_SANITIZE_STRING)) : null;
+            $fecha_nacimientoEditar = !empty($_POST['fecha_nacimientoEditar']) ? trim(filter_var($_POST['fecha_nacimientoEditar'], FILTER_SANITIZE_STRING)) : null;
             $tipoDocumentoEditar = isset($_POST['tipoDocumentoEditar']) ? trim($_POST['tipoDocumentoEditar']) : '1';
-            $telefonoEditar = trim(filter_var($_POST['telefonoEditar'], FILTER_SANITIZE_STRING));
-            $telefonoEditar2 = trim(filter_var($_POST['telefonoEditar2'], FILTER_SANITIZE_STRING));
-            $emailEditar = trim(filter_var($_POST['emailEditar'], FILTER_SANITIZE_EMAIL));
-            $emailValidate = filter_var($emailEditar, FILTER_VALIDATE_EMAIL);
-            $telefonoIntVal = intval($telefonoEditar);
-            $docIntVal = intval($doc);
-            $id = $_POST['idCliente'];
-            if ($doc !== "" && $datosEditar !== "") {
-                $telefonoTrueInt = filter_var($telefonoIntVal, FILTER_VALIDATE_INT);
-                $doctTrueInt = filter_var($docIntVal, FILTER_VALIDATE_INT);
+            $telefonoEditar = trim(filter_var($_POST['telefonoEditar'] ?? '', FILTER_SANITIZE_STRING));
+            $telefonoEditar2 = trim(filter_var($_POST['telefonoEditar2'] ?? '', FILTER_SANITIZE_STRING));
+            $emailEditar = trim(filter_var($_POST['emailEditar'] ?? '', FILTER_SANITIZE_EMAIL));
+            $id = $_POST['idCliente'] ?? '';
 
-                // El carnet de extranjeria puede ser alfanumerico y de otra longitud
-                if ($tipoDocumentoEditar === '4' || ($doctTrueInt == true && strlen($docIntVal) == 8) || strlen($docIntVal) == 11) {
-                    $this->cliente->setDocumento($doc);
-                    $this->cliente->setTipoDocumento($tipoDocumentoEditar);
-                    if (isset($_POST['idUsuarioEditar'])) {
-                        $this->cliente->setIdUsuarioNuevo($_POST['idUsuarioEditar']);
-                    }
-                    $this->cliente->setDatos($datosEditar);
-                    $this->cliente->setDireccion($direccionEditar);
-                    $this->cliente->setDireccion2($direccionEditar2);
-                    $this->cliente->setDepartamento($departamentoEditar);
-                    $this->cliente->setProvincia($provinciaEditar);
-                    $this->cliente->setDistrito($distritoEditar);
-                    $this->cliente->setFechaNacimiento($fecha_nacimientoEditar);
-                    $this->cliente->setTelefono($telefonoEditar);
-                    $this->cliente->setTelefono2($telefonoEditar2);
-                    $this->cliente->setEmail($emailEditar);
-                    $save = $this->cliente->editar($_POST['idCliente']);
-                    if ($save == true) {
-                        echo json_encode($this->cliente->getOne($id));
-                    } else {
-                        echo json_encode("Ocurrio un Error");
-                    }
-                } else {
-                    echo json_encode('Llene el formulario correctamente');
-                }
+            if ($datosEditar === "") {
+                echo json_encode('Escriba el nombre o razon social del cliente');
+                return;
+            }
+            if ($id === "") {
+                echo json_encode('No se identifico el cliente a editar');
+                return;
+            }
+
+            $this->cliente->setDocumento($doc);
+            $this->cliente->setTipoDocumento($tipoDocumentoEditar);
+            if (isset($_POST['idUsuarioEditar'])) {
+                $this->cliente->setIdUsuarioNuevo($_POST['idUsuarioEditar']);
+            }
+            $this->cliente->setDatos($datosEditar);
+            $this->cliente->setDireccion($direccionEditar);
+            $this->cliente->setDireccion2($direccionEditar2);
+            $this->cliente->setDepartamento($departamentoEditar);
+            $this->cliente->setProvincia($provinciaEditar);
+            $this->cliente->setDistrito($distritoEditar);
+            $this->cliente->setFechaNacimiento($fecha_nacimientoEditar);
+            $this->cliente->setTelefono($telefonoEditar);
+            $this->cliente->setTelefono2($telefonoEditar2);
+            $this->cliente->setEmail($emailEditar);
+            $save = $this->cliente->editar($id);
+            if ($save == true) {
+                echo json_encode($this->cliente->getOne($id));
             } else {
-                echo json_encode('Llene el formulario correctamente');
+                echo json_encode("Ocurrio un Error");
             }
         } else {
             echo json_encode('Error');
