@@ -111,9 +111,9 @@ $listaUsd = $conexion->query($sql);
                                 <input v-model="reg.propaganda" required type="text" class="form-control">
                             </div>
                             <div class="form-group col-md-3">
-                                <label>DNI:<span class="rojo">(*)</span> </label>
+                                <label>DNI:</label>
                                 <div class="input-group">
-                                    <input @change="ChangeconsultarDoc" v-model="reg.documento" required @keypress="onlyNumber" type="text" class="form-control">
+                                    <input @change="ChangeconsultarDoc" v-model="reg.documento" @keypress="onlyNumber" type="text" class="form-control">
                                     <div class="input-group-prepend">
                                         <button type="button" @click="consultarDoc" class="btn btn-primary"><i class="fa fa-search"></i></button>
                                     </div>
@@ -360,9 +360,9 @@ $listaUsd = $conexion->query($sql);
                                 <input v-model="edt.propaganda" required type="text" class="form-control">
                             </div>
                             <div class="form-group col-md-3">
-                                <label>DNI:<span class="rojo">(*)</span> </label>
+                                <label>DNI:</label>
                                 <div class="input-group">
-                                    <input @change="ChangeconsultarDoc" v-model="edt.documento" required @keypress="onlyNumber" type="text" class="form-control">
+                                    <input @change="ChangeconsultarDoc" v-model="edt.documento" @keypress="onlyNumber" type="text" class="form-control">
                                     <div class="input-group-prepend">
                                         <button type="button" @click="consultarDoc" class="btn btn-primary"><i class="fa fa-search"></i></button>
                                     </div>
@@ -482,9 +482,9 @@ $listaUsd = $conexion->query($sql);
                         </div>
                         <div class="row">
                             <div class="form-group col-md-3">
-                                <label>DNI:<span class="rojo">(*)</span> </label>
+                                <label>DNI:</label>
                                 <div class="input-group">
-                                    <input @change="ChangeconsultarDoc" v-model="edt.documento" required @keypress="onlyNumber" type="text" class="form-control">
+                                    <input @change="ChangeconsultarDoc" v-model="edt.documento" @keypress="onlyNumber" type="text" class="form-control">
                                     <div class="input-group-prepend">
                                         <button type="button" @click="consultarDoc" class="btn btn-primary"><i class="fa fa-search"></i></button>
                                     </div>
@@ -701,9 +701,9 @@ $listaUsd = $conexion->query($sql);
 
 
                             <div class="form-group col-md-3">
-                                <label>DNI:<span class="rojo">(*)</span> </label>
+                                <label>DNI:</label>
                                 <div class="input-group">
-                                    <input @change="ChangeconsultarDocSuc" v-model="sucursales.add.documento" required @keypress="onlyNumber" type="text" class="form-control">
+                                    <input @change="ChangeconsultarDocSuc" v-model="sucursales.add.documento" @keypress="onlyNumber" type="text" class="form-control">
                                     <div class="input-group-prepend">
                                         <button type="button" @click="consultarDocScu" class="btn btn-primary"><i class="fa fa-search"></i></button>
                                     </div>
@@ -883,9 +883,9 @@ $listaUsd = $conexion->query($sql);
                     <div class="modal-body">
                         <div class="row">
                             <div class="form-group col-md-3">
-                                <label>DNI:<span class="rojo">(*)</span> </label>
+                                <label>DNI:</label>
                                 <div class="input-group">
-                                    <input @change="ChangeconsultarDocSuc" v-model="sucursales.edt.documento" required @keypress="onlyNumber" type="text" class="form-control">
+                                    <input @change="ChangeconsultarDocSuc" v-model="sucursales.edt.documento" @keypress="onlyNumber" type="text" class="form-control">
 
                                 </div>
                             </div>
@@ -1506,8 +1506,6 @@ $listaUsd = $conexion->query($sql);
                 ChangeconsultarDocSuc() {
                     if (this.sucursales.add.documento.length == 8) {
                         this.getInfoDocSuc();
-                    } else {
-                        this.sucursales.add.documento = ''
                     }
                 },
                 consultarDocScu() {
@@ -1740,8 +1738,6 @@ $listaUsd = $conexion->query($sql);
                 ChangeconsultarDoc() {
                     if (this.reg.documento.length == 8) {
                         this.getInfoDoc();
-                    } else {
-                        this.reg.documento = ''
                     }
                 },
                 consultarDoc() {
